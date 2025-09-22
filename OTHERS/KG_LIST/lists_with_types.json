@@ -1,0 +1,1058 @@
+{
+  "nodes": [
+    {
+      "id": "IELTS_Academic_Reading",
+      "type": "Test",
+      "format_rules": [
+        {
+          "id": "Passage_Count",
+          "description": "The test has 3 passages. Difficulty increases from easier, factual texts in Passage 1 to complex, argumentative or abstract texts in Passage 3.",
+          "type": "FormatRule"
+        },
+        {
+          "id": "Question_Count",
+          "description": "There are 40 questions in total, usually distributed as 13–14 per passage.",
+          "type": "FormatRule"
+        },
+        {
+          "id": "Time_Limit",
+          "description": "60 minutes total for 3 passages. No additional time for transferring answers.",
+          "type": "FormatRule"
+        },
+        {
+          "id": "Text_Length",
+          "description": "Each passage is 700–1000 words.",
+          "type": "FormatRule"
+        },
+        {
+          "id": "Total_Text_Length",
+          "description": "The combined length of all three passages is 2150–2750 words.",
+          "type": "FormatRule"
+        },
+        {
+          "id": "Source_Types",
+          "description": "Texts are authentic, adapted from journals, magazines, books, or newspapers, written for a non-specialist but educated audience.",
+          "type": "FormatRule"
+        },
+        {
+          "id": "Sentence_Length",
+          "description": "Typical sentences contain 15-25 words with several include multiple clauses.",
+          "type": "FormatRule"
+        },
+        {
+          "id": "Paragraph_Structure",
+          "description": "Each passage has 4–7 paragraphs; each paragraph develops one central idea.",
+          "type": "FormatRule"
+        }
+      ],
+      "writing_styles": [
+        {
+          "id": "Descriptive",
+          "description": "Explains processes, natural phenomena, or objects. Uses technical terms, factual detail, and neutral tone.",
+          "type": "WritingStyle"
+        },
+        {
+          "id": "Analytical",
+          "description": "Examines causes, effects, or comparisons. Often includes evidence, data, or academic studies.",
+          "type": "WritingStyle"
+        },
+        {
+          "id": "Argumentative",
+          "description": "Presents multiple viewpoints, often contrasting experts, with subtle author preference. Heavy use of hedging and connectors.",
+          "type": "WritingStyle"
+        },
+        {
+          "id": "Historical",
+          "description": "Chronological account of events, discoveries, or people. Heavy use of dates, ids, and cause-effect language.",
+          "type": "WritingStyle"
+        },
+        {
+          "id": "Hybrid",
+          "description": "Combination of descriptive + analytical, or historical + argumentative, to increase complexity.",
+          "type": "WritingStyle"
+        }
+      ],
+      "skills": [
+        {
+          "id": "Information_Retrieval",
+          "description": "Ability to locate and extract explicit factual details from the passage, such as dates, ids, numbers, examples, and definitions. This skill emphasizes accuracy in identifying information that is directly stated in the text, without interpretation or inference.",
+          "examples": [
+            "Finding the year an event occurred",
+            "Identifying the id of a researcher",
+            "Locating a specific definition or example"
+          ],
+          "type": "Skill"
+        },
+        {
+          "id": "Main_Idea_Analysis",
+          "description": "Ability to identify the central idea of a paragraph or section, and distinguish it from supporting details. This skill requires recognizing topic sentences, themes, and the writer’s main purpose in a given section of text.",
+          "examples": [
+            "Choosing the correct heading for a paragraph",
+            "Identifying the thesis of a passage section",
+            "Distinguishing main argument from illustrative examples"
+          ],
+          "type": "Skill"
+        },
+        {
+          "id": "Opinion_Recognition",
+          "description": "Ability to detect and evaluate the writer’s viewpoint, attitude, or claims, and distinguish them from neutral facts. This includes identifying agreement, disagreement, or neutrality in the text.",
+          "examples": [
+            "Recognizing whether the writer supports or opposes a theory",
+            "Distinguishing fact from writer’s claim",
+            "Identifying the author’s attitude toward an idea"
+          ],
+          "type": "Skill"
+        },
+        {
+          "id": "Scanning",
+          "description": "Ability to quickly move through the text to find specific words, phrases, or numerical data without reading in detail. This is primarily a speed-based skill that helps locate the position of relevant information before detailed reading.",
+          "examples": [
+            "Finding a specific id in a long list of researchers",
+            "Locating a percentage figure in a data-heavy passage",
+            "Spotting references to a location or country"
+          ],
+          "type": "Skill"
+        },
+        {
+          "id": "Skimming",
+          "description": "Ability to read quickly to grasp the overall theme, structure, and purpose of the passage. This skill allows test-takers to build a mental map of the text before answering detailed questions.",
+          "examples": [
+            "Identifying the general topic of a passage after a quick read",
+            "Understanding whether a passage is descriptive, argumentative, or explanatory",
+            "Recognizing the flow of ideas across sections"
+          ],
+          "type": "Skill"
+        },
+        {
+          "id": "Relationship_Recognition",
+          "description": "Ability to recognize logical or factual connections between elements in the text, such as cause and effect, problem and solution, theory and example, person and invention, or comparison and contrast. This skill requires understanding how ideas or entities are linked.",
+          "examples": [
+            "Matching inventions to their inventors",
+            "Identifying a cause-and-effect relationship described in the passage",
+            "Recognizing a problem and its proposed solution"
+          ],
+          "type": "Skill"
+        },
+        {
+          "id": "Inference",
+          "description": "Ability to deduce meaning or conclusions that are implied but not directly stated in the text. This skill requires logical reasoning, recognition of hedging language, and understanding of unstated assumptions.",
+          "examples": [
+            "Concluding what the writer implies without explicit words",
+            "Recognizing that 'some researchers suggest' indicates uncertainty",
+            "Inferring a trend from data described in words"
+          ],
+          "type": "Skill"
+        }
+      ],
+      "distractors": [
+        {
+          "id": "Paraphrasing_Synonyms",
+          "description": "Correct answers rarely repeat exact wording. Test-takers must recognize synonyms and grammar shifts.",
+          "type": "Distractor"
+        },
+        {
+          "id": "Echo_Words",
+          "description": "Wrong options repeat words from the text but misrepresent meaning.",
+          "type": "Distractor"
+        },
+        {
+          "id": "Extreme_Wording",
+          "description": "Distractors use absolutes like 'always', 'never', 'all', while the passage uses hedging ('some', 'most').",
+          "type": "Distractor"
+        },
+        {
+          "id": "Partially_Correct",
+          "description": "Options include part of the true information but miss or distort key elements.",
+          "type": "Distractor"
+        },
+        {
+          "id": "Close_Details",
+          "description": "Incorrect information placed near correct details in the passage to confuse scanning readers.",
+          "type": "Distractor"
+        },
+        {
+          "id": "Cause_Effect_Confusion",
+          "description": "Reverses the logical relationship: presents a cause as an effect, or an effect as a cause.",
+          "type": "Distractor"
+        },
+        {
+          "id": "Opposite_Meaning",
+          "description": "Statements that reverse or contradict the true meaning subtly.",
+          "type": "Distractor"
+        },
+        {
+          "id": "Generalization",
+          "description": "Distractors broaden or narrow the true scope of an idea, making them incorrect.",
+          "type": "Distractor"
+        }
+      ],
+      "penmanship": [
+        {
+          "id": "Vocabulary_Tone",
+          "description": "Formal, academic, paraphrasing-heavy style ",
+          "subrules": [
+            {
+              "id": "Academic_Word_List",
+              "description": "Frequent use of AWL words such as 'consequently', 'therefore', 'notwithstanding'.",
+              "type": "PenmanshipSubrule"
+            },
+            {
+              "id": "High_Level_Words",
+              "description": "A mix of vocabularies from many levels, including A1, A2, B1, B2, C1 and some of C2 but not to keep the frequency of complicated vocabs too dense. "
+            },
+            {
+              "id": "Explained technical terms",
+              "description": "Less frequent, highly technical terms are usually defined or explained."
+            },
+            {
+              "id": "Balance of difficulty",
+              "description": "Mixes everyday academic words (e.g., reduce, limit, growth, system), mid-level technical terms (e.g., renewable energy, carbon emissions, adaptation). Rare words are minimal and often glossed."
+            },
+            {
+              "id": "Limit of rare words",
+              "description": "Limit rare / low-frequency words (< 5000 frequency rank) unless explained. Proportion less than 5% per passage​"
+            },
+            {
+              "id": "Readability (Based on Flesch–Kincaid style)",
+              "description": "Formula (Flesch): 206.835 - 1.015 x (Total Words / Total Sentences) - 84.6 x (Total Syllables / Total Words). An IELTS passage score from 40 to 60."
+            },
+            {
+              "id": "Synonym_Paraphrasing",
+              "description": "Ideas are restated with synonyms rather than repeated directly.",
+              "type": "PenmanshipSubrule"
+            },
+            { 
+              "id": "Objective_Style",
+              "description": "No personal pronouns; tone remains neutral and impersonal.",
+              "type": "PenmanshipSubrule"
+            }
+          ],
+          "type": "Penmanship"
+        },
+        {
+          "id": "Structure_Flow",
+          "description": "Logical and cohesive paragraphing.",
+          "subrules": [
+            {
+              "id": "Chronological_Order",
+              "description": "Passages often unfold in a time sequence.",
+              "type": "PenmanshipSubrule"
+            },
+            {
+              "id": "Logical_Progression",
+              "description": "Ideas develop from introduction to argument to conclusion.",
+              "type": "PenmanshipSubrule"
+            },
+            {
+              "id": "Cohesive_Devices",
+              "description": "Use of connectors like 'however', 'on the other hand', 'therefore', 'in addition'.",
+              "type": "PenmanshipSubrule"
+            },
+            {
+              "id": "Explanations_balanced",
+              "description": "Balance dense academic phrasing with clearer explanatory sections.",
+              "type": "PenmanshipSubrule"
+            }
+          ],
+          "type": "Penmanship"
+        },
+        {
+          "id": "Stylistic_Tricks",
+          "description": "Advanced grammar and stylistic choices that increase difficulty.",
+          "subrules": [
+            {
+              "id": "Nominalization",
+              "description": "Turning verbs into nouns for complexity: 'discover' → 'discovery'.",
+              "type": "PenmanshipSubrule"
+            },
+            {
+              "id": "Passive_Voice",
+              "description": "Frequent passive forms: 'It has been argued that…'.",
+              "type": "PenmanshipSubrule"
+            },
+            {
+              "id": "Hedging",
+              "description": "Uncertainty markers like may, might, suggests that, possibly.",
+              "type": "PenmanshipSubrule"
+            },
+            {
+              "id": "Complex_Connectors",
+              "description": "Use of contrast and concession: although, despite, while.",
+              "type": "PenmanshipSubrule"
+            }
+          ],
+          "type": "Penmanship"
+        },
+        {
+          "id": "Information_Concealment",
+          "description": "Rules that make answers difficult to locate or interpret.",
+          "subrules": [
+            {
+              "id": "Paraphrasing_Trick",
+              "description": "Ideas rephrased with synonyms, different grammar structures, or parts of speech.",
+              "type": "PenmanshipSubrule"
+            },
+            {
+              "id": "Information_Burying",
+              "description": "Key ideas hidden within long sentences or surrounded by extra facts.",
+              "type": "PenmanshipSubrule"
+            },
+            {
+              "id": "Split_Information",
+              "description": "One fact scattered across multiple sentences or paragraphs.",
+              "type": "PenmanshipSubrule"
+            },
+            {
+              "id": "Distractor_Embedding",
+              "description": "Extra information placed near the correct detail to mislead.",
+              "type": "PenmanshipSubrule"
+            },
+            {
+              "id": "Conclusion_Obfuscation",
+              "description": "Passages hedge and avoid stating clear conclusions directly.",
+              "type": "PenmanshipSubrule"
+            },
+            {
+              "id": "Idea_illustration",
+              "description": "Passages illustrate abstract ideas with case studies.",
+              "type": "PenmanshipSubrule"
+            }
+          ],
+          "type": "Penmanship"
+        }
+      ],
+      "question_types": [
+        {
+          "id": "Multiple_Choice",
+          "description": "This type of question may be a question with four possible answers or the first half of a sentence with four possible sentence endings. You have to choose one correct answer (A, B, C or D), then write the correct answer on the answer sheet. Sometimes you are given a longer list of possible answers and you have to choose more than one answer. You should read the question carefully to check how many answers you need to choose. The questions are in the same order as the information in the text: that is, the answer to the first question will be before the answer to the second question, and so on.",
+          "question_type_rules": [
+            "Answer_Format",
+            "Order_In_Text"
+          ],
+          "skills": [
+            "Detailed_Understanding",
+            "Main_Idea_Analysis"
+          ],
+          "type": "QuestionType"
+        },
+        {
+          "id": "Identifying_Information",
+          "alias": "True_False_NotGiven",
+          "description": "In this type of question, you are given a number of statements and are asked: ‘Do the following statements agree with the information in the text?’ You have to write ‘True’, ‘False’ or ‘Not given’ in the boxes on your answer sheet. It is important to understand the difference between ‘False’ and ‘Not given’. ‘False’ means that the statement contradicts the information in the text. ‘Not given’ means that the statement neither agrees with nor contradicts the information in the text. You must be careful not to use any information you already know about the topic of the text when choosing your answer.",
+          "question_type_rules": [
+            "Answer_Format",
+            "Key_Difficulty_False_vs_NotGiven"
+          ],
+          "skills": [
+            "Specific_Information_Recognition"
+          ],
+          "type": "QuestionType"
+        },
+        {
+          "id": "Identifying_Writer_Views",
+          "alias": "Yes_No_NotGiven",
+          "description": "In this type of question, you are given a number of statements and asked: ‘Do the following statements agree with the views of the writer?’ or ‘Do the following statements agree with the claims of the writer?’ You have to write ‘Yes’, ‘No’ or ‘Not given’ in the boxes on your answer sheet. It is important to understand the difference between ‘No’ and ‘Not given’. ‘No’ means that the statement contradicts the writer’s view or claim. ‘Not given’ means that the statement neither agrees with nor contradicts the writer’s view or claim. You must be careful not to use any information you already know about the topic of the text when choosing your answer.",
+          "question_type_rules": [
+            "Answer_Format",
+            "Key_Difficulty_No_vs_NotGiven"
+          ],
+          "skills": [
+            "Opinion_Recognition"
+          ],
+          "type": "QuestionType"
+        },
+        {
+          "id": "Matching_Information",
+          "description": "In this type of question, you have to find specific information in the paragraphs (or sections) of a text. The paragraphs (or sections) are identified by letters (A, B, C, etc.). You will need to write the letters of the correct paragraphs (or sections) in the boxes on your answer sheet. Not every paragraph (or section) may be used and some paragraphs (or sections) may be used more than once. When the paragraphs (or sections) may be used more than once, the instructions will say: ‘You may use any letter more than once’.",
+          "question_type_rules": [
+            "Paragraph_Identification"
+          ],
+          "skills": [
+            "Scanning",
+            "Information_Retrieval"
+          ],
+          "type": "QuestionType"
+        },
+        {
+          "id": "Matching_Headings",
+          "description": "In this type of question, there is a list of headings which are identified by Roman numerals (i, ii, iii, etc.). A heading summarises the main idea of a paragraph or section of the text. You must match the heading to the correct paragraph or section. The paragraphs (or sections) are identified by letters (A, B, C, etc.). You will need to write the correct Roman numerals in the boxes on your answer sheet. There will always be more headings than paragraphs or sections, so some headings will not be used. It is also possible that some paragraphs or sections may not be included in the task. One or more paragraphs or sections may already be matched with a heading as an example on the question paper. No heading may be used more than once.",
+          "question_type_rules": [
+            "Extra_Options_Present"
+          ],
+          "skills": [
+            "Main_Idea_Analysis"
+          ],
+          "type": "QuestionType"
+        },
+        {
+          "id": "Matching_Features",
+          "description": "In this type of question, you have to match a set of statements or pieces of information to a list of options. The options are a group of features from the text, and letters (A, B, C, etc.) are used to identify them. Write the correct letter on the answer sheet. You may, for example, have to match descriptions of inventions to the people who invented them. It is possible that some options will not be used, and that others may be used more than once. When it is possible to use any option more than once, the instructions will say: ‘You may use any option more than once’.",
+          "question_type_rules": [
+            "Options_List"
+          ],
+          "skills": [
+            "Relationship_Recognition",
+            "Skimming",
+            "Scanning"
+          ],
+          "type": "QuestionType"
+        },
+        {
+          "id": "Matching_Sentence_Endings",
+          "description": "In this type of question, you are given the first half of a sentence based on information in the text and you have to choose the best way to complete the sentence by choosing from a list of possible endings. The endings are identified by letters (A, B, C, etc.). There will be more sentence endings than beginnings, so you will not use all of them. You must write the letter you choose on the answer sheet. The sentence beginnings are in the same order as the information in the text.",
+          "question_type_rules": [
+            "Extra_Options_Present"
+          ],
+          "skills": [
+            "Main_Idea_Analysis"
+          ],
+          "type": "QuestionType"
+        },
+        {
+          "id": "Sentence_Completion",
+          "description": "In this type of question, you have to fill in a gap in each sentence by choosing words from the text. You must write the words you choose on the answer sheet. You should read the instructions very carefully as the number of words or numbers you may use to fill the gaps can change. A word limit is given, for example, ‘NO MORE THAN TWO WORDS AND/OR A NUMBER’. You will lose the mark for writing more than the word limit. Contracted words such as ‘they’re’ will not be tested. Hyphenated words such as ‘check-in’ count as single words. The questions are in the same order as the information in the text.",
+          "question_type_rules": [
+            "Word_Limit",
+            "Order_In_Text"
+          ],
+          "skills": [
+            "Information_Retrieval",
+            "Information_Retrieval"
+          ],
+          "type": "QuestionType"
+        },
+        {
+          "id": "Summary_Note_Table_FlowChart_Completion",
+          "description": "In this type of question, you are given a summary of a part of the text, and have to complete it using words taken from the text. The summary may be in the form of continuous text, notes, a table, or a flow chart. The answers may not come in the same order as in the text. However, they will usually come from one part of the text rather than the whole text. There are two variations of this task type: (1) selecting words directly from the text; (2) choosing from a given list of words. A word limit is given, and you must follow it carefully. Contracted words are not tested. Hyphenated words count as single words.",
+          "question_type_rules": [
+            "Word_Limit",
+            "Partial_Text_Source"
+          ],
+          "skills": [
+            "Information_Retrieval",
+            "Main_Idea_Analysis"
+          ],
+          "type": "QuestionType"
+        },
+        {
+          "id": "Short_Answer_Questions",
+          "description": "In this type of question, you have to answer questions about factual details in the text. You must write your answers in words or numbers on the answer sheet. Answers must be taken directly from the text. A word limit is given, and you will lose marks for exceeding it. Numbers can be written using figures (1, 2, etc.) or words (one, two, etc.). Contracted words will not be tested. Hyphenated words count as single words. The answers come in the same order as the information in the text.",
+          "question_type_rules": [
+            "Word_Limit",
+            "Order_In_Text"
+          ],
+          "skills": [
+            "Information_Retrieval"
+          ],
+          "type": "QuestionType"
+        }
+      ],
+      "question_type_rules": [
+        {
+          "id": "Paraphrasing",
+          "description": "The process of expressing the same meaning using different words, structures, or grammatical forms. In IELTS Reading, paraphrasing appears at multiple levels: (1) Passage Writing: texts are written with varied vocabulary and synonyms to avoid repetition, ensuring answers cannot be located by simple word matching. (2) Concealment Strategy: questions and correct answers are often paraphrased versions of statements in the passage, forcing candidates to recognize meaning rather than surface wording. (3) Distractors: incorrect options may mimic the wording of the passage closely, while the correct answer uses paraphrasing, creating a trap. (4) Answer Behaviour: many correct answers are paraphrased and require semantic matching, not direct text copying. Effective handling of paraphrasing requires lexical knowledge, recognition of synonym chains, and awareness of structural transformations such as active/passive voice, nominalisation, or shifts in word class.",
+          "type": "QuestionTypeRule"
+        },
+        {
+          "id": "Answer_Format",
+          "description": "Answers must follow the required format (letters, words, or numbers as specified).",
+          "type": "QuestionTypeRule"
+        },
+        {
+          "id": "Order_In_Text",
+          "description": "Questions follow the order of the information in the text unless stated otherwise.",
+          "type": "QuestionTypeRule"
+        },
+        {
+          "id": "Key_Difficulty_False_vs_NotGiven",
+          "description": "Differentiate between contradicting information (False) and absent information (Not Given).",
+          "type": "QuestionTypeRule"
+        },
+        {
+          "id": "Key_Difficulty_No_vs_NotGiven",
+          "description": "Differentiate between disagreement with writer’s view (No) and lack of information (Not Given).",
+          "type": "QuestionTypeRule"
+        },
+        {
+          "id": "Paragraph_Identification",
+          "description": "Answers are located in specific paragraphs or sections, often requiring scanning for details.",
+          "type": "QuestionTypeRule"
+        },
+        {
+          "id": "Extra_Options_Present",
+          "description": "There are always more options/headings/endings than needed, leaving some unused.",
+          "type": "QuestionTypeRule"
+        },
+        {
+          "id": "Options_List",
+          "description": "Possible answers are presented as a list; some may be used more than once, others not at all.",
+          "type": "QuestionTypeRule"
+        },
+        {
+          "id": "Word_Limit",
+          "description": "Answers must not exceed the stated word or number limit. Hyphenated words count as single words; contractions are not tested.",
+          "type": "QuestionTypeRule"
+        },
+        {
+          "id": "Partial_Text_Source",
+          "description": "Answers usually come from one specific section of the passage rather than the entire text.",
+          "type": "QuestionTypeRule"
+        }
+      ],
+      "answer_behaviours": [
+        {
+          "id": "Paraphrased_Answer",
+          "description": "Correct answers are often reworded using synonyms, altered grammar, or different forms, rather than copied directly from the passage.",
+          "type": "AnswerBehaviour"
+        },
+        {
+          "id": "Exact_Word_Requirement",
+          "description": "For completion tasks, the answer must be taken directly from the text. Candidates must respect spelling and word limit rules.",
+          "type": "AnswerBehaviour"
+        },
+        {
+          "id": "Inference_Based",
+          "description": "Some answers require logical inference or interpretation, going beyond what is explicitly stated in the text.",
+          "type": "AnswerBehaviour"
+        },
+        {
+          "id": "Partial_Text_Source",
+          "description": "Correct answers typically come from a single section of the passage rather than the entire text, focusing reading effort.",
+          "type": "AnswerBehaviour"
+        },
+        {
+          "id": "Context_Dependent",
+          "description": "Answers may only be clear when surrounding sentences are read, preventing reliance on single-word matching.",
+          "type": "AnswerBehaviour"
+        }
+      ],
+      "example_patterns": [
+        {
+          "id": "MCQ_Distractor_Pattern",
+          "description": "One option reuses exact words from the passage but distorts the meaning; another option paraphrases the correct answer subtly.",
+          "type": "ExamplePattern"
+        },
+        {
+          "id": "Heading_Pattern",
+          "description": "Correct heading is a paraphrased main idea; distractors reflect minor details or examples within the paragraph.",
+          "type": "ExamplePattern"
+        },
+        {
+          "id": "TFNG_Pattern",
+          "description": "False statements often use absolute terms like 'always' or 'never'. Not Given options introduce elements not mentioned in the passage.",
+          "type": "ExamplePattern"
+        },
+        {
+          "id": "Completion_Pattern",
+          "description": "Gaps are placed around key technical terms, numbers, or specific details, forcing careful retrieval from the passage.",
+          "type": "ExamplePattern"
+        },
+        {
+          "id": "Feature_Matching_Pattern",
+          "description": "Options lists contain overlapping features. Some are used more than once, others not at all, creating ambiguity.",
+          "type": "ExamplePattern"
+        }
+      ],
+      "passage_examples": [
+          {
+            "id": 1,
+            "title": "Andrea Palladio: Italian architect",
+            "passage": "A. Vicenza is a pleasant, prosperous city in the Veneto, 60km west of Venice. Its grand families settled and farmed the area from the 16th century. But its principal claim to fame is Andrea Palladio, who is such an influential architect that a neoclassical style is known as Palladian. The city is a permanent exhibition of some of his finest buildings, and as he was born—in Padua, to be precise—500 years ago, the International Centre for the Study of Palladio's Architecture has an excellent excuse for mounting la grande mostra, the big show.\n\nB. The exhibition has the special advantage of being held in one of Palladio's buildings, Palazzo Barbaran da Porto. Its bold facade is a mixture of rustication and decoration set between two rows of elegant columns. On the second floor the pediments are alternately curved or pointed, a Palladian trademark. The harmonious proportions of the atrium at the entrance lead through to a dramatic interior of fine fireplaces and painted ceilings. Palladio's design is simple, clear and not over-crowded. The show has been organised on the same principles, according to Howard Burns, the architectural historian who co-curated it.\n\nC. Palladio's father was a miller who settled in Vicenza, where the young Andrea was apprenticed to a skilled stonemason. How did a humble miller's son become a world renowned architect? The answer in the exhibition is that, as a young man, Palladio excelled at carving decorative stonework on columns, doorways and fireplaces. He was plainly intelligent, and lucky enough to come across a rich patron, Gian Giorgio Trissino, a landowner and scholar, who organised his education, taking him to Rome in the 1540s, where he studied the masterpieces of classical Roman and Greek architecture and the work of other influential architects of the time, such as Donato Bramante and Raphael.\n\nD. Burns argues that social mobility was also important. Entrepreneurs, prosperous from agriculture in the Veneto, commissioned the promising local architect to design their country villas and their urban mansions. In Venice the aristocracy were anxious to co-opt talented artists, and Palladio was given the chance to design the buildings that have made him famous—the churches of San Giorgio Maggiore and the Redentore, both easy to admire because they can be seen from the city's historical centre across a stretch of water.\n\nE. He tried his hand at bridges—his unbuilt version of the Rialto Bridge was decorated with the large pediment and columns of a temple —and, after a fire at the Ducal Palace, he offered an alternative design which bears an uncanny resemblance to the Banqueting House in Whitehall in London. Since it was designed by Inigo Jones, Palladio's first foreign disciple, this is not as surprising as it sounds.\n\nF. Jones, who visited Italy in 1614, bought a trunk full of the master's architectural drawings; they passed through the hands of the Dukes of Burlington and Devonshire before settling at the Royal Institute of British Architects in 1894. Many are now on display at Palazzo Barbaran. What they show is how Palladio drew on the buildings of ancient Rome as models. The major theme of both his rural and urban building was temple architecture, with a strong pointed pediment supported by columns and approached by wide steps.\n\nG. Palladio's work for rich landowners alienates unreconstructed critics on the Italian left, but among the papers in the show are designs for cheap housing in Venice. In the wider world, Palladio's reputation has been nurtured by a text he wrote and illustrated, \"Quattro Libri dell' Architettura\". His influence spread to St Petersburg and to Charlottesville in Virginia, where Thomas Jefferson commissioned a Palladian villa he called Monticello.\n\nH. Vicenza's show contains detailed models of the major buildings and is leavened by portraits of Palladio's teachers and clients by Titian, Veronese and Tintoretto; the paintings of his Venetian buildings are all by Canaletto, no less. This is an uncompromising exhibition; many of the drawings are small and faint, and there are no sideshows for children, but the impact of harmonious lines and satisfying proportions is to impart in a viewer a feeling of benevolent calm. Palladio is history's most therapeutic architect.\n\nI. \"Palladio, 500 Anni: La Grande Mostra\" is at Palazzo Barbaran da Porto, Vicenza, until January 6th 2009. The exhibition continues at the Royal Academy of Arts, London, from January 31st to April 13th, and travels afterwards to Barcelona and Madrid."
+          },
+          {
+            "id": 2,
+            "title": "The future never dies?",
+            "passage": "The prospects for humanity and for the world as a whole are somewhere between glorious and dire. It is hard to be much more precise.\n\nA. By ‘glorious’ I mean that our descendants - all who are born on to this Earth - could live very comfortably and securely, and could continue to do so for as long as the Earth can support life, which should be for a very long time indeed. We should at least be thinking in terms of the next million years. Furthermore, our descendants could continue to enjoy the company of other species - establishing a much better relationship with them than we have now. Other animals need not live in constant fear of us. Many of those fellow species now seem bound to become extinct, but a significant proportion could and should continue to live alongside us. Such a future may seem ideal, and so it is. Yet I do not believe it is fanciful. There is nothing in the physical fabric of the Earth or in our own biology to suggest that this is not possible.\n\nB. ‘Dire’ means that we human beings could be in deep trouble within the next few centuries, living but also dying in large numbers in political terror and from starvation, while huge numbers of our fellow creatures would simply disappear, leaving only the ones that we find convenient - chickens, cattle - or that we can't shake off, like flies and mice. I'm taking it to be self-evident that glory is preferable.\n\nC. Our future is not entirely in our own hands because the Earth has its own rules, is part of the solar system and is neither stable nor innately safe. Other planets in the solar system are quite beyond habitation, because their temperature is far too high or too low to be endured, and ours, too, in principle could tip either way. Even relatively unspectacular changes in the atmosphere could do the trick. The core of the Earth is hot, which in many ways is good for living creatures, but every now and again, the molten rock bursts through volcanoes on the surface. Among the biggest volcanic eruptions in recent memory was Mount St Helens, in the USA, which threw out a cubic kilometre of ash - fortunately in an area where very few people live. In 1815, Tambora (in present-day Indonesia) expelled so much ash into the upper atmosphere that climatic effects seriously harmed food production around the world for season after season. Entire civilisations have been destroyed by volcanoes.\n\nD. Yet nothing we have so far experienced shows what volcanoes can really do. Yellowstone National Park in the USA occupies the caldera (the crater formed when a volcano collapses) of an exceedingly ancient volcano of extraordinary magnitude. Modern surveys show that its centre is now rising. Sometime in the next 200 million years, Yellowstone could erupt again, and when it does, the whole world will be transformed. Yellowstone could erupt tomorrow. But there's a very good chance that it will give us another million years, and that surely is enough to be going on with. It seems sensible to assume that this will be the case.\n\nE. The universe at large is dangerous, too: in particular, we share the sky with vast numbers of asteroids, and every now and again, they come into our planet's atmosphere. An asteroid the size of a small island, hitting the Earth at 15,000 kilometres an hour (a relatively modest speed by the standards of heavenly bodies), would strike the ocean bed like a rock in a puddle, send a tidal wave around the world as high as a small mountain and as fast as a jumbo jet, and propel us into an ice age that could last for centuries. There are plans to head off such disasters (including rockets to push approaching asteroids into new trajectories), but in truth it's down to luck.\n\nF. On the other hand, the archaeological and the fossil evidence shows that no truly devastating asteroid has struck since the one that seems to have accounted for the extinction of the dinosaurs 65 million years ago. So again, there seems no immediate reason for despair. The Earth is indeed an uncertain place, in an uncertain universe, but with average luck, it should do us well enough. If the world does become inhospitable in the next few thousand or million years, then it will probably be our own fault. In short, despite the underlying uncertainty, our own future and that of our fellow creatures is very much in our own hands.\n\nG. Given average luck on the geological and the cosmic scale, the difference between glory and disaster will be made, and is being made, by politics. Certain kinds of political systems and strategies would predispose us to long-term survival (and indeed to comfort and security and the pleasure of being alive), while others would take us more and more frenetically towards collapse. The broad point is, though, that we need to look at ourselves - humanity - and at the world in general in a quite new light. Our material problems are fundamentally those of biology. We need to think, and we need our politicians to think, biologically. Do that, and take the ideas seriously, and we are in with a chance. Ignore biology and we and our fellow creatures haven't a hope."
+          },
+
+          {
+            "id": 3,
+            "title": "Pottery production in ancient Akrotiri",
+            "passage": "A. Excavations at the site of prehistoric Akrotiri, on the coast of the Aegean Sea, have revealed much about the technical aspects of pottery manufacture, indisputably one of the basic industries of this Greek city. However, considerably less is known about the socio-economic context and the way production was organised.\n\nB. The bulk of pottery found at Akrotiri is locally made, and dates from the late fifteenth century BC. It clearly fulfilled a vast range of the settlement’s requirements: more than fifty different types of pots can be distinguished. The pottery found includes a wide variety of functional types like storage jars, smaller containers, pouring vessels, cooking pots, drinking vessels and so on, which all relate to specific activities and which would have been made and distributed with those activities in mind. Given the large number of shapes produced and the relatively high degree of standardisation, it has generally been assumed that most, if not all, of Akrotiri pottery was produced by specialised craftsmen in a non-domestic context. Unfortunately neither the potters’ workshops nor kilns have been found within the excavated area. The reason may be that the ceramic workshops were located on the periphery of the site, which has not yet been excavated. In any event, the ubiquity of the pottery, and the consistent repetition of the same types in different sizes, suggest production on an industrial scale.\n\nC. The Akrotirian potters seem to have responded to pressures beyond their households, namely to the increasing complexity of regional distribution and exchange systems. We can imagine them as full-time craftsmen working permanently in a high production-rate craft such as pottery manufacture, and supporting themselves entirely from the proceeds of their craft. In view of the above, one can begin to speak in terms of mass-produced pottery and the existence of organised workshops of craftsmen during the period 1550–1500 BC. Yet, how pottery production was organised at Akrotiri remains an open question, as there is no real documentary evidence. Our entire knowledge comes from the ceramic material itself, and the tentative conclusions which can be drawn from it.\n\nD. The invention of units of quantity and of a numerical system to count them was of capital importance for an exchange-geared society such as that of Akrotiri. In spite of the absence of any written records, the archaeological evidence reveals that concepts of measurements, both of weight and number, had been formulated. Standard measures may already have been in operation, such as those evidenced by a graduated series of lead weights—made in disc form—found at the site. The existence of units of capacity in Late Bronze Age times is also evidenced, by the notation of units of a liquid measure for wine on excavated containers.\n\nE. It must be recognised that the function of pottery vessels plays a very important role in determining their characteristics. The intended function affects the choice of clay, the production technique, and the shape and the size of the pots. For example, large storage jars (pithoi) would be needed to store commodities, whereas smaller containers would be used for transport. In fact, the length of a man’s arm limits the size of a smaller pot to a capacity of about twenty litres; that is also the maximum a man can comfortably carry.\n\nF. The various sizes of container would thus represent standard quantities of a commodity, which is a fundamental element in the function of exchange. Akrotirian merchants handling a commodity such as wine would have been able to determine easily the amount of wine they were transporting from the number of containers they carried in their ships, since the capacity of each container was known to be 14–18 litres. (We could draw a parallel here with the current practice in Greece of selling oil in 17 kilogram tins.)\n\nG. We may therefore assume that the shape, capacity, and, sometimes decoration of vessels are indicative of the commodity contained by them. Since individual transactions would normally involve different quantities of a given commodity, a range of ‘standardised’ types of vessel would be needed to meet traders’ requirements.\n\nH. In trying to reconstruct systems of capacity by measuring the volume of excavated pottery, a rather generous range of tolerances must be allowed. It seems possible that the potters of that time had specific sizes of vessel in mind, and tried to reproduce them using a specific type and amount of clay. However, it would be quite difficult for them to achieve the exact size required every time, without any mechanical means of regulating symmetry and wall thickness, and some potters would be more skilled than others. In addition, variations in the repetition of types and size may also occur because of unforeseen circumstances during the throwing process. For instance, instead of destroying the entire pot if the clay in the rim contained a piece of grit, a potter might produce a smaller pot by simply cutting off the rim. Even where there is no noticeable external difference between pots meant to contain the same quantity of a commodity, differences in their capacity can actually reach one or two litres. In one case the deviation from the required size appears to be as much as 10–20 percent.\n\nI. The establishment of regular trade routes within the Aegean led to increased movement of goods; consequently a regular exchange of local, luxury and surplus goods, including metals, would have become feasible as a result of the advances in transport technology. The increased demand for standardised exchanges, inextricably linked to commercial transactions, might have been one of the main factors which led to the standardisation of pottery production. Thus, the whole network of ceramic production and exchange would have depended on specific regional economic conditions, and would reflect the socio-economic structure of prehistoric Akrotiri."
+          },
+          {
+            "id": 4,
+            "title": "Save the Turtles",
+            "passage": "A. Leatherback turtles follow the general sea turtle body plan of having a large, flattened, round body with two pairs of very large flippers and a short tail. Like other sea turtles, the leatherback's flattened forelimbs are adapted for swimming in the open ocean. Claws are absent from both pairs of flippers. The Leatherback's flippers arc the largest in proportion to its body among extant sea turtles. Leatherback's front flippers can grow up to 2.7 meters (9 ft) in large specimens, the largest flippers (even in comparison to its body) of any sea turtle. As the last surviving member of its family, the leatherback turtle has several distinguishing characteristics that differentiate it from other sea turtles. Its most notable feature is that it lacks the bony carapace of the other extant sea turtles.\n\nB. During the past month, four turtles have washed up along Irish coasts from Wexford to Kerry. These turtles arc more typical of warmer waters and only occur in Irish waters when they stray off course. It is likely that they may have originated from Florida, America. Two specimens have been taken to Coastal and Marine Resources Centre (stored at the National Maritime College), University College Cork, where a necropsy (post mortem for animals) will be conducted to establish their age, sex and their exact origin. During this same period, two leatherback turtles were found in Scotland, and a rare Kemp's Ridley turtle was found in Wales, thus making it an exceptional month for stranded turtles in Ireland and the UK.\n\nC. Actually, There has been extensive research conducted regarding the sea turtles’ abilities to return to their nesting regions and sometimes exact locations from hundreds of miles away. In the water, their path is greatly affected by powerful currents. Despite their limited vision, and lack of landmarks in the open water, turtles are able to retrace their migratory paths. Some explanations of this phenomenon have found that sea turtles can detect the angle and intensity of the earth’s magnetic fields.\n\nD. However, Loggerhead turtles are not normally found in Irish waters, because water temperatures here are far too cold for their survival. Instead, adult loggerheads prefer the warmers waters of the Mediterranean, the Caribbean and North America's east coast. The four turtles that were found have probably originated from the North American population of loggerheads. However it will require genetic analysis to confirm this assumption. It is thought that after leaving their nesting beach as hatchlings (when they measure 4.5 cm in length), these tiny turtles enter the North Atlantic Gyre (a giant circular ocean current) that takes them from America, across to Europe (Azores area), down towards North Africa, before being transported back again to America via a different current. This remarkable round trip may take many years during which these tiny turtles grow by several centimetres a year. Loggerheads may circulate around the North Atlantic several times before they settle in the coastal waters of Florida or the Caribbean.\n\nE. These four turtles were probably on their way around the Atlantic when they strayed a bit too far north from the Gulf Stream. Once they did, their fate was sealed, as the cooler waters of the North East Atlantic are too cold for loggerheads (unlike leatherback turtles which have many anatomical and physiological adaptations to enable them to swim in our seas). Once in cool waters, the body of a loggerhead begins to shut down as they get 'cold stunned', then get hypothermia and die.\n\nF. Leatherbacks are in immanent danger of extinction. A critical factor (among others) is the harvesting of eggs from nests. Valued as a food delicacy, Leatherback eggs are falsely touted to have aphrodisiacal properties in some cultures. The leatherback, unlike the Green Sea turtle, is not often killed for its meat; however, the increase in human populations coupled with the growing black market trade has escalated their egg depletion. Other critical factors causing the leatherbacks’ decline are pollution such as plastics (leatherbacks eat this debris thinking it is jellyfish; fishing practices such as longline fishing and gill nets, and development on habitat areas. Scientists have estimated that there are only about 35,000 Leatherback turtles in the world.\n\nG. We are often unable to understand the critical impact a species has on the environment—that is, until that species becomes extinct. Even if we do not know the role a creature plays in the health of the environment, past lessons have taught US enough to know that every animal and plant is one important link in the integral chain of nature. Some scientists now speculate that the Leatherback may play an important role in the recovery of diminishing fish populations. Since the Leatherback consumes its weight in jellyfish per day, it helps to keep Jellyfish populations in check. Jellyfish consume large quantities of fish larvae. The rapid decline in Leatherback populations over the last 50 years has been accompanied by a significant increase in jellyfish and a marked decrease in fish in our oceans. Saving sea turtles is an International endeavor."
+          },
+          {
+            "id": 5,
+            "title": "Corporate Social Responsibility",
+            "passage": "Broadly speaking, proponents of CSR have used four arguments to make their case: moral obligation, sustainability, license to operate, and reputation. The moral appeal—arguing that companies have a duty to be good citizens and to *do the right thing*—is prominent in the goal of Business for Social Responsibility, the leading nonprofit CSR business association in the United States. It asks that its members “achieve commercial success in ways that honor ethical values and respect people, communities, and the natural environment.” Sustainability emphasizes environmental and community stewardship.\n\nA. An excellent definition was developed in the 1980s by Norwegian Prime Minister Gro Harlem Brundtland and used by the World Business Council for Sustainable Devebpment \"Meeting the needs of the present without compromising the ability of future generations to meet their own needs.” The notion of license to operate derives from the fact that every company needs tacit or explicit permission from governments, communities, and numerous other stakeholders to do business. Finally, reputation is used by many companies to justify CSR initiatives on the grounds that they will improve a company's image, strengthen its brand, enliven morale, and even raise the value of its stock.\n\nB. To advance CSR, we must root it in a broad understanding of the interrelationship between a corporation and society while at the same time anchoring it in the strategies and activities of specific companies. To say broadly that business and society need each other might seem like a cliché, but it is also the basic truth that will pull companies out of the muddle that their current corporate-responsibility thinking has created Successful corporations need a healthy society. Education, health care, and equal opportunity are essential to a productive workforce. Safe products and working conditions not only attract customers but lower the internal costs of accidents. Efficient utilization of land, water, energy, and other natural resources makes business more productive. Good government, the rub of law, and property rights are essential for efficiency and innovation. Strong regulatory standards protect both consumers and competitive companies from exploitation. Ultimately, a healthy society creates expanding demand for business, as more human needs are met and aspirations grow. Any business that pursues its ends at the expense of the society in which it operates will find its success to be illusory and ultimately temporary. At the same time, a healthy society needs successful companies. No social program can rival the business sector when it comes to creating the jobs, wealth, and innovation that improve standards of living and social conditions over time.\n\nC. A company’s impact on society also changes over time, as social standards evolve and science progresses. Asbestos, now understood as a serious health risk, was thought to be safe in the early 1900s, given the scientific knowledge then available. Evidence of its risks gradually mounted for more than 50 years before any company was held liable for the harms it can cause. Many firms that failed to anticipate the consequences of this evolving body of research have been bankrupted by the results. No longer can companies be content to monitor only the obvious social impacts of today. Without a careful process for identifying evolving social effects of tomorrow, firms may risk their very survival.\n\nD. No business can solve all of society’s problems or bear the cost of doing so. Instead, each company must select issues that intersect with its particular business. Other social agendas are best left to those companies in other industries, NGOs, or government institutions that are better positioned to address them. The essential test that should guide CSR is not whether a cause is worthy but whether it presents an opportunity to create shared value—that is, a meaningful benefit for society that is also valuable to the business. However, Corporations are not responsible for all the world’s problems, nor do they have the resources to solve them all Each company can identify the particular set of societal problems that it is best equipped to help resolve and from which it can gain the greatest competitive benefit. Addressing social issues by creating shared value will lead to self-sustaining solutions that do not depend on private or government subsidies. When a well-run business applies its vast resources, expertise, and management talent to problems that it understands and in which it has a stake, it can have a greater impact on social good than any other institution or philanthropic organization.\n\nE. The best corporate citizenship initiatives involve far more than writing a check: They specify clear, measurable goals and track results over time. A good example is GE’s program to adopt underperforming public high schools near several of its major u.s. facilities. The company contributes between $250,000 and $1 million over a five-year period to each school and makes in-kind donations as well GE managers and employees take an active role by working with school administrators to assess needs and mentor or tutor students. In an independent study of ten schools in the program between 1989 and 1999, nearly all showed significant improvement, while the graduation rate in four of the five worst performing schools doubled from an average of 30% to 60%. Effective corporate citizenship initiatives such as this one create goodwill and improve relations with local governments and other important constituencies. What's more, GE’s employees feel great pride in their participation. Their effect is inherently limited, however. No matter how beneficial the program is, it remains incidental to the company’s business, and the direct effect on GE's recruiting and retention is modest.\n\nF. Microsoft's Working Connections partnership with the American Association of Community Colleges (AACC) is a good example of a shared-value opportunity arising from investments in context. The shortage of information technology workers is a significant constraint on Microsoft’s growth; currently, there are more than 450,000 unfilled IT positions in the United States alone. Community colleges, with an enrollment of 11.6 million students, representing 45% of all U.S. undergraduates, could be a major solution. Microsoft recognizes, however, that community colleges face special challenges: IT curricula are not standardized, technology used in classrooms is often outdated, and there are no systematic professional development programs to keep faculty up to date. Microsoft's $50 million five-year initiative was aimed at all three problems. In addition to contributing money and products, Microsoft sent employee volunteers to colleges to assess needs, contribute to curriculum development, and create faculty development institutes. Note that in this case, volunteers and assigned staff were able to use their core professional skills to address a social need, a far cry from typical volunteer programs. Microsoft has achieved results that have benefited many communities while having a direct—and potentially significant—impact on the company.\n\nG. At the heart of any strategy is a unique value proposition: a set of needs a company can meet for its chosen customers that others cannot. The most strategic CSR occurs when a company adds a social dimension to its value proposition, making social impact integral to the overall strategy. Consider Whole Foods Market, whose value proposition is to sell organic, natural and healthy food products to customers who are passionate about food and the environment. The company's sourcing emphasizes purchases from local farmers through each store's procurement process. Buyers screen out foods containing any of nearly 100 common ingredients that the company considers unhealthy or environmentally damaging. The same standards apply to products made internally. Whole Foods’ commitment to natural and environmentally friendly operating practices extends well beyond sourcing. Stores are constructed using a minimum of virgin raw materials. Recently, the company purchased renewable wind energy credits equal to 100% of its electricity use in all of its stores and facilities, the only Fortune 500 company to offset its electricity consumption entirely. Spoiled produce and biodegradable waste are trucked to regional centers for composting. Whole Foods' vehicles are being converted to run on biofuels. Even the cleaning products used in its stores are environmentally friendly. And through its philanthropy, the company has created the Animal Compassion Foundation to develop more natural and humane ways of raising farm animals. In short, nearly every aspect of the company’s value chain reinforces the social dimensions of its value proposition, distinguishing Whole Foods from its competitors."
+          },
+          {
+            "id": 6,
+            "title": "TV Addiction 2",
+            "content": "A. Excessive cravings do not necessarily involve physical substances. Gambling can become compulsive; sex can become obsessive. One activity, however, stands out for its prominence and ubiquity—the world’s most popular pastime, television. Most people admit to having a love-bate relationship with it. They complain about the “boob tube” and “couch potatoes,” then they settle into their sofas and grab the remote control. Parents commonly fret about their children’s viewing (if not their own). Even researchers who study TV for a living marvel at the medium’s hold on them personally. Percy Tannenbaum of the University of California at Berkeley has written: “Among life’s more embarrassing moments have been countless occasions when I am engaged in conversation in a room while a TV set is on, and I cannot for the life of me stop from periodically glancing over to the screen. This occurs not only during dull conversations but during reasonably interesting ones just as well.”\n\nB. Scientists have been studying the effects of television for decades, generally focusing on whether watching violence on TV correlates with being violent in real life. Less attention has been paid to the basic allure of the small screen—the medium, as opposed to the message.\n\nC. The term “TV addiction” is imprecise and laden with value judgments, but it captures the essence of a very real phenomenon. Psychologists and psychiatrists formally define substance dependence as a disorder characterized by criteria that include spending a great deal of time using the substance; using it more often than one intends; thinking about reducing use or making repeated unsuccessful efforts to reduce use; giving up important social, family or occupational activities to use it; and reporting withdrawal symptoms when one stops using it.\n\nD. All these criteria can apply to people who watch a lot of television. That does not mean that watching television, in itself, is problematic. Television can teach and amuse; it can reach aesthetic heights; it can provide much needed distraction and escape. The difficulty arises when people strongly sense that they ought not to watch as much as they do and yet find themselves strangely unable to reduce their viewing. Some knowledge of how the medium exerts its pull may help heavy viewers gain better control over their lives.\n\nE. The amount of time people spend watching television is astonishing. On average, individuals in the industrialized world devote three hours a day to the pursuit—fully half of their leisure time, and more than on any single activity save work and sleep. At this rate, someone who lives to 75 would spend nine years in front of the tube. To some commentators, this devotion means simply that people enjoy TV and make a conscious decision to watch it. But if that is the whole story, why do so many people experience misgivings about how much they view? In Gallup polls in 1992 and 1999, two out of five adult respondents and seven out of 10 teenagers said they spent too much time watching TV. Other surveys have consistently shown that roughly 10 percent of adults call themselves TV addicts.\n\nF. What is it about TV that has such a hold on US? In part, the attraction seems to spring from our biological ‘orienting response.’ First described by Ivan Pavlov in 1927, the orienting response is our instinctive visual or auditory reaction to any sudden or novel stimulus. It is part of our evolutionary heritage, a built-in sensitivity to movement and potential predatory threats.\n\nG. In 1986 Byron Reeves of Stanford University, Esther Thorson of the University of Missouri and their colleagues began to study whether the simple formal features of television-cuts, edits, zooms, pans, sudden noises—activate the orienting response, thereby keeping attention on the screen. By watching how brain waves were affected by formal features, the researchers concluded that these stylistic tricks can indeed trigger involuntary responses and ‘derive their attention-al value through the evolutionary significance of detecting movement.... It is the form, not the content, of television that is unique.’\n\nH. The orienting response may partly explain common viewer remarks such as: “If a television is on, I just can’t keep my eyes off it,” “I don’t want to watch as much as I do, but I can’t help it,” and “I feel hypnotized when I watch television.” In the years since Reeves and Thorson published then pioneering work, researchers have delved deeper. Annie Lang’s research team at Indiana University has shown that heart rate decreases for four to six seconds after an orienting stimulus. In ads, action sequences and music videos, formal features frequently come at a rate of one per second, thus activating the orienting response continuously.\n\nI. Lang and her colleagues have also investigated whether formal features affect people’s memory of what they have seen. In one of their studies, participants watched a program and then filled out a score sheet. Increasing the frequency of edits (defined here as a change from one camera angle to another in the same visual scene) improved memory recognition, presumably because it focused attention on the screen. Increasing the frequency of cuts—changes to a new visual scene-had a similar effect but only up to a point. If the number of cuts exceeded 10 in two minutes, recognition dropped off sharply.\n\nJ. Producers of educational television for children have found that formal features can help learning. But increasing the rate of cuts and edits eventually overloads the brain. Music videos and commercials that use rapid intercutting of unrelated scenes are designed to hold attention more than they are to convey information. People may remember the name of the product or band, but the details of the ad itself float in one ear and out the other. The orienting response is overworked. Viewers still attend to the screen, but they feel tired and worn out, with little compensating psychological reward. Our ESM findings show much the same thing.\n\nK. Sometimes the memory of the product is very subtle. Many ads today are deliberately oblique: they have an engaging story line, but it is hard to tell what they are trying to sell. Afterward you may not remember the product consciously. Yet advertisers believe that if they have gotten your attention, when you later go to the store you will feel better or more comfortable with a given product because you have a vague recollection of having heard of it."
+          },
+          {
+            "id": 7,
+            "title": "Timekeeper 2: Invention of Marine Chronometer",
+            "content": "A. It was, as Dava Sobel has described a phenomenon: ‘the greatest scientific problem of the age’. The reality was that in the 18th century no one had ever made a clock that could suffer the great rolling and pitching of a ship and the large changes in temperature whilst still keeping time accurately enough to be of any use. Indeed, most of the scientific community thought such clock impossibility. Knowing one's position on the earth requires two very simple but essential coordinates; rather like using a street map where one thinks in terms of how far one is up/down and how far side to side.\n\nB. The longitude is a measure of how far around the world one has come from home and has no naturally occurring base line like the equator. The crew of a given ship was naturally only concerned with how far round they were from their own particular home base. Even when in the middle of the ocean, with no land in sight, knowing this longitude position is very simple in theory. The key to knowing how far around the world you are from home is to know, at that very moment, what time it is back home. A comparison with your local time (easily found by checking the position of the Sim) will then tell you the time difference between you and home, and thus how far round the Earth you are from home.\n\nC. Up until the middle of the 18th century, navigators had been unable to determine their position at sea with accuracy and they faced the huge attendant risks of shipwreck or running out of supplies before reaching then destination. The angular position of Moon and other bright stars was recorded in three-hour intervals of Greenwich Time. In order to determine longitude, sailors had to measure the angle between Moon centre and a given star - lunar distance - together with height of both planets using the naval sextant. The sailors also had to calculate the Moon’s position if seen form the centre of Earth. Time corresponding to Greenwich Time was determined using the nautical almanac. Then the difference between the obtained time and local time served for calculation in longitude from Greenwich. The great flaw in this ‘simple’ theory was - how does the sailor know time back home when he is in the middle of an ocean?\n\nD. The obvious and again simple answer is that he takes an accurate clock with him, which he sets to home time before leaving. All he has to do is keep it wound up and running, and he must never reset the hands throughout the voyage This clock then provides ‘home time’, so if, for example, it is midday on board your ship and your ‘home time’ clock says that at that same moment it is midnight at home, you know immediately there is a twelve hour time-difference and you must be exactly round the other side of the world, 180 degrees of longitude from home.\n\nE. After 1714 when the British government offered the huge sum of £20,000 for a solution to the problem, with the prize to be administered by die splendidly titled Board of Longitude. The Government prize of £20,000 was the highest of three sums on offer for varying degrees of accuracy, the full prize only payable for a method that could find the longitude at sea within half a degree. If the solution was to be by timekeeper (and there were other methods since the prize was offered for any solution to the problem), then the timekeeping required to achieve this goal would have to be within 2.8 seconds a day, a performance considered impossible for any clock at sea and unthinkable for a watch, even under the very best conditions.\n\nF. It was this prize, worth about £2 million today, which inspired the self-taught Yorkshfre carpenter, John Harrison, to attempt a design for a practical marine clock. During the latter part of his early career, he worked with his younger brother James. Their first major project was a revolutionary turret clock for the stables at Brocklesby Park, seat of the Pelham family. The clock was revolutionary because it required no lubrication. 18th century clock oils were uniformly poor and one of the major causes of failure in clocks of the period. Rather than concentrating on improvements to the oil, Harrison designed a clock which didn't need it. In 1730 Harrison created a description and drawings for a proposed marine clock to compete for the Longitude Prize and went to London seeking financial assistance. He presented his ideas to Edmond Halley, the Astronomer Royal. Halley referred him to George Graham, the country's foremost clockmaker. He must have been impressed by Harrison, for Graham personally loaned Harrison money to build a model of his marine clock. It took Harrison five years to build Harrison Number One or HI. He demonstrated it to members of the Royal Society who spoke on his behalf to the Board of Longitude. The clock was the first proposal that the Board considered to be worthy of a sea trial. In 1736,\n\nG. After several attempts to design a betterment of HI, Harrison believed that the solution to the longitude problem lay in an entirely different design. H4 is completely different from the other three timekeepers. It looks like a very large pocket watch. Harrison's son William set sail for the West Indies, with H4, aboard the ship Deptford on 18 November 1761. It was a remarkable achievement but it would be some time before the Board of Longitude was sufficiently satisfied to award Harrison the prize.\n\nH. John Hadley, an English mathematician, developed sextant, who was a competitor of Harrison at that time for the luring prize. A sextant is an instrument used for measuring angles, for example between the sun and the horizon, so that the position of a ship or aeroplane can be calculated. Making this measurement is known as sighting the object, shooting the object, or taking a sight and it is an essential part of celestial navigation. The angle, and the time when it was measured, can be used to calculate a position line on a nautical or aeronautical chart. A sextant can also be used to measure the Lunar distance between the moon and another celestial object (e.g., star, planet) in order to determine Greenwich time which is important because it can then be used to determine the longitude.\n\nI. The majority within this next generation of chronometer pioneers were English, but the story is by no means wholly that of English achievement. One French name, Pierre Le Roy of Paris, stands out as a major presence in the early history of the chronometer. Another great name in the story is that of the Lancastrian, Thomas Eamshaw, a slightly younger contemporary of John Arnold's. It was Eamshaw who created the final form of chronometer escapement, the spring detent escapement, and finalized the format and the production system for the marine chronometer, making it truly an article of commerce, and a practical means of safer navigation at sea over the next century and half."
+          },
+          {
+            "id": 8,
+            "title": "Father of modern management",
+            "passage": "A. It’s been said that Peter Drucker invented the discipline of management. Before he wrote his first book on the topic, he knew of only two companies in the world with management development programs. Ten years after the book’s publication, 3,000 companies were teaching the subject. Widely considered as the father of modern management, he wrote 39 books and countless scholarly and popular articles exploring how humans are organized in all sectors of society—business, government and the nonprofit world. His writings have predicted many of the major developments of the late twentieth century, including privatization and decentralization; the rise of Japan to a world economic power; the decisive importance of marketing; and the emergence of the information society with its necessity of lifelong learning.\n\nB. Drucker has said that writing is the foundation of everything he does. In 1937, he published his first book, which was written in Europe. The End of Economic Man: A Study of the New Totalitarianism examined the spiritual and social origins of fascism. In 1940, before the United States entered World War II, he wrote The Future of Industrial Man, in which he presented his social vision for the postwar world. In 1943, General Motors asked Drucker to study its management practices. Drucker accepted and spent 18 months researching and writing the 1945 book, Concept of the Corporation.\n\nC. The concepts Drucker introduced in the 1940s and 1950s have endured. In 1954, Drucker wrote his first book that taught people how to manage. Titled The Practice of Management, it introduced the concept of management by objectives. Management by objectives requires managers to establish goals for their subordinates and devise means of measuring results. Workers are then left alone to perform as they will and measure their performance. Drucker wrote, 'It is not possible to be effective unless one first decides what one wants to accomplish.' He went on to explain that every worker must be given the tools to appraise himself, rather than be appraised and controlled from the outside. Management by objectives has become an accepted business concept and is probably Drucker's most important contribution. Drucker issued challenges to junior, middle and senior management, emphasizing that top management must set directions for the enterprise and manage fundamentals.\n\nD. Drucker interviewed executives and workers, visited plants, and attended board meetings. While the book focused on General Motors, Drucker went on to discuss the industrial corporation as a social institution and economic policy in the postwar era. He introduced previously unknown concepts such as cooperation between labor and management, decentralization of management, and viewing workers as resources rather than costs. Drucker saw people as a resource, and considered that they would be more able to satisfy customers if they had more involvement in their jobs and gained some satisfaction from doing them. Drucker claimed that an industrial society allows people to realize their dreams of personal achievement and equal opportunity—the need to manage business by balancing a variety of needs and goals, rather than subordinating an institution to a single value. This concept of management by objectives forms the keynote of his 1954 landmark The Practice of Management. He referred to decentralization as 'a system of local self-government, in which central management tells division managers what to do, but not how to do it.' The young executives are given the freedom to make decisions—and mistakes—and learn from the experience. Top leaders at General Motors disliked the book and discouraged their executives from reading it. Many other American executives criticized Concept for its challenge to management authority.\n\nE. Drucker wasn't immune to criticism. The Wall Street Journal researched several of his lectures in 1987 and reported that he was sometimes loose with facts. Drucker was off the mark, for example, when he told an audience that English was the official language for all employees at Japan's Mitsui trading company. And he was known for his prescience. Given the recent involvement of the US government with financial companies, he was probably correct in his forecast when he anticipated, for instance, that the nation’s financial center would shift from New York to Washington. Others maintain that one of Drucker's core concepts—management by objectives—is flawed and has never really been proven to work effectively. Specifically, critics say that the system is difficult to implement, and that companies often wind up overemphasizing control, as opposed to fostering creativity, to meet their goals. Drucker didn't shy away from controversy, either.\n\nF. Throughout his career, Drucker expanded his position that management was a liberal art and he infused his management advice with interdisciplinary lessons including history, sociology, psychology, philosophy, culture and religion. He also strongly believed that all institutions, including those in the private sector, had a responsibility for the whole society. 'The fact is,' Drucker wrote in 1973, 'that in modern society there is no other leadership group but managers. If the managers of our major institutions, especially in business, do not take responsibility for the common good, no one else can or will.' In his books, lectures and interviews, the emergence of knowledge workers is only one of the demographic changes Drucker warns businesses to prepare for. Others include a decreasing birth rate in developed countries, a shift in population from rural to urban centers, shifts in distribution of disposable income and global competitiveness. Drucker believes these changes will have a tremendous impact on business. Drucker held a profound skepticism of macroeconomic theory and contended that economists of all schools fail to explain significant aspects of modern economies. Business 'gurus' have come and gone during the last 50 years, but Drucker's message continues to inspire managers. During the 1990s, Drucker wrote about social, political and economic changes of the postcapitalist era, which he says are as profound as those of the industrial revolution. In Managing for the Future: The 1990s and Beyond (1992), Drucker discussed the emergence of the knowledge worker—whose resources include specialized learning or competency rather than land, labor or other forms of capital."
+          },
+          {
+            "id": 9,
+            "title": "Extinct: the Giant Deer",
+            "passage": "A. The Irish elk is also known as the giant deer (Megaloceros giganteus). Analysis of ancient bones and teeth by scientists based in Britain and Russia show the huge herbivore survived until about 5,000 B.C.—more than three millennia later than previously believed. The research team says this suggests additional factors, besides climate change, probably hastened the giant deer's eventual extinction. The factors could include hunting or habitat destruction by humans.\n\nB. The Irish elk, so-called because its well-preserved remains are often found in lake sediments under peat bogs in Ireland, first appeared about 400,000 years ago in Europe and central Asia. Through a combination of radiocarbon dating of skeletal remains and the mapping of locations where the remains were unearthed, the team shows the Irish elk was widespread across Europe before the last \"big freeze.\" The deer's range later contracted to the Ural Mountains, in modern-day Russia, which separate Europe from Asia.\n\nC. The giant deer made its last stand in western Siberia, some 3,000 years after the ice sheets receded, said the study's co-author, Adrian Lister, professor of palaeobiology at University College London, England. \"The eastern foothills of the Urals became very densely forested about 8,000 years ago, which could have pushed them on to the plain,\" he said. He added that pollen analysis indicates the region then became very dry in response to further climactic change, leading to the loss of important food plants. \"In combination with human pressures, this could have finally snuffed them out,\" Lister said.\n\nD. Hunting by humans has often been put forward as a contributory cause of extinctions of the Pleistocene mega fauna. The team, though, said their new date for the Irish elk's extinction hints at an additional human-made problem—habitat destruction. Lister said, \"We haven't got just hunting 7,000 years ago—this was also about the time the first Neolithic people settled in the region. They were farmers who would have cleared the land.\" The presence of humans may help explain why the Irish elk was unable to tough out the latest of many climatic fluctuations—periods it had survived in the past.\n\nE. Meanwhile, Lister cast doubt on another possible explanation for the deer's demise—the male's huge antlers. Some scientists have suggested this exaggerated feature—the result of females preferring stags with the largest antlers, possibly because they advertised a male's fitness—contributed to the mammal's downfall. They say such antlers would have been a serious inconvenience in the dense forests that spread northward after the last ice age. But, Lister said, \"That's a hard argument to make, because the deer previously survived perfectly well through wooded interglacials [warmer periods between ice ages].\" Some research has suggested that a lack of sufficient high-quality forage caused the extinction of the elk. High amounts of calcium and phosphate compounds are required to form antlers, and therefore large quantities of these minerals are required for the massive structures of the Irish Elk. The males (and male deer in general) met this requirement partly from their bones, replenishing them from food plants after the antlers were grown or reclaiming the nutrients from discarded antlers (as has been observed in extant deer). Thus, in the antler growth phase, Giant Deer were suffering from a condition similar to osteoporosis. When the climate changed at the end of the last glacial period, the vegetation in the animal's habitat also changed towards species that presumably could not deliver sufficient amounts of the required minerals, at least in the western part of its range.\n\nF. The extinction of megafauna around the world was almost completed by the end of the last ice age. It is believed that megafauna initially came into existence in response to glacial conditions and became extinct with the onset of warmer climates. Tropical and subtropical areas have experienced less radical climatic change. The most dramatic of these changes was the transformation of a vast area of north Africa into the world's largest desert. Significantly, Africa escaped major faunal extinction as did tropical and sub-tropical Asia. The human exodus from Africa and our entrance into the Americas and Australia were also accompanied by climate change. Australia's climate changed from cold-dry to warm-dry. As a result, surface water became scarce. Most inland lakes became completely dry or dry in the warmer seasons. Most large, predominantly browsing animals lost their habitat and retreated to a narrow band in eastern Australia, where there was permanent water and better vegetation. Some animals may have survived until about 7000 years ago. If people have been in Australia for up to 60,000 years, then megafauna must have co-existed with humans for at least 30,000 years. Regularly hunted modern kangaroos survived not only 10,000 years of Aboriginal hunting, but also an onslaught of commercial shooters.\n\nG. The group of scientists led by A.J. Stuart focused on northern Eurasia, which he was taking as Europe, plus Siberia, essentially, where they've got the best data that animals became extinct in Europe during the Late Pleistocene. Some cold-adapted animals, go through into the last part of the cold stage, and then become extinct up there. So you've actually got two phases of extinction. Now, neither of these coincide—these are Neanderthals here being replaced by modern humans. There's no obvious coincidence between the arrival of humans or climatic change alone and these extinctions. There's a climatic change here, so there's a double effect here. Again, as animals come through to the last part of the cold stage, here there's a fundamental change in the climate, reorganization of vegetation, and the combination of the climatic change and the presence of humans—of advanced Paleolithic humans—causes this wave of extinction. There's a profound difference between the North American data and that of Europe, which summarize that the extinctions in northern Eurasia, in Europe, are moderate and staggered, and in North America severe and sudden. And these things relate to the differences in the timing of human arrival. The extinctions follow from human predation, but only at times of fundamental changes in the environment."
+          },
+          {
+            "id": 10,
+            "title": "New Agriculture in Oregon, US",
+            "passage": "A. Onion growers in eastern Oregon are adopting a system that saves water and keeps topsoil in place, while producing the highest quality \"super colossal\" onions. Pear growers in southern Oregon have reduced their use of some of the most toxic pesticides by up to two-thirds, and are still producing top-quality pears. Range managers throughout the state have controlled the poisonous weed tansy ragwort with insect predators and saved the Oregon livestock industry up to $4.8 million a year.\n\nB. These are some of the results Oregon growers have achieved in collaboration with Oregon State University (OSU) researchers as they test new farming methods including integrated pest management (IPM). Nationwide, however, IPM has not delivered results comparable to those in Oregon. A recent U.S. General Accounting Office (GAO) report indicates that while integrated pest management can result in dramatically reduced pesticide use, the federal government has been lacking in effectively promoting that goal and implementing IPM. Farmers also blame the government for not making the new options of pest management attractive. \"Wholesale changes in the way that farmers control the pests on their farms is an expensive business.\" Tony Brown, of the National Farmers Association says. \"If the farmers are given tax breaks to offset the expenditure, then they would willingly accept the new practices.\" The report goes on to note that even though the use of the riskiest pesticides has declined nationwide, they still make up more than 40 percent of all pesticides used today; and national pesticide use has risen by 40 million kilograms since 1992. \"Our food supply remains the safest and highest quality on Earth but we continue to overdose our farmland with powerful and toxic pesticides and to under-use the safe and effective alternatives,\" charged Patrick Leahy, who commissioned the report. Green action groups disagree about the safety issue. \"There is no way that habitual consumption of foodstuffs grown using toxic chemicals of the nature found on today's farms can be healthy for consumers,\" noted Bill Bowler, spokesman for Green Action, one of many lobbyists interested in this issue.\n\nC. The GAO report singles out Oregon's apple and pear producers who have used the new IPM techniques with growing success. Although Oregon is clearly ahead of the nation, scientists at OSU are taking the Government Accounting Office criticisms seriously. \"We must continue to develop effective alternative practices that will reduce environmental hazards and produce high quality products,\" said Paul Jepson, a professor of entomology at OSU and new director of\n\nD. OSU's Integrated Plant Protection Centre (IPPC). The IPPC brings together scientists from OSU's Agricultural Experiment Station, OSU Extension service, the U.S. Department of Agriculture and Oregon farmers to help develop agricultural systems that will save water and soil, and reduce pesticides. In response to the GAO report, the Centre is putting even more emphasis on integrating research and farming practices to improve Oregon agriculture environmentally and economically.\n\nE. \"The GAO report criticizes agencies for not clearly communicating the goals of IPM,\" said Jepson. \"Our challenge is to greatly improve the communication to and from growers, to learn what works and what doesn't. The work coming from OSU researchers must be adopted in the field and not simply languish in scientific journals.\"\n\nF. In Oregon, growers and scientists are working together to instigate new practices. For example, a few years ago scientists at OSU's Malheur Experiment Station began testing a new drip irrigation system to replace old ditches that wasted water and washed soil and fertilizer into streams. The new system cut water and fertilizer use by half, kept topsoil in place and protected water quality.\n\nG. In addition, the new system produced crops of very large onions, rated \"super colossal\" and highly valued by the restaurant industry and food processors. Art Pimms, one of the researchers at Malheur comments: \"Growers are finding that when they adopt more environmentally benign practices, they can have excellent results. The new practices benefit the environment and give the growers their success.\"\n\nH. OSU researchers in Malheur next tested straw mulch and found that it successfully held soil in place and kept the ground moist with less irrigation. In addition, and unexpectedly, the scientists found that the mulched soil created a home for beneficial beetles and spiders that prey on onion thrips - a notorious pest in commercial onion fields - a discovery that could reduce the need for pesticides. \"I would never have believed that we could replace the artificial pest controls that we had before and still keep our good results,\" commented Steve Black, a commercial onion farmer in Oregon, \"but instead we have actually surpassed expectations.\"\n\nI. OSU researchers throughout the state have been working to reduce dependence on broad spectrum chemical sprays that are toxic to many kind of organisms, including humans. \"Consumers are rightly putting more and more pressure on the industry to change its reliance on chemical pesticides, but they still want a picture-perfect product,\" said Rick Hilton, entomologist at OSU's Southern Oregon Research and Extension Centre, where researchers help pear growers reduce the need for highly toxic pesticides. Picture perfect pears are an important product in Oregon and traditionally they have required lots of chemicals. In recent years, the industry has faced stiff competition from overseas producers, so any new methods that growers adopt must make sense economically as well as environmentally. Hilton is testing a growth regulator that interferes with the molting of codling moth larvae. Another study used pheromone dispensers to disrupt codling moth mating. These and other methods of integrated pest management have allowed pear growers to reduce their use of organophosphates by two-thirds and reduce all other synthetic pesticides by even more and still produce top-quality pears. These and other studies around the state are part of the effort of the IPPC to find alternative farming practices that benefit both the economy and the environment."
+          }
+      ],
+      "question_examples": [
+        {
+          "id": "EX_MC_1",
+          "qtype_id": "Multiple_Choice",
+          "question_text": "What was the main cause of rapid urbanisation in the 19th century?",
+          "options": ["Agricultural reforms","Industrial jobs","Improved medicine","Colonial trade"],
+          "answer": "B",
+          "rationale": "Urbanisation was driven mainly by demand for industrial labour."
+        },
+        {
+          "id": "EX_INFO_1",
+          "qtype_id": "Identifying_Information",
+          "question_text": "True / False / Not Given: The text states that coal mining completely stopped by 1900.",
+          "options": ["True","False","Not Given"],
+          "answer": "False",
+          "rationale": "Coal mining continued after 1900, contradicting the statement."
+        },
+        {
+          "id": "EX_VIEW_1",
+          "qtype_id": "Identifying_Writer_Views",
+          "question_text": "Yes / No / Not Given: The writer believes urban life was easy for factory workers.",
+          "options": ["Yes","No","Not Given"],
+          "answer": "No",
+          "rationale": "The passage describes factory life as difficult, contradicting the claim."
+        },
+        {
+          "id": "EX_MI_1",
+          "qtype_id": "Matching_Information",
+          "question_text": "In which paragraph does the author mention environmental effects of industrialisation?",
+          "options": ["A","B","C","D"],
+          "answer": "C",
+          "rationale": "Details about environmental effects appear in Paragraph C."
+        },
+        {
+          "id": "EX_MH_1",
+          "qtype_id": "Matching_Headings",
+          "question_text": "Choose the best heading for Paragraph B.",
+          "options": ["i. Agricultural Expansion","ii. Urban Growth","iii. Decline of Trade","iv. Political Reform"],
+          "answer": "ii",
+          "rationale": "Paragraph B focuses on urban growth."
+        },
+        {
+          "id": "EX_MF_1",
+          "qtype_id": "Matching_Features",
+          "question_text": "Match the invention to the inventor.",
+          "options": ["A. James Watt","B. Alexander Graham Bell","C. Thomas Edison","D. Karl Benz"],
+          "answer": "A → Steam Engine",
+          "rationale": "James Watt is associated with the steam engine."
+        },
+        {
+          "id": "EX_MSE_1",
+          "qtype_id": "Matching_Sentence_Endings",
+          "question_text": "Factories in the 19th century were...",
+          "options": ["A. well-ventilated","B. overcrowded and unsafe","C. absent in urban areas","D. primarily located in rural villages"],
+          "answer": "B",
+          "rationale": "Passage describes them as overcrowded and unsafe."
+        },
+        {
+          "id": "EX_SC_1",
+          "qtype_id": "Sentence_Completion",
+          "question_text": "Complete the sentence: The main source of energy in the 19th century was ______.",
+          "options": [],
+          "answer": "coal",
+          "rationale": "Coal was the dominant energy source."
+        },
+        {
+          "id": "EX_SUM_1",
+          "qtype_id": "Summary_Note_Table_FlowChart_Completion",
+          "question_text": "Complete the summary using NO MORE THAN TWO WORDS: The steam engine improved ______.",
+          "options": [],
+          "answer": "production efficiency",
+          "rationale": "Passage notes steam engine made production more efficient."
+        },
+        {
+          "id": "EX_SAQ_1",
+          "qtype_id": "Short_Answer_Questions",
+          "question_text": "Answer in NO MORE THAN THREE WORDS: What was the primary material used in building railways?",
+          "options": [],
+          "answer": "iron and steel",
+          "rationale": "Passage explicitly states iron and steel were used."
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "_comment": "Skills ↔ Penmanship"
+    },
+    {
+      "from": "Scanning",
+      "to": "Information_Burying",
+      "relation": "MADE_MORE_DIFFICULT_BY"
+    },
+    {
+      "from": "Scanning",
+      "to": "Split_Information",
+      "relation": "MADE_MORE_DIFFICULT_BY"
+    },
+    {
+      "from": "Skimming",
+      "to": "Paragraph_Structure",
+      "relation": "SUPPORTED_BY"
+    },
+    {
+      "from": "Skimming",
+      "to": "Logical_Progression",
+      "relation": "SUPPORTED_BY"
+    },
+    {
+      "from": "Inference",
+      "to": "Conclusion_Obfuscation",
+      "relation": "REQUIRES"
+    },
+    {
+      "from": "Inference",
+      "to": "Hedging",
+      "relation": "REQUIRES"
+    },
+    {
+      "from": "Information_Retrieval",
+      "to": "Synonym_Paraphrasing",
+      "relation": "MADE_MORE_DIFFICULT_BY"
+    },
+    {
+      "from": "Main_Idea_Analysis",
+      "to": "Logical_Progression",
+      "relation": "SUPPORTED_BY"
+    },
+    {
+      "_comment": "Skills ↔ Question Type Rules"
+    },
+    {
+      "from": "Information_Retrieval",
+      "to": "Word_Limit",
+      "relation": "CONSTRAINED_BY"
+    },
+    {
+      "from": "Scanning",
+      "to": "Order_In_Text",
+      "relation": "FACILITATED_BY"
+    },
+    {
+      "from": "Information_Retrieval",
+      "to": "Paragraph_Identification",
+      "relation": "SUPPORTED_BY"
+    },
+    {
+      "from": "Scanning",
+      "to": "Paragraph_Identification",
+      "relation": "SUPPORTED_BY"
+    },
+    {
+      "from": "Main_Idea_Analysis",
+      "to": "Extra_Options_Present",
+      "relation": "CHALLENGED_BY"
+    },
+    {
+      "from": "Skimming",
+      "to": "Partial_Text_Source",
+      "relation": "GUIDED_BY"
+    },
+    {
+      "_comment": "Skills ↔ Distractors"
+    },
+    {
+      "from": "Information_Retrieval",
+      "to": "Close_Details",
+      "relation": "VULNERABLE_TO"
+    },
+    {
+      "from": "Information_Retrieval",
+      "to": "Echo_Words",
+      "relation": "VULNERABLE_TO"
+    },
+    {
+      "from": "Main_Idea_Analysis",
+      "to": "Generalization",
+      "relation": "CHALLENGED_BY"
+    },
+    {
+      "from": "Inference",
+      "to": "Extreme_Wording",
+      "relation": "TRICKED_BY"
+    },
+    {
+      "from": "Inference",
+      "to": "Partially_Correct",
+      "relation": "TRICKED_BY"
+    },
+    {
+      "from": "Relationship_Recognition",
+      "to": "Cause_Effect_Confusion",
+      "relation": "CHALLENGED_BY"
+    },
+    {
+      "_comment": "Penmanship ↔ Distractors"
+    },
+    {
+      "from": "Paraphrasing_Trick",
+      "to": "Echo_Words",
+      "relation": "CONTRASTS_WITH"
+    },
+    {
+      "from": "Hedging",
+      "to": "Extreme_Wording",
+      "relation": "EXPLOITED_BY"
+    },
+    {
+      "from": "Information_Burying",
+      "to": "Generalization",
+      "relation": "ENABLED_BY"
+    },
+    {
+      "_comment": "Writing Style ↔ Skills"
+    },
+    {
+      "from": "Argumentative",
+      "to": "Inference",
+      "relation": "REQUIRES"
+    },
+    {
+      "from": "Argumentative",
+      "to": "Opinion_Recognition",
+      "relation": "REQUIRES"
+    },
+    {
+      "from": "Argumentative",
+      "to": "Main_Idea_Analysis",
+      "relation": "REQUIRES"
+    },
+    {
+      "from": "Argumentative",
+      "to": "Complex_Connectors",
+      "relation": "SUPPORTED_BY"
+    },
+    {
+      "from": "Argumentative",
+      "to": "Generalization",
+      "relation": "OFTEN_PAIRED_WITH"
+    },
+    {
+      "from": "Historical",
+      "to": "Information_Retrieval",
+      "relation": "REQUIRES"
+    },
+    {
+      "from": "Historical",
+      "to": "Chronological_Order",
+      "relation": "SUPPORTED_BY"
+    },
+    {
+      "from": "Historical",
+      "to": "Main_Idea_Analysis",
+      "relation": "REQUIRES"
+    },
+    {
+      "from": "Historical",
+      "to": "Information_Burying",
+      "relation": "OFTEN_PAIRED_WITH"
+    },
+    {
+      "from": "Analytical",
+      "to": "Relationship_Recognition",
+      "relation": "REQUIRES"
+    },
+    {
+      "from": "Analytical",
+      "to": "Inference",
+      "relation": "REQUIRES"
+    },
+    {
+      "from": "Analytical",
+      "to": "Main_Idea_Analysis",
+      "relation": "REQUIRES"
+    },
+    {
+      "from": "Analytical",
+      "to": "Logical_Progression",
+      "relation": "SUPPORTED_BY"
+    },
+    {
+      "from": "Analytical",
+      "to": "Nominalization",
+      "relation": "OFTEN_PRESENT_IN"
+    },
+    {
+      "from": "Descriptive",
+      "to": "Detail_Recognition",
+      "relation": "REQUIRES"
+    },
+    {
+      "from": "Descriptive",
+      "to": "Vocabulary_Tone",
+      "relation": "SUPPORTED_BY"
+    },
+    {
+      "from": "Descriptive",
+      "to": "Paraphrasing_Trick",
+      "relation": "CHALLENGED_BY"
+    },
+    {
+      "from": "Hybrid",
+      "to": "Inference",
+      "relation": "REQUIRES"
+    },
+    {
+      "from": "Hybrid",
+      "to": "Main_Idea_Analysis",
+      "relation": "REQUIRES"
+    },
+    {
+      "from": "Hybrid",
+      "to": "Relationship_Recognition",
+      "relation": "REQUIRES"
+    },
+    {
+      "from": "Hybrid",
+      "to": "Logical_Progression",
+      "relation": "SUPPORTED_BY"
+    },
+    {
+      "from": "Hybrid",
+      "to": "Generalization",
+      "relation": "OFTEN_PAIRED_WITH"
+    },
+    {
+      "from": "Skimming",
+      "to": "Hybrid",
+      "relation": "REQUIRES"
+    },
+    {
+      "_comment": "Format ↔ Skills"
+    },
+    {
+      "from": "Sentence_Length",
+      "to": "Inference",
+      "relation": "MADE_MORE_DIFFICULT_BY"
+    },
+    {
+      "from": "Sentence_Length",
+      "to": "Information_Retrieval",
+      "relation": "MADE_MORE_DIFFICULT_BY"
+    },
+    {
+      "from": "Paragraph_Structure",
+      "to": "Main_Idea_Analysis",
+      "relation": "SUPPORTED_BY"
+    },
+    {
+      "from": "Total_Text_Length",
+      "to": "Skimming",
+      "relation": "REQUIRES"
+    },
+    {
+      "_comment": "Penmanship ↔ Skills"
+    },
+    {
+      "from": "Logical_Progression",
+      "to": "Relationship_Recognition",
+      "relation": "SUPPORTED_BY"
+    },
+    {
+      "from": "Conclusion_Obfuscation",
+      "to": "Main_Idea_Analysis",
+      "relation": "CHALLENGES"
+    },
+    {
+      "_comment": "Distractors ↔ Skills"
+    },
+    {
+      "from": "Partially_Correct",
+      "to": "Information_Retrieval",
+      "relation": "CHALLENGES"
+    },
+    {
+      "from": "Generalization",
+      "to": "Opinion_Recognition",
+      "relation": "CHALLENGES"
+    },
+    {
+      "from": "Cause_Effect_Confusion",
+      "to": "Inference",
+      "relation": "CHALLENGES"
+    },
+    {
+      "_comment": "Writing Style ↔ Distractors"
+    },
+    {
+      "from": "Argumentative",
+      "to": "Extreme_Wording",
+      "relation": "OFTEN_PAIRED_WITH"
+    },
+    {
+      "from": "Analytical",
+      "to": "Cause_Effect_Confusion",
+      "relation": "OFTEN_PAIRED_WITH"
+    },
+    {
+      "from": "Historical",
+      "to": "Close_Details",
+      "relation": "OFTEN_PAIRED_WITH"
+    },
+    {
+      "_comment": "Format ↔ Penmanship"
+    },
+    {
+      "from": "Sentence_Length",
+      "to": "Information_Burying",
+      "relation": "AMPLIFIES"
+    },
+    {
+      "from": "Paragraph_Structure",
+      "to": "Logical_Progression",
+      "relation": "REINFORCES"
+    },
+    {
+      "from": "Total_Text_Length",
+      "to": "Information_Burying",
+      "relation": "AMPLIFIES"
+    },
+    {
+      "_comment": "Enriching links"
+    },
+    {
+      "from": "Paraphrasing",
+      "to": "Paraphrased_Answer",
+      "relation": "REFLECTED_IN"
+    },
+    {
+      "from": "Paraphrasing_Trick",
+      "to": "Paraphrased_Answer",
+      "relation": "CAUSES"
+    },
+    {
+      "from": "Echo_Words",
+      "to": "Answer_Format",
+      "relation": "EXPLOITS"
+    },
+    {
+      "from": "Generalization",
+      "to": "Inference",
+      "relation": "TRICKED_BY"
+    },
+    {
+      "from": "Relationship_Recognition",
+      "to": "Analytical",
+      "relation": "FACILITATED_BY"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+Text title: Artificial Intelligence in Education
+
+Text: Quiz title: Artificial Intelligence in Education
+
+Quiz description: An academic passage examining the emergence, evidence, risks, and future directions of artificial intelligence in classrooms and universities, including one case study and quantitative data.
+
+Text title: Reading Passage
+
+Text: A. Artificial intelligence has moved from a speculative idea to a routine presence in classrooms. It now scores essays, recommends practice tasks, and responds to student questions with conversational fluency. Proponents argue that such systems can personalise instruction, thereby reducing disengagement and closing attainment gaps. Critics, by contrast, caution that automation may narrow curricula and embed hidden biases. The reality lies between these poles. AI is not a single tool but a collection of methods, from pattern recognition to natural language processing. Consequently, its educational effects depend on design choices, classroom implementation, and the surrounding policy environment, rather than on technology alone.
+
+Text: B. Historically, the field developed in waves. Early “intelligent tutoring systems” appeared in the 1970s and 1980s, offering step-by-step hints in mathematics and programming. Their rule-based logic was robust but inflexible. A later phase, after 2012, coincided with large datasets, cloud computing, and advances in machine learning. Adaptive platforms began to model a learner’s mastery and to re-sequence content dynamically. Automated short-answer grading became feasible, as did feedback on argument structure. Despite these technical shifts, the central ambition barely changed: to provide timely guidance that approximates a skilled tutor. What altered was the practicality and scale, which allowed experimentation in ordinary classrooms.
+
+Text: C. Evidence regarding impact is promising yet heterogeneous. Meta-analyses have reported average learning gains between 0.1 and 0.3 standard deviations, modest by medical standards but educationally meaningful. Effects vary by subject, with mathematics often showing clearer benefits than open-ended writing. Results also differ across age groups and implementation fidelity. In trials where teachers integrated analytics into weekly planning, improvements tended to persist; where systems were used as add-ons, benefits faded. Notwithstanding positive averages, many studies have small samples and short durations. Therefore, claims of transformation remain premature, even if incremental gains can accumulate across a school year.
+
+Text: D. One frequently cited case concerns university enrolment support. In 2016, a large public institution in the United States deployed a text-based chatbot to address “summer melt,” the tendency for admitted students to fail to matriculate. The system answered questions about fees, forms, and deadlines around the clock. Over several months, non-enrolment fell by roughly one fifth, equivalent to a reduction of three to four percentage points. Subsequent semesters showed similar patterns, though smaller. Analysts attributed the effect less to persuasion than to timely reminders and rapid clarification. The intervention illustrates how relatively simple automation can remove procedural friction with measurable consequences.
+
+Text: E. Equity considerations, however, complicate implementation. Predictive models are only as representative as their training data. If historical records undercount certain groups, recommendations may reproduce disadvantage. Speech recognition can misinterpret regional accents; automated marking may reward formulaic writing over original argumentation. Consequently, fairness constraints, bias audits, and inclusive datasets are not optional embellishments but necessary safeguards. Transparency also matters. When learners understand why content is recommended, they can challenge erroneous inferences and regain agency. Without such accountability, personalised pathways risk becoming opaque tracks, where students are guided efficiently yet stereotypically, and where exceptions are discovered too late.
+
+Text: F. Data governance has become a strategic concern. Student clickstreams, assignments, and voice records form sensitive profiles. European regulations adopted in 2018 require explicit purposes and data minimisation, and many jurisdictions now demand parental consent for minors. In 2023, international guidance urged that AI in education prioritise human oversight and child protection. Technical measures can support these principles: encryption, local processing for voice data, and clear data-retention schedules. Institutions also need procurement clauses that define ownership and prohibit secondary use. Without such controls, a district generating tens of millions of learning events each month could inadvertently enable intrusive surveillance.
+
+Text: G. A recurring question is whether AI threatens or strengthens the teaching profession. The evidence suggests augmentation rather than substitution. Automated feedback can handle routine errors, freeing teachers to address misconceptions and motivation. Lesson planning tools summarise common difficulties, yet professional judgement remains decisive in interpreting context. However, new competencies are required: interpreting dashboards, diagnosing algorithmic errors, and orchestrating human–machine collaboration. Professional development should therefore be continuous and practice-based. When teachers co-design with developers, classroom realities shape features; when they are excluded, tools may be efficient in theory but brittle against everyday variation.
+
+Text: H. Looking forward, three directions appear salient. First, explainable systems may increase trust by showing how recommendations arise, even if underlying models stay complex. Second, low-resource settings call for robust, offline-capable tools that function without constant connectivity. Third, rigorous evaluation must become routine, with trials that track outcomes across semesters, not weeks, and that include cost-effectiveness. The goal is not acceleration for its own sake but dependable improvement. Although enthusiasm for automation is cyclical, prudent integration—anchored in pedagogy, privacy, and equity—can deliver cumulative benefits. Education will remain a human enterprise; AI will matter most when it serves that fact.
+
+Text: Questions
+
+1. According to the passage, what chiefly determines how AI affects learning outcomes?
+... The passage states impacts depend on design choices, classroom implementation, and policy, not technology alone. The other options overgeneralize or contradict this view.
+a) A. How systems are designed and used in classrooms within relevant policy constraints
+b) B. The sophistication of the underlying technology alone, independent of context
+c) C. Removing teachers from routine instruction to avoid human error
+d) D. Worldwide adoption of uniform standards that make tools function identically everywhere
+
+2. In the 2016 university “summer melt” case, what most plausibly explains the observed drop in non-enrolment?
+... Analysts attributed the effect to timely reminders and rapid clarification. The other options introduce causes not mentioned or contradicted by the passage.
+a) A. Around-the-clock reminders and instant clarification that reduced procedural friction
+b) B. Persuasive messaging that changed students’ minds about attending
+c) C. A simultaneous overhaul of fee structures and financial-aid policies
+d) D. A novelty effect that spiked results once and then disappeared in later terms
+
+3. What stance does the passage take on AI’s relationship to the teaching profession?
+... The passage argues for augmentation, with teachers’ professional judgment remaining central and new competencies needed. The distractors make extreme or opposite claims.
+a) A. AI mainly augments teachers by handling routine feedback while judgment stays with professionals
+b) B. AI will soon replace most teachers because automated marking and planning suffice
+c) C. AI removes the need for professional development since dashboards interpret themselves
+d) D. AI requires developers to work independently from classrooms to avoid bias

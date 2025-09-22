@@ -1,0 +1,463 @@
+{
+  "nodes": [
+    {
+      "id": "IELTS_Academic_Reading",
+      "type": "Test",
+      "format_rules": [
+        {
+          "id": "Passage_Count",
+          "description": "The test has 3 passages. Difficulty increases from easier, factual texts in Passage 1 to complex, argumentative or abstract texts in Passage 3."
+        },
+        {
+          "id": "Question_Count",
+          "description": "There are 40 questions in total, usually distributed as 13–14 per passage."
+        },
+        {
+          "id": "Time_Limit",
+          "description": "60 minutes total for 3 passages. No additional time for transferring answers."
+        },
+        {
+          "id": "Text_Length",
+          "description": "Each passage is 700–1000 words."
+        },
+        {
+          "id": "Total_Text_Length",
+          "description": "The combined length of all three passages is 2150–2750 words."
+        },
+        {
+          "id": "Source_Types",
+          "description": "Texts are authentic, adapted from journals, magazines, books, or newspapers, written for a non-specialist but educated audience."
+        },
+        {
+            "id": "Sentence_Length",
+            "description": "Typical sentences contain 20–30 words and include multiple clauses."
+        },
+        {
+            "id": "Paragraph_Structure",
+            "description": "Each passage has 4–7 paragraphs; each paragraph develops one central idea."
+        },
+        {
+          "id": "Scoring",
+          "description": "1 mark per correct answer. Raw score out of 40 is converted to band scores (e.g., 30/40 ≈ Band 7)."
+        }
+      ],
+      "writing_styles": [
+        {
+          "id": "Descriptive",
+          "description": "Explains processes, natural phenomena, or objects. Uses technical terms, factual detail, and neutral tone."
+        },
+        {
+          "id": "Analytical",
+          "description": "Examines causes, effects, or comparisons. Often includes evidence, data, or academic studies."
+        },
+        {
+          "id": "Argumentative",
+          "description": "Presents multiple viewpoints, often contrasting experts, with subtle author preference. Heavy use of hedging and connectors."
+        },
+        {
+          "id": "Historical",
+          "description": "Chronological account of events, discoveries, or people. Heavy use of dates, ids, and cause-effect language."
+        },
+        {
+          "id": "Hybrid",
+          "description": "Combination of descriptive + analytical, or historical + argumentative, to increase complexity."
+        }
+      ],
+      "skills": [
+        {
+        "id": "Information_Retrieval",
+        "description": "Ability to locate and extract explicit factual details from the passage, such as dates, ids, numbers, examples, and definitions. This skill emphasizes accuracy in identifying information that is directly stated in the text, without interpretation or inference.",
+        "examples": [
+            "Finding the year an event occurred",
+            "Identifying the id of a researcher",
+            "Locating a specific definition or example"
+        ]
+        },
+        {
+        "id": "Main_Idea_Analysis",
+        "description": "Ability to identify the central idea of a paragraph or section, and distinguish it from supporting details. This skill requires recognizing topic sentences, themes, and the writer’s main purpose in a given section of text.",
+        "examples": [
+            "Choosing the correct heading for a paragraph",
+            "Identifying the thesis of a passage section",
+            "Distinguishing main argument from illustrative examples"
+        ]
+        },
+        {
+        "id": "Opinion_Recognition",
+        "description": "Ability to detect and evaluate the writer’s viewpoint, attitude, or claims, and distinguish them from neutral facts. This includes identifying agreement, disagreement, or neutrality in the text.",
+        "examples": [
+            "Recognizing whether the writer supports or opposes a theory",
+            "Distinguishing fact from writer’s claim",
+            "Identifying the author’s attitude toward an idea"
+        ]
+        },
+        {
+        "id": "Scanning",
+        "description": "Ability to quickly move through the text to find specific words, phrases, or numerical data without reading in detail. This is primarily a speed-based skill that helps locate the position of relevant information before detailed reading.",
+        "examples": [
+            "Finding a specific id in a long list of researchers",
+            "Locating a percentage figure in a data-heavy passage",
+            "Spotting references to a location or country"
+        ]
+        },
+        {
+        "id": "Skimming",
+        "description": "Ability to read quickly to grasp the overall theme, structure, and purpose of the passage. This skill allows test-takers to build a mental map of the text before answering detailed questions.",
+        "examples": [
+            "Identifying the general topic of a passage after a quick read",
+            "Understanding whether a passage is descriptive, argumentative, or explanatory",
+            "Recognizing the flow of ideas across sections"
+        ]
+        },
+        {
+        "id": "Relationship_Recognition",
+        "description": "Ability to recognize logical or factual connections between elements in the text, such as cause and effect, problem and solution, theory and example, person and invention, or comparison and contrast. This skill requires understanding how ideas or entities are linked.",
+        "examples": [
+            "Matching inventions to their inventors",
+            "Identifying a cause-and-effect relationship described in the passage",
+            "Recognizing a problem and its proposed solution"
+        ]
+        },
+        {
+        "id": "Inference",
+        "description": "Ability to deduce meaning or conclusions that are implied but not directly stated in the text. This skill requires logical reasoning, recognition of hedging language, and understanding of unstated assumptions.",
+        "examples": [
+            "Concluding what the writer implies without explicit words",
+            "Recognizing that 'some researchers suggest' indicates uncertainty",
+            "Inferring a trend from data described in words"
+        ]
+        }
+      ],
+      "distractors": [
+        {
+          "id": "Paraphrasing_Synonyms",
+          "description": "Correct answers rarely repeat exact wording. Test-takers must recognize synonyms and grammar shifts."
+        },
+        {
+          "id": "Echo_Words",
+          "description": "Wrong options repeat words from the text but misrepresent meaning."
+        },
+        {
+          "id": "Extreme_Wording",
+          "description": "Distractors use absolutes like 'always', 'never', 'all', while the passage uses hedging ('some', 'most')."
+        },
+        {
+          "id": "Partially_Correct",
+          "description": "Options include part of the true information but miss or distort key elements."
+        },
+        {
+          "id": "Close_Details",
+          "description": "Incorrect information placed near correct details in the passage to confuse scanning readers."
+        },
+        {
+          "id": "Cause_Effect_Confusion",
+          "description": "Reverses the logical relationship: presents a cause as an effect, or an effect as a cause."
+        },
+        {
+          "id": "Opposite_Meaning",
+          "description": "Statements that reverse or contradict the true meaning subtly."
+        },
+        {
+          "id": "Generalization",
+          "description": "Distractors broaden or narrow the true scope of an idea, making them incorrect."
+        }
+      ],
+      "penmanship": [
+        {
+          "id": "Vocabulary_Tone",
+          "description": "Formal, academic, paraphrasing-heavy style.",
+          "subrules": [
+            {
+              "id": "Academic_Word_List",
+              "description": "Frequent use of AWL words such as 'consequently', 'therefore', 'notwithstanding'."
+            },
+            {
+              "id": "Synonym_Paraphrasing",
+              "description": "Ideas are restated with synonyms rather than repeated directly."
+            },
+            {
+              "id": "Objective_Style",
+              "description": "No personal pronouns; tone remains neutral and impersonal."
+            }
+          ]
+        },
+        {
+          "id": "Structure_Flow",
+          "description": "Logical and cohesive paragraphing.",
+          "subrules": [
+            {
+              "id": "Chronological_Order",
+              "description": "Passages often unfold in a time sequence."
+            },
+            {
+              "id": "Logical_Progression",
+              "description": "Ideas develop from introduction to argument to conclusion."
+            },
+            {
+              "id": "Cohesive_Devices",
+              "description": "Use of connectors like 'however', 'on the other hand', 'therefore', 'in addition'."
+            }
+          ]
+        },
+        {
+          "id": "Stylistic_Tricks",
+          "description": "Advanced grammar and stylistic choices that increase difficulty.",
+          "subrules": [
+            {
+                "id": "Nominalization", 
+                "description": "Turning verbs into nouns for complexity: 'discover' → 'discovery'."
+            },
+            {
+                "id": "Passive_Voice", 
+                "description": "Frequent passive forms: 'It has been argued that…'."
+            },
+            {
+                "id": "Hedging", 
+                "description": "Uncertainty markers like may, might, suggests that, possibly."
+            },
+            {
+                "id": "Complex_Connectors", 
+                "description": "Use of contrast and concession: although, despite, while."
+            }
+          ]
+        },
+        {
+          "id": "Information_Concealment",
+          "description": "Rules that make answers difficult to locate or interpret.",
+          "subrules": [
+            {
+              "id": "Paraphrasing_Trick",
+              "description": "Ideas rephrased with synonyms, different grammar structures, or parts of speech."
+            },
+            {
+              "id": "Information_Burying",
+              "description": "Key ideas hidden within long sentences or surrounded by extra facts."
+            },
+            {
+              "id": "Split_Information",
+              "description": "One fact scattered across multiple sentences or paragraphs."
+            },
+            {
+              "id": "Distractor_Embedding",
+              "description": "Extra information placed near the correct detail to mislead."
+            },
+            {
+              "id": "Conclusion_Obfuscation",
+              "description": "Passages hedge and avoid stating clear conclusions directly."
+            }
+          ]
+        }
+      ],
+        "question_types": [
+            {
+            "id": "Multiple_Choice",
+            "description": "This type of question may be a question with four possible answers or the first half of a sentence with four possible sentence endings. You have to choose one correct answer (A, B, C or D), then write the correct answer on the answer sheet. Sometimes you are given a longer list of possible answers and you have to choose more than one answer. You should read the question carefully to check how many answers you need to choose. The questions are in the same order as the information in the text: that is, the answer to the first question will be before the answer to the second question, and so on.",
+            "question_type_rules": ["Answer_Format", "Order_In_Text"],
+            "skills": ["Detailed_Understanding", "Main_Idea_Analysis"]
+            },
+            {
+            "id": "Identifying_Information",
+            "alias": "True_False_NotGiven",
+            "description": "In this type of question, you are given a number of statements and are asked: ‘Do the following statements agree with the information in the text?’ You have to write ‘True’, ‘False’ or ‘Not given’ in the boxes on your answer sheet. It is important to understand the difference between ‘False’ and ‘Not given’. ‘False’ means that the statement contradicts the information in the text. ‘Not given’ means that the statement neither agrees with nor contradicts the information in the text. You must be careful not to use any information you already know about the topic of the text when choosing your answer.",
+            "question_type_rules": ["Answer_Format", "Key_Difficulty_False_vs_NotGiven"],
+            "skills": ["Specific_Information_Recognition"]
+            },
+            {
+            "id": "Identifying_Writer_Views",
+            "alias": "Yes_No_NotGiven",
+            "description": "In this type of question, you are given a number of statements and asked: ‘Do the following statements agree with the views of the writer?’ or ‘Do the following statements agree with the claims of the writer?’ You have to write ‘Yes’, ‘No’ or ‘Not given’ in the boxes on your answer sheet. It is important to understand the difference between ‘No’ and ‘Not given’. ‘No’ means that the statement contradicts the writer’s view or claim. ‘Not given’ means that the statement neither agrees with nor contradicts the writer’s view or claim. You must be careful not to use any information you already know about the topic of the text when choosing your answer.",
+            "question_type_rules": ["Answer_Format", "Key_Difficulty_No_vs_NotGiven"],
+            "skills": ["Opinion_Recognition"]
+            },
+            {
+            "id": "Matching_Information",
+            "description": "In this type of question, you have to find specific information in the paragraphs (or sections) of a text. The paragraphs (or sections) are identified by letters (A, B, C, etc.). You will need to write the letters of the correct paragraphs (or sections) in the boxes on your answer sheet. Not every paragraph (or section) may be used and some paragraphs (or sections) may be used more than once. When the paragraphs (or sections) may be used more than once, the instructions will say: ‘You may use any letter more than once’.",
+            "question_type_rules": ["Paragraph_Identification"],
+            "skills": ["Scanning", "Information_Retrieval"]
+            },
+            {
+            "id": "Matching_Headings",
+            "description": "In this type of question, there is a list of headings which are identified by Roman numerals (i, ii, iii, etc.). A heading summarises the main idea of a paragraph or section of the text. You must match the heading to the correct paragraph or section. The paragraphs (or sections) are identified by letters (A, B, C, etc.). You will need to write the correct Roman numerals in the boxes on your answer sheet. There will always be more headings than paragraphs or sections, so some headings will not be used. It is also possible that some paragraphs or sections may not be included in the task. One or more paragraphs or sections may already be matched with a heading as an example on the question paper. No heading may be used more than once.",
+            "question_type_rules": ["Extra_Options_Present"],
+            "skills": ["Main_Idea_Analysis"]
+            },
+            {
+            "id": "Matching_Features",
+            "description": "In this type of question, you have to match a set of statements or pieces of information to a list of options. The options are a group of features from the text, and letters (A, B, C, etc.) are used to identify them. Write the correct letter on the answer sheet. You may, for example, have to match descriptions of inventions to the people who invented them. It is possible that some options will not be used, and that others may be used more than once. When it is possible to use any option more than once, the instructions will say: ‘You may use any option more than once’.",
+            "question_type_rules": ["Options_List"],
+            "skills": ["Relationship_Recognition", "Skimming", "Scanning"]
+            },
+            {
+            "id": "Matching_Sentence_Endings",
+            "description": "In this type of question, you are given the first half of a sentence based on information in the text and you have to choose the best way to complete the sentence by choosing from a list of possible endings. The endings are identified by letters (A, B, C, etc.). There will be more sentence endings than beginnings, so you will not use all of them. You must write the letter you choose on the answer sheet. The sentence beginnings are in the same order as the information in the text.",
+            "question_type_rules": ["Extra_Options_Present"],
+            "skills": ["Main_Idea_Analysis"]
+            },
+            {
+            "id": "Sentence_Completion",
+            "description": "In this type of question, you have to fill in a gap in each sentence by choosing words from the text. You must write the words you choose on the answer sheet. You should read the instructions very carefully as the number of words or numbers you may use to fill the gaps can change. A word limit is given, for example, ‘NO MORE THAN TWO WORDS AND/OR A NUMBER’. You will lose the mark for writing more than the word limit. Contracted words such as ‘they’re’ will not be tested. Hyphenated words such as ‘check-in’ count as single words. The questions are in the same order as the information in the text.",
+            "question_type_rules": ["Word_Limit", "Order_In_Text"],
+            "skills": ["Information_Retrieval", "Information_Retrieval"]
+            },
+            {
+            "id": "Summary_Note_Table_FlowChart_Completion",
+            "description": "In this type of question, you are given a summary of a part of the text, and have to complete it using words taken from the text. The summary may be in the form of continuous text, notes, a table, or a flow chart. The answers may not come in the same order as in the text. However, they will usually come from one part of the text rather than the whole text. There are two variations of this task type: (1) selecting words directly from the text; (2) choosing from a given list of words. A word limit is given, and you must follow it carefully. Contracted words are not tested. Hyphenated words count as single words.",
+            "question_type_rules": ["Word_Limit", "Partial_Text_Source"],
+            "skills": ["Information_Retrieval", "Main_Idea_Analysis"]
+            },
+            {
+            "id": "Short_Answer_Questions",
+            "description": "In this type of question, you have to answer questions about factual details in the text. You must write your answers in words or numbers on the answer sheet. Answers must be taken directly from the text. A word limit is given, and you will lose marks for exceeding it. Numbers can be written using figures (1, 2, etc.) or words (one, two, etc.). Contracted words will not be tested. Hyphenated words count as single words. The answers come in the same order as the information in the text.",
+            "question_type_rules": ["Word_Limit", "Order_In_Text"],
+            "skills": ["Information_Retrieval"]
+            }
+        ],
+        "question_type_rules": [
+        {"id" : "Paraphrasing",   "description": "The process of expressing the same meaning using different words, structures, or grammatical forms. In IELTS Reading, paraphrasing appears at multiple levels: (1) Passage Writing: texts are written with varied vocabulary and synonyms to avoid repetition, ensuring answers cannot be located by simple word matching. (2) Concealment Strategy: questions and correct answers are often paraphrased versions of statements in the passage, forcing candidates to recognize meaning rather than surface wording. (3) Distractors: incorrect options may mimic the wording of the passage closely, while the correct answer uses paraphrasing, creating a trap. (4) Answer Behaviour: many correct answers are paraphrased and require semantic matching, not direct text copying. Effective handling of paraphrasing requires lexical knowledge, recognition of synonym chains, and awareness of structural transformations such as active/passive voice, nominalisation, or shifts in word class."},
+        {"id": "Answer_Format", "description": "Answers must follow the required format (letters, words, or numbers as specified)."},
+        {"id": "Order_In_Text", "description": "Questions follow the order of the information in the text unless stated otherwise."},
+        {"id": "Key_Difficulty_False_vs_NotGiven", "description": "Differentiate between contradicting information (False) and absent information (Not Given)."},
+        {"id": "Key_Difficulty_No_vs_NotGiven", "description": "Differentiate between disagreement with writer’s view (No) and lack of information (Not Given)."},
+        {"id": "Paragraph_Identification", "description": "Answers are located in specific paragraphs or sections, often requiring scanning for details."},
+        {"id": "Extra_Options_Present", "description": "There are always more options/headings/endings than needed, leaving some unused."},
+        {"id": "Options_List", "description": "Possible answers are presented as a list; some may be used more than once, others not at all."},
+        {"id": "Word_Limit", "description": "Answers must not exceed the stated word or number limit. Hyphenated words count as single words; contractions are not tested."},
+        {"id": "Partial_Text_Source", "description": "Answers usually come from one specific section of the passage rather than the entire text."}
+      ],
+        "answer_behaviours": [
+            {
+                "id": "Paraphrased_Answer",
+                "description": "Correct answers are often reworded using synonyms, altered grammar, or different forms, rather than copied directly from the passage."
+            },
+            {
+                "id": "Exact_Word_Requirement",
+                "description": "For completion tasks, the answer must be taken directly from the text. Candidates must respect spelling and word limit rules."
+            },
+            {
+                "id": "Inference_Based",
+                "description": "Some answers require logical inference or interpretation, going beyond what is explicitly stated in the text."
+            },
+            {
+                "id": "Partial_Text_Source",
+                "description": "Correct answers typically come from a single section of the passage rather than the entire text, focusing reading effort."
+            },
+            {
+                "id": "Context_Dependent",
+                "description": "Answers may only be clear when surrounding sentences are read, preventing reliance on single-word matching."
+            }
+          ],
+          "example_patterns": [
+            {
+                "id": "MCQ_Distractor_Pattern",
+                "description": "One option reuses exact words from the passage but distorts the meaning; another option paraphrases the correct answer subtly."
+            },
+            {
+                "id": "Heading_Pattern",
+                "description": "Correct heading is a paraphrased main idea; distractors reflect minor details or examples within the paragraph."
+            },
+            {
+                "id": "TFNG_Pattern",
+                "description": "False statements often use absolute terms like 'always' or 'never'. Not Given options introduce elements not mentioned in the passage."
+            },
+            {
+                "id": "Completion_Pattern",
+                "description": "Gaps are placed around key technical terms, numbers, or specific details, forcing careful retrieval from the passage."
+            },
+            {
+                "id": "Feature_Matching_Pattern",
+                "description": "Options lists contain overlapping features. Some are used more than once, others not at all, creating ambiguity."
+            }
+          ]
+    }
+  ],
+  "links": [
+    {"_comment": "Skills ↔ Penmanship"},
+    {"from": "Scanning", "to": "Information_Burying", "relation": "MADE_MORE_DIFFICULT_BY"},
+    {"from": "Scanning", "to": "Split_Information", "relation": "MADE_MORE_DIFFICULT_BY"},
+    {"from": "Skimming", "to": "Paragraph_Structure", "relation": "SUPPORTED_BY"},
+    {"from": "Skimming", "to": "Logical_Progression", "relation": "SUPPORTED_BY"},
+    {"from": "Inference", "to": "Conclusion_Obfuscation", "relation": "REQUIRES"},
+    {"from": "Inference", "to": "Hedging", "relation": "REQUIRES"},
+    {"from": "Information_Retrieval", "to": "Synonym_Paraphrasing", "relation": "MADE_MORE_DIFFICULT_BY"},
+    {"from": "Main_Idea_Analysis", "to": "Logical_Progression", "relation": "SUPPORTED_BY"},
+
+    {"_comment": "Skills ↔ Question Type Rules"},
+    {"from": "Information_Retrieval", "to": "Word_Limit", "relation": "CONSTRAINED_BY"},
+    {"from": "Scanning", "to": "Order_In_Text", "relation": "FACILITATED_BY"},
+    {"from": "Information_Retrieval", "to": "Paragraph_Identification", "relation": "SUPPORTED_BY"},
+    {"from": "Scanning", "to": "Paragraph_Identification", "relation": "SUPPORTED_BY"},
+    {"from": "Main_Idea_Analysis", "to": "Extra_Options_Present", "relation": "CHALLENGED_BY"},
+    {"from": "Skimming", "to": "Partial_Text_Source", "relation": "GUIDED_BY"},
+
+    {"_comment": "Skills ↔ Distractors"},
+    {"from": "Information_Retrieval", "to": "Close_Details", "relation": "VULNERABLE_TO"},
+    {"from": "Information_Retrieval", "to": "Echo_Words", "relation": "VULNERABLE_TO"},
+    {"from": "Main_Idea_Analysis", "to": "Generalization", "relation": "CHALLENGED_BY"},
+    {"from": "Inference", "to": "Extreme_Wording", "relation": "TRICKED_BY"},
+    {"from": "Inference", "to": "Partially_Correct", "relation": "TRICKED_BY"},
+    {"from": "Relationship_Recognition", "to": "Cause_Effect_Confusion", "relation": "CHALLENGED_BY"},
+
+    {"_comment": "Penmanship ↔ Distractors"},
+    {"from": "Paraphrasing_Trick", "to": "Echo_Words", "relation": "CONTRASTS_WITH"},
+    {"from": "Hedging", "to": "Extreme_Wording", "relation": "EXPLOITED_BY"},
+    {"from": "Information_Burying", "to": "Generalization", "relation": "ENABLED_BY"},
+
+    {"_comment": "Writing Style ↔ Skills"},
+    {"from": "Argumentative", "to": "Inference", "relation": "REQUIRES"},
+    {"from": "Argumentative", "to": "Opinion_Recognition", "relation": "REQUIRES"},
+    {"from": "Argumentative", "to": "Main_Idea_Analysis", "relation": "REQUIRES"},
+    {"from": "Argumentative", "to": "Complex_Connectors", "relation": "SUPPORTED_BY"},
+    {"from": "Argumentative", "to": "Generalization", "relation": "OFTEN_PAIRED_WITH"},
+    {"from": "Historical", "to": "Information_Retrieval", "relation": "REQUIRES"},
+    {"from": "Historical", "to": "Chronological_Order", "relation": "SUPPORTED_BY"},
+    {"from": "Historical", "to": "Main_Idea_Analysis", "relation": "REQUIRES"},
+    {"from": "Historical", "to": "Information_Burying", "relation": "OFTEN_PAIRED_WITH"},
+    {"from": "Analytical", "to": "Relationship_Recognition", "relation": "REQUIRES"},
+    {"from": "Analytical", "to": "Inference", "relation": "REQUIRES"},
+    {"from": "Analytical", "to": "Main_Idea_Analysis", "relation": "REQUIRES"},
+    {"from": "Analytical", "to": "Logical_Progression", "relation": "SUPPORTED_BY"},
+    {"from": "Analytical", "to": "Nominalization", "relation": "OFTEN_PRESENT_IN"},
+    {"from": "Descriptive", "to": "Detail_Recognition", "relation": "REQUIRES"},
+    {"from": "Descriptive", "to": "Vocabulary_Tone", "relation": "SUPPORTED_BY"},
+    {"from": "Descriptive", "to": "Paraphrasing_Trick", "relation": "CHALLENGED_BY"},
+    {"from": "Hybrid", "to": "Inference", "relation": "REQUIRES"},
+    {"from": "Hybrid", "to": "Main_Idea_Analysis", "relation": "REQUIRES"},
+    {"from": "Hybrid", "to": "Relationship_Recognition", "relation": "REQUIRES"},
+    {"from": "Hybrid", "to": "Logical_Progression", "relation": "SUPPORTED_BY"},
+    {"from": "Hybrid", "to": "Generalization", "relation": "OFTEN_PAIRED_WITH"},
+    {"from": "Skimming", "to": "Hybrid", "relation": "REQUIRES"},
+
+    {"_comment": "Format ↔ Skills"},
+    {"from": "Sentence_Length", "to": "Inference", "relation": "MADE_MORE_DIFFICULT_BY"},
+    {"from": "Sentence_Length", "to": "Information_Retrieval", "relation": "MADE_MORE_DIFFICULT_BY"},
+    {"from": "Paragraph_Structure", "to": "Main_Idea_Analysis", "relation": "SUPPORTED_BY"},
+    {"from": "Total_Text_Length", "to": "Skimming", "relation": "REQUIRES"},
+
+    {"_comment": "Penmanship ↔ Skills"},
+    {"from": "Logical_Progression", "to": "Relationship_Recognition", "relation": "SUPPORTED_BY"},
+    {"from": "Conclusion_Obfuscation", "to": "Main_Idea_Analysis", "relation": "CHALLENGES"},
+
+    {"_comment": "Distractors ↔ Skills"},
+    {"from": "Partially_Correct", "to": "Information_Retrieval", "relation": "CHALLENGES"},
+    {"from": "Generalization", "to": "Opinion_Recognition", "relation": "CHALLENGES"},
+    {"from": "Cause_Effect_Confusion", "to": "Inference", "relation": "CHALLENGES"},
+
+    {"_comment": "Writing Style ↔ Distractors"},
+    {"from": "Argumentative", "to": "Extreme_Wording", "relation": "OFTEN_PAIRED_WITH"},
+    {"from": "Analytical", "to": "Cause_Effect_Confusion", "relation": "OFTEN_PAIRED_WITH"},
+    {"from": "Historical", "to": "Close_Details", "relation": "OFTEN_PAIRED_WITH"},
+
+    {"_comment": "Format ↔ Penmanship"},
+    {"from": "Sentence_Length", "to": "Information_Burying", "relation": "AMPLIFIES"},
+    {"from": "Paragraph_Structure", "to": "Logical_Progression", "relation": "REINFORCES"},
+    {"from": "Total_Text_Length", "to": "Information_Burying", "relation": "AMPLIFIES"},
+
+    {"_comment": "Enriching links"},
+    {"from": "Paraphrasing", "to": "Paraphrased_Answer", "relation": "REFLECTED_IN"},
+    {"from": "Paraphrasing_Trick", "to": "Paraphrased_Answer", "relation": "CAUSES"},
+    {"from": "Echo_Words", "to": "Answer_Format", "relation": "EXPLOITS"},
+    {"from": "Generalization", "to": "Inference", "relation": "TRICKED_BY"},
+    {"from": "Relationship_Recognition", "to": "Analytical", "relation": "FACILITATED_BY"}
+  ]
+
+}

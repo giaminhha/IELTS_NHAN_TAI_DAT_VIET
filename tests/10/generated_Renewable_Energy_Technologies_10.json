@@ -1,0 +1,51 @@
+{
+  "passage": "Quiz title: Renewable Energy Technologies\\Quiz description: This reading passage discusses the evolution and impact of various renewable energy technologies, including their advantages, challenges, and future prospects.\n\nText title: Reading Passage\n\nA. The global imperative to transition away from fossil fuels has profoundly influenced the trajectory of energy innovation, propelling renewable energy technologies to the forefront of sustainable development. This paradigm shift is driven by a confluence of environmental concerns, geopolitical instabilities, and the inexorable depletion of finite resources. Consequently, significant investment and research have been directed towards harnessing natural phenomena such as solar radiation, wind currents, and geothermal heat. These technologies, once considered niche alternatives, are now increasingly viewed as indispensable components of a resilient and decarbonised global energy infrastructure, offering a robust pathway to mitigate climate change and foster energy independence.\n\nB. Solar photovoltaic (PV) technology stands as a cornerstone of renewable energy, converting sunlight directly into electricity using semiconductor materials. The rapid decline in PV module costs, particularly over the last two decades, has been a principal catalyst for its widespread adoption. For instance, between 2010 and 2020, the cost of solar energy decreased by over 80%, making it competitive with, and often cheaper than, traditional electricity sources in many regions. This dramatic cost reduction, coupled with advancements in efficiency and manufacturing scale, has transformed solar power from an expensive niche to a mainstream power generation option, underpinning its significant role in future energy matrices.\n\nC. Wind power, another dominant force in the renewable landscape, leverages the kinetic energy of moving air to drive turbines and generate electricity. Modern wind turbines have undergone considerable evolution, growing in size and efficiency, with offshore installations particularly demonstrating impressive power generation capacities. However, challenges persist, notably concerning intermittent power output and the necessity for robust grid integration. The capricious nature of wind means that its availability is not constant, necessitating sophisticated energy management systems and storage solutions to ensure a steady supply of electricity, thereby addressing reliability concerns inherent in its operation.\n\nD. Hydropower, while a mature and well-established renewable energy source, continues to play a pivotal role, particularly through large-scale dam projects and run-of-river schemes. This technology capitalises on the gravitational force of falling or flowing water to generate electricity reliably and at scale. Although effective, large hydro projects often entail significant environmental and social impacts, including habitat disruption and displacement of communities. Smaller, decentralised hydropower systems, conversely, offer a more sustainable alternative, often integrating seamlessly into local ecosystems while still providing significant clean energy contributions.\n\nE. Geothermal energy harnesses the Earth's internal heat, typically by accessing hot water or steam reservoirs deep beneath the surface. This technology offers a uniquely stable and baseload power supply, unaffected by daily weather fluctuations, unlike solar or wind. Regions with high geothermal activity, such as Iceland or the Philippines, have successfully integrated it into their national energy grids, demonstrating its reliability and minimal surface footprint. The primary limitation, however, remains its geographical specificity, as viable reservoirs are not uniformly distributed across the globe, thereby constraining its universal applicability.\n\nF. Biomass energy, derived from organic materials like agricultural waste, wood, and dedicated energy crops, offers a multifaceted approach to renewable energy production. It can be combusted directly for heat and electricity, converted into biofuels for transportation, or processed into biogas for heating and cooking. While theoretically carbon-neutral, as the carbon released during combustion is reabsorbed by new plant growth, the actual environmental impact is complex. Issues such as land use change, deforestation, and the energy required for cultivation and processing must be carefully managed to ensure genuine sustainability and avoid unintended ecological consequences.\n\nG. The integration of these diverse renewable energy technologies into existing grid infrastructure presents both formidable challenges and unparalleled opportunities. Intermittency, especially from solar and wind, necessitates advanced energy storage solutions, such as battery banks and pumped-hydro storage, to ensure consistent power delivery. Furthermore, upgrading and modernising transmission grids are essential to efficiently transport renewable energy from often remote generation sites to urban consumption centres. Smart grid technologies, employing digital communication and automation, are emerging as critical enablers for managing variable renewable inputs and optimising energy distribution.\n\nH. Looking ahead, the trajectory of renewable energy is inextricably linked to continuous technological innovation and supportive policy frameworks. Emerging areas like advanced biofuels, hydrogen fuel cells, and tidal power hold considerable promise, potentially expanding the portfolio of viable clean energy solutions. Governments worldwide are increasingly implementing incentives, subsidies, and regulatory mandates to accelerate this transition, recognising the long-term economic and environmental dividends. The sustained impetus on research and development, coupled with international collaboration, will be paramount in overcoming remaining hurdles and realising a fully sustainable global energy future.\nSummary: Renewable energy technologies are crucial for a sustainable future, driven by cost reductions, efficiency gains, and innovative grid integration solutions, with continuous research and policy support vital for their widespread adoption and impact.",
+  "questions": [
+    {
+      "id": "mc_1",
+      "question_text": "What is identified as a principal catalyst for the widespread adoption of solar photovoltaic (PV) technology?",
+      "options": [
+        "A. Its ability to convert sunlight directly into electricity using semiconductor materials.",
+        "B. The significant increase in government subsidies for renewable energy projects.",
+        "C. A rapid decline in PV module costs over the last two decades.",
+        "D. The discovery of new, more efficient semiconductor materials for PV cells."
+      ],
+      "answer": "C",
+      "rationale": "Paragraph B explicitly states that 'The rapid decline in PV module costs, particularly over the last two decades, has been a principal catalyst for its widespread adoption.'",
+      "linked_skills": [
+        "Identifying specific information"
+      ]
+    },
+    {
+      "id": "mc_2",
+      "question_text": "What is considered the primary limitation of geothermal energy?",
+      "options": [
+        "A. Its dependence on daily weather fluctuations.",
+        "B. The requirement for large surface footprints for installations.",
+        "C. Its geographical specificity, due to uneven distribution of viable reservoirs.",
+        "D. The high cost of accessing hot water or steam reservoirs deep beneath the surface."
+      ],
+      "answer": "C",
+      "rationale": "Paragraph E states, 'The primary limitation, however, remains its geographical specificity, as viable reservoirs are not uniformly distributed across the globe, thereby constraining its universal applicability.'",
+      "linked_skills": [
+        "Identifying main points"
+      ]
+    },
+    {
+      "id": "mc_3",
+      "question_text": "Which of the following is NOT mentioned as a challenge in integrating diverse renewable energy technologies into existing grid infrastructure?",
+      "options": [
+        "A. The intermittency of solar and wind power.",
+        "B. The necessity for advanced energy storage solutions.",
+        "C. The difficulty in transporting energy from remote generation sites to urban centres.",
+        "D. The lack of available land for new transmission grid expansions."
+      ],
+      "answer": "D",
+      "rationale": "Paragraph G discusses intermittency, the need for storage, and upgrading transmission grids but does not mention the 'lack of available land for new transmission grid expansions' as a specific challenge.",
+      "linked_skills": [
+        "Identifying specific information",
+        "Identifying what is NOT stated"
+      ]
+    }
+  ]
+}

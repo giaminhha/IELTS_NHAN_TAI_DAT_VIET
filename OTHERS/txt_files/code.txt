@@ -1,0 +1,1621 @@
+# main.py (GEPA-only orchestrator, using unified validators.py)
+
+import pprint
+from retriever import retrieve_sources
+from executors import generate_passage, generate_questions, generate_distractors
+from gepa import gepa_optimize, build_pareto_front
+from validators import score_passage_and_questions  # unified scoring + validation
+
+
+# --- GEPA Executors ---
+def passage_executor(prompt_text, topic, outputs_so_far):
+    sources = retrieve_sources(topic)
+    return generate_passage(topic, [s.get("abstract", "") for s in sources])
+
+
+def questions_executor(prompt_text, topic, outputs_so_far):
+    passage = outputs_so_far.get("passage", "")
+    return generate_questions(passage, "Multiple_Choice")
+
+
+def distractors_executor(prompt_text, topic, outputs_so_far):
+    passage = outputs_so_far.get("passage", "")
+    return generate_distractors(passage)
+
+
+executors = {
+    "passage": passage_executor,
+    "questions": questions_executor,
+    "distractors": distractors_executor,
+}
+
+
+# --- GEPA Run ---
+def run_with_gepa():
+    base_prompts = {
+        "passage": (
+            "SYSTEM: You are an IELTS passage generator. "
+            "Produce one academic reading passage (4–6 paragraphs, ~900 words). "
+            "End with 'Summary:'."
+        ),
+        "questions": (
+            "SYSTEM: You are an IELTS question generator. "
+            "Produce 3 MCQs following IELTS conventions."
+        ),
+        "distractors": (
+            "SYSTEM: You are an IELTS distractor generator. "
+            "Produce plausible distractors."
+        ),
+    }
+
+    topics = [
+        "Artificial Intelligence in Education",
+        "Climate Change and Policy",
+        "Globalization and Culture",
+        "Renewable Energy Technologies",
+    ]
+
+    print("[GEPA] starting optimization (budget=20 demo)")
+    pool = gepa_optimize(executors, base_prompts, topics, budget=20)
+
+    # --- Pareto front from final pool ---
+    records_for_pareto = {cid: cand.get("scores", {}) for cid, cand in pool.pool.items()}
+    pareto_ids = build_pareto_front(records_for_pareto)
+
+    print("\n=== GEPA Final Pareto Front ===")
+    for cid in pareto_ids:
+        cand = pool.pool[cid]
+        print(f"Candidate {cid[:8]} (ancestry: {cand.get('ancestry', [])})")
+        print("Scores:")
+        pprint.pprint(cand.get("scores", {}))
+        print("Prompts (snippets):")
+        for m, txt in cand.get("prompts", {}).items():
+            snippet = (txt[:300] + "...") if isinstance(txt, str) and len(txt) > 300 else txt
+            print(f" - {m}: {snippet}")
+        print("------")
+
+
+if __name__ == "__main__":
+    run_with_gepa()
+# logger.py
+import json
+from pathlib import Path
+from datetime import datetime
+
+class GEPA_Logger:
+    def __init__(self, log_dir="logs"):
+        Path(log_dir).mkdir(parents=True, exist_ok=True)
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        self.log_file = Path(log_dir) / f"gepa_run_{timestamp}.jsonl"
+
+    def log(self, record: dict):
+        """Append one record as JSON line"""
+        with open(self.log_file, "a", encoding="utf-8") as f:
+            f.write(json.dumps(record, ensure_ascii=False) + "\n")
+# llm.py
+
+import os
+import json
+import re
+import hashlib
+from typing import Optional, Any
+
+# Try to import OpenAI client; give friendly error if missing
+try:
+    from openai import OpenAI
+except Exception as e:
+    OpenAI = None
+    _openai_import_error = e
+
+from config import LLM_API_KEY as _CFG_KEY, MODEL as _CFG_MODEL, OPENAI_BASE_URL as _CFG_BASE
+
+LLM_API_KEY = _CFG_KEY
+MODEL = _CFG_MODEL
+OPENAI_BASE = _CFG_BASE
+
+# DEBUG stub mode
+DEBUG_STUB = False
+
+# If not in debug and OpenAI client missing, warn early
+if not DEBUG_STUB and OpenAI is None:
+    raise ImportError(
+        f"OpenAI client import failed: {_openai_import_error}\n"
+        "Install the official openai Python package (pip install openai) or set DEBUG_STUB=true for local testing."
+    )
+
+# Create client lazily (so DEBUG_STUB can run without keys)
+_client: Optional[Any] = None
+def _init_client():
+    global _client
+    if _client is not None:
+        return _client
+    if DEBUG_STUB:
+        return None
+    # require API key
+    if not LLM_API_KEY:
+        raise RuntimeError("LLM_API_KEY not set (env or config).")
+    # instantiate OpenAI/OpenRouter client
+    try:
+        _client = OpenAI(api_key=LLM_API_KEY, base_url=OPENAI_BASE)
+    except TypeError:
+        _client = OpenAI(api_key=LLM_API_KEY)
+    return _client
+_llm_cache = {}
+
+def _cache_key(prompt: str, system: Optional[str]):
+    key = (system or "") + "\n" + prompt
+    return hashlib.sha256(key.encode("utf-8")).hexdigest()
+
+def _stub_passage(topic_snippet: str):
+    text = f"{topic_snippet} is an important contemporary topic. " * 30
+    summary = "Summary: This passage briefly discusses the topic."
+    return text + "\n\n" + summary
+
+def _extract_json_from_text(text: str):
+    # look for top-level JSON array or object
+    m = re.search(r'(\{.*\}|\[.*\])', text, flags=re.S)
+    if not m:
+        raise ValueError("No JSON object/array found in LLM output.")
+    candidate = m.group(1)
+    return json.loads(candidate)
+
+def _extract_text_from_completion(completion):
+    try:
+        # OpenAI-style: completion.choices[0].message.content
+        choice = completion.choices[0]
+        if hasattr(choice, "message"):
+            msg = choice.message
+            # if msg has .content attribute
+            content = getattr(msg, "content", None)
+            if content is not None:
+                return content
+            # if msg is dict-like
+            if isinstance(msg, dict) and "content" in msg:
+                return msg["content"]
+        # fallback to .text (older SDKs)
+        text = getattr(choice, "text", None)
+        if text:
+            return text
+    except Exception:
+        pass
+
+    # If completion itself is a string
+    if isinstance(completion, str):
+        return completion
+
+    # Last resort: try to stringify
+    try:
+        return json.dumps(completion)
+    except Exception:
+        return str(completion)
+
+def call_llm(prompt: str, system: Optional[str] = None, expect_json: bool = False, use_cache: bool = True) -> Any:
+    model = MODEL
+    key = _cache_key(prompt, system)
+    if use_cache and key in _llm_cache:
+        return _llm_cache[key]
+
+    # Real API call
+    client = _init_client()
+
+    messages = []
+    if system:
+        messages.append({"role": "system", "content": system})
+    messages.append({"role": "user", "content": prompt})
+
+    try:
+        completion = client.chat.completions.create(
+            model=model,
+            messages=messages,
+        )
+        text = _extract_text_from_completion(completion)
+        if use_cache:
+            _llm_cache[key] = text
+
+        if expect_json:
+            # try strict JSON parse first, then fallback to extracting JSON substring
+            try:
+                return json.loads(text)
+            except Exception:
+                try:
+                    return _extract_json_from_text(text)
+                except Exception as e:
+                    # return raw text if JSON parsing fails, but include note
+                    return {
+                        "raw": text,
+                        "parse_error": str(e)
+                    }
+        return text
+    except Exception as e:
+        raise RuntimeError(f"LLM call failed (model={model}): {e}")
+# mcp_server.py
+from flask import Flask, request, jsonify
+from neo4j import GraphDatabase
+import time
+
+app = Flask(__name__)
+
+# --- Neo4j connection ---
+URI = "bolt://localhost:7687"
+USER = "neo4j"
+PASSWORD = "NHAN_TAI_DAT_VIET_098"
+driver = GraphDatabase.driver(URI, auth=(USER, PASSWORD))
+
+# --- Cache dictionary ---
+cache = {}
+CACHE_EXPIRY = 10 * 60  # 10 minutes in seconds
+
+def cache_get(key):
+    entry = cache.get(key)
+    if entry:
+        value, timestamp = entry
+        if time.time() - timestamp < CACHE_EXPIRY:
+            return value
+    return None
+
+def cache_set(key, value):
+    cache[key] = (value, time.time())
+
+# --- Helper function to run a query ---
+def run_query(query, params=None):
+    with driver.session() as session:
+        result = session.run(query, params or {})
+        return [record.data() for record in result]
+
+# --- 1. Cached queries with expiry ---
+def get_passage_rules():
+    key = "passage_rules"
+    cached = cache_get(key)
+    if cached:
+        return cached
+    query = """
+    MATCH (r:FormatRule)
+    RETURN r.id AS id, r.description AS description
+    ORDER BY r.id
+    """
+    result = run_query(query)
+    cache_set(key, result)
+    return result
+
+def get_question_type_context(qtype_id):
+    key = f"question_type_context:{qtype_id}"
+    cached = cache_get(key)
+    if cached:
+        return cached
+    query = """
+    MATCH (q:QuestionType {id: $qtype_id})-[:HAS_RULE]->(r:QuestionTypeRule)
+    RETURN r.id AS id, r.description AS description
+    """
+    result = run_query(query, {"qtype_id": qtype_id})
+    cache_set(key, result)
+    return result
+
+def get_distractor_patterns():
+    key = "distractor_patterns"
+    cached = cache_get(key)
+    if cached:
+        return cached
+    query = "MATCH (d:Distractor) RETURN d.id AS id, d.description AS description"
+    result = run_query(query)
+    cache_set(key, result)
+    return result
+
+def get_penmanship_rules():
+    key = "penmanship_rules"
+    cached = cache_get(key)
+    if cached:
+        return cached
+    query = """
+    MATCH (p:Penmanship)-[:HAS_SUBRULE]->(s:PenmanshipSubrule)
+    RETURN p.id AS penmanship_id, p.description AS penmanship_desc,
+           collect({id: s.id, description: s.description}) AS subrules
+    """
+    result = run_query(query)
+    cache_set(key, result)
+    return result
+def get_passage_examples():
+    key = "passage_examples"
+    cached = cache_get(key)
+    if cached:
+        return cached
+    query = """
+    MATCH (p:Entity {type: "PassageExample"})
+    RETURN p.id AS id, p.title AS title, p.passage AS passage
+    ORDER BY p.id
+    """
+    result = run_query(query)
+    cache_set(key, result)
+    return result
+
+def get_question_examples(qtype_id=None):
+    if qtype_id:
+        query = """
+        MATCH (q:Entity {type: "QuestionExample"})-[:OF_TYPE]->(qt:Entity {id: $qtype_id})
+        RETURN q.id AS id, q.question_text AS question_text, q.options AS options,
+               q.answer AS answer, q.rationale AS rationale, qt.id AS qtype_id
+        ORDER BY q.id
+        """
+        return run_query(query, {"qtype_id": qtype_id})
+    else:
+        query = """
+        MATCH (q:Entity {type: "QuestionExample"})-[:OF_TYPE]->(qt:Entity)
+        RETURN q.id AS id, q.question_text AS question_text, q.options AS options,
+               q.answer AS answer, q.rationale AS rationale, qt.id AS qtype_id
+        ORDER BY q.id
+        """
+        return run_query(query)
+# --- 2. Flask routes ---
+@app.route("/get_passage_rules", methods=["GET"])
+def route_passage_rules():
+    return jsonify(get_passage_rules())
+
+@app.route("/get_question_type_context/<qtype_id>", methods=["GET"])
+def route_question_type_context(qtype_id):
+    return jsonify(get_question_type_context(qtype_id))
+
+@app.route("/get_distractor_patterns", methods=["GET"])
+def route_distractor_patterns():
+    return jsonify(get_distractor_patterns())
+
+@app.route("/get_penmanship_rules", methods=["GET"])
+def route_penmanship_rules():
+    return jsonify(get_penmanship_rules())
+# --- 3. Example endpoints (optional style guidance) ---
+@app.route("/get_passage_examples", methods=["GET"])
+def route_passage_examples():
+    return jsonify(get_passage_examples())
+
+@app.route("/get_question_examples", methods=["GET"])
+def route_question_examples_all():
+    return jsonify(get_question_examples())
+
+@app.route("/get_question_examples/<qtype_id>", methods=["GET"])
+def route_question_examples_by_type(qtype_id):
+    return jsonify(get_question_examples(qtype_id))
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=8000)
+# executors.py
+"""
+Upgraded executors:
+ - Uses MCPClient to fetch KG constraints (cached MCP endpoints).
+ - Strict prompt templates with constraints.
+ - Validate + retry loop using validators.py.
+ - Backwards-compatible executor signatures used by gepa_driver / main.py:
+     executor(prompt_template, topic, outputs_so_far) -> returns str or structured object
+"""
+
+import json
+import logging
+import time
+from typing import Any, Dict, List, Optional
+
+from mcp_client import MCPClient
+
+# Try to import your llm helper (project-specific). If not present, we'll raise helpful errors.
+try:
+    from llm import call_llm, DEBUG_STUB  # call_llm(prompt, expect_json=False, max_tokens=...)
+except Exception:
+    # Minimal fallback placeholder to avoid crashes during static analysis.
+    DEBUG_STUB = True
+    def call_llm(prompt: str, expect_json: bool = False, max_tokens: int = 1500):
+        raise RuntimeError("llm.call_llm not available. Please provide llm.call_llm in your project.")
+
+# Import validators provided in your repo
+try:
+    from validators import validate_passage_text, validate_questions_structure
+except Exception:
+    # If validators.py is missing, create a minimal fallback so errors are clear.
+    def validate_passage_text(txt):
+        return 0.0, ["validators.validate_passage_text unavailable"]
+    def validate_questions_structure(qs):
+        return 0.0, ["validators.validate_questions_structure unavailable"]
+
+# configure logger
+logger = logging.getLogger("executors")
+logger.setLevel(logging.DEBUG)
+handler = logging.StreamHandler()
+handler.setFormatter(logging.Formatter("[%(levelname)s] %(message)s"))
+logger.addHandler(handler)
+
+# Instantiate MCP client (adjust URL if your MCP runs elsewhere)
+MCP = MCPClient("http://localhost:8000")
+
+# -----------------------
+EXAMPLE_TOOLS = [
+  {
+    "name": "fetch_passage_examples",
+    "description": "Retrieve example IELTS reading passages from the KG",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "test_id": {
+          "type": "string",
+          "description": "The ID of the test node, e.g., 'IELTS_Academic_Reading'"
+        }
+      },
+      "required": ["test_id"]
+    }
+  },
+  {
+    "name": "fetch_question_examples",
+    "description": "Retrieve example IELTS reading questions from the KG",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "test_id": {
+          "type": "string",
+          "description": "The ID of the test node, e.g., 'IELTS_Academic_Reading'"
+        },
+        "qtype_id": {
+          "type": "string",
+          "description": "Optional. The ID of the question type to filter by, e.g., 'Multiple_Choice'"
+        }
+      },
+      "required": ["test_id"]
+    }
+  }
+]
+
+
+def maybe_call_examples(model_out: str, tool_group: str, qtype_id: Optional[str] = None):
+    try:
+        parsed = json.loads(model_out)
+        if isinstance(parsed, dict) and "tool" in parsed:
+            if parsed["tool"] == "get_passage_examples":
+                examples = MCP._get("/get_passage_examples")
+                followup = f"Here are example passages:\n{json.dumps(examples, indent=2)}\n\nNow continue your task."
+                return call_llm(followup, max_tokens=1200)
+            elif parsed["tool"] == "get_question_examples":
+                endpoint = f"/get_question_examples/{qtype_id}"
+                examples = MCP._get(endpoint)
+                followup = f"Here are example questions:\n{json.dumps(examples, indent=2)}\n\nNow continue your task."
+                return call_llm(followup, max_tokens=800)
+    except Exception:
+        return model_out
+    return model_out
+# -----------------------
+# Helpers
+# -----------------------
+def _strip_code_fence(text: str) -> str:
+    # remove triple-backtick fenced blocks if the model wrapped JSON in them
+    if text.strip().startswith("
+"):
+        parts = text.strip().split("
+", 2)
+        # If there are 3 parts, the middle is the fenced content
+        if len(parts) >= 3:
+            return parts[1].strip()
+    return text
+
+def _parse_json_from_model(text: str) -> Any:
+    txt = _strip_code_fence(text).strip()
+    try:
+        return json.loads(txt)
+    except Exception:
+        # attempt to find first JSON-like substring
+        first = min((txt.find("["), txt.find("{")) if "[" in txt or "{" in txt else (len(txt),len(txt)))
+        if first == -1 or first >= len(txt):
+            raise
+        # try to load from the first bracket to the end (best-effort)
+        try:
+            sub = txt[first:]
+            return json.loads(sub)
+        except Exception as e:
+            logger.debug("JSON parsing failed: %s", e)
+            raise
+
+def _short(x: str, n: int = 400) -> str:
+    return x if len(x) <= n else x[:n] + " ..."
+
+# -----------------------
+# Prompt templates (strict)
+# -----------------------
+_PASSAGE_TEMPLATE = _PASSAGE_TEMPLATE = """SYSTEM: You are an IELTS Academic Reading passage writer.
+TOPIC: {topic}
+
+CONTEXT / SOURCES:
+{sources}
+
+KG CONSTRAINTS:
+{kg_rules}
+
+EXAMPLE SUMMARIES (not full text):
+- Passage Example: "Andrea Palladio" — 920 words, 8 paragraphs, summary line included.
+- Passage Example: "Father of Management" — 880 words, 6 paragraphs, summary line included.
+- These examples are stored in the knowledge graph and can be fetched if needed.
+
+TASK (strict):
+1) Produce ONE IELTS Academic Reading passage about the topic.
+2) Length: 800–1000 words (ideal ~900). 4–6 paragraphs (separate by blank lines).
+3) Style: academic, formal, multiple paragraphs. Avoid being conversational.
+4) Include inline citations for facts (e.g. [S1], [S2]).
+5) Include a final line starting exactly: Summary: <one-line summary>
+6) Do NOT include answers or questions in this output.
+7) Output ONLY the passage text (including the Summary line) — no JSON wrapper.
+"""
+
+_QUESTION_TEMPLATE = _QUESTION_TEMPLATE = """SYSTEM: You are an IELTS question generator.
+
+PASSAGE:
+{passage}
+
+QUESTION TYPE RULES (from KG):
+{qtype_rules}
+
+EXAMPLE SUMMARIES (not full text):
+- Multiple Choice: 4 options (A–D), one correct answer, 1–2 sentence rationale.
+- True/False/Not Given: statements based on passage, mapped to T/F/NG.
+- Matching Headings: list of headings > number of paragraphs, not all used.
+
+TASK (strict):
+1) Produce exactly {count} questions of type {qtype_id}.
+2) Each question must be a JSON object with fields:
+   - id (string)
+   - question_text (string)
+   - options (list of 4 strings, labelled A/B/C/D)
+   - answer (one of "A","B","C","D")
+   - rationale (short, 1-2 sentences why the answer is correct)
+   - linked_skills (list of skill ids)
+3) Distractors must follow KG distractor patterns.
+4) Output: a JSON array of question objects and nothing else.
+"""
+
+
+_DISTRACTOR_TEMPLATE = """SYSTEM: You are an IELTS distractor generator.
+
+PASSAGE:
+{passage}
+
+KG DISTRACTOR PATTERNS:
+{d_rules}
+
+EXAMPLE SUMMARIES OF DISTRACTOR TYPES:
+- Lexical Similarity: Wrong option looks similar in wording (synonyms, paraphrased terms).
+- Plausible but Wrong Detail: Option mentions something present in passage but not correct for the question.
+- Outside Knowledge Trap: Option is plausible using world knowledge but not supported in passage.
+- Opposite/Contradiction: Option states the reverse of what passage says.
+- Irrelevant but Related Topic: Option is thematically related but not directly answering.
+- Overgeneralisation: Option uses extreme or absolute wording not supported by passage.
+
+TASK:
+1) For each question (or for the passage in general), produce a short list of distractors following KG patterns.
+2) Output a JSON array of objects: 
+   { "for_question_id": "...", 
+     "distractors": [ { "text": "...", "pattern": "..." }, ... ] }
+"""
+
+
+# -----------------------
+# Executors (public)
+# -----------------------
+def passage_executor(prompt_template: str, topic: str, outputs_so_far: Dict[str, Any]) -> str:
+    """
+    Signature kept for compatibility with GEPA orchestration:
+      (prompt_template, topic, outputs_so_far)
+    Behavior: fetch sources (from outputs_so_far['sources'] if present, else call retriever inside),
+              fetch KG passage rules from MCP, generate and validate the passage (with retries).
+    Returns: passage text (string).
+    """
+    # sources: prefer those passed in from main/orchestrator
+    sources = outputs_so_far.get("sources")
+    if not sources:
+        # lazy import retriever here so executors can be imported standalone
+        try:
+            from retriever import retrieve_sources
+            sources = retrieve_sources(topic)
+        except Exception:
+            sources = []
+            logger.warning("retriever.retrieve_sources unavailable; proceeding without sources.")
+
+    # flatten sources for prompt
+    sources_txt = "\n".join([f"[S{i+1}] {s.get('title','')}. {s.get('abstract', s.get('text',''))}" 
+                              for i, s in enumerate(sources[:6])])
+
+    kg_rules = MCP.get_passage_rules()
+    kg_rules_txt = json.dumps(kg_rules, ensure_ascii=False, indent=2)
+
+    # attempts + validation loop
+    max_attempts = 3
+    threshold = 0.70  # passage validator score threshold
+    last_traces = None
+
+    for attempt in range(1, max_attempts + 1):
+        logger.info("PASSAGE_GENERATE attempt %d/%d for topic=%s", attempt, max_attempts, topic)
+        prompt = _PASSAGE_TEMPLATE.format(topic=topic, sources=sources_txt, kg_rules=kg_rules_txt)
+
+        if DEBUG_STUB:
+            # useful for local debug runs
+            passage = f"DEBUG PASSAGE about {topic}\n\nSummary: stub."
+        else:
+            passage = call_llm(prompt, tools=EXAMPLE_TOOLS["passage"], expect_json=False, max_tokens=1600)
+            passage = maybe_call_examples(passage, "passage")
+
+        # validate
+        score, traces = validate_passage_text(passage)
+        logger.info("Passage score=%.3f traces=%s", score, traces)
+        last_traces = traces
+
+        if score >= threshold:
+            logger.info("Passage accepted (score %.3f)", score)
+            return passage
+
+        # Prepare a "fix" instruction for next attempt
+        fix_instructions = "Please regenerate the passage and fix the following issues: " + "; ".join(traces)
+        # Append a targeted followup instruction to the prompt (short)
+        prompt += "\n\nFEEDBACK: " + fix_instructions + "\nOnly change what's necessary; preserve other content."
+
+        # small wait/backoff to avoid rate-limit spikes
+        time.sleep(0.5)
+
+    # After attempts exhausted: return last passage but mark in logs
+    logger.warning("PASSAGE generation failed to meet threshold after %d attempts. Returning last result.", max_attempts)
+    return passage
+
+
+def questions_executor(prompt_template: str, topic: str, outputs_so_far: Dict[str, Any], qtype_id: str = "Multiple_Choice", count: int = 3) -> List[Dict]:
+    """
+    Generate questions for a given passage present in outputs_so_far['passage'] (or raise).
+    Returns: list of question dicts (if JSON parsing fails, returns an empty list or raw text).
+    """
+    passage = outputs_so_far.get("passage")
+    if not passage:
+        raise ValueError("questions_executor requires 'passage' in outputs_so_far")
+
+    qtype_rules = MCP.get_question_type_context(qtype_id)
+    qtype_rules_txt = json.dumps(qtype_rules, ensure_ascii=False, indent=2)
+
+    max_attempts = 2
+    threshold = 0.80  # question structure acceptance
+
+    for attempt in range(1, max_attempts + 1):
+        logger.info("QUESTIONS_GENERATE attempt %d/%d qtype=%s", attempt, max_attempts, qtype_id)
+        prompt = _QUESTION_TEMPLATE.format(passage=passage, qtype_rules=qtype_rules_txt, qtype_id=qtype_id, count=count)
+
+        if DEBUG_STUB:
+            model_out = json.dumps([
+                {"id":"Q1","question_text":"DEBUG Q?","options":["A","B","C","D"],"answer":"A","rationale":"stub","linked_skills":["Skimming"]}
+            ])
+        else:
+            model_out = call_llm(prompt, tools=EXAMPLE_TOOLS["questions"], expect_json=False, max_tokens=800)
+            model_out = maybe_call_examples(model_out, "questions", qtype_id=qtype_id)
+
+        try:
+            parsed = _parse_json_from_model(model_out)
+        except Exception as e:
+            logger.warning("Failed to parse questions JSON: %s", e)
+            parsed = None
+
+        if isinstance(parsed, list):
+            q_score, q_traces = validate_questions_structure(parsed)
+            logger.info("Questions structure score=%.3f traces=%s", q_score, q_traces)
+            if q_score >= threshold:
+                return parsed
+            else:
+                # instruct model about traces
+                prompt += "\n\nFEEDBACK: " + "; ".join(q_traces)
+
+        else:
+            logger.warning("Questions generation not JSON list on attempt %d", attempt)
+
+        time.sleep(0.4)
+
+    logger.warning("Failed to generate valid questions after %d attempts; returning best-effort parse", max_attempts)
+    return parsed if parsed is not None else []
+
+
+def distractors_executor(prompt_template: str, topic: str, outputs_so_far: Dict[str, Any]) -> List[Dict]:
+    """
+    Generate distractors aligned with KG patterns for the passage.
+    Returns: list of distractor objects.
+    """
+    passage = outputs_so_far.get("passage")
+    if not passage:
+        raise ValueError("distractors_executor requires 'passage' in outputs_so_far")
+
+    d_rules = MCP.get_distractor_patterns()
+    d_rules_txt = json.dumps(d_rules, ensure_ascii=False, indent=2)
+
+    max_attempts = 2
+
+    for attempt in range(1, max_attempts + 1):
+        logger.info("DISTRACTORS_GENERATE attempt %d/%d", attempt, max_attempts)
+        prompt = _DISTRACTOR_TEMPLATE.format(passage=passage, d_rules=d_rules_txt)
+        if DEBUG_STUB:
+            model_out = json.dumps([{"for_question_id":"Q1","distractors":[{"text":"DEBUG wrong","pattern":"similar_lexical"}]}])
+        else:
+            model_out = call_llm(prompt, expect_json=False, max_tokens=600)
+
+        try:
+            parsed = _parse_json_from_model(model_out)
+            if isinstance(parsed, list):
+                return parsed
+        except Exception as e:
+            logger.warning("Failed to parse distractors JSON: %s", e)
+
+        time.sleep(0.3)
+
+    logger.warning("Returning last distractors attempt result (may be invalid).")
+    try:
+        return parsed if parsed is not None else []
+    except UnboundLocalError:
+        return []
+# mcp_client.py
+import requests
+from typing import Any, Dict, List
+
+class MCPClient:
+    def __init__(self, base_url: str = "http://localhost:8000"):
+        self.base_url = base_url.rstrip("/")
+
+    def _get(self, path: str) -> Any:
+        resp = requests.get(f"{self.base_url}{path}")
+        resp.raise_for_status()
+        return resp.json()
+
+    def get_passage_rules(self) -> List[Dict]:
+        return self._get("/get_passage_rules")
+
+    def get_question_type_context(self, qtype_id: str) -> Dict:
+        return self._get(f"/get_question_type_context/{qtype_id}")
+
+    def get_distractor_patterns(self) -> List[Dict]:
+        return self._get("/get_distractor_patterns")
+
+    def get_penmanship_rules(self) -> List[Dict]:
+        return self._get("/get_penmanship_rules")
+    def get_passage_examples(self) -> List[Dict]:
+        return self._get("/get_passage_examples")
+
+    def get_question_examples(self, qtype_id: str = None) -> List[Dict]:
+        if qtype_id:
+            return self._get(f"/get_question_examples/{qtype_id}")
+        return self._get("/get_question_examples")
+# validators.py
+"""
+Validators for GEPA (µ_f).
+Extended with:
+ - Penmanship scoring (from KG rules)
+ - Writing style & cohesion checks
+ - Distractor quality validation
+ - Weighted composite score → IELTS band
+ - Feedback example builder (from old feedback.py)
+"""
+
+import re
+import json
+from typing import Tuple, Dict, Any, List
+
+
+# ---------- Utilities ----------
+def word_count(text: str) -> int:
+    return len(text.split())
+
+
+def paragraph_count(text: str) -> int:
+    paras = [p for p in re.split(r'\n\s*\n', text.strip()) if p.strip()]
+    return max(0, len(paras))
+
+
+# ---------- Passage validator ----------
+def validate_passage_text(passage_text: str) -> Tuple[float, List[str]]:
+    traces = []
+    wc = word_count(passage_text)
+    pc = paragraph_count(passage_text)
+
+    ideal = 900
+    width = 300  # 600–1200 → valid range
+    wc_score = max(0.0, 1 - abs(wc - ideal) / width)
+    traces.append(f"word_count={wc}")
+
+    if 4 <= pc <= 6:
+        pc_score = 1.0
+    else:
+        pc_score = max(0.0, 1 - abs(pc - 5) / 5)
+    traces.append(f"paragraph_count={pc}")
+
+    if "Summary:" in passage_text:
+        sum_score = 1.0
+        traces.append("summary=present")
+    else:
+        sum_score = 0.0
+        traces.append("summary=missing")
+
+    score = 0.5 * wc_score + 0.3 * pc_score + 0.2 * sum_score
+    return score, traces
+
+
+# ---------- Question validator ----------
+def validate_questions_structure(questions_list) -> Tuple[float, List[str]]:
+    traces = []
+    if not isinstance(questions_list, list) or not questions_list:
+        return 0.0, ["questions=missing_or_not_list"]
+
+    total_q = len(questions_list)
+    ok_count = 0
+    for q in questions_list:
+        if not q.get("id") or not q.get("question_text"):
+            traces.append(f"question_missing_fields:{q.get('id','?')}")
+            continue
+        if "answer" not in q or q["answer"] is None:
+            traces.append(f"question_{q.get('id')} missing_answer")
+            continue
+        ok_count += 1
+
+    score = ok_count / total_q
+    return score, traces
+
+
+# ---------- Extractive check ----------
+def extractive_answer_check(passage_text: str, question) -> Tuple[float, str]:
+    ans = question.get("answer", "")
+    if not ans:
+        return 0.0, "answer_empty"
+    ans_lower = ans.lower()
+    if ans_lower in passage_text.lower():
+        return 1.0, "answer_span_found"
+    words = [w for w in re.findall(r"\w+", ans_lower) if len(w) > 3]
+    if words and all(w in passage_text.lower() for w in words):
+        return 0.75, "answer_words_all_present"
+    return 0.0, "answer_missing_or_paraphrased"
+
+
+# ---------- Penmanship validator ----------
+def validate_penmanship(text: str, rules: List[Dict] | None = None) -> Tuple[float, List[str]]:
+    traces = []
+    if not rules:
+        return 1.0, ["penmanship=skipped(no_rules)"]
+
+    violations = []
+    for rule in rules:
+        desc = rule.get("description", "")
+        patterns = rule.get("banned_patterns", [])
+        for pat in patterns:
+            if re.search(pat, text):
+                violations.append(desc)
+                traces.append(f"penmanship_violation:{desc}")
+
+    score = 1.0 if not violations else max(0.0, 1 - len(violations) / len(rules))
+    return score, traces
+
+
+# ---------- Writing style validator ----------
+def validate_writing_style(passage: str) -> Tuple[float, List[str]]:
+    traces = []
+    sentences = re.split(r"[.!?]", passage)
+    lengths = [len(s.split()) for s in sentences if s.strip()]
+    avg_len = sum(lengths) / max(1, len(lengths))
+
+    markers = ["however", "therefore", "moreover", "in addition", "as a result"]
+    has_markers = any(m in passage.lower() for m in markers)
+
+    length_score = 1.0 if 12 <= avg_len <= 25 else 0.5
+    marker_score = 1.0 if has_markers else 0.3
+
+    score = 0.7 * length_score + 0.3 * marker_score
+    traces.append(f"avg_sentence_length={avg_len:.1f}")
+    traces.append(f"cohesion_markers={'yes' if has_markers else 'no'}")
+
+    return score, traces
+
+
+# ---------- Distractor quality validator ----------
+def validate_distractors(questions: list) -> Tuple[float, List[str]]:
+    traces = []
+    if not questions:
+        return 0.0, ["distractors=missing"]
+
+    valid = 0
+    total = 0
+    for q in questions:
+        opts = q.get("options", [])
+        ans = q.get("answer", "")
+        for opt in opts:
+            if opt == ans:
+                continue
+            total += 1
+            if abs(len(opt) - len(ans)) < 10:  # rough similarity
+                valid += 1
+            else:
+                traces.append(f"distractor_bad_length:{opt}")
+    score = valid / total if total else 0.0
+    return score, traces
+
+
+# ---------- Band mapping ----------
+def to_band(score_01: float) -> float:
+    band = score_01 * 9.0
+    return round(band * 2) / 2
+
+
+# ---------- Composer ----------
+def score_passage_and_questions(outputs: Dict[str, Any], topic: str,
+                                penmanship_rules: List[Dict] | None = None) -> Tuple[Dict[str, float], List[str]]:
+    traces = []
+    passage = outputs.get("passage", "")
+    questions_raw = outputs.get("questions", "")
+
+    # Parse questions if JSON string
+    questions = questions_raw
+    if isinstance(questions_raw, str):
+        try:
+            m = re.search(r'(\[.*\])', questions_raw, flags=re.S)
+            if m:
+                questions = json.loads(m.group(1))
+            else:
+                questions = []
+        except Exception:
+            questions = []
+
+    # Sub-scores
+    p_score, p_traces = validate_passage_text(passage)
+    q_score, q_traces = validate_questions_structure(questions)
+    style_score, s_traces = validate_writing_style(passage)
+    penmanship_score, pen_traces = validate_penmanship(passage, penmanship_rules)
+    distractor_score, d_traces = validate_distractors(questions)
+
+    traces.extend([f"P:{t}" for t in p_traces])
+    traces.extend([f"Q:{t}" for t in q_traces])
+    traces.extend([f"S:{t}" for t in s_traces])
+    traces.extend([f"PN:{t}" for t in pen_traces])
+    traces.extend([f"D:{t}" for t in d_traces])
+
+    # Extractive check
+    extract_scores = []
+    for q in questions:
+        s, trace = extractive_answer_check(passage, q)
+        extract_scores.append(s)
+        traces.append(f"EX:{q.get('id','?')}:{trace}")
+    extract_avg = sum(extract_scores) / len(extract_scores) if extract_scores else 0.0
+
+    scores = {
+        "passage": p_score,
+        "questions": q_score,
+        "penmanship": penmanship_score,
+        "style": style_score,
+        "distractors": distractor_score,
+        "extractive": extract_avg,
+    }
+
+    final_score = (
+        0.25 * p_score +
+        0.20 * q_score +
+        0.10 * extract_avg +
+        0.20 * penmanship_score +
+        0.15 * style_score +
+        0.10 * distractor_score
+    )
+    band = to_band(final_score)
+    traces.append(f"SCORE_BAND={band}")
+
+    return scores, traces
+
+
+# ---------- Feedback Examples ----------
+def build_feedback_examples(topic: str, passage: str, issues: List[str]) -> List[Dict[str, str]]:
+    return [{
+        "input": topic,
+        "output": passage[:200],
+        "feedback": "; ".join(issues) if issues else "Looks good."
+    }]
+# retriever.py
+import requests
+import re
+from googlesearch import search   # your existing web-search tool
+
+SEMANTIC_SCHOLAR_URL = "https://api.semanticscholar.org/graph/v1/paper/search"
+OPENALEX_URL = "https://api.openalex.org/works"
+CROSSREF_URL = "https://api.crossref.org/works"
+
+
+def fetch_from_semantic_scholar(topic, limit=3):
+    params = {
+        "query": topic,
+        "limit": limit,
+        "fields": "title,abstract,year,url"
+    }
+    try:
+        resp = requests.get(SEMANTIC_SCHOLAR_URL, params=params, timeout=10)
+        resp.raise_for_status()
+        data = resp.json()
+    except Exception as e:
+        print("Semantic Scholar fetch failed:", e)
+        return []
+
+    results = []
+    for i, paper in enumerate(data.get("data", []), 1):
+        title = paper.get("title", "Untitled")
+        year = paper.get("year")
+        abstract = paper.get("abstract") or title
+        url = paper.get("url", "")
+        facts = []
+        if year:
+            facts.append(f"Year: {year}")
+        if url:
+            facts.append(f"Source: {url}")
+        results.append(normalize_source("S", i, title, abstract=abstract, facts=facts, url=url))
+    return results
+
+
+def fetch_from_openalex(topic, limit=3):
+    params = {"search": topic, "per-page": limit}
+    try:
+        resp = requests.get(OPENALEX_URL, params=params, timeout=10)
+        resp.raise_for_status()
+        data = resp.json()
+    except Exception as e:
+        print("OpenAlex fetch failed:", e)
+        return []
+
+    results = []
+    for i, work in enumerate(data.get("results", []), 1):
+        title = work.get("title", "Untitled")
+        year = work.get("publication_year", "Unknown")
+        doi = work.get("doi", "")
+        abstract = work.get("abstract", "") or title
+        facts = []
+        if year and year != "Unknown":
+            facts.append(f"Year: {year}")
+        if doi:
+            facts.append(f"DOI: {doi}")
+        results.append(normalize_source("O", i, title, abstract=abstract, facts=facts))
+    return results
+
+
+def fetch_from_crossref(topic, limit=3):
+    params = {"query": topic, "rows": limit}
+    try:
+        resp = requests.get(CROSSREF_URL, params=params, timeout=10)
+        resp.raise_for_status()
+        data = resp.json()
+    except Exception as e:
+        print("CrossRef fetch failed:", e)
+        return []
+
+    results = []
+    for i, item in enumerate(data.get("message", {}).get("items", []), 1):
+        title = " ".join(item.get("title", [])) or "Untitled"
+        year = item.get("issued", {}).get("date-parts", [[None]])[0][0]
+        doi = item.get("DOI", "")
+        facts = []
+        if year:
+            facts.append(f"Year: {year}")
+        if doi:
+            facts.append(f"DOI: {doi}")
+        results.append(normalize_source("C", i, title, abstract=title, facts=facts))
+    return results
+
+def fetch_from_web(topic, limit=3):
+    try:
+        results = list(search(f"{topic} research facts experiments events"))  # convert to list
+    except Exception as e:
+        print("Web search failed:", e)
+        return []
+
+    sources = []
+    for i, r in enumerate(results[:limit], 1):
+        # depending on your googlesearch version, r might be a string (URL) not dict
+        if isinstance(r, str):
+            title = r
+            snippet = ""
+            url = r
+        else:
+            title = r.get("title", "Untitled")
+            snippet = r.get("snippet", "")
+            url = r.get("url", "")
+
+        abstract = snippet or title
+        facts = []
+        if url:
+            facts.append(f"Source: {url}")
+        sources.append(normalize_source("W", i, title, abstract=abstract, facts=facts, url=url))
+    return sources
+
+
+def highlight_facts(text):
+    """
+    Extract and emphasize numbers, years, percentages, and sample sizes 
+    so the LLM uses them more reliably in passages.
+    """
+    # Bold numbers and years in brackets (so they stand out in the prompt)
+    text = re.sub(r"(\b\d{4}\b)", r"<YEAR:\1>", text)        # years
+    text = re.sub(r"(\b\d+%|\b\d+\.\d+%|\b\d+\b)", r"<NUM:\1>", text)  # numbers/percentages
+    return text
+
+
+def process_sources(sources: list[dict]) -> list[dict]:
+    """
+    Apply highlighting to abstracts of all sources.
+    """
+    processed = []
+    for s in sources:
+        s_copy = dict(s)  # shallow copy
+        if "abstract" in s_copy and s_copy["abstract"]:
+            s_copy["abstract"] = highlight_facts(s_copy["abstract"])
+        processed.append(s_copy)
+    return processed
+
+
+
+def retrieve_sources(topic, limit=10):
+    sources = []
+    sources.extend(fetch_from_semantic_scholar(topic, limit=3))
+    sources.extend(fetch_from_openalex(topic, limit=3))
+    sources.extend(fetch_from_crossref(topic, limit=2))
+
+    if len(sources) < limit:
+        sources.extend(fetch_from_web(topic, limit=limit - len(sources)))
+
+    sources = deduplicate_sources(sources[:limit])
+    return process_sources(sources)
+
+def normalize_source(id_prefix: str, idx: int, title: str,
+                     abstract: str | None = None,
+                     facts: list[str] | None = None,
+                     url: str | None = None) -> dict:
+    """
+    Normalize source into {id, abstract, facts}.
+    - abstract: main text body
+    - facts: list of short factual strings (years, %s, DOIs, URLs, etc.)
+    """
+    facts = facts or []
+    if url:
+        facts.append(f"Source: {url}")
+    return {
+        "id": f"{id_prefix}{idx}",
+        "abstract": abstract or title,
+        "facts": facts
+    }
+
+
+def deduplicate_sources(sources: list[dict]) -> list[dict]:
+    """
+    Deduplicate sources by abstract text (case-insensitive).
+    """
+    seen = set()
+    unique = []
+    for s in sources:
+        key = s.get("abstract") or s.get("text", "")
+        key = key.lower().strip()
+        if key and key not in seen:
+            seen.add(key)
+            unique.append(s)
+    return unique
+
+# prompts.py - templates use placeholders {TOPIC}, {SOURCES}, {PASSAGE}
+
+def format_sources(sources):
+    """
+    Convert sources into a clean, LLM-friendly format.
+    Each source may have 'abstract' and 'facts'.
+    Example:
+    [S1] Abstract: ...
+    [S1] Facts:
+    - Fact 1
+    - Fact 2
+    """
+    lines = []
+    for s in sources:
+        if s.get("abstract"):
+            lines.append(f"[{s['id']}] Abstract: {s['abstract']}")
+        if s.get("facts"):
+            lines.append(f"[{s['id']}] Facts:")
+            for f in s["facts"]:
+                lines.append(f"- {f}")
+    return "\n".join(lines)
+
+
+# ---------- Passage Prompt Templates ----------
+
+def build_passage_prompt_template():
+    return """SYSTEM: You are an IELTS passage generator.
+
+TOPIC: {TOPIC}
+
+CONTEXT (external references):
+{SOURCES}
+
+TASK:
+1) Use the KG (call the query_kg tool) to fetch constraints for node "IELTS_Academic_Reading" 
+   (format rules, writing style, required skills).
+2) Treat KG constraints as ground truth and follow them exactly.
+3) Produce ONE IELTS-style Academic Reading passage (B2–C1), 4–6 paragraphs, ~900 words.
+4) Use inline citations like [S1], [S2] whenever information comes from references.
+5) End the passage with a line: Summary: <one-line summary>
+
+OUTPUT: only the passage text (and Summary line).
+"""
+
+
+def build_passage_prompt(topic, sources, extra_context=None):
+    """
+    Returns a passage prompt string with {TOPIC} and {SOURCES} replaced.
+    - sources: list of dicts {"id":..., "abstract":..., "facts":[...]}
+    - extra_context: optional KG/system context
+    """
+    template = build_passage_prompt_template()
+    sources_text = format_sources(sources)
+    if extra_context:
+        sources_text += "\n" + extra_context
+    prompt = template.replace("{TOPIC}", topic)
+    prompt = prompt.replace("{SOURCES}", sources_text)
+    return prompt
+
+
+# ---------- Question Prompt Templates ----------
+
+def build_question_prompt_template(question_type="Multiple_Choice"):
+    return ("""SYSTEM: You are an IELTS question generator.
+
+PASSAGE:
+{PASSAGE}
+
+EXTERNAL CONTEXT (references + facts):
+{SOURCES}
+
+TASK:
+1) Use the KG (call the query_kg tool) to fetch constraints for node related to question type '{qtype}'.
+2) Produce 3 questions of type {qtype} that follow IELTS conventions:
+   - Order follows passage order where applicable.
+   - Each question: id, question_text, options (A/B/C/D), answer (single), rationale, linked_skills.
+   - Distractors must follow KG distractor patterns.
+OUTPUT: Return a JSON array of question objects.
+""".replace("{qtype}", question_type))
+
+
+def build_question_prompt(passage_text, question_type, sources=None, rules=None, skills=None, distractors=None):
+    """
+    Returns a question-generation prompt with placeholders filled.
+    - passage_text: passage produced earlier
+    - sources: list of dicts {"id":..., "abstract":..., "facts":[...]}
+    - rules/skills/distractors: optional KG info (can be injected at the end)
+    """
+    template = build_question_prompt_template(question_type)
+
+    # Format sources into readable text
+    sources_text = format_sources(sources) if sources else "No external references provided."
+
+    prompt = template.replace("{PASSAGE}", passage_text)
+    prompt = prompt.replace("{SOURCES}", sources_text)
+
+    # Add optional KG info (still separate from retriever context)
+    context_parts = []
+    if rules:
+        context_parts.append("Rules:\n" + rules)
+    if skills:
+        context_parts.append("Skills:\n" + skills)
+    if distractors:
+        context_parts.append("Distractors:\n" + distractors)
+    if context_parts:
+        prompt += "\n\n" + "\n".join(context_parts)
+
+    return prompt
+
+# gepa.py - GEPA driver (multi-objective, Pareto-aware) 
+import random
+import uuid
+from copy import deepcopy
+from typing import List, Dict, Callable, Any
+from statistics import mean
+
+from llm import call_llm
+from validators import score_passage_and_questions
+from logger import GEPA_Logger
+
+# ---------- CONFIG ----------
+MINIBATCH_SIZE = 4   #8 later on # small for sample efficiency
+NPARETO = 20 # 20 - 30% amount of topics
+MAX_CANDIDATES = 30 #30 - 50
+ROLLOUT_BUDGET = 200  #scale to 500 - 1000
+MUTATION_ATTEMPTS = 1 # 2 if more variety
+# ----------------------------
+
+MODULE_NAMES = ["passage", "questions", "distractors"]
+
+
+# ---------- Utilities ----------
+def new_candidate_from_base(base_prompts: Dict[str, str], extra_meta=None) -> Dict[str, Any]:
+    return {
+        "id": str(uuid.uuid4()),
+        "prompts": deepcopy(base_prompts),
+        "scores": {},      # last aggregated scores (dict)
+        "meta": extra_meta or {},
+        "ancestry": []
+    }
+
+
+# ---------- Rollout / evaluation ----------
+def run_rollout_on_topic(candidate: Dict, topic: str,
+                         executors: Dict[str, Callable[[str, str, dict], Any]],
+                         verbose: bool = False) -> Dict:
+    """
+    Run the full pipeline for one candidate on a single topic.
+    executors: mapping module_name -> function(prompt_template, topic, outputs_so_far) -> output
+    Returns { topic, outputs, scores (dict), traces }
+    """
+    outputs: Dict[str, Any] = {}
+    for m in MODULE_NAMES:
+        prompt_text = candidate["prompts"].get(m)
+        if prompt_text is None:
+            raise RuntimeError(f"Candidate missing prompt for module {m}")
+
+        out = executors[m](prompt_text, topic, outputs)
+        outputs[m] = out
+
+    # validators.score_passage_and_questions now returns (scores_dict, traces)
+    scores, traces = score_passage_and_questions(outputs, topic)
+    # record last scores on candidate (helps debugging)
+    candidate["scores"] = scores
+    candidate["traces"] = traces
+
+    return {"topic": topic, "outputs": outputs, "scores": scores, "traces": traces}
+
+
+def run_minibatch(candidate: Dict, topics: List[str],
+                  executors: Dict[str, Callable[[str, str, dict], Any]]) -> List[Dict]:
+    results = []
+    for t in topics:
+        res = run_rollout_on_topic(candidate, t, executors)
+        results.append(res)
+    return results
+
+
+# ---------- Multi-objective helpers ----------
+def dominates(a: Dict[str, float], b: Dict[str, float]) -> bool:
+    """
+    A dominates B if:
+      - for every objective k, a[k] >= b[k]
+      - and for at least one k, a[k] > b[k]
+    Missing keys are treated as 0.0.
+    """
+    keys = set(a.keys()) | set(b.keys())
+    ge_all = all(a.get(k, 0.0) >= b.get(k, 0.0) for k in keys)
+    gt_some = any(a.get(k, 0.0) > b.get(k, 0.0) for k in keys)
+    return ge_all and gt_some
+
+
+def aggregate_scores(results: List[Dict]) -> Dict[str, float]:
+    """
+    Given a list of rollout results (each result has 'scores' dict),
+    compute the average per objective across the list.
+    """
+    if not results:
+        return {}
+    # collect union of keys
+    keys = set()
+    for r in results:
+        keys.update(r["scores"].keys())
+    agg = {}
+    for k in keys:
+        vals = [r["scores"].get(k, 0.0) for r in results]
+        agg[k] = mean(vals) if vals else 0.0
+    return agg
+
+
+def build_pareto_front(records: Dict[str, Dict[str, Dict[str, float]]]) -> List[str]:
+    """
+    records: { candidate_id: { topic: scores_dict, ... }, ... }
+    Compute per-candidate average vector across topics, then return list of
+    non-dominated candidate ids (Pareto front).
+    """
+    # compute average vector per candidate
+    avg_vectors: Dict[str, Dict[str, float]] = {}
+    for cid, topic_map in records.items():
+        # topic_map: {topic: scores_dict}
+        topic_results = list(topic_map.values())
+        if not topic_results:
+            avg_vectors[cid] = {}
+            continue
+        # aggregate across topics
+        avg_vectors[cid] = aggregate_scores([{"scores": s} for s in topic_results])
+
+    # compute non-dominated set
+    pareto = []
+    for a in avg_vectors:
+        a_vec = avg_vectors[a]
+        dominated = False
+        for b in avg_vectors:
+            if a == b:
+                continue
+            b_vec = avg_vectors[b]
+            if dominates(b_vec, a_vec):
+                dominated = True
+                break
+        if not dominated:
+            pareto.append(a)
+    return pareto
+
+
+# ---------- GEPA meta-prompt ----------
+GEPA_META_PROMPT_TEMPLATE = """
+I provided an assistant with the following instruction (the module prompt) delimited by triple quotes:
+
+'''
+{current_instruction}
+'''
+
+Here are a few examples of inputs, outputs, and feedback from runs:
+
+{examples_text}
+
+Your task: write a new improved instruction for the assistant (the same module) that
+- fixes the problems called out in the feedback,
+- includes any domain-specific constraints implied by the examples,
+- is explicit and repeatable,
+- keep it concise.
+
+Return ONLY the new instruction inside triple backticks.
+"""
+
+
+def make_meta_prompt(current_instruction: str, examples: List[Dict]) -> str:
+    ex_texts = []
+    for ex in examples:
+        ex_texts.append(f"Input: {ex['input']}\nOutput: {ex['output']}\nFeedback: {ex['feedback']}\n---")
+    return GEPA_META_PROMPT_TEMPLATE.format(current_instruction=current_instruction,
+                                            examples_text="\n".join(ex_texts))
+
+
+def reflective_prompt_mutation(module_name: str, current_prompt: str, examples: List[Dict]) -> str:
+    meta = make_meta_prompt(current_prompt, examples)
+    resp = call_llm(meta)
+    new_instr = resp.strip()
+    if new_instr.startswith("
+") and new_instr.endswith("
+"):
+        new_instr = new_instr.strip("").strip()
+    return new_instr
+
+
+def system_merge_prompts(prompt_a: str, prompt_b: str) -> str:
+    lines = []
+    for s in (prompt_a + "\n" + prompt_b).splitlines():
+        s_clean = s.strip()
+        if not s_clean:
+            continue
+        if s_clean not in lines:
+            lines.append(s_clean)
+    return "\n".join(lines)
+
+
+# ---------- Candidate pool ----------
+class CandidatePool:
+    def __init__(self, base_prompts: Dict[str, str], max_size=MAX_CANDIDATES):
+        self.base_prompts = deepcopy(base_prompts)
+        self.pool: Dict[str, Dict] = {}
+        self.max_size = max_size   # <-- set this first
+        c = new_candidate_from_base(base_prompts, extra_meta={"seed": "base"})
+        self.add_candidate(c)
+
+    def add_candidate(self, cand: Dict):
+        self.pool[cand["id"]] = cand
+        self._trim_pool()
+
+    def remove_candidate(self, cid: str):
+        if cid in self.pool:
+            del self.pool[cid]
+
+    def _trim_pool(self):
+        if len(self.pool) > self.max_size:
+            while len(self.pool) > self.max_size:
+                key = random.choice(list(self.pool.keys()))
+                del self.pool[key]
+
+    def list_candidates(self) -> List[Dict]:
+        return list(self.pool.values())
+
+
+# ---------- GEPA main loop ----------
+def gepa_optimize(
+    executors: Dict[str, Callable[[str, str, dict], Any]],
+    base_prompts: Dict[str, str],
+    topics: List[str],
+    dpareto_size: int = NPARETO,
+    budget: int = ROLLOUT_BUDGET
+):
+    pool = CandidatePool(base_prompts)
+    random.shuffle(topics)
+    dfeedback = topics[:min(len(topics), 200)]
+    dpareto = topics[:min(len(topics), dpareto_size)]
+    logger = GEPA_Logger()
+    rollouts_used = 0
+    iteration = 0
+    # records: candidate_id -> topic -> scores_dict
+    records: Dict[str, Dict[str, Dict[str, float]]] = {}
+    for c in pool.list_candidates():
+        records[c["id"]] = {}
+
+    while rollouts_used < budget:
+        iteration += 1
+        print(f"[GEPA] iter {iteration}, rollouts_used {rollouts_used}, pool_size {len(pool.pool)}")
+
+        candidates = pool.list_candidates()
+        parent = random.choice(candidates)
+        module_to_mutate = random.choice(MODULE_NAMES)
+        minibatch = random.sample(dfeedback, k=min(MINIBATCH_SIZE, len(dfeedback)))
+
+        # evaluate parent on minibatch
+        parent_results = run_minibatch(parent, minibatch, executors)
+        rollouts_used += len(parent_results)
+        rec = records.setdefault(parent["id"], {})
+        for r in parent_results:
+            rec[r["topic"]] = r["scores"]
+
+        # prepare examples for meta-prompt
+        examples = []
+        for r in parent_results:
+            passage = r["outputs"].get("passage", "")
+            out_summary = (passage[:200].replace("\n", " ")) if isinstance(passage, str) else str(passage)
+            fb_text = "; ".join(r["traces"]) if isinstance(r["traces"], list) else str(r["traces"])
+            examples.append({"input": r["topic"], "output": out_summary, "feedback": fb_text})
+
+        # attempt mutation
+        new_prompts: Dict[str, str] = {}
+        for attempt in range(MUTATION_ATTEMPTS):
+            current_instr = parent["prompts"][module_to_mutate]
+            mutated = reflective_prompt_mutation(module_to_mutate, current_instr, examples)
+            if mutated and len(mutated) > 20:
+                new_prompts[module_to_mutate] = mutated
+                break
+        if not new_prompts:
+            print("[GEPA] no mutation produced; skipping.")
+            continue
+
+        # build child candidate
+        child = deepcopy(parent)
+        child["id"] = str(uuid.uuid4())
+        child["prompts"] = deepcopy(parent["prompts"])
+        child["prompts"].update(new_prompts)
+        child["ancestry"] = parent.get("ancestry", []) + [parent["id"]]
+
+        # evaluate child on minibatch
+        child_results = run_minibatch(child, minibatch, executors)
+        rollouts_used += len(child_results)
+
+        # aggregate per-objective means across minibatch
+        parent_vec = aggregate_scores(parent_results)
+        child_vec = aggregate_scores(child_results)
+        print(f"[GEPA] parent_vec {parent_vec}")
+        print(f"[GEPA] child_vec  {child_vec}")
+
+        # require Pareto dominance on minibatch to consider extended evaluation
+        if not dominates(child_vec, parent_vec):
+            print("[GEPA] Child did not dominate parent on minibatch; rejecting.")
+            continue
+
+        # extended Pareto evaluation
+        pareto_eval_topics = random.sample(dpareto, k=min(len(dpareto), max(4, dpareto_size // 5)))
+        parent_pareto = run_minibatch(parent, pareto_eval_topics, executors)
+        child_pareto = run_minibatch(child, pareto_eval_topics, executors)
+        rollouts_used += len(pareto_eval_topics) * 2
+
+        parent_p_vec = aggregate_scores(parent_pareto)
+        child_p_vec = aggregate_scores(child_pareto)
+        print(f"[GEPA] parent_p_vec {parent_p_vec}")
+        print(f"[GEPA] child_p_vec  {child_p_vec}")
+
+        if dominates(child_p_vec, parent_p_vec):
+            print(f"[GEPA] Accepting child {child['id']}.")
+            pool.add_candidate(child)
+            # update records for pareto set
+            records[child["id"]] = {r["topic"]: r["scores"] for r in child_pareto}
+            records[parent["id"]] = {r["topic"]: r["scores"] for r in parent_pareto}
+        else:
+            print("[GEPA] Child failed on pareto set; rejecting.")
+
+        if iteration % 10 == 0:
+            pareto_ids = build_pareto_front(records)
+            print(f"[GEPA] pareto front size: {len(pareto_ids)}")
+        logger.log({
+            "iteration": iteration,
+            "parent_id": parent["id"],
+            "child_id": child["id"],
+            "parent_scores": parent.get("scores", {}),
+            "child_scores": child.get("scores", {}),
+            "examples": examples,
+            "traces": child.get("traces", [])
+        })
+
+    print("[GEPA] Budget exhausted.")
+    return pool
+read to understand my project
+
