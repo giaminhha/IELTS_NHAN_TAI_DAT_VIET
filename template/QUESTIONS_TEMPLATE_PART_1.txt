@@ -8,40 +8,77 @@ INPUTS:
 - QUESTION TYPE RULES: {qtype_rules}  
 
 STRICT INSTRUCTIONS:  
-1. Create **13 questions total**, use only these 4 types of questions **True/False/Not Given, Yes/No/Not Given, Summary Completion, Short Answer**.  
+1. Create **13 questions total**, use only 2 of these 4 types of questions **True/False/Not Given, Yes/No/Not Given, Summary Completion, Short Answer**.  
 2. **Format**: Each question must be a **JSON object** with fields based on its type:  
 ***True/False/Not Given or Yes/No/Not Given***
+Choose maximum one of these two types of questions. A test can't have both True/False/Not Given and Yes/No/Not Given 
+Return questions only, no need for instructions.
+{{
    - "id": unique string identifier (e.g., "Q1")  
    - "question_type": "True/False/Not Given" or "Yes/No/Not Given"
    - "question_text": the full question prompt as shown in IELTS papers  
-   - "options": a list of **options** Example: (labeled a) True , b) False , c) Not Given).
+   - "options": a list of **options** Example: (labeled True , False , Not Given).
+   - "answer": an answer, Example: True
    - "rationale": 1–2 sentences explaining why the chosen answer is correct, directly tied to the passage.  
+}}
 
+- Use 1 statement with a light logical trap, for example:
+    + Generalization (some ↔ most ↔ all).
+    + Simple temporal trap (“in the past” ↔ “now”).
+- The rest should be straightforward fact-based, directly supported by the passage.
 
-***Summary Completion***
-(This example has 2 questions)
-{
-  "id": "Q1-2",
-  "question_type": "Summary Completion",
-  "Question_passage": "By the year 1500, printing presses were active in more than 1______ cities and had already produced millions of 2______, an event described as the first 'information explosion'.",
-  "answers": {
-    "1": "250",
-    "2": "books"
-  },
-  "rationale": {
-    "1": "The passage states that presses were operating in over 250 cities by 1500.",
-    "2": "The passage states that presses were producing 8 to 20 million books."
-  }
-}
+***Summary Completion***  
+RULES (STRICT):  
+- Always produce **ONE JSON object per question set**.  
+- Each `question_text` may contain **one or more blanks (1____, 2____, 3____, etc.)**.  
+- If the passage has multiple related blanks, they must be grouped in the SAME `question_text`.  
+- `answer` and `rationale` must be dictionaries, with keys "1", "2", etc., corresponding to each blank.  
+- Never split blanks into separate JSON objects. 
+- Only 1 Summary Completion object can exist in one test. If there are two, for example Q8-10, Q10-12, merge into one Q8-12
+- Use 1 sentence with light paraphrasing (synonym/antonym).
+- The rest should test keyword recognition and scanning.
+- Avoid deep paraphrasing (save that for Part 2–3).
+- **Question numbering rule**:  
+   - A Summary Completion set counts as multiple questions (one for each blank).  
+   - The `id` must reflect the full range of blanks, e.g., `"id": "Q1-2"` for two blanks, `"id": "Q3-5"` for three blanks.  
+   - The next question after `"Q1-2"` must be `"Q3"`, not `"Q2"`.  
+   - The total across all question sets must equal 13 questions exactly.  
+- YOU MUST PUT THIS TYPE OF QUESTION AT THE END OF THE TEST. SO THEY WILL BE THE LAST QUESTIONS.
+Example (with 2 blanks, counting as Q1 and Q2):  
+{{
+    "id": "Q3-4",
+    "question_type": "Summary Completion",
+    "question_text": "By the year 1500, printing presses were active in more than 3______ cities and had already produced millions of 4______, an event described as the first 'information explosion'.",
+    "answer": {{
+      "3": "250",
+      "4": "books"
+    }},
+    "rationale": {{
+      "3": "The passage states that presses were operating in over 250 cities by 1500.",
+      "4": "The passage states that presses were producing 8 to 20 million books."
+    }}
+}}
+
 ***Short Answer***
-{
+CHOOSE ONLY ONE TYPE OF QUESTION HERE. IT'S EITHER ANSWER USING ONE WORD OR TWO WORDS. BOTH MUSN'T APPEAR IN 1 TEST.
+{{
   "id": "Q7",
   "question_type": "Short Answer",
-  "question_text": "Answer the question below using NO MORE THAN THREE WORDS from the passage: What material did Gutenberg use for his type?",
+  "question_text": "Answer the question below using NO MORE THAN ONE WORDS from the passage: What material did Gutenberg use for his type?",
   "answer": "metal",
   "rationale": "The passage states that Gutenberg’s movable type was made of metal."
-}
-
+}}
+{{
+  "id": "Q7",
+  "question_type": "Short Answer",
+  "question_text": "Answer the question below using NO MORE THAN TWO WORDS from the passage: What did her uncle do in his wife wedding?",
+  "answer": "killing animals",
+  "rationale": "The passage states that Gutenberg’s movable type was made of metal."
+}}
+- Most questions: direct fact retrieval from the passage.
+- 1 question maximum with light paraphrasing (e.g., synonym or simple rewording).
+- Avoid heavy inference, false causality, or world knowledge.
+- If 3–4 SAQs are given: 2–3 should be direct retrieval, 1 can be a light challenge.
 3. All 13 questions must form a **JSON array**, containing only question objects. No commentary, no text outside the JSON.
 4. Questions of the same type **must be placed** next to each other.  
 5. Question design rules:  
@@ -49,4 +86,5 @@ STRICT INSTRUCTIONS:
    - Distractors must be **clearly wrong, irrelevant, or too general**. Do not use subtle traps.  
    - Ensure **difficulty matches Part 1 IELTS** (straightforward scanning & locating info, not heavy inference).  
 6. Output must be **valid JSON only**. No trailing text, no explanations outside the JSON.  
-
+7. GENERATE 2 TYPES OF QUESTIONS.
+8. YOU MUST RETURN TRUE/FALSE/NOT GIVEN OR YES/NO/NOT GIVEN, THERE ARE 5-8 TRUE/FALSE/NOT GIVEN OR YES/NO/NOT GIVEN QUESTIONS. THE REMAINING TYPE OF QUESTION TO BE CHOSEN IS SHORT ANSWER OR SUMMARY COMPLETION

@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <assessment ident="text2qti_assessment_7cbbe21c4800154c3860b17bad7908075a6574955b294ea8eedc2c1df88645de" title="Quiz">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>cc_maxattempts</fieldlabel>
+        <fieldentry>1</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <section ident="root_section">
+      <item ident="text2qti_text_2a2ea69bd141c379a6ae70e2a0df936ab398f20c19fb0e73dc2160389eb8c4eb" title="Staff Guide to Money, Payments, and Bank Controls">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_2a2ea69bd141c379a6ae70e2a0df936ab398f20c19fb0e73dc2160389eb8c4eb</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;A. This guide explains how money and banking work in practice, and how staff should apply core procedures. It links the basic functions of money—store of value, medium of exchange, and unit of account—to daily tasks at the branch and online. While money has changed shape over time, the aim for staff is constant: keep customer funds safe and move payments reliably. The guide outlines payment channels, account access, risk controls, and incident reporting. It also introduces key terms in plain language. You will find short examples and clear steps, because consistent actions support trust. When in doubt, follow policy and escalate issues early to protect customers and the institution.&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_text_32f3884aa77b8f023b93c9040a4ccae589c5c4624511ec1a9779eb85cd26f7a7" title="">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_32f3884aa77b8f023b93c9040a4ccae589c5c4624511ec1a9779eb85cd26f7a7</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;B. Customers today use several forms of money and payment channels. Cash and coins suit small, immediate purchases but require secure handling. Bank deposits move through cards, transfers, and digital wallets, which provide speed and records. Cards are convenient for shops and online, while bank transfers suit bills and salaries. Digital wallets and mobile money help where branch access is limited. Cross‑border transfers can be slower and more costly, so staff should give clear expectations about timing and fees. Cryptocurrencies exist but are volatile and not widely accepted as day‑to‑day money. Central bank money still anchors the system, while private tools ride on top of it. Staff should match the channel to the customer’s need and risk profile.&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_text_46338c7c53f1b1e93088b7a94c067744e5d8e6faabc5cab3a62446a9477e2b9a" title="">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_46338c7c53f1b1e93088b7a94c067744e5d8e6faabc5cab3a62446a9477e2b9a</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;C. Opening an account starts with identity checks known as KYC—Know Your Customer. Staff must confirm legal name, date of birth, address, and a valid ID. For businesses, identify the beneficial owner, the real person who controls the company. Keep copies as the policy requires, and update records when details change. Strong access controls follow after opening. Encourage customers to use long passwords and two‑factor authentication, which means a second check, such as a code or fingerprint. Do not share login details or reset credentials without proper verification. Report unusual attempts to access accounts. Clear records and firm access rules reduce fraud and support fair service to all customers.&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_text_79042bd46dfe379c2b66dd7239cd3a8dbee98e0d12444976a45311aedd67c085" title="">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_79042bd46dfe379c2b66dd7239cd3a8dbee98e0d12444976a45311aedd67c085</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;D. Card and ATM operations are common, so procedures must be precise. Card payments rely on authorization from the issuer, usually checked by a chip and a PIN or contactless limits. If a payment is declined, explain the reason shown by the system and suggest safe next steps. In ATMs, inspect for signs of tampering before loading or service. Skimming devices and fake keypads are risks; follow inspection checklists and report anything unusual at once. When a customer reports a lost or stolen card, block it immediately and log the event. Daily reconciliations should match transactions to cash and system totals. These steps maintain customer confidence and reduce losses.&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_text_e4258115082dc5912f4f6aa0b6c05a8cfbb4f3fcc64334a4bbeece80d2b11a5c" title="">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_e4258115082dc5912f4f6aa0b6c05a8cfbb4f3fcc64334a4bbeece80d2b11a5c</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;E. Behind every payment, funds must clear and settle. Some systems run in batches at set times, while others are real‑time. RTGS (real‑time gross settlement) moves large payments one by one, giving finality within minutes. Retail transfers may use batch rails, which post later in the day. Explain cut‑off times so customers plan correctly. A chargeback is a card reversal when a transaction is disputed; follow evidence rules and time limits carefully. Settlement risk occurs if one side pays but the other fails. To manage this, confirm balances, use approved systems, and escalate delays. Keep accurate logs, because strong records resolve most exceptions faster and more fairly.&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_text_06e090874935aa8d78e04de3907ff56ac8c213ef99bc4f00b514da4be6ada7c2" title="">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_06e090874935aa8d78e04de3907ff56ac8c213ef99bc4f00b514da4be6ada7c2</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;F. Digital and mobile banking extend access but require disciplined controls. Use secure connections, and remind customers to avoid public Wi‑Fi for sensitive actions. Two‑factor authentication and real‑time alerts reduce account takeover risk. A short case shows the potential and the limits. Kenya’s M‑Pesa, launched in 2007, allowed people to send money by basic phone. Within a decade, mobile money supported many everyday payments and helped small businesses. It also concentrated system risk in a few platforms. When one service went down, many users could not pay. Staff should prepare for similar patterns: promote backups, give clear outage messages, and record complaints for follow‑up and trend analysis.&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_text_2937f6476f31bad5d2de9c86ba079f8cb678c297d5fe047fd467dd1a0aa2275c" title="">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_2937f6476f31bad5d2de9c86ba079f8cb678c297d5fe047fd467dd1a0aa2275c</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;G. Compliance tasks protect the bank and the public. AML/KYC means anti‑money laundering and know your customer. Staff must screen customers and transactions against sanctions lists and risk indicators. Watch for red flags, such as many cash deposits just below a report threshold, unusual transfers with vague reasons, or use of accounts by unknown third parties. A PEP, or politically exposed person, needs extra checks due to higher corruption risk. If activity looks suspicious, file a SAR, a suspicious activity report, as policy requires. Do not tell the customer about a SAR. Keep training up to date and maintain logs, because regulators review evidence, not intentions.&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_text_31fd3c3d51b172c26f8302b31e53b527757679135ed25fec98b7c507aadb0f06" title="">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_31fd3c3d51b172c26f8302b31e53b527757679135ed25fec98b7c507aadb0f06</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;H. Incident reporting and data protection complete the control framework. If you see fraud, data loss, or a system fault, report it through the official channel within the required time. Early notice allows the bank to contain harm, fix causes, and inform affected customers. Protect data by limiting access to those who need it, encrypting devices, and securing paper files. Treat third‑party vendors with the same care, using contracts and tests. Looking ahead, crypto assets will likely remain niche, while CBDCs—central bank digital currencies, a form of state‑issued digital cash—may appear in some markets. Local habits will still shape payment choices, so offer options and clear guidance. Summary: Money moves through several tools, but safe access, careful checks, and timely reporting support all of them. Apply procedures consistently, and escalate issues early to protect customers and the bank.&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_text_d3e85a368a4bce2a1775503a4cccb1367da3d80fb23ecdd624e7f1e7410f6219" title="">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_d3e85a368a4bce2a1775503a4cccb1367da3d80fb23ecdd624e7f1e7410f6219</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;Do the following statements agree with the information given in the text? Write YES, NO, or NOT GIVEN.&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_question_b93eb6438e25790403b3b60fad1bc673934a8cb02577cf0927386ebb0fb995e5" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>text2qti_choice_b4316ab5aae6632b8d1ef42783c490a01ab75e10fb48e5dad7bc5e842b1d4f3f,text2qti_choice_71208abbd7dc997f54e0475b16d0bd3fc62fccbc28476de26ccaa85037889718,text2qti_choice_47a20d74b6c2a382080b84a454355fe482dc830999e1c78a2379dcd87287f21b</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_b93eb6438e25790403b3b60fad1bc673934a8cb02577cf0927386ebb0fb995e5</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;The guide links money’s roles to day-to-day branch and online work, and includes brief examples to promote consistent actions.&lt;/p&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="text2qti_choice_b4316ab5aae6632b8d1ef42783c490a01ab75e10fb48e5dad7bc5e842b1d4f3f">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Yes&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_71208abbd7dc997f54e0475b16d0bd3fc62fccbc28476de26ccaa85037889718">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;No&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_47a20d74b6c2a382080b84a454355fe482dc830999e1c78a2379dcd87287f21b">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">text2qti_choice_b4316ab5aae6632b8d1ef42783c490a01ab75e10fb48e5dad7bc5e842b1d4f3f</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="general_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;p&gt;Paragraph A states it connects the basic functions of money to daily tasks and provides short examples because consistent actions support trust.&lt;/p&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+      </item>
+      <item ident="text2qti_question_502d34e2033177d9f9a1dae1669b47ffed1edd10b229161dc2e3b6222bf0bbc7" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>text2qti_choice_917c5c7fd3391e82a640fe58db5c588402ae40c0cd233c820d8e65b8cb3adca7,text2qti_choice_c1678780612393d8d9405fe2764f0c970bd8ba40e9712508c094bcdc378bcf26,text2qti_choice_3b14620b4254fcdecfb290e32b7b21d3b9c778d18870828976855db679d0eee2</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_502d34e2033177d9f9a1dae1669b47ffed1edd10b229161dc2e3b6222bf0bbc7</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;It claims that the physical form of money has not changed over time.&lt;/p&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="text2qti_choice_917c5c7fd3391e82a640fe58db5c588402ae40c0cd233c820d8e65b8cb3adca7">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Yes&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_c1678780612393d8d9405fe2764f0c970bd8ba40e9712508c094bcdc378bcf26">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;No&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_3b14620b4254fcdecfb290e32b7b21d3b9c778d18870828976855db679d0eee2">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">text2qti_choice_c1678780612393d8d9405fe2764f0c970bd8ba40e9712508c094bcdc378bcf26</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="general_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;p&gt;Paragraph A says money has changed shape over time, though the aim for staff is constant.&lt;/p&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+      </item>
+      <item ident="text2qti_question_ffcfd76a06a770289464e2961249e45af2b2929df567301cf2033c9351ca9f59" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>text2qti_choice_73013aa0ffba44cc8e38c5484e8be330f6b9426471e6511b7960237d2b174884,text2qti_choice_da34ca57a826d5ed3815e95b21a8a4e045c9d24f0edf41f266e224f39bfd9e20,text2qti_choice_9fe5d1bbf633954c533723016f969a2635f48a5cbecfc1b18d916b6724d602f6</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_ffcfd76a06a770289464e2961249e45af2b2929df567301cf2033c9351ca9f59</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;When uncertain, staff are told to delay escalation until problems are confirmed.&lt;/p&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="text2qti_choice_73013aa0ffba44cc8e38c5484e8be330f6b9426471e6511b7960237d2b174884">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Yes&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_da34ca57a826d5ed3815e95b21a8a4e045c9d24f0edf41f266e224f39bfd9e20">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;No&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_9fe5d1bbf633954c533723016f969a2635f48a5cbecfc1b18d916b6724d602f6">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">text2qti_choice_da34ca57a826d5ed3815e95b21a8a4e045c9d24f0edf41f266e224f39bfd9e20</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="general_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;p&gt;Paragraph A instructs: when in doubt, follow policy and escalate issues early.&lt;/p&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+      </item>
+      <item ident="text2qti_question_8a7198e4c616a16b51b713d2b86765988cc851d18a31d3bdf722e1fc8dc2cbaa" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>text2qti_choice_7589512ba15b66ff7af0ff07b87335c5e315bb836d1c36968dc3449ead447e3f,text2qti_choice_b4b90b33ca402dd26ba19e58d4332c819e6dad76a526210c74d36a58487ad4a2,text2qti_choice_e2dd2c4d121394c4109b1e6a8b0a73393728065820cfd260898b6ce9ff3a3d84</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_8a7198e4c616a16b51b713d2b86765988cc851d18a31d3bdf722e1fc8dc2cbaa</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;Staff should align the payment channel with customer risk and needs, so cards are always preferred for paying salaries.&lt;/p&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="text2qti_choice_7589512ba15b66ff7af0ff07b87335c5e315bb836d1c36968dc3449ead447e3f">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Yes&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_b4b90b33ca402dd26ba19e58d4332c819e6dad76a526210c74d36a58487ad4a2">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;No&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_e2dd2c4d121394c4109b1e6a8b0a73393728065820cfd260898b6ce9ff3a3d84">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">text2qti_choice_b4b90b33ca402dd26ba19e58d4332c819e6dad76a526210c74d36a58487ad4a2</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="general_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;p&gt;Paragraph B says to match the channel to the customer’s need and risk profile, and specifically notes bank transfers suit bills and salaries.&lt;/p&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+      </item>
+      <item ident="text2qti_question_782cd82c15f45c837e5a55aca6d9a6fc9bc7bc54cab2d333b536b9ed7e071939" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>text2qti_choice_91326a92b986718aaaecd70ff311c5708fa5b73e3b93652df71cb2661fd6d6e7,text2qti_choice_b4f738646bd929afef4a578b0f4ce87551776b7d2ad9bdac2376a7518328ef83,text2qti_choice_fd07489cdc5d1b9b9e2f81f2a61f61442350ab2748c7f8fc0474d3a352f357dd</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_782cd82c15f45c837e5a55aca6d9a6fc9bc7bc54cab2d333b536b9ed7e071939</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;The guide lists the specific brands of digital wallets that customers should use.&lt;/p&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="text2qti_choice_91326a92b986718aaaecd70ff311c5708fa5b73e3b93652df71cb2661fd6d6e7">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Yes&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_b4f738646bd929afef4a578b0f4ce87551776b7d2ad9bdac2376a7518328ef83">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;No&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_fd07489cdc5d1b9b9e2f81f2a61f61442350ab2748c7f8fc0474d3a352f357dd">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">text2qti_choice_fd07489cdc5d1b9b9e2f81f2a61f61442350ab2748c7f8fc0474d3a352f357dd</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="general_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;p&gt;Paragraph B discusses digital wallets in general but does not name brands or list specific ones to use.&lt;/p&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+      </item>
+      <item ident="text2qti_question_03eee471b6c3849c77e6a1b514b967e82232e54b1a9654c69150a212a2b94a6b" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>text2qti_choice_0c2a10cc3a11d3c80c88297414df37170d19cccd5603104206a40c95aa3ceba3,text2qti_choice_5cdd568de51952a5656fa85882869ed7ee2f4ceb207b8f2ca054f65b720cf348,text2qti_choice_8e8cd7b2590cad70a64e46502ae614c6e6ca0a8dd97c653d97b9e156ef2d4bc0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_03eee471b6c3849c77e6a1b514b967e82232e54b1a9654c69150a212a2b94a6b</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;For company accounts, staff must identify the beneficial owner and retain copies in line with policy.&lt;/p&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="text2qti_choice_0c2a10cc3a11d3c80c88297414df37170d19cccd5603104206a40c95aa3ceba3">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Yes&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_5cdd568de51952a5656fa85882869ed7ee2f4ceb207b8f2ca054f65b720cf348">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;No&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_8e8cd7b2590cad70a64e46502ae614c6e6ca0a8dd97c653d97b9e156ef2d4bc0">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">text2qti_choice_0c2a10cc3a11d3c80c88297414df37170d19cccd5603104206a40c95aa3ceba3</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="general_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;p&gt;Paragraph C says to identify the beneficial owner and to keep copies as policy requires.&lt;/p&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+      </item>
+      <item ident="text2qti_question_d17ad44c0c08fec583bc08242c4156370628b6fcd6c067172cf28a1ca70a9c7c" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>text2qti_choice_860ac71db4ba68ed88dfd2b64560a299b34245d6a36fff3adfdfcfe51966ec0c,text2qti_choice_0715bf7b9a0c8b2aad1600e0e62194c4777e17a652cba62d4ece5e2fb0280872,text2qti_choice_c4bfd7524d437fec3c014ac67ce22625ac16683ba8e807459db85460429f4a9c</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_d17ad44c0c08fec583bc08242c4156370628b6fcd6c067172cf28a1ca70a9c7c</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;Login details may be shared with third parties if two‑factor authentication is enabled.&lt;/p&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="text2qti_choice_860ac71db4ba68ed88dfd2b64560a299b34245d6a36fff3adfdfcfe51966ec0c">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Yes&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_0715bf7b9a0c8b2aad1600e0e62194c4777e17a652cba62d4ece5e2fb0280872">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;No&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_c4bfd7524d437fec3c014ac67ce22625ac16683ba8e807459db85460429f4a9c">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">text2qti_choice_0715bf7b9a0c8b2aad1600e0e62194c4777e17a652cba62d4ece5e2fb0280872</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="general_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;p&gt;Paragraph C instructs: do not share login details; 2FA is encouraged but does not permit sharing.&lt;/p&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+      </item>
+    </section>
+  </assessment>
+</questestinterop>

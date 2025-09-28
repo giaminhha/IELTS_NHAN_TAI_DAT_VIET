@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <assessment ident="text2qti_assessment_6caf0b8be559d165c829299613ae15180073fac5c31aac89b7641db5f8fd7518" title="Quiz">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>cc_maxattempts</fieldlabel>
+        <fieldentry>1</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <section ident="root_section">
+      <item ident="text2qti_text_da70e5cdd3c37ef0c4f97f69bd5298dc6f89df6e1d12dc1e994626ed0c767497" title="The history of written scripts">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_da70e5cdd3c37ef0c4f97f69bd5298dc6f89df6e1d12dc1e994626ed0c767497</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;Text title: Lines of Memory: A Brief History of Written Scripts&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_text_fcd71b4d54548d01703e8b92daea03c4e101969f447630ed47556348636dc901" title="">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_fcd71b4d54548d01703e8b92daea03c4e101969f447630ed47556348636dc901</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;A. Writing is often described as a tool for storing speech outside the human mind. It allows information to travel across distance and, crucially, across time. The term “script” refers to a set of signs used to record a language, whether by sounds, syllables, or meanings. Early systems emerged in several places, apparently without direct contact, suggesting parallel solutions to similar needs. Traders, rulers, and priests all required reliable records, so signs for goods and numbers were adapted for broader tasks. Consequently, simple pictures became more abstract, and reading required training. Notwithstanding the change in form, the goal remained the same: to make speech visible.&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_text_186907befdb6416e6cd625b81dbc102b1ae8e7dd700d2d2b79efcd327de42c99" title="">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_186907befdb6416e6cd625b81dbc102b1ae8e7dd700d2d2b79efcd327de42c99</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;B. Many historians point to Mesopotamia as the home of the earliest known script. Clay tokens used for counting grain and sheep were pressed into tablets, which later developed into wedges cut with a stylus: cuneiform. Over centuries, signs that began as images took on sound values, so a single mark could represent a word or a syllable. Egyptian hieroglyphs show a related mixture. Highly decorative signs stood on temple walls, while faster “hieratic” and “demotic” hands served daily administration. In both regions, scribes trained for years, since record keeping demanded accuracy, and symbols accumulated specialised meanings for law, trade, and ritual.&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_text_cc1def7f4001ef87233d2867a740802cd413da3634bf2d68e5b68c213e77c851" title="">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_cc1def7f4001ef87233d2867a740802cd413da3634bf2d68e5b68c213e77c851</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;C. A different approach appeared along the eastern Mediterranean coast. The Phoenician script, used by merchants, recorded mainly consonants and left most vowels to context. This lean design was efficient for writing on papyrus and ceramic jars, and it travelled widely with ships and goods. Greek speakers later added letters for vowels, producing an alphabet that could represent sound sequences more directly. The Roman alphabet, adapted from Greek via Etruscan, spread with Latin and became common in Europe. In parallel, Arabic developed as a flowing cursive, suited to pen and parchment. Therefore, fewer signs, written quickly, could support expanding literacy.&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_text_2257e9e342d6ed084cbd0f52423000228d0e68922a9bd9a4a3a9cf2162507329" title="">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_2257e9e342d6ed084cbd0f52423000228d0e68922a9bd9a4a3a9cf2162507329</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;D. In East Asia, a separate tradition grew from Chinese characters, which often represent meanings as well as sounds. Early inscriptions on oracle bones show both pictures and phonetic loans, and later standards under the Qin dynasty regularised forms and stroke order. Because thousands of characters exist, readers learn common components, known as radicals, to recognise families of signs. Japan adapted Chinese in two ways: it borrowed characters for meaning and created syllabaries, kana, for native grammar. Korea offers a notable case study. In 1443, King Sejong sponsored Hangul, a designed alphabet whose letter shapes reflect mouth positions, making reading more accessible.&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_text_d2d27cb4c1dd5790ff2df452862880e92a4ba2e43b72b9238aa03b59a2d0ea1f" title="">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_d2d27cb4c1dd5790ff2df452862880e92a4ba2e43b72b9238aa03b59a2d0ea1f</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;E. South Asia developed yet another pattern. The Brahmi script, visible in the rock edicts of Emperor Ashoka in the third century BCE, became a parent for many later systems. These are often called abugidas: each basic sign stands for a consonant with a default vowel, and marks change or remove that vowel. Devanagari, used for Hindi and Sanskrit, shows the style clearly with its horizontal headline and systematic vowel signs. Related scripts serve Bengali, Tamil, and many other languages. As religions and texts moved across the subcontinent, the script family diversified, yet the organising principle remained stable and therefore durable.&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_text_14d2a0b5733242196ad8457f58fc9b08a23581ef917e046be52603bf49aeb8d5" title="">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_14d2a0b5733242196ad8457f58fc9b08a23581ef917e046be52603bf49aeb8d5</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;F. Knowledge of ancient scripts has often been lost and later recovered. The Rosetta Stone, found in 1799, carried one decree in three scripts: hieroglyphic, demotic, and Greek. In 1822, Jean-François Champollion showed that hieroglyphs encoded sounds as well as ideas, allowing names like “Ptolemy” to be read securely. Cuneiform yielded in stages during the 1840s and 1850s, as Henry Rawlinson and others compared inscriptions from Persia and Mesopotamia. The Maya script, long misunderstood as purely symbolic, was gradually deciphered from the 1950s to the 1990s through phonetic analysis. These dates mark not sudden breakthroughs but cumulative, collaborative interpretation.&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_text_dfe36182cdd1f6664d10bd58f2645b5de4d7360866993f1a0b02ce64bdb1cfb8" title="">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_dfe36182cdd1f6664d10bd58f2645b5de4d7360866993f1a0b02ce64bdb1cfb8</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;G. Technologies for reproducing writing have shaped scripts in practice. Movable type appeared in China in the 11th century, although large character sets limited its spread. In Europe, Gutenberg’s press in the 1450s enabled faster printing and encouraged standard spelling and punctuation. The telegraph and typewriter later favoured simple letterforms and reduced diacritics, since wires and mechanical keys had limits. As a result, some languages adopted alternate spellings for practicality, while others created special machines. Newspapers, schoolbooks, and official forms then fixed conventions, so readers came to expect uniform shapes. The appearance of a script, therefore, reflects tools as much as tradition.&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_text_8a1f20b55d0bde79e3b711db6651bc92c39ccdd11d7701b05a0c3bf4d8a613cc" title="">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_8a1f20b55d0bde79e3b711db6651bc92c39ccdd11d7701b05a0c3bf4d8a613cc</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;H. The digital age extends this long history into code. Computers once handled only a narrow set of letters, but the Unicode Standard now assigns numbers to characters from hundreds of scripts. This common map allows Arabic, Devanagari, and Chinese to appear side by side on screens. Keyboards, however, still guide habits, so input methods vary by language and device. At the same time, communities revive or design scripts to express identity, while governments balance readability with heritage. Emoji add pictorial signs to everyday writing, blurring the line between image and text. Despite constant change, the purpose endures: to record speech and share meaning.&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_text_f73af890968a1e1bb45752590a8fb9ffcadb93405f0975d0ebcbe9ea457189f1" title="">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_f73af890968a1e1bb45752590a8fb9ffcadb93405f0975d0ebcbe9ea457189f1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;Do the following statements agree with the information given in the text? Write TRUE, FALSE, or NOT GIVEN.&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_question_b8190cc79e203e4fb7cf53bed0178d96c6adb46a15a49ef0774382237a1501d9" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>text2qti_choice_d254352ea2086311b2bf3216ef8cbeea2d8be9432eb9d2b47ec47394c2e8677e,text2qti_choice_efd164a0cefa677f6175a90abc3b883727a1e5dba221a79e042973c829e3a281,text2qti_choice_07c4031fdc8b569faa7e0624c4e722d9de845a42aa484738aeba0ab7d6d2a032</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_b8190cc79e203e4fb7cf53bed0178d96c6adb46a15a49ef0774382237a1501d9</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;Writing enables information to be transmitted beyond both distance and time.&lt;/p&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="text2qti_choice_d254352ea2086311b2bf3216ef8cbeea2d8be9432eb9d2b47ec47394c2e8677e">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_efd164a0cefa677f6175a90abc3b883727a1e5dba221a79e042973c829e3a281">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_07c4031fdc8b569faa7e0624c4e722d9de845a42aa484738aeba0ab7d6d2a032">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">text2qti_choice_d254352ea2086311b2bf3216ef8cbeea2d8be9432eb9d2b47ec47394c2e8677e</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="general_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;p&gt;Paragraph A states that writing allows information to travel across distance and across time.&lt;/p&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+      </item>
+      <item ident="text2qti_question_ae085687fcf512fff32d2602287a7224c9c36869b6e32485435f1c12c0fc60e5" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>text2qti_choice_b3fabd96f064e96b876938d946b5e6af3bef5f687ca2d8c8392938d6aa90b36b,text2qti_choice_cee6d52ba39da9247d0dc2e305a5993dc03c1687afebe8a2f88db5aa8cc08761,text2qti_choice_426ff7c73ba3bbcb1fdbe4308c422c14469bf4c20cbf4f9ef9d71262ae2680b3</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_ae085687fcf512fff32d2602287a7224c9c36869b6e32485435f1c12c0fc60e5</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;Most early scripts arose through direct borrowing between cultures.&lt;/p&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="text2qti_choice_b3fabd96f064e96b876938d946b5e6af3bef5f687ca2d8c8392938d6aa90b36b">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_cee6d52ba39da9247d0dc2e305a5993dc03c1687afebe8a2f88db5aa8cc08761">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_426ff7c73ba3bbcb1fdbe4308c422c14469bf4c20cbf4f9ef9d71262ae2680b3">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">text2qti_choice_cee6d52ba39da9247d0dc2e305a5993dc03c1687afebe8a2f88db5aa8cc08761</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="general_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;p&gt;Paragraph A notes that early systems emerged in several places apparently without direct contact.&lt;/p&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+      </item>
+      <item ident="text2qti_question_9c7ab9285c9ab806004f86c46620c4894efaced4216a873d0c7ee336fbfd1648" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>text2qti_choice_a820dff5b969c09b03b586cc3d8c8aa63fc213ea5f53fe1810c70e8320cca2a1,text2qti_choice_373e9f540fed122a9fa9b787b73938e23d07c6ef79f2e1c6ec55fbf12aea78e8,text2qti_choice_4fd5681d675058059ea7a8c8465235e3643869e7ce76ce1118cc0002e8edc0e4</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_9c7ab9285c9ab806004f86c46620c4894efaced4216a873d0c7ee336fbfd1648</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;Cuneiform developed from impressions of clay counting tokens pressed into tablets.&lt;/p&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="text2qti_choice_a820dff5b969c09b03b586cc3d8c8aa63fc213ea5f53fe1810c70e8320cca2a1">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_373e9f540fed122a9fa9b787b73938e23d07c6ef79f2e1c6ec55fbf12aea78e8">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_4fd5681d675058059ea7a8c8465235e3643869e7ce76ce1118cc0002e8edc0e4">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">text2qti_choice_a820dff5b969c09b03b586cc3d8c8aa63fc213ea5f53fe1810c70e8320cca2a1</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="general_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;p&gt;Paragraph B explains that clay tokens were pressed into tablets and later developed into wedge-shaped cuneiform.&lt;/p&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+      </item>
+      <item ident="text2qti_question_37df0b6ddf4a49217b1d204d4912b259f6231a801a97cba65da87044a6fbbad6" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>text2qti_choice_0d92573159d1bc7c30e1b685c009f8ac0916d631806f9369b27ad98a0bf55b3c,text2qti_choice_45c7fffa62914aa09b4ccdbe0d66270ec717727e6481377d9d9418a6703ae5c8,text2qti_choice_65cc615d244f55836d7476726e9fad1a692f5112551e858e426f5584bc25d462</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_37df0b6ddf4a49217b1d204d4912b259f6231a801a97cba65da87044a6fbbad6</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;Because the symbols were simple, scribes in Mesopotamia and Egypt trained only briefly.&lt;/p&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="text2qti_choice_0d92573159d1bc7c30e1b685c009f8ac0916d631806f9369b27ad98a0bf55b3c">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_45c7fffa62914aa09b4ccdbe0d66270ec717727e6481377d9d9418a6703ae5c8">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_65cc615d244f55836d7476726e9fad1a692f5112551e858e426f5584bc25d462">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">text2qti_choice_45c7fffa62914aa09b4ccdbe0d66270ec717727e6481377d9d9418a6703ae5c8</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="general_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;p&gt;Paragraph B states that scribes trained for years and symbols had specialised meanings.&lt;/p&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+      </item>
+      <item ident="text2qti_question_bca4a14994e709edad7ed8f7265655db3e57c4c3951a70e9d1a59fa65218292b" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>text2qti_choice_9d17d956e045f5aacf4000bb167c5a9620ba7cbb578cace8ebce3cbabf66b2c4,text2qti_choice_d39bd3edfc996784fbcace5160bd2b5b9a40601f90aea14f7ac22618d80bd7be,text2qti_choice_7736dc962ca2b723f42483f178a363faa31021c7035e522f88d83afa1ed06c2b</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_bca4a14994e709edad7ed8f7265655db3e57c4c3951a70e9d1a59fa65218292b</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;The Phoenician script primarily recorded consonants, leaving most vowels to context.&lt;/p&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="text2qti_choice_9d17d956e045f5aacf4000bb167c5a9620ba7cbb578cace8ebce3cbabf66b2c4">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_d39bd3edfc996784fbcace5160bd2b5b9a40601f90aea14f7ac22618d80bd7be">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_7736dc962ca2b723f42483f178a363faa31021c7035e522f88d83afa1ed06c2b">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">text2qti_choice_9d17d956e045f5aacf4000bb167c5a9620ba7cbb578cace8ebce3cbabf66b2c4</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="general_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;p&gt;Paragraph C says the Phoenician script recorded mainly consonants and left most vowels to context.&lt;/p&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+      </item>
+      <item ident="text2qti_question_900b553d382a501c66aa6f028d702a61b58f78735e1668fa674fb33546c1b132" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>text2qti_choice_87060e60d25e2bfa0000473ca7d62a363ddf0a396dfe4847b1c3c0c5c45104e3,text2qti_choice_ca602a293c6577d4f723a29d3ed28d3f1323b93184bd3140ba5a36c50f41b58e,text2qti_choice_d880b12d05cd1b3644ff4738e5d04bda233778b31eafe0d6e5f361f67d044483</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_900b553d382a501c66aa6f028d702a61b58f78735e1668fa674fb33546c1b132</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;Arabic script was designed chiefly for carving into stone rather than for pen and parchment.&lt;/p&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="text2qti_choice_87060e60d25e2bfa0000473ca7d62a363ddf0a396dfe4847b1c3c0c5c45104e3">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_ca602a293c6577d4f723a29d3ed28d3f1323b93184bd3140ba5a36c50f41b58e">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_d880b12d05cd1b3644ff4738e5d04bda233778b31eafe0d6e5f361f67d044483">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">text2qti_choice_ca602a293c6577d4f723a29d3ed28d3f1323b93184bd3140ba5a36c50f41b58e</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="general_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;p&gt;Paragraph C describes Arabic as a flowing cursive suited to pen and parchment.&lt;/p&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+      </item>
+      <item ident="text2qti_question_f9f0cf3ef6be24e862bee426b4ba33c1f9a2bfcac90f5d1e37ecdef780964f8f" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>text2qti_choice_459f3c94bfd1eeaaebc3f141d1ec78bbd507d37f2e1632d5fad21162c5fa2288,text2qti_choice_d02f04448e9ae57d8e9e8256a61e570e4c75fa97e80537cc63ed083155b59305,text2qti_choice_76990823d01a4084ee572c59cb9ee1c6d1ca7d13aa90f9b5ef4755dea780dde8</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_f9f0cf3ef6be24e862bee426b4ba33c1f9a2bfcac90f5d1e37ecdef780964f8f</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;Hangul’s letter shapes reflect the positions of the mouth, aiding accessibility.&lt;/p&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="text2qti_choice_459f3c94bfd1eeaaebc3f141d1ec78bbd507d37f2e1632d5fad21162c5fa2288">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_d02f04448e9ae57d8e9e8256a61e570e4c75fa97e80537cc63ed083155b59305">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_76990823d01a4084ee572c59cb9ee1c6d1ca7d13aa90f9b5ef4755dea780dde8">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">text2qti_choice_459f3c94bfd1eeaaebc3f141d1ec78bbd507d37f2e1632d5fad21162c5fa2288</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="general_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;p&gt;Paragraph D states that Hangul’s letter shapes reflect mouth positions, making reading more accessible.&lt;/p&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+      </item>
+      <item ident="text2qti_question_0557930f7aec64c9a224b27618b91bff414ce5dfe1ca9b0a558ae014b6996594" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>text2qti_choice_2ab72146fd2a4355b141eee25f77dfd84b0592fdd5d449a83fceb440ded2ca4e,text2qti_choice_db93c20485caacbde326dd2820f579f1699ee46ad74f13c021d1c6288acb1b4c,text2qti_choice_865d3488981960f3d22d1bdd6224d846ec3a0cd6f3f64d8e93e4725fb5bdf93f</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_0557930f7aec64c9a224b27618b91bff414ce5dfe1ca9b0a558ae014b6996594</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;The Rosetta Stone was discovered by French soldiers.&lt;/p&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="text2qti_choice_2ab72146fd2a4355b141eee25f77dfd84b0592fdd5d449a83fceb440ded2ca4e">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_db93c20485caacbde326dd2820f579f1699ee46ad74f13c021d1c6288acb1b4c">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_865d3488981960f3d22d1bdd6224d846ec3a0cd6f3f64d8e93e4725fb5bdf93f">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">text2qti_choice_865d3488981960f3d22d1bdd6224d846ec3a0cd6f3f64d8e93e4725fb5bdf93f</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="general_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;p&gt;Paragraph F gives the discovery date (1799) but does not specify who discovered it.&lt;/p&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+      </item>
+    </section>
+  </assessment>
+</questestinterop>

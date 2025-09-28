@@ -1,0 +1,46 @@
+Text title: Water scarcity and management
+
+Text: Text title: Managing Water Scarcity: Balancing Demand and Supply
+
+Text: A. Freshwater underpins human health, food production, and economic activity, yet it is not evenly distributed. Many regions receive abundant rainfall, while others face prolonged dry seasons or frequent droughts. Water scarcity refers either to physical limits, when rivers and aquifers cannot meet needs, or to economic limits, when infrastructure or institutions restrict access. Quality also matters, since polluted sources cannot be used safely. According to international agencies, around 2 billion people lacked safely managed drinking water in 2022. The problem is rarely caused by a single factor; rather, it emerges from a mix of climate variability, population growth, contamination, and inefficient use.
+
+Text: B. The water cycle continually renews freshwater through precipitation, runoff, and groundwater recharge. However, renewal is uneven in space and time, which leads to shortages during dry periods and floods when rainfall is intense. Rising temperatures are altering this balance. Snow melts earlier, rainfall patterns shift, and evaporation rates increase, so some basins receive less reliable flows. At the same time, withdrawals have expanded rapidly. Global water use has grown roughly sixfold since 1900, largely due to irrigated farming, urban expansion, and energy production. Consequently, competition has intensified, and it has become harder to allocate limited supplies fairly across multiple sectors.
+
+Text: C. Agriculture is the largest user of freshwater, accounting for about 70 percent of global withdrawals. Irrigation enables stable yields, but it can be wasteful if water is lost from unlined canals or applied at the wrong time. Evapotranspiration, the combined process of water evaporating from soil and transpiring from plants, governs crop needs. Techniques such as drip irrigation deliver water directly to roots, which reduces losses and can raise productivity. Scheduling based on soil moisture sensors helps farmers apply only what is required. Nevertheless, improvements may be slow where credit is scarce, landholdings are small, or training and maintenance are limited.
+
+Text: D. Cities face a different challenge: ensuring reliable supply while reducing losses in distribution networks. Old pipes crack, valves fail, and illegal connections multiply, so utilities often report “non-revenue water”, meaning water produced but not billed. In many systems, losses exceed 30 percent. A widely cited example comes from Phnom Penh. In 1993, non-revenue water there was estimated at 72 percent. Through metering, leak detection, and governance reforms, losses reportedly fell to around 6 percent by 2008. This turnaround shows that management and investment can recover significant volumes, often at lower cost than building new treatment plants.
+
+Text: E. Governance shapes who gets water, at what price, and under which rules. Clear water rights reduce conflict, while transparent tariffs can promote conservation without excluding low-income users. Many utilities use increasing block tariffs, where basic consumption is cheap and higher use becomes progressively more expensive. Metering supports this approach, yet it requires careful design to protect large families and small businesses. Environmental flows, defined as the water left in rivers to sustain ecosystems, must also be considered. If streams run dry, fisheries decline, wetlands shrink, and water quality deteriorates. Thus, allocation systems need to balance human needs and ecological health.
+
+Text: F. New supply options can relieve pressure, but they carry costs. Desalination, which removes salt from seawater, provides a drought-resistant source for coastal cities. However, it is energy-intensive and produces brine that must be managed. Technological advances, including membrane filtration, have lowered costs. Israel’s Sorek plant, for example, has supplied hundreds of millions of cubic metres per year, supporting cities and agriculture. Wastewater reuse offers another path. After advanced treatment, reclaimed water can irrigate parks, cool power stations, or even replenish drinking supplies. Windhoek in Namibia has used direct potable reuse since 1968, demonstrating that strict standards can maintain public confidence.
+
+Text: G. Nature-based solutions work with landscapes rather than against them. Restoring wetlands, recharging aquifers, and protecting forests can moderate floods, improve water quality, and boost dry-season flows. New York City illustrates this strategy. In the 1990s, the city invested roughly $1–2 billion to protect the Catskills watershed through land acquisition, farm management, and upgraded sewage treatment. By safeguarding natural filtration, it avoided a filtration plant estimated at $6–10 billion, with high operating costs. Similar programs in Latin America fund upstream conservation through small fees on water bills. These arrangements show that healthy ecosystems can deliver reliable services at competitive prices.
+
+Text: H. Future planning increasingly follows integrated water resources management, a framework that coordinates land, water, and energy decisions across sectors and scales. The approach links supply options with demand measures such as efficiency, leakage control, and careful pricing. It also considers climate risks, social equity, and environmental limits. Progress is uneven, and outcomes may vary by basin, but the direction is clear. Meeting Sustainable Development Goal 6 by 2030 will require diverse actions: better data, inclusive institutions, and investments that favour resilience. While no single solution will suffice, a portfolio that mixes infrastructure, good governance, and ecosystem protection is likely to endure.
+
+Text: Questions
+
+1. Answer the question below using NO MORE THAN TWO WORDS from the passage: What resource underpins human health, food production, and economic activity?
+... Paragraph A states that freshwater underpins human health, food production, and economic activity.
+* Freshwater
+2. Answer the question below using NO MORE THAN TWO WORDS from the passage: In 2022, approximately how many people lacked safely managed drinking water?
+... Paragraph A mentions that around 2 billion people lacked safely managed drinking water in 2022.
+* 2 billion
+3. Answer the question below using NO MORE THAN TWO WORDS from the passage: What kind of limits arise when infrastructure or institutions restrict access to water?
+... Paragraph A defines economic limits as those where infrastructure or institutions restrict access.
+* economic limits
+4. Answer the question below using NO MORE THAN TWO WORDS from the passage: By about how much has global water use grown since 1900?
+... Paragraph B states that global water use has grown roughly sixfold since 1900.
+* sixfold
+5. Answer the question below using NO MORE THAN TWO WORDS from the passage: What process governs crop water needs in agriculture?
+... Paragraph C explains that evapotranspiration governs crop needs.
+* Evapotranspiration
+6. Answer the question below using NO MORE THAN TWO WORDS from the passage: Which irrigation technique delivers water directly to plant roots?
+... Paragraph C notes that drip irrigation delivers water directly to roots.
+* drip irrigation
+7. Answer the question below using NO MORE THAN TWO WORDS from the passage: What term is used for water that is produced but not billed by utilities?
+... Paragraph D defines 'non-revenue water' as water produced but not billed.
+* non-revenue water
+8. Answer the question below using NO MORE THAN TWO WORDS from the passage: By 2008, to roughly what percentage had Phnom Penh reduced its non-revenue water?
+... Paragraph D states that losses reportedly fell to around 6 percent by 2008.
+* 6 percent

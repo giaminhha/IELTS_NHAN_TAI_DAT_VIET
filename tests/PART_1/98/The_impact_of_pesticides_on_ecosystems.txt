@@ -1,0 +1,71 @@
+Text title: The impact of pesticides on ecosystems
+
+Text: Text title: Pesticides and Ecosystems: Intended Benefits, Unintended Effects
+Text: A. Pesticides are chemicals designed to control unwanted organisms in fields, gardens, and storage areas. They target insects, weeds, fungi, or rodents, and they are applied to protect crops and public health. Their use has increased yields and reduced losses; therefore, their economic value is widely recognised. However, these substances do not remain only where they are sprayed. Once released, they may move through air, soil, and water. Exposure can occur in non-target plants and animals, which were not the intended recipients. Consequently, the living web that connects species may be altered. Understanding these wider effects is essential, because food production depends on healthy, functioning ecosystems.
+
+Text: B. Movement of pesticides in the environment follows several pathways. Drift during spraying can carry fine droplets to nearby hedges or streams. After rainfall, runoff transports residues from fields into ditches and rivers. Some compounds bind to soil particles; others dissolve and may leach down to groundwater. The rate at which a product breaks down varies by temperature, sunlight, and chemical structure. Persistent substances remain for months and may accumulate in fatty tissues, a process called bioaccumulation. When small organisms are eaten by larger ones, concentrations can rise at higher levels of the food chain, an effect known as biomagnification. As a result, species far from the original application site may still be affected.
+
+Text: C. Effects on non-target organisms are often indirect as well as direct. Bees, hoverflies, and butterflies provide pollination, but they can be harmed by contact with treated flowers or dust. Soil-dwelling animals, such as earthworms, may lose feeding ability or show reduced reproduction. Fish and amphibians may be exposed through contaminated water, especially after storms. Birds can be impacted because their insect prey declines. Therefore, a pesticide aimed at one pest might reduce food for a completely different animal. It has been suggested that even small changes in insects can cascade through a community. Such cascades may not be visible immediately, yet they can build over seasons and produce lasting change.
+
+Text: D. A well-known historical case concerns DDT, an insecticide widely used after the 1940s. DDT’s persistence led to accumulation in birds of prey, causing thinning of eggshells and fewer surviving chicks. In the United States, bald eagle numbers fell dramatically, and the species was listed as endangered. A ban on DDT in 1972, combined with habitat protection, was followed by gradual recovery. In 1963, surveys recorded 487 nesting pairs in the lower 48 states; by 2020, estimates suggested more than 70,000 individuals and roughly 30,000 breeding pairs. This trajectory, while not identical everywhere, illustrates how regulation, coupled with conservation, may reverse an unintended ecological impact.
+
+Text: E. More recent debates have focused on neonicotinoids, a class of insecticides that act on the nervous system of insects. They are often used as seed treatments, so the active ingredient moves into plant tissues, including nectar and pollen. Studies have reported effects on bee navigation and colony growth, although results vary with dose and landscape context. The European Union announced partial restrictions in 2013 and expanded them in 2018, reflecting a precautionary approach. Notwithstanding continuing discussion, many researchers agree that exposure from multiple sources is important, since wild bees also face disease, poor nutrition, and habitat loss. Therefore, pesticide effects are interwoven with other pressures, which complicates simple conclusions.
+
+Text: F. Aquatic systems receive pesticide inputs from several routes, and they can be particularly sensitive. Tiny freshwater invertebrates, such as mayfly and caddisfly larvae, are essential food for fish. After heavy rain, short-term spikes in insecticides can lower their numbers, even when average concentrations seem low. Reduced invertebrate abundance can therefore depress fish growth and survival, with consequences for anglers and local economies. Algal growth may also shift if herbicides reach ponds and wetlands. While many products degrade in sunlight, shaded streams and sediments can act as reservoirs. For these reasons, monitoring programmes often collect samples upstream and downstream of farms to detect changes over time.
+
+Text: G. Farmers have adopted integrated pest management, or IPM, to reduce risks while maintaining yields. IPM brings together careful monitoring, biological control, crop rotation, and targeted spraying only when thresholds are crossed. In Indonesia’s rice sector, a national programme launched in 1986 cut insecticide use by about 60 percent yet increased yields by roughly 10 percent, according to government and FAO reports. In Vietnam, training in field schools during the 1990s encouraged farmers to “grow a healthy crop,” which led to fewer early-season sprays. Such examples suggest that knowledge, timing, and variety choice can lower chemical inputs. Economic savings can follow, because fewer applications mean lower costs for farmers.
+
+Text: H. Managing pesticide impacts therefore requires attention to both tools and context. Product choice, dose, and timing influence exposure, but weather, soil, and landscape features also matter. Buffer strips, vegetation along waterways, and improved equipment can reduce drift and runoff. Newer products, including some biological pesticides derived from natural organisms, may offer targeted action with shorter persistence, although their performance varies. It is often recommended that regulators combine laboratory tests with field studies and long-term monitoring. In this way, risks can be reassessed as evidence changes. The aim is not removal of protection against pests, but rather a system in which food production and ecosystem health are sustained together.
+
+Text: Questions
+
+Text: Do the following statements agree with the information given in the text? Write TRUE, FALSE, or NOT GIVEN.
+
+1. Pesticides are used to safeguard both crops and human health.
+... Paragraph A states they are applied to protect crops and public health.
+*a) True
+b) False
+c) Not Given
+
+2. After application, pesticides always remain within the treated area.
+... Paragraph A explains they may move through air, soil, and water and not stay where sprayed.
+a) True
+*b) False
+c) Not Given
+
+3. Spray drift can carry pesticide droplets into nearby vegetation or water.
+... Paragraph B mentions drift can carry fine droplets to hedges or streams.
+*a) True
+b) False
+c) Not Given
+
+4. All pesticides dissolve in water and leach into groundwater.
+... Paragraph B says some compounds bind to soil particles, while others dissolve and may leach.
+a) True
+*b) False
+c) Not Given
+
+5. Bird numbers can be affected because fewer insects are available as prey.
+... Paragraph C notes birds can be impacted because their insect prey declines.
+*a) True
+b) False
+c) Not Given
+
+6. The ban on DDT in the United States led to an immediate rebound of bald eagles.
+... Paragraph D states recovery was gradual after the 1972 ban and habitat protection.
+a) True
+*b) False
+c) Not Given
+
+7. Answer the question below using NO MORE THAN TWO WORDS from the passage: Which class of insecticides has been at the centre of recent debates?
+... Paragraph E focuses on neonicotinoids.
+* neonicotinoids
+8. Answer the question below using NO MORE THAN TWO WORDS from the passage: In what form are neonicotinoids commonly applied?
+... Paragraph E says they are often used as seed treatments.
+* seed treatments
+9. Answer the question below using NO MORE THAN TWO WORDS from the passage: Who can suffer consequences when fish growth and survival decline?
+... Paragraph F links reduced fish growth and survival to consequences for anglers.
+* anglers
+10. Answer the question below using NO MORE THAN TWO WORDS from the passage: What is the abbreviation for integrated pest management?
+... Paragraph G introduces integrated pest management, or IPM.
+* IPM

@@ -75,7 +75,8 @@ def _extract_json_from_text(text: str):
     Returns parsed object or raises ValueError.
     """
     # look for top-level JSON array or object
-    m = re.search(r'(\{.*\}|\[.*\])', text, flags=re.S)
+    m = re.search(r'(\{.*?\}|\[.*?\])', text, flags=re.S)
+
     if not m:
         raise ValueError("No JSON object/array found in LLM output.")
     candidate = m.group(1)

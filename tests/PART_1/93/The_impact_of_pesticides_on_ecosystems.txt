@@ -1,0 +1,60 @@
+Text title: The impact of pesticides on ecosystems
+
+Text: Quiz title: The Impact of Pesticides on Ecosystems
+Quiz description: An academic reading passage examining how modern pesticides move through the environment, affect non-target organisms, and challenge ecological management.
+
+Text title: Reading Passage
+Text: A. Pesticides are designed to suppress organisms that threaten crops or human health, yet their effects rarely stop at the field edge. The term encompasses insecticides, herbicides, and fungicides, each formulated for specific biological targets. However, these substances frequently enter soils, waterways, and food webs, where they interact with non-target species. Persistence, meaning the time a compound remains active, and mobility, which describes how far it travels, are central to understanding their ecological footprint. Consequently, the same properties that confer efficacy against pests can facilitate unintended exposure elsewhere. The wider implications, including changes to species interactions and nutrient cycles, therefore extend beyond immediate farming outcomes and into long-term ecosystem dynamics.
+
+Text: B. After application, chemicals may drift as fine droplets, run off during rainfall, or leach through soil into groundwater. Volatilisation can carry certain compounds into the atmosphere, later depositing them many kilometres away. The fate of a pesticide depends on solubility, adsorption to soil particles, and degradation rates under sunlight or microbial action. Acute toxicity causes rapid harm, while chronic exposure at low doses may induce subtle effects over months or years. A further process, bioaccumulation, occurs when organisms absorb substances faster than they can eliminate them. When concentrations rise at each successive trophic level, it is termed biomagnification. These pathways, operating together, can therefore amplify small applications into broad ecological consequences.
+
+Text: C. The most visible non-target effects often involve beneficial insects, particularly pollinators. For instance, neonicotinoids, a class of systemic insecticides, act on nicotinic acetylcholine receptors in the insect nervous system. They are present in pollen and nectar when seeds are coated, exposing bees and wild pollinators during foraging. Although lethal doses are rare under field conditions, sublethal exposure may impair navigation, reduce queen production, and weaken immune responses. Field studies suggest that colonies can appear intact yet perform poorly during periods of nutritional stress. Thus, the concern is not only direct mortality but also diminished resilience, which, cumulatively, may reduce pollination services essential for both wild plants and crops.
+
+Text: D. Aquatic ecosystems are particularly sensitive to pesticide inputs, because many aquatic invertebrates lack detoxification pathways found in terrestrial species. In monitoring programmes conducted since the 1990s, median concentrations of common insecticides in streams have been reported at low parts per billion, yet effects often occur at parts per trillion for certain taxa. Laboratory LC50 values for mayfly larvae are sometimes below 0.1 µg/L, indicating high vulnerability. Algal communities may also shift, altering oxygen dynamics and food availability for fish. Moreover, mixtures can be more hazardous than single substances, as additive or synergistic effects complicate prediction. Consequently, even intermittent pulses after heavy rain can trigger cascading changes that persist after the chemicals decline.
+
+Text: E. A frequently cited historical episode concerns DDT, once celebrated for controlling malaria vectors. By the 1960s, residues had accumulated in predatory birds, where breakdown products interfered with calcium metabolism. Eggshell thickness in peregrine falcons and bald eagles fell by an estimated 15–20% compared with pre-1940 baselines, increasing breakage during incubation. Regulatory bans in several countries, including the United States in 1972, were followed by gradual recovery. Peregrine falcon reintroduction and reduced body burdens in the 1980s and 1990s coincided with rising fledgling success. The episode demonstrates how a persistent compound can travel through food webs, and how removal from widespread use can, albeit slowly, reverse adverse trends in apex predators.
+
+Text: F. Contemporary case studies indicate that pesticide dependency is not inevitable. In Indonesian rice systems during the late 1980s and 1990s, integrated pest management (IPM) programmes reduced insecticide sprays by roughly 50–60% without lowering yield. Farmer Field Schools trained growers to identify beneficial predators, such as spiders and parasitoid wasps, and to apply chemicals only when pest densities exceeded economic thresholds. In some provinces, reported yield stability improved while input costs fell by up to 20%. These results, notwithstanding local variation, suggest that monitoring and timely intervention can substitute for routine prophylactic spraying. Therefore, adaptive strategies can mitigate ecological risks while maintaining agricultural productivity.
+
+Text: G. A paradox frequently observed is the pesticide treadmill. Initial control suppresses the target species, yet survivors pass resistant traits to their offspring. Within a few seasons, the same dose becomes less effective, prompting higher application rates or a shift to newer products. Meanwhile, natural enemies may be reduced, allowing secondary pests to surge. This feedback loop increases both costs and ecological pressure. Resistance management, including rotating modes of action, preserving untreated refuges, and deploying biological control agents, can slow this trajectory. Nevertheless, success depends on coordinated action across farms; isolated efforts may be undermined if neighbouring fields maintain continuous, uniform chemical pressure.
+
+Text: H. Policy and practice increasingly emphasise risk reduction rather than simple substitution. Buffer strips, vegetated ditches, and constructed wetlands intercept runoff before it enters streams. Precision application, guided by weather forecasts and sensor data, limits drift and timing errors. Post-registration surveillance, coupled with the precautionary principle, allows regulators to revise labels or restrict uses when new evidence emerges. Consumers also influence outcomes through demand for residue-aware supply chains. There is no single solution, yet combining agronomy, ecology, and careful stewardship can narrow the gap between productivity and protection. Consequently, the long-term viability of farming and ecosystems may depend on recognising trade-offs and acting before thresholds are crossed.
+
+Text: Questions
+
+5. Do the following statement agree with the information in Reading Passage? Write True, False or Not Given. Coating seeds with neonicotinoids can lead to pollinators encountering the chemicals in pollen and nectar.
+... Answer: True — Passage C states that neonicotinoids 'are present in pollen and nectar when seeds are coated.'
+a) True
+b) False
+c) Not Given
+
+6. Do the following statement agree with the information in Reading Passage? Write True, False or Not Given. Under field conditions, lethal doses for bees are common.
+... Answer: False — Passage C notes 'lethal doses are rare under field conditions.'
+a) True
+b) False
+c) Not Given
+
+7. Do the following statement agree with the information in Reading Passage? Write True, False or Not Given. Colonies may look intact yet perform poorly during periods of nutritional stress.
+... Answer: True — Passage C states that colonies 'can appear intact yet perform poorly during periods of nutritional stress.'
+a) True
+b) False
+c) Not Given
+
+8. Do the following statement agree with the information in Reading Passage? Write True, False or Not Given. For some aquatic species, adverse effects occur at concentrations as low as parts per trillion.
+... Answer: True — Passage D notes that 'effects often occur at parts per trillion for certain taxa.'
+a) True
+b) False
+c) Not Given
+
+9. Do the following statement agree with the information in Reading Passage? Write True, False or Not Given. DDT was banned worldwide in 1972.
+... Answer: Not Given — Passage E mentions bans in several countries, including the United States in 1972, but does not state a worldwide ban.
+a) True
+b) False
+c) Not Given
+
+Text: 12. Answer the question below using NO MORE THAN THREE WORDS from the passage: What may surge when natural enemies are reduced?
+Text: ... Passage G notes that when natural enemies are reduced, 'secondary pests' may surge.
+* secondary pests
+Text: 13. Answer the question below using NO MORE THAN THREE WORDS from the passage: Name one feature that intercepts runoff before it enters streams.
+Text: ... Passage H lists 'Buffer strips, vegetated ditches, and constructed wetlands' as measures intercepting runoff.
+* buffer strips

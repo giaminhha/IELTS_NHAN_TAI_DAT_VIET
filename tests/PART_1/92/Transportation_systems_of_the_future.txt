@@ -1,0 +1,60 @@
+Text title: Transportation systems of the future
+
+Text: Quiz title: Transportation Systems of the Future
+Quiz description: An IELTS Academic Reading passage examining emerging transport technologies, policy tools, and case studies that may shape future mobility in cities and beyond.
+
+Text title: Reading Passage
+Text: A. Cities are expanding rapidly, and this demographic trend is reshaping how movement is organised. Estimates suggest that by 2050, close to two-thirds of the global population will live in urban areas. Consequently, transport systems must respond to congestion, climate targets, and the need for equitable access. The future often appears as a convergence of technologies rather than a single invention. Electric powertrains, autonomy, and data-driven coordination are discussed as complementary, not competing, solutions. A related concept, mobility-as-a-service (MaaS), integrates different modes—buses, bicycles, trains, and ride-hailing—into a single platform, allowing users to plan, book, and pay seamlessly. Notwithstanding the technological optimism, institutional capacity and public trust remain decisive.
+
+Text: B. Electrification is frequently presented as the cornerstone of transport decarbonisation. Road vehicles powered by batteries eliminate tailpipe emissions, therefore improving urban air quality. Lifecycle impacts, however, depend on the electricity mix and battery materials. Global assessments attribute roughly a quarter of energy-related carbon emissions to transport, with road traffic dominating. In the early 2020s, electric cars represented over one in ten new sales in several large markets, while electric buses progressed quietly in municipal fleets. Battery costs fell markedly over the last decade, which improved affordability and uptake. Yet grid readiness is uneven. Without smart charging and renewable generation, peak loads may strain infrastructure, and benefits may be diluted.
+
+Text: C. Automation adds a different promise: safety and efficiency gains from algorithmic control. In theory, self-driving systems can react faster than humans, coordinate speeds, and reduce collisions. In practice, mixed traffic, unpredictable weather, and rare events complicate deployment. Engineers classify automation from Level 1 driver assistance to Level 5 full autonomy; most trials aim for Level 4 in constrained areas. Vehicle-to-everything (V2X) communication—cars exchanging data with signals, roads, and other vehicles—may be essential. It enables cooperative manoeuvres and smoother traffic flow. However, reliability, cybersecurity, and liability remain unresolved. Regulators have been cautious, adopting geofenced pilots and safety drivers. Progress is incremental and contingent on rigorous verification.
+
+Text: D. Public transport has been quietly reinvented with digital tools and cleaner propulsion. One prominent case is Shenzhen, where, by 2017, the city electrified nearly its entire bus fleet, exceeding 16,000 vehicles. The transition required depots with hundreds of chargers, coordinated scheduling, and subsidies to address capital costs. Authorities reported declines in particulate pollution along busy corridors, alongside reductions in noise. Complementary measures included demand-responsive shuttles that adjusted routes in real time. This case illustrates a broader principle: technology must be paired with operational reform. When routes, ticketing, and maintenance are redesigned, performance improves. Where only the vehicle is changed, benefits may be modest and difficult to sustain.
+
+Text: E. At the smaller scale, micromobility offers short-trip solutions that ease congestion and enhance connectivity. E-bikes and e-scooters extend the range of cycling with limited physical effort, thereby broadening participation across age groups. Infrastructure remains decisive. Protected lanes, safe junctions, and secure parking increase uptake. Utrecht offers a relevant example: a central station facility with over 12,000 bicycle spaces opened in 2019, integrating parking with rail platforms and retail. As a result, transfers are faster and more predictable. Although shared scooter schemes face criticism for clutter, cities that designate parking bays and regulate fleet size generally report better compliance. With thoughtful design, active modes can integrate, not compete, with mass transit.
+
+Text: F. Long-distance transport poses different constraints. High-speed rail provides rapid, high-capacity intercity links with lower emissions per passenger than short-haul flights. Trains operating at 250–320 km/h have demonstrated reliability in Europe and Asia, provided corridors are straight and maintenance is rigorous. For aviation, incremental steps dominate. Sustainable aviation fuels can cut lifecycle emissions, but supply is limited and expensive. Hydrogen propulsion is being tested, mainly on smaller aircraft. In rail, hydrogen and battery trains offer replacements for diesel on non-electrified lines; early commercial services appeared in the late 2010s. Experimental systems such as vacuum-tube travel promise ultra-high speeds, yet face substantial engineering, safety, and cost hurdles that may delay adoption.
+
+Text: G. Policy instruments influence behaviour as much as technology does. Congestion charging, parking reform, and low-emission zones change incentives and can fund alternatives. Stockholm’s experience is instructive. A city-centre congestion tax, trialled in 2006 and later made permanent, reduced weekday traffic by approximately 20% and improved journey time reliability. Revenues supported transit upgrades, reinforcing the modal shift. Pricing is politically contentious, yet transparent use of funds and measurable outcomes increase acceptance. Data governance also matters. Real-time mobility platforms require sharing information across agencies and firms. If privacy and cybersecurity are neglected, public confidence may erode, undermining otherwise effective measures. Governance quality is therefore central to long-term viability.
+
+Text: H. Viewing future transport as a system helps reconcile conflicting aims. Reliability, safety, affordability, and environmental objectives cannot be met by a single device. Instead, coordinated investment, phased regulation, and adaptive planning are required. Climate adaptation adds another layer: networks must withstand heatwaves, floods, and power disruptions that are expected to intensify by mid-century. Digital twins—virtual models of cities and networks—can test scenarios before costly construction. Nevertheless, constraints remain, including critical minerals for batteries and competing land uses. The most plausible pathway is plural. Cities will blend electrified mass transit, active travel, and selective automation, while intercity links prioritise rail where feasible. Progress is likely cumulative rather than sudden.
+
+Text: Questions
+
+1. Do the following statements agree with the information in the passage? Choose: True / False / Not Given. Statement: By 2050, almost two-thirds of the world’s population is expected to live in urban areas.
+... Paragraph A states that by 2050, close to two-thirds of the global population will live in urban areas.
+a) a) True
+b) b) False
+c) c) Not Given
+
+2. Do the following statements agree with the information in the passage? Choose: True / False / Not Given. Statement: The future of transport will be determined by a single breakthrough invention.
+... Paragraph A says the future appears as a convergence of technologies rather than a single invention.
+a) a) True
+b) b) False
+c) c) Not Given
+
+3. Do the following statements agree with the information in the passage? Choose: True / False / Not Given. Statement: Mobility-as-a-service (MaaS) has already been universally implemented in major cities.
+... Paragraph A explains what MaaS is but does not state it has been universally implemented.
+a) a) True
+b) b) False
+c) c) Not Given
+
+4. Do the following statements agree with the information in the passage? Choose: True / False / Not Given. Statement: Battery-powered vehicles remove tailpipe emissions and can improve urban air quality.
+... Paragraph B states that road vehicles powered by batteries eliminate tailpipe emissions, improving urban air quality.
+a) a) True
+b) b) False
+c) c) Not Given
+
+5. Do the following statements agree with the information in the passage? Choose: True / False / Not Given. Statement: Most current autonomous vehicle trials target full autonomy in all conditions.
+... Paragraph C notes most trials aim for Level 4 in constrained areas, not Level 5 full autonomy in all conditions.
+a) a) True
+b) b) False
+c) c) Not Given
+
+Text: 10. Answer the question below using NO MORE THAN THREE WORDS from the passage: What policy in Stockholm reduced weekday traffic by about 20%?
+Text: ... Paragraph G: 'A city-centre congestion tax... reduced weekday traffic by approximately 20%.'
+* congestion tax
+Text: 11. Answer the question below using NO MORE THAN THREE WORDS from the passage: What virtual models can test scenarios before costly construction?
+Text: ... Paragraph H: 'Digital twins—virtual models of cities and networks—can test scenarios before costly construction.'
+* Digital twins

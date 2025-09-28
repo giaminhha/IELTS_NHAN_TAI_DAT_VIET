@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <assessment ident="text2qti_assessment_d90fe1d3b010536e4f7cfff35a2dd5bf0334a383c57cd8e599b390def4b78f83" title="Quiz">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>cc_maxattempts</fieldlabel>
+        <fieldentry>1</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <section ident="root_section">
+      <item ident="text2qti_text_fa2a74877660cd48bce70ee7c96ce92f4b7280bd26e2ca390fa5d23bc829e134" title="Sports and national identity">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_fa2a74877660cd48bce70ee7c96ce92f4b7280bd26e2ca390fa5d23bc829e134</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;Text title: Playing for the Nation: Sport and Collective Identity&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_text_f1facc72bdc72aef5a6b008aa2b2b807d491bae8ef1341b60ce035f24a2b27c2" title="">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_f1facc72bdc72aef5a6b008aa2b2b807d491bae8ef1341b60ce035f24a2b27c2</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;A. Sport has long been used to tell stories about who belongs to a nation and what that nation stands for. Stadiums become stages on which competing versions of collective identity are performed, watched, and judged. Although games are ostensibly about skill and results, the surrounding narratives emphasise heritage, sacrifice, and unity. It is not automatic, however, that sporting success produces cohesion; the same event may divide audiences along regional or ethnic lines. Consequently, sport functions as a site where identity is negotiated rather than simply displayed, and where symbols—jerseys, anthems, and flags—are mobilised to make abstract ideas about belonging appear vivid and concrete.&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_text_5bb95be8a87661ca2ff5dd2c48f6a52c7d6ea8a4fa6a235a11c6b6a0c2eecf54" title="">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_5bb95be8a87661ca2ff5dd2c48f6a52c7d6ea8a4fa6a235a11c6b6a0c2eecf54</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;B. Modern links between sport and nationhood developed alongside the rise of mass media and international competitions in the late nineteenth and twentieth centuries. The revival of the Olympic Games in 1896, followed by the creation of football’s global federation in 1904, offered regular occasions for cross-border rivalry. Standardised rules, national selection, and medal tables allowed comparisons that newspapers and later radio amplified. By the 1950s, television embedded these contests in domestic routines, while cold war politics infused them with ideological meaning. The result was a durable association: athletic triumphs were interpreted as indicators of national vitality, even when the athletes themselves competed as individuals.&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_text_9f5adb9bf65ae1907c8d2183515c118a586a0b4138cfee45f2975fca2e9ecf84" title="">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_9f5adb9bf65ae1907c8d2183515c118a586a0b4138cfee45f2975fca2e9ecf84</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;C. Rituals convert competition into national spectacle. Anthems are sung as if they speak for entire populations, uniforms bear colours associated with state flags, and victory ceremonies echo civic rituals of recognition. Such practices may appear trivial, yet they structure how events are remembered and how loyalty is expressed. The idea of an “imagined community”—a group that feels connected despite members never meeting—becomes tangible when millions watch the same game at the same moment. Through repeated exposure, audiences learn to read gestures and emblems, so that a raised scarf or a choreographed chant can signal inclusion, discipline, and, occasionally, dissent.&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_text_5435aa8bbf2f796c75e8d66f122ce0c7677242b99653d7a68ab9d16664e87694" title="">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_5435aa8bbf2f796c75e8d66f122ce0c7677242b99653d7a68ab9d16664e87694</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;D. One often-cited example is South Africa’s 1995 Rugby World Cup, staged shortly after the end of apartheid. The new president, Nelson Mandela, publicly endorsed the national team, historically associated with the white minority, and appeared in its green jersey at the final. The victory was presented as a symbol of reconciliation, and the slogan “one team, one country” circulated widely. Subsequent research suggests that effects were uneven: enthusiasm was intense in some communities but limited elsewhere, and structural inequalities persisted. Nevertheless, the episode illustrates how a single match can be made to carry aspirations for a broader political settlement.&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_text_08f0c14ce381527dd1018441282e69cab7a121aac2ccd8e9d4b32ffb986f4f55" title="">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_08f0c14ce381527dd1018441282e69cab7a121aac2ccd8e9d4b32ffb986f4f55</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;E. Comparative figures underline the scale of national attention. Estimates for the 2014 football World Cup final, for instance, ranged from 700 million to over one billion viewers worldwide, depending on counting methods. During continental championships, national-team broadcasts in smaller European markets often reach audience shares above 60 per cent, whereas domestic league matches typically attract 10–30 per cent. Host-city investment has also escalated: reported operating surpluses in Los Angeles in 1984 contrasted with multibillion-dollar budgets three decades later. Such numbers are contested but consequential, shaping public debate about whether international success reflects efficient organisation, lavish expenditure, or simply a fortunate generation of athletes.&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_text_e6f8436911db1083368611803416e605525b147af4c8eea5f7ffb3e3c5d5cdda" title="">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_e6f8436911db1083368611803416e605525b147af4c8eea5f7ffb3e3c5d5cdda</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;F. Identity, however, is not produced only within borders. Migrant communities may follow teams from ancestral homelands, while dual-national athletes must choose between competing allegiances under eligibility rules. Selection decisions can be read as statements about inclusion and citizenship, as shown by debates surrounding multi-ethnic squads in several European countries. Fans may celebrate a team as evidence of diversity, whereas critics claim it fails to mirror an imagined national core. The same match thus provides divergent lessons about who counts as “us”. In effect, sporting identity travels along family ties, media networks, and languages, blurring simple distinctions between domestic and foreign.&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_text_61d6597993a6d49a0514320b74bed2960bd87801090084c229caa7c1e4175514" title="">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_61d6597993a6d49a0514320b74bed2960bd87801090084c229caa7c1e4175514</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;G. Case studies from very different contexts show how success can reframe national self-perception. When Iceland, with a population of about 330,000, reached the quarter-finals of the 2016 European football championship, the team’s disciplined style and the thunderous “Viking clap” became shorthand for resilience and communal effort. Youth registration reportedly rose and tourism marketing adopted the imagery. In India, the 1983 cricket World Cup win, followed decades later by a lucrative professional league, helped reposition the sport from colonial inheritance to a confident cultural export. In both settings, achievement was converted into narratives about modernity, competence, and, global visibility.&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_text_cc25c0b9c828cd4d1fb7b6b80af1fbbdb427873232d8d2ffeff5ee9b96aed550" title="">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_cc25c0b9c828cd4d1fb7b6b80af1fbbdb427873232d8d2ffeff5ee9b96aed550</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;H. Governments recognise that international sport projects images abroad. Hosting mega-events is therefore framed as nation branding, despite mixed fiscal outcomes. Barcelona’s 1992 Olympics are often credited with catalysing urban renewal and tourism, while Beijing’s 2008 Games emphasised spectacle and organisational capacity. More recently, London 2012 promoted volunteerism and accessibility, aiming to showcase a pragmatic, service-oriented civic culture. Cost overruns and displacement have, however, tempered enthusiasm. It has been argued that the most durable legacies are intangible: a sense of competence among administrators, confidence among residents, and a package of symbols that can be mobilised in future diplomatic campaigns.&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_text_1e19db3bf05ab600ad53aabd68486436d6948f22168fb8b0576c762f860e95af" title="">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_1e19db3bf05ab600ad53aabd68486436d6948f22168fb8b0576c762f860e95af</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;I. Ultimately, the capacity of sport to shape national identity appears conditional rather than automatic. Outcomes depend on institutional credibility, media framing, historical memories, and the willingness of audiences to accept particular interpretations. While periods of victory may generate pride and solidarity, controversial selections or financial scandals can just as easily provoke scepticism. Notwithstanding these uncertainties, competitive games provide a recurring platform on which collective stories are rehearsed and revised. The nation, in this view, is not discovered on the scoreboard but constructed through the rituals that surround it, a process that can unify, exclude, or simply entertain.&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_text_4deb4221d26d60263a46f9e44f6c4912b0c94d3555e43d99752f92307b7c3a8e" title="">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_4deb4221d26d60263a46f9e44f6c4912b0c94d3555e43d99752f92307b7c3a8e</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;Do the following statements agree with the information given in the text? Write YES, NO, or NOT GIVEN.&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_question_d04fccaea128a6c2f666430f150c26ed6c339dc8ba40e1172253f8fbd48ecf95" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>text2qti_choice_0aa2c1c1175764080c79ef41597e43104ce60ff5d42669d999d54df31d7db937,text2qti_choice_08f3d03145b6b7b0b77af66068dea0f9db9b67676d7f9444f8236615aff537b8,text2qti_choice_476e952dfd333f353a353e3508a0725dea4f5a679226ed3dc28ebea276469c75</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_d04fccaea128a6c2f666430f150c26ed6c339dc8ba40e1172253f8fbd48ecf95</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;According to the writer, a triumph in sport cannot be relied upon to bring all sections of a nation together.&lt;/p&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="text2qti_choice_0aa2c1c1175764080c79ef41597e43104ce60ff5d42669d999d54df31d7db937">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Yes&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_08f3d03145b6b7b0b77af66068dea0f9db9b67676d7f9444f8236615aff537b8">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;No&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_476e952dfd333f353a353e3508a0725dea4f5a679226ed3dc28ebea276469c75">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">text2qti_choice_0aa2c1c1175764080c79ef41597e43104ce60ff5d42669d999d54df31d7db937</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="general_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;p&gt;Paragraph A states that sporting success does not automatically produce cohesion and may divide audiences.&lt;/p&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+      </item>
+      <item ident="text2qti_question_4d15bbd3943640a57c62443b2468f84e7a162b84752c35ba24a391da1f180d73" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>text2qti_choice_c3c2ab5f5070fe0cedf9dfa7bc2265b58c8249dae867ebea09220fa3ad6b3776,text2qti_choice_fbe66df6df2a6b3f275b20bf21755657c5eb3c899dd95d2fec374b0da7bdb550,text2qti_choice_24128588b89c28c9bfa26ebc8d112a72e25246cd8c9e7d7d2293fae6961f6d8f</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_4d15bbd3943640a57c62443b2468f84e7a162b84752c35ba24a391da1f180d73</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;By the 1950s, television had helped make international contests part of household routines.&lt;/p&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="text2qti_choice_c3c2ab5f5070fe0cedf9dfa7bc2265b58c8249dae867ebea09220fa3ad6b3776">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Yes&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_fbe66df6df2a6b3f275b20bf21755657c5eb3c899dd95d2fec374b0da7bdb550">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;No&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_24128588b89c28c9bfa26ebc8d112a72e25246cd8c9e7d7d2293fae6961f6d8f">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">text2qti_choice_c3c2ab5f5070fe0cedf9dfa7bc2265b58c8249dae867ebea09220fa3ad6b3776</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="general_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;p&gt;Paragraph B says that by the 1950s, television embedded these contests in domestic routines.&lt;/p&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+      </item>
+      <item ident="text2qti_question_32e58dac73253fc5db10defddbb883d9521453d5db3fc05a4d9b9e08344074d1" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>text2qti_choice_5707888ccebab90f02e0e9c884862e11599a2d80b52c915a218e9c50c3fa1253,text2qti_choice_b0bdc09fea02c5dcf6c6856654b4c58c3aca05a9ea175c8e62a56bbfffdb0455,text2qti_choice_610cd90548b4c78c516aa20189802bd8d7bcb5e958c4430f288f500ddfe0aa9e</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_32e58dac73253fc5db10defddbb883d9521453d5db3fc05a4d9b9e08344074d1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;The founding of football’s global federation and the revival of the Olympics happened after television became widespread.&lt;/p&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="text2qti_choice_5707888ccebab90f02e0e9c884862e11599a2d80b52c915a218e9c50c3fa1253">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Yes&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_b0bdc09fea02c5dcf6c6856654b4c58c3aca05a9ea175c8e62a56bbfffdb0455">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;No&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_610cd90548b4c78c516aa20189802bd8d7bcb5e958c4430f288f500ddfe0aa9e">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">text2qti_choice_b0bdc09fea02c5dcf6c6856654b4c58c3aca05a9ea175c8e62a56bbfffdb0455</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="general_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;p&gt;Paragraph B dates these to 1896 and 1904, which occurred well before television’s rise in the 1950s.&lt;/p&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+      </item>
+      <item ident="text2qti_question_eb98b63a154e4a6c133636b47b130e2db47e10c5a2e10e4a7b4b3279ec9ba458" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>text2qti_choice_380d5dd05dd4bbf69903ba5070f02313ade7ffb8c6220e2bc765d6f03267d9f7,text2qti_choice_bdb579d377bcd1f4608d32b09efa9ac673ecec107cbc8f84dfb10363f14c705b,text2qti_choice_3882fedb15dbb183eb8bd135e1740bd748af78e2953976c0caa744628e076489</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_eb98b63a154e4a6c133636b47b130e2db47e10c5a2e10e4a7b4b3279ec9ba458</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;Rituals at sporting events play a role in shaping how matches are remembered and how allegiance is shown.&lt;/p&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="text2qti_choice_380d5dd05dd4bbf69903ba5070f02313ade7ffb8c6220e2bc765d6f03267d9f7">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Yes&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_bdb579d377bcd1f4608d32b09efa9ac673ecec107cbc8f84dfb10363f14c705b">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;No&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_3882fedb15dbb183eb8bd135e1740bd748af78e2953976c0caa744628e076489">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">text2qti_choice_380d5dd05dd4bbf69903ba5070f02313ade7ffb8c6220e2bc765d6f03267d9f7</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="general_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;p&gt;Paragraph C notes such practices structure memory and expressions of loyalty.&lt;/p&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+      </item>
+      <item ident="text2qti_question_426b1d157dd704ce3c9d1b89337c61e52e7375029c177112fd37aa0a05e6ffd0" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>text2qti_choice_5af89e10ff39e0d2289aa38503edf0a239961c667ccbcb145bb40f9b0d3408b7,text2qti_choice_b70997cc533788d6761f6c6ccf6747a9c60996b0ce3634d74e8ca4399b03d05a,text2qti_choice_cf4824b960c8bf4c0b38111e0f0f01f43ffcd388a9b8fcc0460bae2bfd0ee348</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_426b1d157dd704ce3c9d1b89337c61e52e7375029c177112fd37aa0a05e6ffd0</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;Nelson Mandela determined the team’s tactics for the Rugby World Cup final in 1995.&lt;/p&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="text2qti_choice_5af89e10ff39e0d2289aa38503edf0a239961c667ccbcb145bb40f9b0d3408b7">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Yes&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_b70997cc533788d6761f6c6ccf6747a9c60996b0ce3634d74e8ca4399b03d05a">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;No&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_cf4824b960c8bf4c0b38111e0f0f01f43ffcd388a9b8fcc0460bae2bfd0ee348">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">text2qti_choice_cf4824b960c8bf4c0b38111e0f0f01f43ffcd388a9b8fcc0460bae2bfd0ee348</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="general_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;p&gt;Paragraph D mentions his endorsement and appearance in the jersey, but gives no information about tactics.&lt;/p&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+      </item>
+      <item ident="text2qti_question_996f99f9b1afcf80e91cb60212ef7f8d39ac94c0f0b8b02f450418200420c9a3" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>text2qti_choice_526109427b810546d5159eeb454b595c8ee0204416260ed8d0472d5dbf0607fc,text2qti_choice_0eddc57aab13f563aa8866a0b3099dd1744af88f1373088ba0e7055a292fd3ad,text2qti_choice_1f80bc01e83204dabda5ad4842a42e640594e0e97b719ae82df58498686039de</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_996f99f9b1afcf80e91cb60212ef7f8d39ac94c0f0b8b02f450418200420c9a3</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;In smaller European markets, domestic league fixtures usually secure larger audience shares than national-team games during continental tournaments.&lt;/p&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="text2qti_choice_526109427b810546d5159eeb454b595c8ee0204416260ed8d0472d5dbf0607fc">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Yes&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_0eddc57aab13f563aa8866a0b3099dd1744af88f1373088ba0e7055a292fd3ad">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;No&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_1f80bc01e83204dabda5ad4842a42e640594e0e97b719ae82df58498686039de">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">text2qti_choice_0eddc57aab13f563aa8866a0b3099dd1744af88f1373088ba0e7055a292fd3ad</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="general_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;p&gt;Paragraph E states national-team broadcasts often reach above 60%, while domestic leagues draw 10–30%.&lt;/p&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+      </item>
+    </section>
+  </assessment>
+</questestinterop>

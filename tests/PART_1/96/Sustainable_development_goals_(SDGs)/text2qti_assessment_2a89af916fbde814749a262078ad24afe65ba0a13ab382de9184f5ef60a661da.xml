@@ -1,0 +1,495 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:questestinterop xmlns:ns0="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <ns0:assessment ident="text2qti_assessment_2a89af916fbde814749a262078ad24afe65ba0a13ab382de9184f5ef60a661da" title="Quiz">
+    <ns0:qtimetadata>
+      <ns0:qtimetadatafield>
+        <ns0:fieldlabel>cc_maxattempts</ns0:fieldlabel>
+        <ns0:fieldentry>1</ns0:fieldentry>
+      </ns0:qtimetadatafield>
+    </ns0:qtimetadata>
+    <ns0:section ident="root_section">
+      <ns0:item ident="text2qti_text_97282890e5440c919ec1b090abeb51e67d250f7ee08f06bd0235950130b5abf1" title="Sustainable development goals (SDGs)">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_97282890e5440c919ec1b090abeb51e67d250f7ee08f06bd0235950130b5abf1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;A. In 2015, almost every country agreed on a shared roadmap known as the Sustainable Development Goals. These goals set out a vision for both people and the planet. They bring together three major areas: social well-being, economic opportunity, and environmental protection. The goals describe what should be improved, but they do not prescribe a single path. This approach allows countries to choose solutions that fit local conditions, while still moving in the same direction. The agenda is practical and wide in scope. It covers issues as varied as clean water, decent jobs, and climate action. Consequently, it offers a broad framework for action rather than a narrow set of rules.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_a91786e9948d43781378df5aa89aed2ff860da9dbb800783b3b67ef7ca3a828d" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_a91786e9948d43781378df5aa89aed2ff860da9dbb800783b3b67ef7ca3a828d</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;B. The SDGs grew out of the earlier Millennium Development Goals, which guided global efforts from 2000 to 2015. While the MDGs focused mainly on poverty and health in low-income countries, the SDGs were designed to be universal. They apply to all nations, irrespective of income level. They were adopted by the United Nations General Assembly in September 2015 as part of the 2030 Agenda for Sustainable Development. The negotiation process included governments, civil society, and business groups. This inclusive design helped build support and ownership. The goals were set for a fifteen-year period, giving time for planning, investment, and steady progress, while still creating a sense of urgency.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_4c3ba783b0d5f45034b90e35a9883010f1e755cd9202a5a9faa760c01284cabc" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_4c3ba783b0d5f45034b90e35a9883010f1e755cd9202a5a9faa760c01284cabc</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;C. There are 17 goals, and their scope is deliberately broad. They cover hunger, health, education, gender equality, energy, cities, oceans, and more. The goals are linked, so improvement in one area may strengthen another. For example, providing clean energy can reduce indoor air pollution and improve health. It may also create jobs and reduce household costs. However, some actions involve trade-offs. Expanding agriculture can raise food supply, yet lead to habitat loss and higher emissions. Therefore, policymakers are encouraged to look at the whole system. Attention to these links may prevent unintended effects and may help direct resources to where they have the greatest combined impact.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_1fc9a86740569974e204fbcea16ff81f0a5de1ebc3db06c44498f9d367ae066b" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_1fc9a86740569974e204fbcea16ff81f0a5de1ebc3db06c44498f9d367ae066b</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;D. The SDGs include 169 targets and a set of official indicators used to track change over time. An indicator is a simple measure, such as the share of households with electricity or the rate of child stunting. Most indicators use 2015 as a baseline and aim to show results by 2030. In total, the global list includes more than 200 indicators. Data collection has expanded, using household surveys, administrative records, and, in some cases, satellite images. Even so, data gaps remain, especially for small or remote populations. The COVID-19 pandemic in 2020 disrupted both services and measurement systems, which, in many places, delayed reporting and complicated comparisons.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_82c938e632ec1f53bdcc2f97a8dce485f584606084c243d82e722ee7e1d0e0e4" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_82c938e632ec1f53bdcc2f97a8dce485f584606084c243d82e722ee7e1d0e0e4</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;E. Progress has been mixed and uneven, as shown by country examples. Bangladesh expanded solar home systems in rural areas, installing more than four million units by 2018. This helped raise electrification rates and reduced the use of kerosene, which is costly and polluting. In Costa Rica, electricity generation has been largely renewable for years; in several recent years, more than 98 percent of power came from clean sources like hydro, wind, and geothermal. These cases demonstrate that steady improvement is possible with consistent policy and investment. Nevertheless, challenges remain, including reliable maintenance, grid upgrades, and access for low-income households in remote regions.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_691bb20f8203be08652d6233999e27d33a0bb3e4c62c4c5bbe14561ca7169c76" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_691bb20f8203be08652d6233999e27d33a0bb3e4c62c4c5bbe14561ca7169c76</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;F. Financing is a central issue. Meeting the goals requires public budgets, private investment, and international support. Official development assistance from high-income countries was over $200 billion in 2022, yet estimates of total annual needs reach into the trillions. Therefore, many actors consider blended finance, which combines public or philanthropic funds with private capital to reduce risk. Green and social bonds have also grown as tools to channel money to climate and social projects. However, transparency and measurable results are essential. Without clear reporting, investors may not trust the benefits claimed. Domestic resource mobilization, including fair taxation and effective spending, remains equally important.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_9b3bfd716906fb8ffe5d5b8d65143fb9579226fd416d1edb7ab0e96e942ba168" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_9b3bfd716906fb8ffe5d5b8d65143fb9579226fd416d1edb7ab0e96e942ba168</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;G. Local implementation is where many goals become concrete. Cities manage transport, waste, housing, and public spaces, so urban policy affects several targets at once. Some municipalities map their plans to the SDGs and publish a “Voluntary Local Review.” New York City issued one in 2018, and other cities have followed. These reports help align local decisions with global aims and allow comparisons across regions. Community participation is also valuable. Residents can identify barriers, such as unsafe walking routes or unreliable water points. In turn, local data can inform national plans. This two-way link helps create coherence and avoids duplication of effort.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_2b156c2fc6fba9bf015bf4765cc5a0f3c61f690377ee24020897519a32021422" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_2b156c2fc6fba9bf015bf4765cc5a0f3c61f690377ee24020897519a32021422</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;H. With the 2030 deadline approaching, many indicators show slower progress than originally hoped. The pandemic, climate shocks, and rising prices have increased pressure on health systems, food security, and household budgets. Yet there are opportunities to accelerate action. Investments in clean energy, climate adaptation, and basic services can create jobs and reduce risk at the same time. Better data systems, including digital tools, can speed up feedback and allow faster adjustments. Notwithstanding uncertainties, a consistent approach—clear priorities, adequate finance, and attention to local needs—can help. The SDGs are not a rigid plan, but a shared language for practical, measurable change.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_e2b7a8009b231e97c969080b9b24ecc9a08bf4a06fa23d015622c855bc397758" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_e2b7a8009b231e97c969080b9b24ecc9a08bf4a06fa23d015622c855bc397758</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Questions&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_f73af890968a1e1bb45752590a8fb9ffcadb93405f0975d0ebcbe9ea457189f1" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_f73af890968a1e1bb45752590a8fb9ffcadb93405f0975d0ebcbe9ea457189f1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Do the following statements agree with the information given in the text? Write TRUE, FALSE, or NOT GIVEN.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_66d8bd18cf1d0bfa3f24cce4021d84fdeffd0b21f392fc9c5ec04bce29295a12" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_e316572ef9e29233dae367ab50dc8d89027db666f03c7f7d63446c1e04d2f67c,text2qti_choice_a3435d2c6c60934d7eea3a68ae843fd4bb803fb505f0512b16f6241564052515,text2qti_choice_0b15d7522cf181d563c45313ab2a5a29cc16a6d9e5a4b0e0fa745d596991b98f</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_66d8bd18cf1d0bfa3f24cce4021d84fdeffd0b21f392fc9c5ec04bce29295a12</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Write True, False or Not Given: Most SDG indicators use 2015 as a baseline for tracking progress.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_e316572ef9e29233dae367ab50dc8d89027db666f03c7f7d63446c1e04d2f67c">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_a3435d2c6c60934d7eea3a68ae843fd4bb803fb505f0512b16f6241564052515">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_0b15d7522cf181d563c45313ab2a5a29cc16a6d9e5a4b0e0fa745d596991b98f">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_e316572ef9e29233dae367ab50dc8d89027db666f03c7f7d63446c1e04d2f67c</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Paragraph D states that most indicators use 2015 as a baseline and aim to show results by 2030.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_ee17c73378e2365b8748df60357dd601be63f2489829bb652c4db221009c6b71" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_a65fbde84f8f169aa00a3161b2bd923d6bc6b2e6553b88b88fc9e2c54621ef0f,text2qti_choice_e5153c7222e5f5ea1110b824708f869150f4bc8b4f7682e9f29d6af22213f4c4,text2qti_choice_e3c82c4f4504d2159cbca8c87f491b34c08a38728dbedbd39de14de0bab3317f</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_ee17c73378e2365b8748df60357dd601be63f2489829bb652c4db221009c6b71</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Write True, False or Not Given: Costa Rica has generated 100 percent of its electricity from renewable sources in every recent year.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_a65fbde84f8f169aa00a3161b2bd923d6bc6b2e6553b88b88fc9e2c54621ef0f">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_e5153c7222e5f5ea1110b824708f869150f4bc8b4f7682e9f29d6af22213f4c4">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_e3c82c4f4504d2159cbca8c87f491b34c08a38728dbedbd39de14de0bab3317f">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_e5153c7222e5f5ea1110b824708f869150f4bc8b4f7682e9f29d6af22213f4c4</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Paragraph E says that in several recent years more than 98 percent of power came from clean sources, not 100 percent every year.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_c3d596766f6d31c33b881350e849c5f13c7d862f103686e5ae3d3411aa43e580" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_f06e999db6cd26bc54097b1f93ded92ea3fa6cf49737a1f3fce498d2c2e50e54,text2qti_choice_7befd4bee9b3d59a6008ea7b5b7189b76e8eadbd9896d751173504c038cc51a9,text2qti_choice_886b651f7258df011e76b67831a8fe8811c4b3adf2ff8cff521cf7af346d2616</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_c3d596766f6d31c33b881350e849c5f13c7d862f103686e5ae3d3411aa43e580</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Write True, False or Not Given: Green and social bonds are used to channel funds to climate and social projects.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_f06e999db6cd26bc54097b1f93ded92ea3fa6cf49737a1f3fce498d2c2e50e54">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_7befd4bee9b3d59a6008ea7b5b7189b76e8eadbd9896d751173504c038cc51a9">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_886b651f7258df011e76b67831a8fe8811c4b3adf2ff8cff521cf7af346d2616">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_f06e999db6cd26bc54097b1f93ded92ea3fa6cf49737a1f3fce498d2c2e50e54</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Paragraph F states that green and social bonds have grown as tools to channel money to climate and social projects.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+    <ns0:item ident="Q8-13" title="Question" points_possible="6.0"><ns0:itemmetadata><ns0:qtimetadata><ns0:qtimetadatafield><fieldlabel>question_type</fieldlabel><fieldentry>fill_in_multiple_blanks_question</fieldentry></ns0:qtimetadatafield><ns0:qtimetadatafield><fieldlabel>points_possible</fieldlabel><fieldentry>6.0</fieldentry></ns0:qtimetadatafield></ns0:qtimetadata></ns0:itemmetadata><ns0:presentation><ns0:material><ns0:mattext texttype="text/html">&lt;div&gt;&lt;div&gt;Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.
+
+According to the passage, the new press influenced education, government and public debate. Universities could assign the same [blank8] to many students, while governments used printed [blank9] to standardize rules. In the early sixteenth century, [blank10] enabled rapid debate during movements such as the Reformation. Nonetheless, problems persisted: [blank11] remained uneven, early presses produced [blank12], and [blank13] was attempted by authorities.&lt;/div&gt;&lt;/div&gt;</ns0:mattext></ns0:material><ns0:response_lid ident="response_blank8"><ns0:material><ns0:mattext>blank8</ns0:mattext></ns0:material><ns0:render_choice><ns0:response_label ident="6398"><ns0:material><ns0:mattext texttype="text/plain">text</ns0:mattext></ns0:material></ns0:response_label></ns0:render_choice></ns0:response_lid><ns0:response_lid ident="response_blank9"><ns0:material><ns0:mattext>blank9</ns0:mattext></ns0:material><ns0:render_choice><ns0:response_label ident="7130"><ns0:material><ns0:mattext texttype="text/plain">ordinances</ns0:mattext></ns0:material></ns0:response_label></ns0:render_choice></ns0:response_lid><ns0:response_lid ident="response_blank10"><ns0:material><ns0:mattext>blank10</ns0:mattext></ns0:material><ns0:render_choice><ns0:response_label ident="3305"><ns0:material><ns0:mattext texttype="text/plain">pamphlets</ns0:mattext></ns0:material></ns0:response_label></ns0:render_choice></ns0:response_lid><ns0:response_lid ident="response_blank11"><ns0:material><ns0:mattext>blank11</ns0:mattext></ns0:material><ns0:render_choice><ns0:response_label ident="5856"><ns0:material><ns0:mattext texttype="text/plain">literacy</ns0:mattext></ns0:material></ns0:response_label></ns0:render_choice></ns0:response_lid><ns0:response_lid ident="response_blank12"><ns0:material><ns0:mattext>blank12</ns0:mattext></ns0:material><ns0:render_choice><ns0:response_label ident="6582"><ns0:material><ns0:mattext texttype="text/plain">errors</ns0:mattext></ns0:material></ns0:response_label></ns0:render_choice></ns0:response_lid><ns0:response_lid ident="response_blank13"><ns0:material><ns0:mattext>blank13</ns0:mattext></ns0:material><ns0:render_choice><ns0:response_label ident="3137"><ns0:material><ns0:mattext texttype="text/plain">censorship</ns0:mattext></ns0:material></ns0:response_label></ns0:render_choice></ns0:response_lid></ns0:presentation><ns0:resprocessing><ns0:outcomes><ns0:decvar maxvalue="6.0" minvalue="0" varname="SCORE" vartype="Decimal" /></ns0:outcomes><ns0:respcondition><ns0:conditionvar><ns0:varequal respident="response_blank8">6398</ns0:varequal></ns0:conditionvar><ns0:setvar varname="SCORE" action="Add">1.00</ns0:setvar></ns0:respcondition><ns0:respcondition><ns0:conditionvar><ns0:varequal respident="response_blank9">7130</ns0:varequal></ns0:conditionvar><ns0:setvar varname="SCORE" action="Add">1.00</ns0:setvar></ns0:respcondition><ns0:respcondition><ns0:conditionvar><ns0:varequal respident="response_blank10">3305</ns0:varequal></ns0:conditionvar><ns0:setvar varname="SCORE" action="Add">1.00</ns0:setvar></ns0:respcondition><ns0:respcondition><ns0:conditionvar><ns0:varequal respident="response_blank11">5856</ns0:varequal></ns0:conditionvar><ns0:setvar varname="SCORE" action="Add">1.00</ns0:setvar></ns0:respcondition><ns0:respcondition><ns0:conditionvar><ns0:varequal respident="response_blank12">6582</ns0:varequal></ns0:conditionvar><ns0:setvar varname="SCORE" action="Add">1.00</ns0:setvar></ns0:respcondition><ns0:respcondition><ns0:conditionvar><ns0:varequal respident="response_blank13">3137</ns0:varequal></ns0:conditionvar><ns0:setvar varname="SCORE" action="Add">1.00</ns0:setvar></ns0:respcondition></ns0:resprocessing><ns0:itemfeedback ident="general_fb"><ns0:flow_mat><ns0:material><ns0:mattext texttype="text/html">&lt;div&gt;&lt;div&gt;&lt;span&gt;Paragraph F: Universities could assign the same text to many students.&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;span&gt;Paragraph F: Governments used printed ordinances to standardize rules across regions.&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;span&gt;Paragraph F: Pamphlets made rapid debate possible.&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;span&gt;Paragraph G: Literacy remained uneven.&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;span&gt;Paragraph G: Early presses produced errors when typesetters rushed or editors lacked time to check proofs.&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;span&gt;Paragraph G: Censorship also emerged, as rulers and religious bodies tried to control texts.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;</ns0:mattext></ns0:material></ns0:flow_mat></ns0:itemfeedback></ns0:item></ns0:section>
+  </ns0:assessment>
+</ns0:questestinterop>

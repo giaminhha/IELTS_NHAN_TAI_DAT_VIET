@@ -1,0 +1,71 @@
+Text title: Agricultural revolutions
+
+Text: Text title: Turning Points in Farming: From Fields to Food Systems
+
+Text: A. The phrase “agricultural revolution” is used to describe periods when farming changed quickly and widely. These shifts did not happen in a single place, nor did they follow a single path. Instead, many regions adopted new crops, tools, and practices that raised output and reliability. These changes supported population growth and allowed more people to live in towns. They also encouraged trade, storage, and craft work, because food became more predictable. Although each wave had different causes, the result was similar: more food per worker and per hectare. Therefore, ideas about land, labour, and risk were gradually reorganised.
+
+Text: B. The first major transition began after the last Ice Age, when groups started to grow plants and keep animals. Between about 10,000 and 8,000 BCE, farming emerged in parts of Southwest Asia, China, and the Americas. Wild grasses were turned into crops like wheat, barley, and rice, and goats and cattle were brought into herds. Small villages appeared near water, where tools for grinding grain and storing surplus were developed. Irrigation was simple at first but improved over time. The consequence was a steady food supply, which permitted larger settlements. However, dependence on a few crops also created new risks from drought, pests, and disease.
+
+Text: C. A later wave in early modern Europe brought rising yields through organisation and technique. Fields were enclosed, which allowed landowners to plan rotations across larger blocks. The Norfolk system, for example, mixed grains with turnips and clover to restore soils and feed animals. More manure from animals then improved fields in return. A seed drill placed seeds evenly and at a set depth, reducing waste. Selective breeding shaped stronger animals and better varieties. These practices did not spread everywhere at once, but their combined effect was significant. Farming became more systematic, labour needs changed, and rural workers moved toward growing towns.
+
+Text: D. In the twentieth century, mechanisation and chemistry altered agriculture again. Tractors began to replace animal power in the 1920s and 1930s, and combine harvesters simplified grain collection. Synthetic nitrogen, made practical after the Haber-Bosch process was commercialised around 1913, raised fertility. By mid-century, manufactured fertiliser and improved machinery were common in many countries. As a result, yields increased and the time required for key tasks fell sharply. However, these gains came with higher energy use and more dependence on manufactured inputs. Soil structure, water quality, and biodiversity were affected, so the benefits were large but not cost-free.
+
+Text: E. The Green Revolution of the 1960s and 1970s is often described through case studies. In Mexico, new wheat lines bred for disease resistance and short stems produced higher yields under irrigation and fertiliser. In India’s Punjab and Haryana, wheat harvests more than doubled between about 1965 and 1975, helped by reliable water, credit, and markets. A widely known rice variety, IR8, was released in 1966 by the International Rice Research Institute. With fertiliser and controlled water, it lifted outputs markedly. These results reduced hunger and helped stabilise grain prices. Yet they required stable infrastructure, and some smallholders could not afford the full package.
+
+Text: F. The same inputs that raised yields also created vulnerabilities. Heavy fertiliser use can leach into rivers and cause algal blooms. Over-irrigation brings salt to the surface, which limits plant growth and is costly to reverse. Pesticide overuse harms pollinators and speeds resistance in insects and weeds. In addition, higher yields can depend on fossil fuels for manufacturing and transport. Price swings in fuel or fertiliser therefore spread quickly through farm budgets. Social effects emerged as well. Larger farms often captured more of the gains, while smaller producers struggled to invest. Consequently, productivity rose, but equality did not always follow.
+
+Text: G. Today, a new phase blends digital tools with ecological ideas. Precision agriculture uses GPS, sensors, and drones to apply water and fertiliser only where needed, which reduces waste. Simple soil tests and mobile phone advice can guide smallholders without expensive equipment. Gene editing aims to produce crops that tolerate heat, drought, or disease, while keeping flavour and nutrition. At the same time, agroecology and regenerative practices focus on soil life, crop diversity, and year-round cover. These methods reduce erosion and improve resilience. Controlled-environment farming, including greenhouses and vertical farms, shortens supply chains. Each approach has limits, but together they widen the menu of options.
+
+Text: H. Future change is likely to be steady rather than sudden, as farmers adapt to weather shocks and market shifts. The world population passed 8 billion in 2022 and may reach about 9.7 billion by 2050, so demand for diverse diets will grow. Therefore, the central challenge is to lift output while protecting soils, water, and climate. Mixed strategies appear most promising: better seeds, smarter inputs, careful water use, and landscapes that support wildlife. Policies can help by rewarding soil health, research, and risk-sharing. Notwithstanding the word “revolution”, progress often builds step by step. The aim is reliable food systems that endure across generations.
+
+Text: Questions
+
+Text: Do the following statements agree with the information given in the text? Write TRUE, FALSE, or NOT GIVEN.
+
+1. Agricultural revolutions followed a single route in one place.
+... Paragraph A states these shifts did not happen in a single place nor follow a single path.
+a) True
+*b) False
+c) Not Given
+
+2. Greater predictability in food supplies helped towns to expand.
+... Paragraph A explains that more predictable food supported population growth and allowed more people to live in towns.
+*a) True
+b) False
+c) Not Given
+
+3. Between about 10,000 and 8,000 BCE, farming appeared in several regions rather than just one.
+... Paragraph B notes farming emerged in parts of Southwest Asia, China, and the Americas during that period.
+*a) True
+b) False
+c) Not Given
+
+4. Depending on only a few staple crops reduced the risk from drought and pests.
+... Paragraph B states that reliance on a few crops created new risks from drought, pests, and disease.
+a) True
+*b) False
+c) Not Given
+
+5. Enclosing fields enabled landowners to organise crop rotations over larger areas.
+... Paragraph C says enclosure allowed planning rotations across larger blocks.
+*a) True
+b) False
+c) Not Given
+
+6. The seed drill increased seed waste by scattering them irregularly.
+... Paragraph C states the seed drill placed seeds evenly at a set depth, reducing waste.
+a) True
+*b) False
+c) Not Given
+
+7. Combine harvesters were first introduced in the 1910s.
+... Paragraph D mentions combine harvesters simplified grain collection but gives no date for their first introduction.
+a) True
+b) False
+*c) Not Given
+
+8. In India, yields more than doubled in the late 1960s and early 1970s without reliable irrigation or credit.
+... Paragraph E states the doubling of wheat harvests was helped by reliable water, credit, and markets.
+a) True
+*b) False
+c) Not Given

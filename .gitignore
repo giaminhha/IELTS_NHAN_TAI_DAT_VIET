@@ -1,2 +1,8 @@
 config.py
-__pycache__
+__pycache__/
+
+*.exe
+*.log
+
+python-sdk/
+main_test.py

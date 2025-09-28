@@ -10,27 +10,26 @@ KG CONSTRAINTS:
 {kg_rules}
 
 TASK (strict) FOLLOW THESE REQUIREMENTS:
-1) Produce ONE IELTS Academic Reading passage about the topic.
-2) Length: 800–1000 words (ideal ~900), divided into 6–8 paragraphs.
-3) Style: academic and formal, but clear and not overly dense.
-4) Use academic English suitable for IELTS Band 6–7. 
-   - Include 1–2 academic-level vocabulary items per paragraph.
-   - Avoid long clusters of difficult words. 
-   - Keep most sentences under 25 words.
-5) At least one paragraph must contain quantitative data or dates.
-6) The passage should balance explanation with analysis, like real IELTS texts.
-7) Include at least one case study or real-world example to illustrate abstract ideas.
-8) Label the paragraphs from A onward (Paragraph A, Paragraph B, etc.).
-9) Focus on clarity and readability: combine academic tone with accessible explanations.
-10) Do NOT include answers or questions in this output.
-11) Output ONLY the passage text — no JSON wrapper, no extra commentary.
+
+TASK (strict) REQUIREMENTS:  
+1) Produce ONE IELTS Academic Reading passage about the topic.  
+2) Length: 750–900 words, divided into 6–8 paragraphs.  
+3) Style: academic but **easy to follow**, typical of Part 1.  
+   - Vocabulary: keep within CEFR B1–B2 range.  
+   - Use some academic words, but avoid too many technical or rare terms.  
+   - Sentences: mostly **simple or compound**, with some complex sentences for variety.  
+   - Sentence length: aim for 15–20 words on average; avoid sentences longer than 30 words.  
+4) At least one paragraph must contain **numbers, dates, or simple data**.  
+5) Include at least one **real-world example or case study**.  
+6) Label the paragraphs from A onward (Paragraph A, Paragraph B, etc.).  
+7) Use a **neutral, informative tone**, more descriptive than argumentative.  
+8) Do NOT include answers or questions in this output.
+9) Output ONLY the passage text — no JSON wrapper, no extra commentary.
 
 
 The passage should be structured as follows:
 
-"Quiz title: ...\n"
-"Quiz description: ...\n\n"
-"Text title: Reading Passage\n"
+"Text title: <capitalized title>\n"
 "Text: A. <text with advanced vocabulary and complex structures (>=90 words)>\n"
 "Text: B. <text with advanced vocabulary and complex structures (>=90 words)>\n"
 "Text: C. <text with advanced vocabulary and complex structures (>=90 words)>\n"
@@ -39,6 +38,7 @@ The passage should be structured as follows:
 "Text: F. <text with advanced vocabulary and complex structures (>=90 words)>\n"
 "Text: G. <text with advanced vocabulary and complex structures (>=90 words)>\n"
 "Text: H. <text with advanced vocabulary and complex structures (>=90 words)>\n"
+...
 
 Always remember, that your task is to create a Part 1 IELTS Reading Passage that matches the tone, structure, and difficulty level of official IELTS materials.
 EXAMPLE SUMMARIES (not full text):

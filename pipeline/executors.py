@@ -15,6 +15,7 @@ from typing import Any, Dict, List, Optional
 from data_utils.json_strict import safe_json_loads
 from mcp_integration.mcp_client import MCPClient
 from pipeline.llm import _extract_json_from_text
+from config import PART_USED
 # Try to import your llm helper (project-specific). If not present, we'll raise helpful errors.
 try:
     from pipeline.llm import call_llm, DEBUG_STUB  # call_llm(prompt, expect_json=False, max_tokens=...)
@@ -165,12 +166,10 @@ def _short(x: str, n: int = 400) -> str:
 # -----------------------
 # Prompt templates (strict)
 # -----------------------
-part_generated = 1
+part_generated = PART_USED
 with open(f"C:/Users/Dell/Downloads/IELTS_NHAN_TAI_DAT_VIET/template/PASSAGE_TEMPLATE_PART_{part_generated}.txt", "r", encoding="utf-8") as f:
     _PASSAGE_TEMPLATE = f.read()
 
-
-part_generated = 1
 with open(f"C:/Users/Dell/Downloads/IELTS_NHAN_TAI_DAT_VIET/template/QUESTIONS_TEMPLATE_PART_{part_generated}.txt", "r", encoding="utf-8") as f:
     _QUESTION_TEMPLATE = f.read()
 
@@ -215,12 +214,12 @@ def passage_executor(prompt_template: str, topic: str, outputs_so_far: Dict[str,
     sources = outputs_so_far.get("sources")
     if not sources:
         # lazy import retriever here so executors can be imported standalone
-        try:
-            from pipeline.retriever import retrieve_sources
-            sources = retrieve_sources(topic)
-        except Exception:
-            sources = []
-            logger.warning("retriever.retrieve_sources unavailable; proceeding without sources.")
+        #try:
+        #    from pipeline.retriever import retrieve_sources
+        #    sources = retrieve_sources(topic)
+        #except Exception:
+        sources = []
+        #   logger.warning("retriever.retrieve_sources unavailable; proceeding without sources.")
 
     # flatten sources for prompt
     sources_txt = "\n".join([f"[S{i+1}] {s.get('title','')}. {s.get('abstract', s.get('text',''))}" 
@@ -235,16 +234,19 @@ def passage_executor(prompt_template: str, topic: str, outputs_so_far: Dict[str,
     last_traces = None
 
     for attempt in range(1, max_attempts + 1):
-        logger.info("PASSAGE_GENERATE attempt %d/%d for topic=%s", attempt, max_attempts, topic)
+        logger.info(f"PASSAGE_GENERATE attempt {attempt}/{max_attempts} for topic: {topic}")
         prompt = _PASSAGE_TEMPLATE.format(topic=topic, sources=sources_txt, kg_rules=kg_rules_txt)
+        logger.debug("Prompt sent to LLM (truncated to 500 chars):\n%s", prompt[:500])
 
         if DEBUG_STUB:
             # useful for local debug runs
             passage = f"DEBUG PASSAGE about {topic}\n\nSummary: stub."
         else:
             passage = call_llm(prompt, tools=PASSAGE_TOOLS, expect_json=False, max_tokens=10000)
+            logger.debug("Raw passage output from LLM (truncated to 500 chars):\n%s", str(passage)[:500])
             passage = maybe_call_examples(passage, "fetch_passage_examples")
 
+        print(passage)
         # validate
         score, raw_traces, fb_traces = validate_passage_text(passage)
         logger.info("Passage score=%.3f raw=%s feedback=%s", score, raw_traces, fb_traces)
@@ -256,9 +258,8 @@ def passage_executor(prompt_template: str, topic: str, outputs_so_far: Dict[str,
         fix_instructions = "Please regenerate the passage and fix: " + "; ".join(fb_traces)
         prompt += "\n\nFEEDBACK: " + fix_instructions
 
-
         # small wait/backoff to avoid rate-limit spikes
-        time.sleep(5)
+        time.sleep(1)
 
     # After attempts exhausted: return last passage but mark in logs
     logger.warning("PASSAGE generation failed to meet threshold after %d attempts. Returning last result.", max_attempts)
@@ -291,7 +292,11 @@ def questions_executor(prompt_template: str, topic: str, outputs_so_far: Dict[st
         else:
             model_out = call_llm(prompt, tools=QUESTION_TOOLS, expect_json=False, max_tokens=10000)
             model_out = maybe_call_examples(model_out, "fetch_questions_examples", qtype_id=qtype_id)
-
+        
+        if isinstance(model_out, (dict, list)):
+            print(json.dumps(model_out, indent=2, ensure_ascii=False))
+        else:
+            print(model_out)  # could be a string, number, etc.
         try:
             parsed = _parse_json_from_model(model_out)
         except Exception as e:
@@ -308,7 +313,7 @@ def questions_executor(prompt_template: str, topic: str, outputs_so_far: Dict[st
         else:
             logger.warning("Questions generation not JSON list on attempt %d", attempt)
 
-        time.sleep(4)
+        time.sleep(2)
 
     logger.warning("Failed to generate valid questions after %d attempts; returning best-effort parse", max_attempts)
     return parsed if parsed is not None else []
@@ -343,7 +348,7 @@ def distractors_executor(prompt_template: str, topic: str, outputs_so_far: Dict[
         except Exception as e:
             logger.warning("Failed to parse distractors JSON: %s", e)
 
-        time.sleep(0.3)
+        time.sleep(1)
 
     logger.warning("Returning last distractors attempt result (may be invalid).")
     try:

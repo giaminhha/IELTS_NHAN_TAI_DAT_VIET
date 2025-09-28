@@ -1,0 +1,67 @@
+Text title: Earthquakes and volcanic activity
+
+Text: Quiz title: Earthquakes and Volcanic Activity
+
+Quiz description: An informative passage introducing how earthquakes and volcanoes arise, how they are measured and monitored, and how societies prepare for these natural hazards, with real-world case studies.
+
+Text title: Reading Passage
+Text: A. Earthquakes and volcanic eruptions are reminders that the planet is not static. Beneath the surface, heat and pressure drive slow movements in the outer shell of the Earth, known as the crust. These movements release energy in sudden bursts, or bring hot molten rock, called magma, to the surface. Although both hazards may occur in similar regions, they operate through different processes. Earthquakes arise when rock breaks along faults, while eruptions occur when magma and gas escape through openings. Despite these differences, the two can influence each other. The shaking from an earthquake may change pressure inside a volcano, and rising magma can stress nearby faults, though clear cause-and-effect links are not always observed.
+
+Text: B. The wider framework behind both phenomena is plate tectonics. The crust is split into large plates that move a few centimetres each year. Where plates collide, one may slide under another in a process called subduction; where they pull apart, new crust forms; where they grind past, the motion is lateral. Each type of boundary has characteristic hazards. Subduction zones commonly host powerful earthquakes and explosive volcanoes. Mid-ocean ridges, where plates diverge, usually produce smaller earthquakes and gentler eruptions. Transform boundaries, such as the San Andreas Fault, are noted for strong quakes but rare volcanism. Even so, local geology, the presence of water, and the depth of rock layers can complicate this broad picture.
+
+Text: C. Because damage depends on more than size alone, scientists employ several measures. Earthquake magnitude, now often given by moment magnitude, describes the energy released, while intensity records the shaking felt at particular places. The first is a single value; the second varies across a region. Seismometers detect seismic waves, which move through rock at different speeds, and global networks share these signals in seconds. Ground movement can also be tracked with GPS receivers that record shifts of a few millimetres. For volcanoes, instruments monitor gas emissions, small earthquakes beneath the summit, and swelling of the surface. Satellite radar, which compares images months or days apart, can reveal subtle bulges that suggest rising magma.
+
+Text: D. Warning systems translate measurements into action. Earthquake early warning does not predict a quake in advance; rather, it sends an alert after the first fast waves are detected, but before the stronger shaking arrives. This window may be only a few seconds, yet it allows trains to slow and surgeons to pause. Volcano monitoring, by contrast, can sometimes provide days or weeks of notice, because magma ascent is gradual and noisy in the data. Agencies use colour-coded alert levels and hazard maps to communicate risk. Notwithstanding these tools, scientists speak in probabilities, not certainties. Signals are noisy, and a swarm of tremors may fade without an eruption, while a quiet volcano can still surprise.
+
+Text: E. The 2011 Tohoku earthquake in Japan illustrates the complexity of cascading hazards. On 11 March 2011, a magnitude 9.0 event struck off the northeast coast. Shaking lasted for several minutes and was followed by a tsunami that reached heights exceeding 10 metres in some coastal towns. More than 18,000 people were reported dead or missing. Early warning reached cities like Tokyo within seconds, which reduced some injuries and stopped high-speed trains. However, sea walls were overtopped, and flooding led to a nuclear accident at the Fukushima Daiichi power plant. This chain of events shows that secondary effects can equal or exceed the damage from the initial shaking, and that multiple systems must be strengthened together.
+
+Text: F. A different lesson emerges from the 1991 eruption of Mount Pinatubo in the Philippines. Months before the main event on 15 June, small earthquakes were recorded, and steam explosions opened new vents. Scientists from local and international agencies installed instruments, measured sulphur dioxide gas, and mapped ground deformation. As activity rose, authorities evacuated more than 60,000 residents from high-risk zones. When a series of explosions sent ash and gas 35 kilometres into the atmosphere, many villages had already been cleared. Fatalities were far lower than earlier eruptions of similar size. Ashfall still damaged buildings, and monsoon rains mixed with ash to form destructive flows, yet the coordinated response is widely seen as a success.
+
+Text: G. Preparedness therefore combines science with planning. Strong building codes help structures resist shaking by allowing controlled flex rather than brittle failure. Older buildings can be retrofitted with braces and dampers to reduce movement. For volcanic areas, land-use rules can keep new homes away from river valleys that carry mudflows. Drills teach people to drop, cover, and hold on during a quake, and to evacuate calmly when ashfall or lava threatens. Clear communication is central: warnings must be simple, consistent, and repeated through trusted channels. Nevertheless, constraints are real. Informal settlements may lack safe land or resources, and lifelines such as bridges, power lines, and hospitals remain vulnerable if investment is delayed.
+
+Text: H. Looking ahead, advances in observation are likely to continue. Constellations of small satellites now revisit the same place every few days, and machine-learning tools are being tested to detect patterns in vast data streams that human analysts might miss. Low-cost sensors can extend coverage to rural areas, while community science can add local knowledge to formal maps. Even with these improvements, uncertainty cannot be removed. The Earth’s crust is a complex system, and rare events will defy expectations. Consequently, the aim is not perfect prediction but reduced harm. By combining careful monitoring, robust infrastructure, and informed public behaviour, societies can live with these hazards while limiting their most damaging effects.
+
+Text: Questions
+
+1. Do the following statement agree with the information given in the Reading Passage? Earthquakes and volcanic eruptions are caused by the same mechanism.
+... Paragraph A states that earthquakes arise from rock breaking along faults, while eruptions occur when magma and gas escape—different processes.
+a) True
+*b) False
+c) Not Given
+
+2. Do the following statement agree with the information given in the Reading Passage? Shaking from an earthquake can alter pressure inside a volcano.
+... Paragraph A notes that earthquake shaking may change pressure inside a volcano.
+*a) True
+b) False
+c) Not Given
+
+3. Do the following statement agree with the information given in the Reading Passage? Transform boundaries commonly experience both strong earthquakes and frequent volcanism.
+... Paragraph B says transform boundaries are known for strong quakes but rare volcanism.
+a) True
+*b) False
+c) Not Given
+
+4. Do the following statement agree with the information given in the Reading Passage? The movement of tectonic plates is measured in centimetres per year.
+... Paragraph B states plates move a few centimetres each year.
+*a) True
+b) False
+c) Not Given
+
+5. Do the following statement agree with the information given in the Reading Passage? Earthquake intensity is a single value that describes the energy released by a quake.
+... Paragraph C explains magnitude is a single value describing energy; intensity varies by location.
+a) True
+*b) False
+c) Not Given
+
+Text: 10. Answer the question below using NO MORE THAN THREE WORDS from the passage: What helps structures resist shaking by allowing controlled flex rather than brittle failure?
+Text: ... Paragraph G states strong building codes help structures resist shaking by allowing controlled flex.
+* Strong building codes
+Text: 11. Answer the question below using NO MORE THAN THREE WORDS from the passage: What can be added when retrofitting older buildings to reduce movement?
+Text: ... Paragraph G says older buildings can be retrofitted with braces and dampers.
+* braces and dampers
+Text: 12. Answer the question below using NO MORE THAN THREE WORDS from the passage: In volcanic areas, which locations should new homes be kept away from?
+Text: ... Paragraph G notes land-use rules can keep new homes away from river valleys that carry mudflows.
+* river valleys
+Text: 13. Answer the question below using NO MORE THAN THREE WORDS from the passage: What tools are being tested to detect patterns in vast data streams?
+Text: ... Paragraph H states that machine-learning tools are being tested to detect patterns in vast data streams.
+* machine-learning tools

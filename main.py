@@ -1,7 +1,7 @@
 # main.py (GEPA-only orchestrator, using unified validators.py)
 
 import pprint
-from pipeline.executors import passage_executor, questions_executor, distractors_executor
+from pipeline.executors import passage_executor, questions_executor
 from pipeline.new_scoring_method import generate_passage_with_rescoring
 import random
 

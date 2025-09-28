@@ -1,0 +1,60 @@
+Text title: The development of the internet
+
+Text: Quiz title: The Development of the Internet
+Quiz description: IELTS Academic Reading Passage 1 on the origins, growth, and impact of the internet.
+
+Text title: Reading Passage
+Text: A. The internet did not appear as a single invention. It grew from many attempts to link computers and to share information faster and more reliably. In the 1960s, large machines were expensive, and researchers wanted to avoid duplication of effort. A key idea was packet switching, which breaks data into small blocks that travel across different routes and reassemble at the end. This method reduced delays and made the whole system more robust. Although the early work was funded for strategic reasons, the long-term goal was broader: to create a network that could connect people, laboratories, and universities across great distances.
+
+Text: B. The first practical network based on these ideas was ARPANET. It began in 1969 with four sites: the University of California, Los Angeles; the Stanford Research Institute; the University of California, Santa Barbara; and the University of Utah. A famous early message, reported by participants, crashed the system after only two letters, “LO,” instead of “LOGIN.” Even so, progress was steady. Additional nodes were added during the early 1970s, and a basic set of rules called the Network Control Protocol guided communication. Growth remained modest at first, but researchers could already see that shared access to distant computers would change how knowledge and tools were used.
+
+Text: C. The next step was standardization. On 1 January 1983, a new set of rules, known as TCP/IP, became the common language for connecting networks. This change made it possible for many separate systems to talk to each other and therefore created the modern internet. Around the same period, email moved from a laboratory tool to a daily service. A simple symbol, the @ sign, helped route messages between users and machines. In 1984, the Domain Name System reduced the need to remember long numeric addresses. It allowed human-friendly names to represent locations, which made navigation easier and encouraged wider participation.
+
+Text: D. The World Wide Web arrived later and should not be confused with the internet itself. Proposed in 1989 by a researcher at CERN and released in 1991, the web used three tools: URLs to locate pages, HTTP to transfer them, and HTML to display them. Together, they turned a technical network into a public information space. Early browsers, such as Mosaic in 1993 and later Netscape, introduced images and links that anyone could click. This simple experience invited rapid adoption. Within a few years, universities, companies, and public bodies had placed documents online. As a result, libraries, newsrooms, and classrooms began to adjust their practices.
+
+Text: E. Commercial use expanded during the 1990s. Service providers offered dial-up access, and new firms explored online retail and advertising. User numbers rose quickly: estimates suggest roughly 16 million users in 1995 and several hundred million by the early 2000s. Mobile access changed habits again. Third-generation networks appeared around 2001, and the smartphone era began in 2007. By 2021, international agencies reported more than 4.5 billion users worldwide, though access remained uneven. Streaming media, cloud storage, and social platforms became common. While the technology evolved, the central aim stayed the same: to move data efficiently between many connected devices.
+
+Text: F. A clear example of local impact came from mobile money services in East Africa. In Kenya, a system known as M‑Pesa launched in 2007. It allowed users to send funds and pay bills using basic phones. Within a few years, more than two thirds of adults were active customers, and transaction volumes rose into the billions of dollars annually. Small traders could accept payments without a bank account, and rural families could receive support from relatives working in cities. Studies suggest that household resilience improved, and some people moved out of extreme poverty. The case shows how internet-linked services can adapt to local needs.
+
+Text: G. Behind the scenes, physical infrastructure carries every message. Fiber‑optic cables cross oceans and continents, while internet exchange points allow networks to swap traffic efficiently. Data centers store content and deliver it quickly through content delivery networks, which place copies nearer to users. No single body owns the internet, but coordination is essential. Technical standards are discussed in the Internet Engineering Task Force, names and numbers are managed by ICANN, and the World Wide Web Consortium guides web technologies. These groups work by open agreement rather than command. Their cooperation has supported stability, even as traffic and expectations have grown.
+
+Text: H. Despite many benefits, several challenges persist. Security incidents are frequent and costly, and misinformation can spread faster than corrections. Energy use by data centers and networks is rising, although efficiency gains may offset some of this growth. Access gaps also remain: in some regions, high costs, weak infrastructure, or limited skills reduce participation. New systems may change the balance again. Low‑Earth‑orbit satellites, launched in large numbers after 2019, promise coverage in remote places, while 5G networks aim to cut delays and support more devices. The internet therefore continues to develop, shaped by choices about design, access, and trust.
+
+Text: Questions
+
+1. Packet switching sends data in small blocks that can take different paths and are reassembled at the destination.
+... True — Paragraph A states that packet switching breaks data into small blocks that travel across different routes and reassemble at the end.
+a) True
+b) False
+c) Not Given
+
+2. One early motivation for networking research was to avoid repeating the same work on separate machines.
+... True — Paragraph A notes that researchers wanted to avoid duplication of effort.
+a) True
+b) False
+c) Not Given
+
+3. The early network aimed to link military bases around the world.
+... Not Given — Paragraph A mentions strategic funding and a long‑term goal to connect people, laboratories, and universities, but does not state an aim to link military bases.
+a) True
+b) False
+c) Not Given
+
+4. ARPANET began in 1969 with four sites.
+... True — Paragraph B states it began in 1969 with four sites.
+a) True
+b) False
+c) Not Given
+
+5. The first ARPANET message successfully transmitted the full word 'LOGIN' without failure.
+... False — Paragraph B reports the system crashed after only two letters, 'LO', instead of 'LOGIN'.
+a) True
+b) False
+c) Not Given
+
+Text: 12. Answer the question below using NO MORE THAN THREE WORDS from the passage: What type of satellites promise coverage in remote places?
+Text: ... Paragraph H says low‑Earth‑orbit satellites promise coverage in remote places.
+* Low‑Earth‑orbit satellites
+Text: 13. Answer the question below using NO MORE THAN THREE WORDS from the passage: Which networks aim to cut delays and support more devices?
+Text: ... Paragraph H states that 5G networks aim to cut delays and support more devices.
+* 5G networks

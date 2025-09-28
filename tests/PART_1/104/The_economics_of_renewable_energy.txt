@@ -1,0 +1,62 @@
+Text title: The economics of renewable energy
+
+Text: Text title: The Economics of Renewable Energy
+Text: A. For several decades, energy debates were largely about fuel prices and supply security. In recent years, however, economics has shifted much of the conversation toward renewables. Wind, solar, and modern hydropower convert natural flows into electricity without ongoing fuel purchases. Their costs are dominated by equipment and construction, rather than by coal, oil, or gas. Consequently, once built, the operating expenses are comparatively low and predictable. This feature appeals to planners who seek stable prices over long periods. The economic question, therefore, has changed from whether renewables can work, to where, when, and under which conditions they deliver the best value.
+
+Text: B. Analysts often use a single measure to compare power sources: the levelised cost of energy, or LCOE. This metric spreads all costs—building, financing, operating, and maintaining—across the electricity produced over a plant’s lifetime. It allows different technologies to be assessed on a similar basis. Because solar and wind have higher upfront costs, finance becomes a central factor in their LCOE. In contrast, gas plants depend more on future fuel prices. The balance of risks is therefore different. With renewables, the main risk lies in construction and financing; with fossil fuels, it lies in fuel markets and volatility.
+
+Text: C. Costs for renewables have declined markedly, especially after 2010. Industry data show that average utility-scale solar electricity fell from around $0.35 per kWh in 2010 to near $0.05 per kWh by 2022 in many markets. Onshore wind power in the same period moved from roughly $0.09 to near $0.03–$0.05 per kWh. Some auctions reported even lower bids, close to $0.02, though such prices may include special conditions. These changes reflect learning-by-doing and larger factories, which reduce unit costs as production expands. Moreover, standard designs and global supply chains have cut installation times. Therefore, scale and experience have been powerful drivers of affordability.
+
+Text: D. Low generation costs do not settle every economic issue. Solar and wind are variable, so their output rises and falls with the weather. Grids must balance this variability to keep supply and demand aligned. Additional costs may include storage, flexible gas turbines, or stronger transmission lines. These items are sometimes called system or integration costs. In high-renewable regions, curtailment—where wind or solar output is reduced—can occur when the grid is congested. Nevertheless, better forecasting, smarter controls, and more interconnections can limit these costs. Over time, batteries and demand response may further reduce variability-related expenses.
+
+Text: E. Policy design strongly influences renewable economics. Early support came from feed-in tariffs, which guaranteed fixed prices for green electricity. Germany’s law in 2000 is widely cited; it encouraged rooftop solar and onshore wind, creating a large domestic market. Later, many countries shifted to competitive auctions to buy electricity at the lowest possible price. Auctions can reduce costs by revealing the price that firms are willing to accept. Tax credits, low-interest loans, and clear permitting rules also lower financing costs. Stable rules reduce uncertainty and, in turn, the discount rates that investors require, making projects more affordable for consumers.
+
+Text: F. Financing terms can make or break a project. The discount rate, a measure of the cost of capital, has an outsized effect because most expenses occur upfront. Lower rates translate into cheaper electricity over the plant’s life. Long-term power purchase agreements, known as PPAs, reduce revenue risk and help secure loans. Banks and insurers also assess construction risk and equipment reliability. Green bonds and development bank guarantees can broaden the pool of capital. Where policy is consistent, money tends to be cheaper; where rules change often, investors demand higher returns, and projects become more costly.
+
+Text: G. A practical example comes from Texas, a major wind producer in the United States. In the late 2000s, the state approved Competitive Renewable Energy Zones to connect windy plains to cities. Between 2008 and 2014, about $7 billion funded new transmission lines, which moved power from remote areas to demand centers. This project reduced curtailment and unlocked cheaper electricity from wind farms. Developers could then bid lower prices, knowing that their output would reach the market. The case suggests that infrastructure and planning, not only turbines, determine final costs. Without adequate grids, low-cost generation cannot be fully used.
+
+Text: H. The economics of renewables are not uniform; they depend on location, policy, and system design. Sunny deserts, windy coasts, and strong river valleys offer natural advantages. Even so, careful planning, affordable finance, and efficient markets are needed to realise those benefits. There are additional gains beyond the price of electricity, such as reduced exposure to fuel shocks and lower air pollution. However, trade-offs remain, including land use, recycling, and fairness in cost sharing. As technologies improve and grids become more flexible, the balance is likely to keep moving. Many regions therefore see renewables as a core part of future energy systems.
+
+Text: Do the following statements agree with the information given in the text? Write TRUE, FALSE, or NOT GIVEN.
+
+1. Do the following statements agree with the information in the passage? Write True, False or Not Given: Once built, renewable plants have operating expenses that are relatively low and predictable.
+... Paragraph A states that once built, renewables have comparatively low and predictable operating expenses.
+*a) True
+b) False
+c) Not Given
+
+2. Do the following statements agree with the information in the passage? Write True, False or Not Given: Renewables now provide the best value in all locations.
+... Paragraph A says the question is where, when, and under which conditions renewables deliver the best value, not in all locations.
+a) True
+*b) False
+c) Not Given
+
+3. Do the following statements agree with the information in the passage? Write True, False or Not Given: The levelised cost of energy (LCOE) spreads all costs over a plant’s lifetime output to compare different technologies on a similar basis.
+... Paragraph B explains LCOE includes building, financing, operating and maintaining costs across lifetime electricity to enable comparisons.
+*a) True
+b) False
+c) Not Given
+
+4. Do the following statements agree with the information in the passage? Write True, False or Not Given: For gas-fired plants, financing is typically the main risk rather than fuel prices.
+... Paragraph B indicates gas plants depend more on future fuel prices and that their risk lies in fuel markets and volatility.
+a) True
+*b) False
+c) Not Given
+
+5. Do the following statements agree with the information in the passage? Write True, False or Not Given: Global supply chains have made wind turbines more energy efficient.
+... Paragraph C notes standard designs and global supply chains have cut installation times, but does not mention changes in turbine efficiency.
+a) True
+b) False
+*c) Not Given
+
+6. Do the following statements agree with the information in the passage? Write True, False or Not Given: In high-renewable regions, curtailment can occur when the grid is congested.
+... Paragraph D states curtailment can occur when the grid is congested in high-renewable regions.
+*a) True
+b) False
+c) Not Given
+
+7. Do the following statements agree with the information in the passage? Write True, False or Not Given: Stable rules reduce uncertainty and the discount rates investors require, making projects more affordable.
+... Paragraph E says stable rules reduce uncertainty and, in turn, the discount rates that investors require, making projects more affordable.
+*a) True
+b) False
+c) Not Given

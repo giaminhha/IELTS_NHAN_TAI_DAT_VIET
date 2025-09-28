@@ -1,0 +1,63 @@
+Text title: Volunteering and social responsibility
+
+Text: Text title: The Quiet Power of Volunteering
+
+Text: A. Volunteering is the unpaid contribution of time and effort to activities that benefit others beyond the household. It often includes work with charities, schools, clinics, or environmental groups, but it also occurs informally, such as caring for neighbours. Social responsibility is the broader idea that individuals and organisations have duties to the wider community. The two concepts overlap, since many people express social responsibility through volunteer action. Although motives vary, the outcome is frequently similar: additional support for essential services and stronger links between residents. Consequently, volunteering is viewed as a practical tool for improving everyday life while building trust across diverse groups.
+
+Text: B. The modern practice of organised volunteering gained visibility in the late nineteenth century, when civic associations and religious charities expanded in Europe and North America. Later, wartime mobilisations showed that large populations could coordinate unpaid labour for public goals. After 1945, international organisations and non-governmental groups professionalised many activities, from disaster relief to literacy campaigns. In recent decades, digital platforms have accelerated matching between tasks and participants, thereby reducing barriers to entry. Short, flexible roles have emerged alongside long-term commitments. Notwithstanding these changes, a common feature remains: volunteers fill gaps that markets or governments cannot easily address, particularly in areas where quick adaptation and local knowledge are required.
+
+Text: C. Explanations for volunteering tend to mix values and incentives. Altruism is often cited, yet reciprocity also matters; those who help may later receive assistance from the same networks. Some people volunteer to learn skills, gain confidence, or improve employability, which can therefore create individual benefits. Others respond to social norms shaped by family, school, or faith groups. Researchers suggest that a sense of purpose increases persistence, while one-off participation often follows public appeals or crises. The language of social responsibility frames this behaviour as a shared duty. However, the balance between personal gain and public benefit differs among cultures, organisations, and age groups.
+
+Text: D. Community effects are usually incremental but can be significant. Volunteer tutors raise literacy, especially when they support teachers rather than replace them. Health clinics extend outreach through trained helpers who guide patients, collect simple data, or run vaccination queues. Environmental crews clean rivers, plant trees, and monitor wildlife, which improves local amenities and reduces risks. Through repeated contact, participants meet neighbours they would not otherwise encounter. Sociologists call this accumulation of trust and connections social capital. It may stabilise neighbourhoods, encourage civic dialogue, and reduce isolation. In addition, volunteers often connect institutions that usually operate apart, such as libraries, housing offices, and youth clubs.
+
+Text: E. Data on volunteering vary, but some patterns are clear. A national survey in 2019 reported that 34% of adults volunteered at least once, and 18% did so monthly. Median time given was about two hours per week. In 2020, participation fell for several months due to public restrictions, yet it rose in online mentoring and delivery of food parcels. By late 2022, rates returned close to 2019 levels, though older volunteers remained less active than before. In one city, a 2021 audit recorded 3,200 active volunteers contributing 210,000 hours, equal to roughly 110 full-time roles. These figures suggest both resilience and adaptation.
+
+Text: F. A widely discussed example occurred after the Christchurch earthquake in 2011. The Student Volunteer Army, formed by university students, mobilised thousands of people to clear silt, deliver supplies, and support vulnerable residents. Coordination combined social media, simple training, and local leadership. City services were overwhelmed in the early weeks, so volunteer crews filled immediate needs and connected officials with street-level information. Although professional teams eventually took over specialised tasks, the volunteer effort helped stabilise daily life. Observers noted two outcomes: faster clean-up in several districts, and a durable culture of youth engagement that later supported neighbourhood projects unrelated to the disaster.
+
+Text: G. Despite clear benefits, volunteering presents challenges that require careful management. Unplanned efforts can duplicate services or create dependency, particularly if short-term enthusiasm replaces consistent support. Organisations must provide training, insurance, and background checks, which take time and money. There is also concern about displacement of paid work, especially in social care, where stable employment is essential. Furthermore, burnout may occur when a few committed people carry most of the workload. These risks can be reduced through defined roles, modest but regular recognition, and partnerships with public agencies. Nevertheless, it has been argued that some tension between flexibility and structure is unavoidable.
+
+Text: H. Future developments may widen access while maintaining quality. Schools increasingly integrate service learning, linking classroom content with community projects and reflection. Employers support staff volunteering days, arguing that teamwork improves and skills transfer back to the workplace. Digital tools allow micro-volunteering, such as translating short texts or analysing images for conservation studies. However, inclusive design remains important so that older adults and people with limited connectivity are not excluded. Therefore, the most effective systems combine local knowledge with simple technology and training. If these elements align, volunteering can continue to express social responsibility in practical form, while also strengthening institutions that serve the public.
+
+Text: Do the following statements agree with the information given in the text? Write TRUE, FALSE, or NOT GIVEN.
+
+1. Do the following statements agree with the information in the passage? Write True, False or Not Given: Volunteering can happen informally, for example by helping nearby residents.
+... Text A states that volunteering also occurs informally, such as caring for neighbours.
+*a) True
+b) False
+c) Not Given
+
+2. Do the following statements agree with the information in the passage? Write True, False or Not Given: Social responsibility and volunteering are exactly the same concept.
+... Text A explains that social responsibility is broader and overlaps with volunteering, but they are not identical.
+a) True
+*b) False
+c) Not Given
+
+3. Do the following statements agree with the information in the passage? Write True, False or Not Given: Organised volunteering became more visible in the late nineteenth century as civic and religious organisations expanded.
+... Text B notes that organised volunteering gained visibility in the late nineteenth century with the growth of civic associations and religious charities.
+*a) True
+b) False
+c) Not Given
+
+4. Do the following statements agree with the information in the passage? Write True, False or Not Given: Wartime mobilisation proved that large populations could coordinate unpaid work to achieve public objectives.
+... Text B states that wartime mobilisations showed large populations could coordinate unpaid labour for public goals.
+*a) True
+b) False
+c) Not Given
+
+5. Do the following statements agree with the information in the passage? Write True, False or Not Given: Recent digital platforms have made it harder for newcomers to get involved in volunteering.
+... Text B says digital platforms reduced barriers to entry and accelerated matching between tasks and participants.
+a) True
+*b) False
+c) Not Given
+
+6. Do the following statements agree with the information in the passage? Write True, False or Not Given: In every culture, the balance between personal gain and public benefit in volunteering is identical.
+... Text C states the balance differs among cultures, organisations, and age groups. This counters the absolute claim.
+a) True
+*b) False
+c) Not Given
+
+7. Do the following statements agree with the information in the passage? Write True, False or Not Given: Volunteer tutoring improves literacy most when it complements teachers rather than replaces them.
+... Text D explains that volunteer tutors raise literacy especially when they support teachers, not replace them.
+*a) True
+b) False
+c) Not Given

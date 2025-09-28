@@ -1,0 +1,60 @@
+"Text title: From Experiment to Infrastructure: The Development of the Internet"
+"
+Text: A. In a little over fifty years, the internet has moved from experiment to essential service. Today's online world looks smooth to users, yet it sits on many layers. Cables, routers, data centres, and shared rules let distant machines work together. Growth came in waves: first labs and universities, then business and government, and finally homes. New ideas were added on top of earlier standards rather than replacing them. Access, however, still differs by place, income, and local policy. Shared management, from technical volunteers to regulators, helps keep the system reliable.
+"
+"
+Text: B. The first building blocks were tested in the late 1960s. Engineers tried "packet switching", which breaks a message into small pieces and sends them separately. If one path fails, another path can carry the next packet, so messages still arrive. A small research network linked four sites in 1969 and grew in the early 1970s. Email spread quickly on this network and became the main reason people logged in. The early trials were small, but they taught two important lessons. Different types of computers could talk if they followed common rules, and backup design improved resilience.
+"
+"
+Text: C. The next step was a set of rules called Transmission Control Protocol and Internet Protocol (TCP/IP). It was proposed in the 1970s and became the default on major research networks by 1983. TCP/IP allowed many separate networks to connect without a central controller. The network itself stayed simple, while most of the "intelligence" moved to devices at the edge. This design made new services easier to build, because the core did not need constant changes. Open groups of engineers met regularly to improve standards and share test results. A publicly funded backbone linked universities in the mid‑1980s, and commercial traffic soon followed.
+"
+"
+Text: D. In 1989, a researcher proposed the World Wide Web, which turned the network into a shared library. Three simple tools made this possible: HTML for page layout, URLs for addresses, and HTTP for requests. A friendly browser released in 1993 let non‑specialists click links and view images with ease. Companies invested heavily during the late 1990s, building capacity and launching many new websites. Some plans failed when the market crashed, but online shopping and search stayed and grew. A naming system linked words to numeric addresses, and caching networks brought pages closer to users. These additions improved speed and reliability for people on many continents.
+"
+"
+Text: E. The numbers show rapid growth. In 1995, about 16 million people used the internet, which was less than one percent of the world. By 2024, estimates suggest around 5.4 billion users, or close to two thirds of humanity. The price of international bandwidth fell sharply after 2003, so higher speeds became affordable. Undersea cables now run more than 1.4 million kilometres and carry most long‑distance data. Some rich economies have over 35 fixed broadband lines per 100 people, while poorer states have fewer than five. Mobile connections help many families get online, but they do not solve every gap.
+"
+"
+Text: F. Estonia offers a compact example of how policy can use the network to improve services. After 1991, the country built a secure digital identity and shared databases across agencies. A national platform called X‑Road, launched in 2001, let systems exchange data safely. Citizens use an ID card to file taxes, view health records, and sign documents online. Most public services are available on the web, and voting online is now routine. In 2007, coordinated attacks flooded servers with traffic and disrupted some sites. The response included stronger backup systems, new security drills, and a plan to store copies abroad.
+"
+"
+Text: G. As smartphones, cloud services, and social platforms spread, many people rely on large intermediaries. These firms make life easier by handling identity, storage, and delivery, and they lower costs for creators. At the same time, power and data sit with a small number of companies. This trend raises questions about fair competition, open access, and personal data protection. A major European law in 2018 set tougher rules on consent, openness, and cross‑border transfers. Data centres and networks use significant electricity worldwide. Software that ranks content can amplify some voices and hide others, which affects public discussion.
+"
+"
+Text: H. For workplaces, the internet is a daily tool and a shared responsibility. Basic steps include strong passwords, two‑factor login, and regular updates on all devices. Staff should learn to spot phishing emails and report incidents quickly, because early action limits damage. Firms that use cloud tools need rules for data storage, access rights, and vendor checks. Remote work adds new risks, so secure Wi‑Fi and virtual private networks are important. Routine backups and simple recovery tests keep operations running when a service fails. Together, these measures turn a shared network into a reliable workplace resource.
+"
+"
+Summary: The internet grew in layers from small trials to global infrastructure. It now supports daily life and work, yet access gaps, security risks, and management duties continue.
+"
+
+Text: Do the following statements agree with the information given in the text? Write YES, NO, or NOT GIVEN.
+
+2. New online technologies generally replaced earlier technical standards rather than being layered on top of them.
+... Paragraph A says new ideas were added on top of earlier standards rather than replacing them.
+a) Yes
+*b) No
+c) Not Given
+
+3. Packet switching meant messages could still be delivered when a route failed, because subsequent packets could take different paths.
+... Paragraph B explains messages are split into packets and if one path fails, another can carry the next packet so messages still arrive.
+*a) Yes
+b) No
+c) Not Given
+
+4. Under TCP/IP, most of the network’s complexity was concentrated in the core rather than at the edge.
+... Paragraph C states the network stayed simple while most of the ‘intelligence’ moved to devices at the edge.
+a) Yes
+*b) No
+c) Not Given
+
+5. All the heavy investments in the late 1990s turned out to be successful in the long term.
+... Paragraph D notes some plans failed when the market crashed, although shopping and search persisted.
+a) Yes
+*b) No
+c) Not Given
+
+6. Mobile connections on their own completely remove disparities in internet access.
+... Paragraph E says mobile connections help many families get online, but they do not solve every gap.
+a) Yes
+*b) No
+c) Not Given

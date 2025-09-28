@@ -1,0 +1,56 @@
+Text title: Ancient Egyptian civilisation
+
+Text: Text title: Ancient Egyptian Civilisation: Water, Writing, and Power
+Text: A. Ancient Egypt developed along the lower Nile, where a narrow green valley runs through desert. The river shaped not only fields and villages, but also beliefs, authority, and identity. Over many centuries, communities grew from small farming settlements into a unified kingdom with a durable culture. Craftspeople learned to shape stone, make fine linen, and record information with ink on plant-based sheets. Temples rose beside storehouses, while royal tombs expanded in size and ambition. The resulting civilisation was therefore a system, not just a place: a network that linked water, labour, and leadership into a recognisable pattern of life.
+
+Text: B. The Nile’s annual flood, known as the inundation, came from summer rains far to the south. When waters spread over the floodplain, they left a thin layer of dark, fertile silt. Farmers used basin irrigation, a method that trapped water in enclosed fields and released it slowly. Planting followed the flood; harvesting came before the next rise. Because rainfall was rare, this cycle was reliable and measurable. Priests and officials observed levels with a nilometer, a stone staircase marked with units. If the flood was too low, yields fell; if too high, canals broke. Consequently, careful management became essential.
+
+Text: C. Political unification occurred around 3100 BCE, when Upper and Lower Egypt came under one ruler. Over time, historians have grouped royal lines into “dynasties” and periods, including the Old Kingdom (c. 2686–2181 BCE), Middle Kingdom (c. 2055–1650 BCE), and New Kingdom (c. 1550–1069 BCE). Capitals shifted between Memphis, Thebes, and other centres as rulers changed. The pharaoh’s position combined leadership and ritual duties, reinforcing authority through ceremony and display. A hierarchy of administrators assessed harvests, moved supplies, and settled disputes. These structures did not eliminate local customs, but they coordinated them. The state thus acted as a framework that gathered resources and organised labour.
+
+Text: D. Writing supported this framework. Hieroglyphs, a system of signs for sounds and ideas, appeared on stone and metal for formal purposes. A related cursive script, called hieratic, allowed faster writing on papyrus, a paper-like material made from river reeds. Scribes trained for years, learning signs, numbers, and set phrases for accounts. Records listed grain rations, lists of workers, and temple donations, while legal texts recorded sales or inheritances. A civil calendar of 365 days helped plan storage and transport. Although literacy was limited, those who read and wrote connected farmers, workshops, and officials. In doing so, they turned local activity into a manageable economy.
+
+Text: E. Monumental building shows how this economy functioned. A clear example is the Great Pyramid of Khufu at Giza, built around 2570 BCE. Its original height was about 146 metres, and it contained roughly 2.3 million stone blocks. Archaeology has identified a workers’ village with bakeries, breweries, and medical care. Evidence suggests a rotating workforce of farmers laboured during the flood season, when fields lay under water. Stone arrived by river and road, then moved on ramps. The project therefore depended on planning, regular rations, and steady supervision, rather than constant coercion. The pyramid still signals the scale of coordination achieved by the state.
+
+Text: F. Daily life extended beyond fields and monuments. Barley and emmer wheat formed the basic crops; fish, onions, and beer were common foods. Mines in Sinai supplied copper and turquoise, while quarries produced limestone and granite. Gold from Nubia enhanced royal wealth. Trade routes linked Egypt to the Levant and the Red Sea, and voyages to the land known as Punt brought incense and rare woods. Taxes were often paid in grain or cloth, then redistributed to workers and soldiers. River transport was faster and safer than desert travel, so most goods followed the current. This circulation stabilised towns and supported craft specialisation.
+
+Text: G. Religion touched work and leisure alike. Temples housed statues of gods and served as centres for festivals and economic activity. The idea of ma’at, meaning order and balance, guided moral behaviour and political claims. Funerary practices aimed to secure life after death, from simple burials to elaborate mummification. Texts like the Book of the Dead offered spells and guidance for the soul’s journey. Small amulets promised protection; household shrines received offerings. Popular stories, such as the Tale of the Shipwrecked Sailor, mixed adventure with lessons. Although beliefs changed over time, they continually linked the rising river, a stable kingdom, and a just society.
+
+Text: H. Rediscovery in modern times reshaped knowledge of Egypt. In 1799, soldiers found the Rosetta Stone, which carried the same text in three scripts. Using it, Jean-François Champollion announced the decipherment of hieroglyphs in 1822, opening written records to study. In 1922, the largely intact tomb of Tutankhamun revealed furniture, jewellery, and daily tools, not only royal splendour. Today, archaeologists use satellite images, 3D scanning, and careful conservation to protect sites from water damage and urban growth. Much remains debated, yet the broad picture is clear: when water, management, and belief operated together, they created a durable civilisation that still informs research and imagination.
+
+Text: Do the following statements agree with the information given in the text? Write TRUE, FALSE, or NOT GIVEN.
+
+1. Do the following statements agree with the information in the passage? Write True if the statement agrees with the information, False if it contradicts the information, or Not Given if there is no information on this. Over a long period, small farming communities along the Nile became part of a single state.
+... Paragraph A states that over many centuries communities grew into a unified kingdom.
+*a) True
+b) False
+c) Not Given
+
+2. Because local rainfall was common, farming dates in Egypt were difficult to predict.
+... Paragraph B notes that rainfall was rare and the agricultural cycle was reliable and measurable.
+a) True
+*b) False
+c) Not Given
+
+3. Officials measured Nile flood levels with a stepped structure marked with units.
+... Paragraph B describes the nilometer as a stone staircase marked with units to observe levels.
+*a) True
+b) False
+c) Not Given
+
+4. Political organisation in Egypt eliminated local customs completely.
+... Paragraph C states that state structures did not eliminate local customs; they coordinated them.
+a) True
+*b) False
+c) Not Given
+
+5. A hierarchy of administrators handled harvest assessments, the movement of supplies, and dispute settlement.
+... Paragraph C explicitly lists these duties for administrators.
+*a) True
+b) False
+c) Not Given
+
+6. A 365-day civil calendar was used to plan storage and transport.
+... Paragraph D mentions a civil calendar of 365 days that helped plan storage and transport.
+*a) True
+b) False
+c) Not Given

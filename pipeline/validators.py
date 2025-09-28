@@ -8,7 +8,7 @@ Extended with:
  - Weighted composite score → IELTS band
  - Feedback example builder (from old feedback.py)
 """
-
+import time
 import re
 import json
 from typing import Tuple, Dict, Any, List
@@ -209,54 +209,67 @@ def validate_by_llm(passage: str) -> Dict[str, Any]:
     IELTS_EVAL_PROMPT = """IELTS Reading Passage Evaluation Prompt (Single Passage)
 
     System Role:
-    You are an IELTS Reading Passage Validator. Your task is to evaluate how closely a single passage resembles an authentic IELTS Reading passage, based on specific categories used in IELTS design.
+    You are an IELTS Reading Passage Validator. Your task is to evaluate how closely a Part 2 passage resembles an authentic IELTS Reading Part 2 passage, based on the categories below.
 
     🔎 Categories to Evaluate
-    1. Vocabulary Level (0–10)
 
-    Uses Academic Word List (AWL) and common academic vocabulary.
+    1. Vocabulary Level (0–100)
 
-    Rare/technical words ≤ 5%, and jargon is defined if used.
+    ~70–75% GSL (basic words): ensures accessibility.
 
-    Avoids overly literary or archaic terms.
+    ~20–25% AWL (academic vocabulary): adds professional/academic tone.
 
-    Target level: CEFR B2–C1.
+    ~5% technical/workplace terms: linked to training, management, or procedures.
 
-    2. Sentence Length & Grammar Complexity (0–10)
+    Avoids rare/literary terms.
 
-    Average sentence length: 15–25 words.
+    Target level: CEFR upper B1–B2 (borderline C1 in places).
 
-    Maximum sentence length: ≤ 35 words.
+    2. Sentence Length & Grammar Complexity (0–100)
 
-    Mix of simple, compound, and complex sentences (not all long and dense).
+    Average sentence length: 14–22 words.
 
-    Make sure complex sentences only accounts for 55-60% the passage.
+    Maximum sentence length: ≤ 32 words.
 
-    Limited subordinate clauses (≤2 per sentence).
+    Mix of simple, compound, and complex sentences.
 
-    3. Readability (0–10)
+    Complex sentences ~50–55% of text.
 
-    Flesch Reading Ease (FRE): Ideal: 40–60.
+    Subordinate clauses: mostly ≤2 per sentence.
 
-    Flesch–Kincaid Grade Level (FKGL): Ideal: 9–11.
+    Style slightly denser than Part 1, but less abstract than Part 3.
 
-    Smooth flow without excessive nominalisation or passive voice.
+    3. Readability (0–100)
 
-    4. Content Balance (0–10)
+    FRE: 45–60 (harder than Part 1, but not as dense as Part 3).
 
-    Mix of facts, explanations, and some discussion.
+    FKGL: 9–10.
 
-    Provides examples, statistics, or references (e.g., organizations, studies).
+    Some nominalisation and passive voice allowed if natural in workplace/academic context.
 
-    Neutral, informative tone (not persuasive or emotional).
+    Flow is structured, concise, but not conversational.
 
-    5. Authenticity of Style (0–10)
+    4. Content Balance (0–100)
 
-    Formal, academic but accessible.
+    Workplace or training context with semi-academic style.
 
-    Resembles Cambridge IELTS passage style.
+    Mix of policy/rules, explanations, and implications.
 
-    Avoids journalistic flair, literary metaphors, or conversational tone.
+    May cite organisations, processes, or short case examples.
+
+    Informative, neutral, factual — avoids persuasion or narrative.
+
+    Enough detail to require close reading (not skim-level like Part 1).
+
+    5. Authenticity of Style (0–100)
+
+    Clear, professional, and semi-academic.
+
+    Resembles Cambridge IELTS Part 2 passages (e.g., workplace manuals, HR policies, training documents, short reports).
+
+    Avoids journalistic flair, metaphors, or casual tone.
+
+    Concise, objective, slightly formal.
     FOLLOW THIS Output Format: (JSON)
 {{
   "Vocabulary_Level": <score>,
@@ -284,6 +297,7 @@ def validate_by_llm(passage: str) -> Dict[str, Any]:
     )
 
     raw = response.choices[0].message.content.strip()
+    time.sleep(2)  # avoid rate limits
     parsed = safe_json_loads(raw)
     if isinstance(parsed, dict) and parsed.get("__parse_error"):
         # keep old fallback numbers (existing behavior)
@@ -354,7 +368,7 @@ def score_passage_and_questions(outputs: Dict[str, Any], topic: str,
     # fb_traces += [f"PN:{t}" for t in pn_fb]
     # fb_traces += [f"D:{t}" for t in d_fb]
     for k, v in llm_scores['Feedbacks'].items():
-        raw_traces.append(f"LLM:{k}={v}")
+        fb_traces.append(f"LLM:{k}={v}")
     # --- Extractive check ---
     extract_scores = []
     for q in questions:
@@ -370,11 +384,11 @@ def score_passage_and_questions(outputs: Dict[str, Any], topic: str,
         "questions": q_score,
         # "distractors": distractor_score,
         "extractive": extract_avg,
-        "Vocabulary_Level": llm_scores["Vocabulary_Level"] / 10.0,
-        "Sentence_Length_&_Grammar_Complexity": llm_scores["Sentence_Length_&_Grammar_Complexity"] / 10.0,
-        "Authenticity_of_Style": llm_scores["Authenticity_of_Style"] / 10.0,
-        "Content_Balance": llm_scores["Content_Balance"] / 10.0,
-        "Readability": llm_scores["Readability"] / 10.0
+        "Vocabulary_Level": llm_scores["Vocabulary_Level"] / 100.0,
+        "Sentence_Length_&_Grammar_Complexity": llm_scores["Sentence_Length_&_Grammar_Complexity"] / 100.0,
+        "Authenticity_of_Style": llm_scores["Authenticity_of_Style"] / 100.0,
+        "Content_Balance": llm_scores["Content_Balance"] / 100.0,
+        "Readability": llm_scores["Readability"] / 100.0
     }
 
     # --- Final weighted score ---
@@ -382,11 +396,11 @@ def score_passage_and_questions(outputs: Dict[str, Any], topic: str,
         0.20 * p_score +
         0.15 * q_score +
         0.05 * extract_avg +
-        0.15 * llm_scores["Vocabulary_Level"] / 10.0 +
-        0.10 * llm_scores["Sentence_Length_&_Grammar_Complexity"] / 10.0 + 
-        0.10 * llm_scores["Readability"] / 10.0 + 
-        0.05 * llm_scores["Content_Balance"] / 10.0 + 
-        0.20 * llm_scores["Authenticity_of_Style"] / 10.0
+        0.15 * llm_scores["Vocabulary_Level"] / 100.0 +
+        0.10 * llm_scores["Sentence_Length_&_Grammar_Complexity"] / 100.0 + 
+        0.10 * llm_scores["Readability"] / 100.0 + 
+        0.05 * llm_scores["Content_Balance"] / 100.0 + 
+        0.20 * llm_scores["Authenticity_of_Style"] / 100.0
         # + 0.10 * distractor_score  (enable later if distractors are required)
     )
     band = to_band(final_score)
@@ -424,27 +438,27 @@ def score_passages_only(outputs: Dict[str, Any], topic: str,
     # fb_traces += [f"PN:{t}" for t in pn_fb]
     # fb_traces += [f"D:{t}" for t in d_fb]
     for k, v in llm_scores['Feedbacks'].items():
-        raw_traces.append(f"LLM:{k}={v}")
+        fb_traces.append(f"LLM:{k}={v}")
 
     # --- Scores dict ---
     scores = {
         "passage": p_score,
         # "distractors": distractor_score,
-        "Vocabulary_Level": llm_scores["Vocabulary_Level"] / 10.0,
-        "Sentence_Length_&_Grammar_Complexity": llm_scores["Sentence_Length_&_Grammar_Complexity"] / 10.0,
-        "Authenticity_of_Style": llm_scores["Authenticity_of_Style"] / 10.0,
-        "Content_Balance": llm_scores["Content_Balance"] / 10.0,
-        "Readability": llm_scores["Readability"] / 10.0
+        "Vocabulary_Level": llm_scores["Vocabulary_Level"] / 100.0,
+        "Sentence_Length_&_Grammar_Complexity": llm_scores["Sentence_Length_&_Grammar_Complexity"] / 100.0,
+        "Authenticity_of_Style": llm_scores["Authenticity_of_Style"] / 100.0,
+        "Content_Balance": llm_scores["Content_Balance"] / 100.0,
+        "Readability": llm_scores["Readability"] / 100.0
     }
 
     # --- Final weighted score ---
     final_score = (
         0.20 * p_score +
-        0.15 * llm_scores["Vocabulary_Level"] / 10.0 +
-        0.15 * llm_scores["Sentence_Length_&_Grammar_Complexity"] / 10.0 + 
-        0.10 * llm_scores["Readability"] / 10.0 + 
-        0.10 * llm_scores["Content_Balance"] / 10.0 + 
-        0.20 * llm_scores["Authenticity_of_Style"] / 10.0
+        0.15 * llm_scores["Vocabulary_Level"] / 100.0 +
+        0.15 * llm_scores["Sentence_Length_&_Grammar_Complexity"] / 100.0 + 
+        0.10 * llm_scores["Readability"] / 100.0 + 
+        0.10 * llm_scores["Content_Balance"] / 100.0 + 
+        0.20 * llm_scores["Authenticity_of_Style"] / 100.0
         # + 0.10 * distractor_score  (enable later if distractors are required)
     )
     band = to_band(final_score)

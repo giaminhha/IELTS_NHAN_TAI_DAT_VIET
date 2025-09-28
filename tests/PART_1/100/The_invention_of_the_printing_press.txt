@@ -1,0 +1,65 @@
+Text title: The invention of the printing press
+
+Text: Text title: The Invention of the Printing Press
+
+Text: A. Before the mid-fifteenth century, books were rare and expensive. Most were copied by hand in monasteries or city workshops. Production was slow, and mistakes were common. As a result, knowledge moved at a modest pace and remained concentrated among a small group of readers. This context helps explain why the printing press is seen as a turning point. It created a repeatable system for making many identical pages. The new method did not simply add more books. It changed how information was stored, checked, and shared. Consequently, it encouraged wider reading and a more reliable record of ideas.
+
+Text: B. Printing did not begin in Europe. In China, woodblock printing had been used for centuries to reproduce texts and images. A woodblock is a flat piece of wood with letters carved in reverse, inked, and pressed on paper. Later, in Korea, printers developed movable metal type, where individual characters could be rearranged to form lines. The famous Jikji, dated 1377, shows this approach in use before Europe adopted it. Although writing systems in East Asia were different, the underlying aim was the same. Printers sought faster reproduction and better consistency. These earlier experiments provided important precedents and practical models, even if the European path took a distinct direction.
+
+Text: C. In Europe, Johannes Gutenberg of Mainz is often credited with combining several elements into a workable system. His press used durable metal type, oil-based ink that adhered well to paper, and a screw press adapted from wine making. Movable type meant each letter could be cast, set, and reused. The ink, thicker than the kind used for manuscripts, produced sharp impressions. The press applied even pressure, which improved quality and speed. Around 1455, Gutenberg’s Bible demonstrated what the method could achieve. It resembled a fine manuscript, yet it could be reproduced many times. Although others contributed, this integration was decisive for widespread adoption.
+
+Text: D. Growth after the first presses was rapid. By about 1500, presses were active in more than 200 European towns. Historians estimate that between 8 and 20 million books were printed in that period, often called the age of incunabula. Typical print runs ranged from 200 to 1,000 copies, depending on cost and demand. In 1450, a book might require months of labor; by 1500, a skilled shop could produce dozens of pages in a single day. Dates such as 1470 for Paris and 1476 for London mark key stages in the spread. The scale was unprecedented, and prices fell accordingly, though not uniformly.
+
+Text: E. Venice offers a clear case study. The city became a major printing center in the late fifteenth century due to trade links, skilled artisans, and access to paper. The publisher Aldus Manutius introduced compact “octavo” volumes, which could be carried and used in daily life. He also promoted italic type, a style that saved space without harming legibility. Classical texts, grammar books, and dictionaries left his presses and reached students across Europe. The Venetian model shows how commercial calculation and cultural ambition could align. It also suggests that innovation was not only technical. Design, marketing, and translation were equally important for success.
+
+Text: F. The new press influenced education, religion, and administration. Universities could assign the same text to many students, which supported more consistent teaching. Governments used printed ordinances to standardize rules across regions. Calendars and almanacs carried practical information to farms and towns. In the early sixteenth century, pamphlets made rapid debate possible. The Reformation is often cited as an example, because printed sermons and translations multiplied quickly. However, the effects were not limited to theological disputes. Printed maps, medical handbooks, and arithmetic manuals helped spread applied knowledge. Therefore, the press encouraged both scholarly exchange and everyday problem solving.
+
+Text: G. Despite these benefits, limitations and risks persisted. Literacy remained uneven, and many people still relied on spoken explanation. Early presses produced errors when typesetters rushed or editors lacked time to check proofs. Censorship also emerged, as rulers and religious bodies attempted to control controversial texts. Notwithstanding such efforts, unauthorized editions and clandestine pamphlets continued to circulate. Moreover, the impact varied by place. Cities with trade networks and universities adapted more quickly than rural areas. Paper supply and transport costs could also restrict growth. These constraints did not halt printing, but they shaped where and how it developed.
+
+Text: H. Over the following centuries, the press evolved. New techniques, such as stereotyping and later the steam press, increased speed and lowered unit costs. In the nineteenth century, rotary presses and the Linotype machine expanded production further. The principle, however, remained consistent: movable or mechanized type formed lines, ink transferred text, and sheets carried the result to readers. The invention can therefore be viewed as a platform for later change. It created habits of collecting, comparing, and revising information that persist today. While digital technologies differ in method, they continue the essential goal of making knowledge more accessible and durable.
+
+Text: Questions
+
+Text: Do the following statements agree with the information given in the text? Write TRUE, FALSE, or NOT GIVEN.
+
+1. Before the mid-fifteenth century, books were generally inexpensive.
+... Paragraph A states that before the mid-fifteenth century, books were rare and expensive.
+a) True
+*b) False
+c) Not Given
+
+2. The printing press altered how information was checked and shared, not just how many books could be produced.
+... Paragraph A explains that printing changed how information was stored, checked, and shared.
+*a) True
+b) False
+c) Not Given
+
+3. Movable metal type originated in Europe.
+... Paragraph B notes that movable metal type was developed in Korea before Europe adopted it.
+a) True
+*b) False
+c) Not Given
+
+4. Printers in East Asia and Europe shared the goal of quicker reproduction and greater consistency.
+... Paragraph B states the underlying aim was the same: faster reproduction and better consistency.
+*a) True
+b) False
+c) Not Given
+
+5. Gutenberg’s ink was thinner than the type used for manuscripts.
+... Paragraph C says the oil-based ink was thicker than the kind used for manuscripts.
+a) True
+*b) False
+c) Not Given
+
+6. By about 1500, presses were operating in over 200 European towns.
+... Paragraph D states that by about 1500, presses were active in more than 200 European towns.
+*a) True
+b) False
+c) Not Given
+
+7. Aldus Manutius designed octavo books to be portable.
+... Paragraph E explains that Aldus introduced compact octavo volumes which could be carried and used in daily life.
+*a) True
+b) False
+c) Not Given

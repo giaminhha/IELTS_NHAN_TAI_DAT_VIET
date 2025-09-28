@@ -1,0 +1,59 @@
+Text title: Sports and national identity
+
+Text: Text title: Playing for the Nation: Sport and Collective Identity
+
+Text: A. Sport has long been used to tell stories about who belongs to a nation and what that nation stands for. Stadiums become stages on which competing versions of collective identity are performed, watched, and judged. Although games are ostensibly about skill and results, the surrounding narratives emphasise heritage, sacrifice, and unity. It is not automatic, however, that sporting success produces cohesion; the same event may divide audiences along regional or ethnic lines. Consequently, sport functions as a site where identity is negotiated rather than simply displayed, and where symbols—jerseys, anthems, and flags—are mobilised to make abstract ideas about belonging appear vivid and concrete.
+
+Text: B. Modern links between sport and nationhood developed alongside the rise of mass media and international competitions in the late nineteenth and twentieth centuries. The revival of the Olympic Games in 1896, followed by the creation of football’s global federation in 1904, offered regular occasions for cross-border rivalry. Standardised rules, national selection, and medal tables allowed comparisons that newspapers and later radio amplified. By the 1950s, television embedded these contests in domestic routines, while cold war politics infused them with ideological meaning. The result was a durable association: athletic triumphs were interpreted as indicators of national vitality, even when the athletes themselves competed as individuals.
+
+Text: C. Rituals convert competition into national spectacle. Anthems are sung as if they speak for entire populations, uniforms bear colours associated with state flags, and victory ceremonies echo civic rituals of recognition. Such practices may appear trivial, yet they structure how events are remembered and how loyalty is expressed. The idea of an “imagined community”—a group that feels connected despite members never meeting—becomes tangible when millions watch the same game at the same moment. Through repeated exposure, audiences learn to read gestures and emblems, so that a raised scarf or a choreographed chant can signal inclusion, discipline, and, occasionally, dissent.
+
+Text: D. One often-cited example is South Africa’s 1995 Rugby World Cup, staged shortly after the end of apartheid. The new president, Nelson Mandela, publicly endorsed the national team, historically associated with the white minority, and appeared in its green jersey at the final. The victory was presented as a symbol of reconciliation, and the slogan “one team, one country” circulated widely. Subsequent research suggests that effects were uneven: enthusiasm was intense in some communities but limited elsewhere, and structural inequalities persisted. Nevertheless, the episode illustrates how a single match can be made to carry aspirations for a broader political settlement.
+
+Text: E. Comparative figures underline the scale of national attention. Estimates for the 2014 football World Cup final, for instance, ranged from 700 million to over one billion viewers worldwide, depending on counting methods. During continental championships, national-team broadcasts in smaller European markets often reach audience shares above 60 per cent, whereas domestic league matches typically attract 10–30 per cent. Host-city investment has also escalated: reported operating surpluses in Los Angeles in 1984 contrasted with multibillion-dollar budgets three decades later. Such numbers are contested but consequential, shaping public debate about whether international success reflects efficient organisation, lavish expenditure, or simply a fortunate generation of athletes.
+
+Text: F. Identity, however, is not produced only within borders. Migrant communities may follow teams from ancestral homelands, while dual-national athletes must choose between competing allegiances under eligibility rules. Selection decisions can be read as statements about inclusion and citizenship, as shown by debates surrounding multi-ethnic squads in several European countries. Fans may celebrate a team as evidence of diversity, whereas critics claim it fails to mirror an imagined national core. The same match thus provides divergent lessons about who counts as “us”. In effect, sporting identity travels along family ties, media networks, and languages, blurring simple distinctions between domestic and foreign.
+
+Text: G. Case studies from very different contexts show how success can reframe national self-perception. When Iceland, with a population of about 330,000, reached the quarter-finals of the 2016 European football championship, the team’s disciplined style and the thunderous “Viking clap” became shorthand for resilience and communal effort. Youth registration reportedly rose and tourism marketing adopted the imagery. In India, the 1983 cricket World Cup win, followed decades later by a lucrative professional league, helped reposition the sport from colonial inheritance to a confident cultural export. In both settings, achievement was converted into narratives about modernity, competence, and, global visibility.
+
+Text: H. Governments recognise that international sport projects images abroad. Hosting mega-events is therefore framed as nation branding, despite mixed fiscal outcomes. Barcelona’s 1992 Olympics are often credited with catalysing urban renewal and tourism, while Beijing’s 2008 Games emphasised spectacle and organisational capacity. More recently, London 2012 promoted volunteerism and accessibility, aiming to showcase a pragmatic, service-oriented civic culture. Cost overruns and displacement have, however, tempered enthusiasm. It has been argued that the most durable legacies are intangible: a sense of competence among administrators, confidence among residents, and a package of symbols that can be mobilised in future diplomatic campaigns.
+
+Text: I. Ultimately, the capacity of sport to shape national identity appears conditional rather than automatic. Outcomes depend on institutional credibility, media framing, historical memories, and the willingness of audiences to accept particular interpretations. While periods of victory may generate pride and solidarity, controversial selections or financial scandals can just as easily provoke scepticism. Notwithstanding these uncertainties, competitive games provide a recurring platform on which collective stories are rehearsed and revised. The nation, in this view, is not discovered on the scoreboard but constructed through the rituals that surround it, a process that can unify, exclude, or simply entertain.
+
+Text: Do the following statements agree with the information given in the text? Write YES, NO, or NOT GIVEN.
+
+2. According to the writer, a triumph in sport cannot be relied upon to bring all sections of a nation together.
+... Paragraph A states that sporting success does not automatically produce cohesion and may divide audiences.
+*a) Yes
+b) No
+c) Not Given
+
+3. By the 1950s, television had helped make international contests part of household routines.
+... Paragraph B says that by the 1950s, television embedded these contests in domestic routines.
+*a) Yes
+b) No
+c) Not Given
+
+4. The founding of football’s global federation and the revival of the Olympics happened after television became widespread.
+... Paragraph B dates these to 1896 and 1904, which occurred well before television’s rise in the 1950s.
+a) Yes
+*b) No
+c) Not Given
+
+5. Rituals at sporting events play a role in shaping how matches are remembered and how allegiance is shown.
+... Paragraph C notes such practices structure memory and expressions of loyalty.
+*a) Yes
+b) No
+c) Not Given
+
+6. Nelson Mandela determined the team’s tactics for the Rugby World Cup final in 1995.
+... Paragraph D mentions his endorsement and appearance in the jersey, but gives no information about tactics.
+a) Yes
+b) No
+*c) Not Given
+
+7. In smaller European markets, domestic league fixtures usually secure larger audience shares than national-team games during continental tournaments.
+... Paragraph E states national-team broadcasts often reach above 60%, while domestic leagues draw 10–30%.
+a) Yes
+*b) No
+c) Not Given

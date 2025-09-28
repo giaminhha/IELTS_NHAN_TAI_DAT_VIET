@@ -1,0 +1,1109 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:questestinterop xmlns:ns0="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <ns0:assessment ident="text2qti_assessment_27959117d4024a5381ebb36d9f4bd60c736f2d1bbffbc6acaac9eee383822289" title="Quiz">
+    <ns0:qtimetadata>
+      <ns0:qtimetadatafield>
+        <ns0:fieldlabel>cc_maxattempts</ns0:fieldlabel>
+        <ns0:fieldentry>1</ns0:fieldentry>
+      </ns0:qtimetadatafield>
+    </ns0:qtimetadata>
+    <ns0:section ident="root_section">
+      <ns0:item ident="text2qti_text_98023977f7feec3f7e6e3fa9475fc088664b444bdb87704b42f96d1c8a3ea2fd" title="Global trade agreements">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_98023977f7feec3f7e6e3fa9475fc088664b444bdb87704b42f96d1c8a3ea2fd</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Text title: Global Trade Agreements: Purposes, Pathways, and Practical Effects&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_42c785cc0e9661d15ab468767c28920342d944f9f8b6e968c8ab8339c8ebf2c5" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_42c785cc0e9661d15ab468767c28920342d944f9f8b6e968c8ab8339c8ebf2c5</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;A. Trade agreements are formal arrangements that set rules for buying and selling across borders. They usually reduce tariffs, which are taxes on imports, and they often address quotas, which limit the quantity of goods. Such agreements also include rules for services, investment, and the protection of ideas, known as intellectual property. Clear rules give companies confidence to plan, invest, and ship goods, while consumers gain more choice and, sometimes, lower prices. Although benefits are often shared, the gains and costs vary by sector and by place. For that reason, most agreements also include procedures to settle disputes and to manage change over time.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_af6b87c4327fc541f5eb48a2a9a989ca41c3f5df8a45c091403b49bc225623c8" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_af6b87c4327fc541f5eb48a2a9a989ca41c3f5df8a45c091403b49bc225623c8</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;B. Modern trade agreements grew from a post-war effort to rebuild economies and avoid conflict. The General Agreement on Tariffs and Trade (GATT) began in 1947, focusing on tariff cuts and predictable schedules. Over several “rounds” of talks, countries cut many import taxes and reduced the use of quotas. In 1995, the World Trade Organization (WTO) replaced the GATT system and widened its scope. Today, the WTO counts 164 members and covers roughly 98 percent of world trade. Its rules reach beyond goods to services and intellectual property, while its dispute system offers a structured way to resolve disagreements between members.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_147ebd066a74e817b5471930511d2864ffe0ba6fba03c7d916846cbaaf46b395" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_147ebd066a74e817b5471930511d2864ffe0ba6fba03c7d916846cbaaf46b395</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;C. Agreements differ in scope and depth. A bilateral agreement links two nations, while a regional pact joins several neighbors. A free trade area removes tariffs among its members but keeps separate external tariffs. A customs union goes further by sharing a common external tariff. The European Union’s single market is deeper still, seeking free movement of goods, services, capital, and people. Many deals include “rules of origin” that decide whether a good qualifies for lower tariffs. These rules prevent simple re-exporting from non-members but can be complex, raising paperwork costs for smaller firms and delaying shipments.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_da82d08b008a55e1fef63d63488b1cde87b9cc17b77a060b597e8d1f2a117c64" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_da82d08b008a55e1fef63d63488b1cde87b9cc17b77a060b597e8d1f2a117c64</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;D. The experience of North America shows how production can spread across borders when rules are stable. The North American Free Trade Agreement (NAFTA), launched in 1994, encouraged companies to design supply chains that crossed the United States, Mexico, and Canada. A car assembled in Mexico might contain engines from the United States and electronics from Canada. After 2020, the United States–Mexico–Canada Agreement (USMCA) updated rules of origin and added labor and environment chapters. Consumers benefited from lower prices and wider choice, yet some workers faced job displacement. Adjustment policies, including retraining, were therefore important to help those affected move into new roles.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_d34da4d968ba0ac721605296c4efe4a32d7eae1254ed5af3cf485723d422f136" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_d34da4d968ba0ac721605296c4efe4a32d7eae1254ed5af3cf485723d422f136</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;E. For developing countries, market access can support growth, provided firms can meet standards and ship on time. Vietnam’s entry into the WTO in 2007 and its later participation in regional pacts expanded exports of electronics, footwear, and textiles. Producers improved quality to satisfy safety and labeling rules in destination markets. However, upgrading also required credit, better ports, and skills. When governments and partners offered training or customs reforms, smaller companies were more able to use new opportunities. Notwithstanding these gains, exposure to competition sometimes pressured local producers, which led to calls for phased opening and targeted support for fragile sectors.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_d80cd84bbe5ee84d5f3027b461fb092902b92295dfe4648d2bbea03de6694360" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_d80cd84bbe5ee84d5f3027b461fb092902b92295dfe4648d2bbea03de6694360</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;F. As tariffs fell, attention shifted to non-tariff measures that can either smooth or restrict trade. Technical standards help ensure safety and compatibility, but differences across countries may raise costs. Food trade is shaped by sanitary and phytosanitary (SPS) rules, which protect human, animal, and plant health. While legitimate, such measures can act like hidden barriers if they are stricter than necessary. Recent agreements therefore promote regulatory cooperation and transparency. Chapters on labor and the environment also appear more often, aiming to prevent a race to the bottom. Their enforcement has grown, although results vary and depend on monitoring and political will.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_c3dcb33a1d593d3a48793eeea7518dea8b73eaa342b026b45d6ba7c0a9df433e" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_c3dcb33a1d593d3a48793eeea7518dea8b73eaa342b026b45d6ba7c0a9df433e</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;G. A long view of data shows steady change. Average global tariffs on manufactured goods fell from above 20 percent in the mid‑20th century to around 5 percent in many markets today. The WTO has recorded more than 350 regional trade agreements in force by the early 2020s, compared with fewer than 50 in the early 1990s. Trade volumes dip during shocks, as seen in 2009 after the financial crisis and again in 2020 during the pandemic, yet they tend to recover. Services and digital trade have expanded, and cross‑border data flows now support logistics, design, and after‑sales support alongside traditional goods shipments.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_9d9de1c1ebc582af64e24eb6b62dfaec453e9ff9eab8347ac310975ecee970e7" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_9d9de1c1ebc582af64e24eb6b62dfaec453e9ff9eab8347ac310975ecee970e7</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;H. Trade agreements are tools rather than ends in themselves. Their value depends on sound design, clear language, and credible dispute settlement. Implementation also matters: customs systems must function, agencies need capacity, and firms require information. Adjustment policies can spread gains more evenly and reduce resistance to change. Future talks may focus on services, data protection, and climate‑related provisions, such as rules that recognize carbon pricing. Plurilateral deals among smaller groups of countries may advance specific issues where consensus is difficult. Although perfect certainty is impossible, well-crafted agreements can provide a stable framework that supports investment, innovation, and measured, inclusive growth.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_f73af890968a1e1bb45752590a8fb9ffcadb93405f0975d0ebcbe9ea457189f1" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_f73af890968a1e1bb45752590a8fb9ffcadb93405f0975d0ebcbe9ea457189f1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Do the following statements agree with the information given in the text? Write TRUE, FALSE, or NOT GIVEN.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_988ead271ca0fd924539129b0207eb653e15bab4b83268304e8b376af9b7555a" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_3080509dafb56a55d19a62561c730b38ae9ac84b8c5525e083cbe9af1dc59701,text2qti_choice_8784b54ae04ce78b64f5874ca1914e6ca44db3a69784a20d44b3667d2744ff02,text2qti_choice_311f51744719253f25622fef02a2f8d9139d8c87ed5062a8b380d69490fc109f</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_988ead271ca0fd924539129b0207eb653e15bab4b83268304e8b376af9b7555a</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Trade agreements typically reduce import duties and set rules for services and investment.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_3080509dafb56a55d19a62561c730b38ae9ac84b8c5525e083cbe9af1dc59701">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_8784b54ae04ce78b64f5874ca1914e6ca44db3a69784a20d44b3667d2744ff02">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_311f51744719253f25622fef02a2f8d9139d8c87ed5062a8b380d69490fc109f">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_3080509dafb56a55d19a62561c730b38ae9ac84b8c5525e083cbe9af1dc59701</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Paragraph A states that agreements usually reduce tariffs and include rules for services and investment.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_2332cb102c9c02542e06c7e0f6d60bc2daa973f7686621b7ce62e7c201a8ef5b" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_f7afddc4a0d89000f5fd405d555a67f87d36c2a59e4f324a80137801159e04b5,text2qti_choice_030ce19e3eef7f798824ac0a367f3186455e955a1354a30883c5c556abdba7bd,text2qti_choice_508bbf351ea90bb79e9040cb9b54e3e430f1c8ff29753844aad62ebc275572c8</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_2332cb102c9c02542e06c7e0f6d60bc2daa973f7686621b7ce62e7c201a8ef5b</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Consumers always pay less because of trade deals.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_f7afddc4a0d89000f5fd405d555a67f87d36c2a59e4f324a80137801159e04b5">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_030ce19e3eef7f798824ac0a367f3186455e955a1354a30883c5c556abdba7bd">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_508bbf351ea90bb79e9040cb9b54e3e430f1c8ff29753844aad62ebc275572c8">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_030ce19e3eef7f798824ac0a367f3186455e955a1354a30883c5c556abdba7bd</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Paragraph A says consumers gain more choice and sometimes lower prices; it does not say always.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_78744af45e55ceffa11ae66ec659a3aaefbe63c275de568eecb7eecf18978734" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_de1f420056f8618b22c8e0191bd30425c2f3162f3b203b6ea14b28b09cbe3ecd,text2qti_choice_2893e13e2c5c56a4bd2f0521e3e65ad64caf73a8ed5745909b0e430e155541c0,text2qti_choice_091172e99939ccd0b0bb4020a4c84d65191e2f6cf217a1857d9efeee167a8a30</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_78744af45e55ceffa11ae66ec659a3aaefbe63c275de568eecb7eecf18978734</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Trade agreements set out the specific shipping routes firms should follow.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_de1f420056f8618b22c8e0191bd30425c2f3162f3b203b6ea14b28b09cbe3ecd">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_2893e13e2c5c56a4bd2f0521e3e65ad64caf73a8ed5745909b0e430e155541c0">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_091172e99939ccd0b0bb4020a4c84d65191e2f6cf217a1857d9efeee167a8a30">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_091172e99939ccd0b0bb4020a4c84d65191e2f6cf217a1857d9efeee167a8a30</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;The passage discusses rules and dispute settlement but does not mention prescribing shipping routes.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_a2839418f46ffca45eabebd028a9abe512fdb958e2cfcaf8164c9ff8bdaeb451" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_a059646c241dc48d0783dcc4b99395c768cce03cc654d1b8e400cc988a1fdf73,text2qti_choice_3a4579734e89b2bc169f41820a3dfb2016444d20ffa17903c54c63f9ec54b163,text2qti_choice_97ea8661cb03e83f0902f906b08b2879749baedcf23f7eb0c6cc69aac1afd249</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_a2839418f46ffca45eabebd028a9abe512fdb958e2cfcaf8164c9ff8bdaeb451</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Launched in 1947, the GATT emphasized cutting tariffs and providing predictability.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_a059646c241dc48d0783dcc4b99395c768cce03cc654d1b8e400cc988a1fdf73">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_3a4579734e89b2bc169f41820a3dfb2016444d20ffa17903c54c63f9ec54b163">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_97ea8661cb03e83f0902f906b08b2879749baedcf23f7eb0c6cc69aac1afd249">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_a059646c241dc48d0783dcc4b99395c768cce03cc654d1b8e400cc988a1fdf73</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Paragraph B notes the GATT began in 1947 and focused on tariff cuts and predictable schedules.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_fb8e415002e58d99cf91b0bdeacb05474fa472b1b93eb0c85577874d35e12afe" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_b96b1990da082a5113a5b16a69a5b4d1aece0d80b185e42151cba379150462b2,text2qti_choice_fe4b8da12deafa88fad40c5b68be2e8933a57b65aa7447640b895e8ab15f6a15,text2qti_choice_4cba0d674121aaadee77bb5118124d5798b11c468991ba5f087981064b4352c8</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_fb8e415002e58d99cf91b0bdeacb05474fa472b1b93eb0c85577874d35e12afe</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;When the WTO replaced the GATT in 1995, its remit narrowed to goods only.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_b96b1990da082a5113a5b16a69a5b4d1aece0d80b185e42151cba379150462b2">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_fe4b8da12deafa88fad40c5b68be2e8933a57b65aa7447640b895e8ab15f6a15">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_4cba0d674121aaadee77bb5118124d5798b11c468991ba5f087981064b4352c8">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_fe4b8da12deafa88fad40c5b68be2e8933a57b65aa7447640b895e8ab15f6a15</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Paragraph B states the WTO widened its scope beyond goods to services and intellectual property.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_4062a951d2038fbc4b88d86d7839de926f2c95710131d44b8d460eb3ceb62767" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_7b05e701841b7dfe942d0fcd8b8095dc282af9aef2224bf126bc9f3439086b36,text2qti_choice_8d0d5a7f712cfb11264ea9e214be9902c0702a53b209d85f5da075322e5fd007,text2qti_choice_62cfc80948386dacb6daaeecf55b6bcc2eec5ec35f330a76403d5e77680a1d46</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_4062a951d2038fbc4b88d86d7839de926f2c95710131d44b8d460eb3ceb62767</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;The WTO provides a structured process for members to resolve disputes.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_7b05e701841b7dfe942d0fcd8b8095dc282af9aef2224bf126bc9f3439086b36">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_8d0d5a7f712cfb11264ea9e214be9902c0702a53b209d85f5da075322e5fd007">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_62cfc80948386dacb6daaeecf55b6bcc2eec5ec35f330a76403d5e77680a1d46">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_7b05e701841b7dfe942d0fcd8b8095dc282af9aef2224bf126bc9f3439086b36</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Paragraph B mentions its dispute system offers a structured way to resolve disagreements.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_4568e51a4e68aaa55c10f0399ac0473b31624cdc17356d1ad944611ff1086295" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_a50f07941da1641b45388b43de5dff66657dea6c02bf2a740a0346832f092f88,text2qti_choice_20417a4687e698edd3bb73bb9f876ac5ae47e8f79f3b2f75f3a61079233e5684,text2qti_choice_3819fc5a3d247e4c1ca6a44d50669a1ca29ba0adf3649bd088f7657800db5924</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_4568e51a4e68aaa55c10f0399ac0473b31624cdc17356d1ad944611ff1086295</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Members of a free trade area apply a common external tariff to non-members.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_a50f07941da1641b45388b43de5dff66657dea6c02bf2a740a0346832f092f88">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_20417a4687e698edd3bb73bb9f876ac5ae47e8f79f3b2f75f3a61079233e5684">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_3819fc5a3d247e4c1ca6a44d50669a1ca29ba0adf3649bd088f7657800db5924">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_20417a4687e698edd3bb73bb9f876ac5ae47e8f79f3b2f75f3a61079233e5684</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Paragraph C explains that a free trade area removes internal tariffs but keeps separate external tariffs; a common external tariff is a feature of a customs union.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_e68b88b10aa8b10b5329abe3d662fd3b2729bb66e294f8872a15ae96019a205b" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>short_answer_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_beb2f5bd4aa7c3505fbd74aa4354ca2a0a7bbfcd836e4160cb37667363429b00</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_e68b88b10aa8b10b5329abe3d662fd3b2729bb66e294f8872a15ae96019a205b</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Answer the question below using NO MORE THAN TWO WORDS from the passage: Which agreement updated rules of origin after 2020?&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_str ident="response1" rcardinality="Single">
+            <ns0:render_fib>
+              <ns0:response_label ident="answer1" rshuffle="No" />
+            </ns0:render_fib>
+          </ns0:response_str>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">USMCA</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Paragraph D states that after 2020, the United States–Mexico–Canada Agreement (USMCA) updated rules of origin.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_94a2230f84931c02992e152f2021d38fc877fde42c858cbaad836b332cc00c18" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>short_answer_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_6e4dfa56355206fe5a84b6849135c4a34aba1d68e7f920985e44f47ddc936380</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_94a2230f84931c02992e152f2021d38fc877fde42c858cbaad836b332cc00c18</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Answer the question below using NO MORE THAN TWO WORDS from the passage: What policy was important to help displaced workers move into new roles?&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_str ident="response1" rcardinality="Single">
+            <ns0:render_fib>
+              <ns0:response_label ident="answer1" rshuffle="No" />
+            </ns0:render_fib>
+          </ns0:response_str>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">retraining</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Paragraph D notes that adjustment policies, including retraining, were important to help those affected move into new roles.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_17fbf86532aa0583b8aad54fc385911131aea21dc24f7d2ae10574ab00439f85" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>short_answer_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_485d83bde09677073adc952875206fe7c6f7fc77ed6e53fe8c0b8fc1b1cf4ba3</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_17fbf86532aa0583b8aad54fc385911131aea21dc24f7d2ae10574ab00439f85</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Answer the question below using NO MORE THAN TWO WORDS from the passage: From which country might the electronics in a Mexican-assembled car come?&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_str ident="response1" rcardinality="Single">
+            <ns0:render_fib>
+              <ns0:response_label ident="answer1" rshuffle="No" />
+            </ns0:render_fib>
+          </ns0:response_str>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">Canada</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Paragraph D gives an example where electronics come from Canada.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_4fa8d31446640b5b8efb9e1b5288a02b2b5df2b9709341710ac6b8087dc5cb67" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>short_answer_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_f884588918c8aeb851dcb1397400183f757ca847c7512ac1f9655d2b302b4941</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_4fa8d31446640b5b8efb9e1b5288a02b2b5df2b9709341710ac6b8087dc5cb67</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Answer the question below using NO MORE THAN TWO WORDS from the passage: Which country joined the WTO in 2007?&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_str ident="response1" rcardinality="Single">
+            <ns0:render_fib>
+              <ns0:response_label ident="answer1" rshuffle="No" />
+            </ns0:render_fib>
+          </ns0:response_str>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">Vietnam</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Paragraph E states that Vietnam’s entry into the WTO occurred in 2007.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_e97dbac4da3f522f142300d2a40f37ebee847e0c3f5ff5c38a1433d1840f2f83" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>short_answer_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_a0cef7a29d376d3a17906d310209eb583fe77621e3288ff54c0bbdd363fb7fd6</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_e97dbac4da3f522f142300d2a40f37ebee847e0c3f5ff5c38a1433d1840f2f83</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Answer the question below using NO MORE THAN TWO WORDS from the passage: Which rules safeguard health in food trade?&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_str ident="response1" rcardinality="Single">
+            <ns0:render_fib>
+              <ns0:response_label ident="answer1" rshuffle="No" />
+            </ns0:render_fib>
+          </ns0:response_str>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">SPS rules</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Paragraph F refers to sanitary and phytosanitary (SPS) rules that protect human, animal, and plant health in food trade.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_48f9f29c279db5eaf04a9c700bfa9bcbcea8fa4175746044e83018381be0c599" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>short_answer_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_d1b210e7c05da42eefd1bdec75ddd4c591e8e349fc08d7689d94aebfcfe4f6cf</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_48f9f29c279db5eaf04a9c700bfa9bcbcea8fa4175746044e83018381be0c599</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Answer the question below using NO MORE THAN TWO WORDS from the passage: What type of growth can well-crafted agreements support?&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_str ident="response1" rcardinality="Single">
+            <ns0:render_fib>
+              <ns0:response_label ident="answer1" rshuffle="No" />
+            </ns0:render_fib>
+          </ns0:response_str>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">inclusive growth</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Paragraph H concludes that well-crafted agreements can support measured, inclusive growth.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+    </ns0:section>
+  </ns0:assessment>
+</ns0:questestinterop>

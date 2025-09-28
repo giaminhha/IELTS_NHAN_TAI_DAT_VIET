@@ -1,4 +1,5 @@
 ***MCQ and True/False/Not Given and Yes/No/Not Given***
+Return questions only, no need for instructions.
    - "id": unique string identifier (e.g., "Q1")  
    - "question_type": "MCQ" or "True/False/Not Given" or "Yes/No/Not Given"
    - "question_text": the full question prompt as shown in IELTS papers  
@@ -7,98 +8,171 @@
    - "rationale": 1–2 sentences explaining why the chosen answer is correct, directly tied to the passage.  
 
 ***Matching Headings***
-(This example has 3 questions)
-{
-  "id": "Q1-3",
-  "question_type": "Matching Headings",
-  "question_text": "Match each paragraph (A-C) with the correct heading from the list below.",
-  "headings": [
-    "i. Slow spread of knowledge before print",
-    "ii. The influence of royal patronage",
-    "iii. Gutenberg combines several technologies",
-    "iv. The first mass-produced book",
-    "v. Decline of the Catholic Church"
-  ],
-  "paragraphs": ["A", "B", "C"],
-  "answers": {
-    "A": "i",
-    "B": "iii",
-    "C": "iv"
-  },
-  "rationale": {
-   "Paragraph A describes the limited availability of books before printing"
-   "Paragraph B explains Gutenberg’s technical innovations"
-   "Paragraph C highlights the production of the 42-line Bible as the first mass-printed book."
-  }
-}
+{{
+    "id": "Q2",
+    "question_text": "Match the following paragraphs with the most suitable heading. Each heading may be used once or not at all.",
+    "questions": {{
+        "A": "Paragraph A discusses the early developments in electric vehicles and the challenges manufacturers faced in the 1990s.",
+        "B": "Paragraph B explains how government incentives encouraged consumers to adopt electric vehicles.",
+        "C": "Paragraph C describes technological innovations in battery storage that made modern EVs more practical.",
+        "D": "Paragraph D highlights the environmental benefits of electric vehicles over traditional cars.",
+        "E": "Paragraph E analyzes the global market trends and future projections for electric vehicle adoption."
+    }},
+    "headings" = {{
+      "i. Early Challenges in Electric Vehicle Development",
+      "ii. Government Incentives and Consumer Adoption",
+      "iii. Innovations in Battery Technology",
+      "iv. Environmental Advantages of EVs",
+      "v. Market Trends and Future Outlook",
+      "vi. EV Manufacturing in Asia",
+      "vii. Consumer Opinions on EVs"
+    }}
+    "options": ["i", "ii", "iii", "iv", "v", "vi", "vii"],
+    "answers": {{
+        "A": "i",
+        "B": "ii",
+        "C": "iii",
+        "D": "iv",
+        "E": "v"
+    }},
+    "rationale": {{
+        "A": "Paragraph A clearly talks about the initial struggles and development of EVs in the 1990s.",
+        "B": "Paragraph B focuses on policies and incentives that encouraged EV adoption.",
+        "C": "Paragraph C explains advancements in battery technology that improved EV performance.",
+        "D": "Paragraph D emphasizes the environmental benefits of electric vehicles.",
+        "E": "Paragraph E ties market trends and projections to the EV market's future."
+    }}
+}}
 
 ***Summary Completion***
+- Specify by only 1 sentence at the begining of question text of how many words to fill in each blank. The number must be consistent, either one, two or three. For example: "Complete the SUMMARY below with ONLY ONE WORD and/or NUMBER from the passage."
 (This example has 2 questions)
-{
-  "id": "Q1-2",
-  "question_type": "Summary Completion",
-  "Question_passage": "By the year 1500, printing presses were active in more than 1______ cities and had already produced millions of 2______, an event described as the first 'information explosion'.",
-  "answers": {
-    "1": "250",
-    "2": "books"
-  },
-  "rationale": {
-    "1": "The passage states that presses were operating in over 250 cities by 1500.",
-    "2": "The passage states that presses were producing 8 to 20 million books."
-  }
-}
+{{
+    "id": "Q3-4",
+    "question_type": "Summary Completion",
+    "question_text": "Complete the SUMMARY below with ONLY ONE WORD and/or NUMBER from the passage. By the year 1500, printing presses were active in more than 3______ cities and had already produced millions of 4______, an event described as the first 'information explosion'.",
+    "answer": {{
+      "3": "250",
+      "4": "books"
+    }},
+    "rationale": {{
+      "3": "The passage states that presses were operating in over 250 cities by 1500.",
+      "4": "The passage states that presses were producing 8 to 20 million books."
+    }}
+}}
 ***Short Answer***
-{
+CHOOSE ONLY ONE TYPE OF QUESTION HERE. IT'S EITHER ANSWER USING ONE WORD OR TWO WORDS. BOTH MUSN'T APPEAR IN 1 TEST.
+{{
   "id": "Q7",
   "question_type": "Short Answer",
-  "question_text": "Answer the question below using NO MORE THAN THREE WORDS from the passage: What material did Gutenberg use for his type?",
+  "question_text": "Answer the question below using NO MORE THAN ONE WORDS from the passage: What material did Gutenberg use for his type?",
   "answer": "metal",
   "rationale": "The passage states that Gutenberg’s movable type was made of metal."
-}
+}}
+{{
+  "id": "Q7",
+  "question_type": "Short Answer",
+  "question_text": "Answer the question below using NO MORE THAN TWO WORDS from the passage: What did her uncle do in his wife wedding?",
+  "answer": "killing animals",
+  "rationale": "The passage states that Gutenberg’s movable type was made of metal."
+}}
 ***Matching Information***
-{
-  "id": "Q11",
+{{
+  "id": "Q1-5",
   "question_type": "Matching Information",
-  "question_text": "Which paragraph contains the following information?",
-  "info_statements": [
-    "The first mass-produced book",
-    "The spread of printing presses across Europe",
-    "The use of print in religious reform"
-  ],
-  "paragraphs": ["A", "B", "C", "D"],
-  "answers": {
-    "The first mass-produced book": "A",
-    "The spread of printing presses across Europe": "B",
-    "The use of print in religious reform": "D"
-  },
-  "rationale": {
-    "The first mass-produced book": "Paragraph A describes the 42-line Bible",
-    "The spread of printing presses across Europe": "B highlights presses in 250 cities",
-    "The use of print in religious reform": "D mentions Martin Luther's Theses being printed"
-  }
-}
-{
-  "id": "Q12",
-  "question_type": "Matching Features",
-  "question_text": "Match each statement with the correct person.",
-  "statements": [
-    "Gutenberg developed the printing press",
-    "Faraday inspired young chemists with lectures",
-    "Pullar advised on dye manufacturing"
-  ],
-  "options": {
-    "A": "Gutenberg",
-    "B": "Michael Faraday",
-    "C": "Robert Pullar"
-  },
-  "answers": {
-    "Gutenberg developed the printing press": "A",
-    "Faraday inspired young chemists with lectures": "B",
-    "Pullar advised on dye manufacturing": "C"
-  },
-  "rationale": {
-    "Gutenberg developed the printing press": "Gutenberg is credited with inventing the press",
-    "Faraday inspired young chemists with lectures": "The passage mentions Faraday's lectures influencing young chemists",
-    "Pullar advised on dye manufacturing": "Pullar provided guidance to Perkin on dye production"
-  }
-}
+  "question_text": "The passage has seven paragraphs, A–G. Which paragraph contains the following information? Write the correct letter, A–G.",
+  "questions": {{
+    "1": "An example of a British park that influenced others.",
+    "2": "A concern that green spaces might lead to unrest.",
+    "3": "The idea that exposure to plants and animals could teach moral lessons.",
+    "4": "A park that was designed to be open to both wealthy and poor citizens.",
+    "5": "The continuing ecological importance of parks in present-day cities."
+  }},
+  "answer": {{
+    "1": "B",
+    "2": "F",
+    "3": "D",
+    "4": "C",
+    "5": "G"
+  }},
+  "rationale": {{
+    "1": "Paragraph B describes Birkenhead Park in Liverpool, which inspired others.",
+    "2": "Paragraph F mentions critics fearing disorder and protest in parks.",
+    "3": "Paragraph D explains reformers saw parks as educational with moral lessons.",
+    "4": "Paragraph C notes Central Park was designed for both rich and poor citizens.",
+    "5": "Paragraph G highlights the ecological importance of modern parks."
+  }},
+  "options": ["A", "B", "C", "D", "E", "F", "G"]
+}}
+
+{{
+  "id": "Q1-4",
+  "question_type": "Matching Information",
+  "question_text": "Match each scientist to their major discovery or contribution.",
+  "questions": {{
+    "1": "Developed the first vaccine for rabies.",
+    "2": "Proposed the theory of evolution by natural selection.",
+    "3": "Discovered the structure of DNA.",
+    "4": "Pioneered research in radioactivity."
+  }},
+  "answer": {{
+    "1": "Louis Pasteur",
+    "2": "Charles Darwin",
+    "3": "James Watson",
+    "4": "Marie Curie"
+  }},
+  "rationale": {{
+    "1": "Louis Pasteur developed the first rabies vaccine.",
+    "2": "Charles Darwin proposed the theory of evolution by natural selection.",
+    "3": "James Watson co-discovered the structure of DNA.",
+    "4": "Marie Curie pioneered research in radioactivity."
+  }},
+  "options": [
+    "Louis Pasteur",
+    "Charles Darwin",
+    "James Watson",
+    "Marie Curie",
+    "Gregor Mendel",
+    "Rosalind Franklin",
+    "Isaac Newton",
+    "Albert Einstein"
+  ]
+}}
+
+{{
+  "id": "Q4-6",
+  "question_type": "Matching Information",
+  "question_text": "The passage has six paragraphs. Which paragraph contains the following information? Write the correct country mentioned in the paragraph.",
+  "questions": {{
+    "1": "Produced the largest amount of coffee in the world.",
+    "2": "Famous for the Great Barrier Reef.",
+    "3": "Home to the ancient pyramids.",
+    "4": "Known for its tulips and windmills.",
+    "5": "Origin of sushi.",
+    "6": "Hosts the running of the bulls festival."
+  }},
+  "answer": {{
+    "1": "Brazil",
+    "2": "Australia",
+    "3": "Egypt",
+    "4": "Netherlands",
+    "5": "Japan",
+    "6": "Spain"
+  }},
+  "rationale": {{
+    "1": "Brazil is the largest producer of coffee globally.",
+    "2": "Australia is famous for the Great Barrier Reef.",
+    "3": "Egypt is home to the ancient pyramids.",
+    "4": "The Netherlands is known for tulips and windmills.",
+    "5": "Sushi originated in Japan.",
+    "6": "Spain hosts the running of the bulls festival."
+  }},
+  "options": [
+    "Brazil",
+    "Australia",
+    "Egypt",
+    "Netherlands",
+    "Japan",
+    "Spain"
+  ]
+}}

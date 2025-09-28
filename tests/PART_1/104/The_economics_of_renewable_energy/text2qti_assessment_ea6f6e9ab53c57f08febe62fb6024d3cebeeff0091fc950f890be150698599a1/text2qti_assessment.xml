@@ -1,0 +1,773 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:questestinterop xmlns:ns0="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <ns0:assessment ident="text2qti_assessment_ea6f6e9ab53c57f08febe62fb6024d3cebeeff0091fc950f890be150698599a1" title="Quiz">
+    <ns0:qtimetadata>
+      <ns0:qtimetadatafield>
+        <ns0:fieldlabel>cc_maxattempts</ns0:fieldlabel>
+        <ns0:fieldentry>1</ns0:fieldentry>
+      </ns0:qtimetadatafield>
+    </ns0:qtimetadata>
+    <ns0:section ident="root_section">
+      <ns0:item ident="text2qti_text_d686cf3ef8ff80ee01a8928cb13d747ac90aaee4bd390c8a9dd5f681e18274e6" title="The economics of renewable energy">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_d686cf3ef8ff80ee01a8928cb13d747ac90aaee4bd390c8a9dd5f681e18274e6</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Text title: The Economics of Renewable Energy&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_7ce03f5e9578f5088f9f03545f4d1b9f34f6b3c1a13c9f1c1668685c532ee453" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_7ce03f5e9578f5088f9f03545f4d1b9f34f6b3c1a13c9f1c1668685c532ee453</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;A. For several decades, energy debates were largely about fuel prices and supply security. In recent years, however, economics has shifted much of the conversation toward renewables. Wind, solar, and modern hydropower convert natural flows into electricity without ongoing fuel purchases. Their costs are dominated by equipment and construction, rather than by coal, oil, or gas. Consequently, once built, the operating expenses are comparatively low and predictable. This feature appeals to planners who seek stable prices over long periods. The economic question, therefore, has changed from whether renewables can work, to where, when, and under which conditions they deliver the best value.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_fdd6e8941d3bc37e0013e221c85281f622e3218a1a9dfb618c96111a91ca336e" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_fdd6e8941d3bc37e0013e221c85281f622e3218a1a9dfb618c96111a91ca336e</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;B. Analysts often use a single measure to compare power sources: the levelised cost of energy, or LCOE. This metric spreads all costs—building, financing, operating, and maintaining—across the electricity produced over a plant’s lifetime. It allows different technologies to be assessed on a similar basis. Because solar and wind have higher upfront costs, finance becomes a central factor in their LCOE. In contrast, gas plants depend more on future fuel prices. The balance of risks is therefore different. With renewables, the main risk lies in construction and financing; with fossil fuels, it lies in fuel markets and volatility.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_aae8974c5edc680ab29a5e6adee8ef157cf070df8ebb743dc447ebca49345bcf" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_aae8974c5edc680ab29a5e6adee8ef157cf070df8ebb743dc447ebca49345bcf</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;C. Costs for renewables have declined markedly, especially after 2010. Industry data show that average utility-scale solar electricity fell from around $0.35 per kWh in 2010 to near $0.05 per kWh by 2022 in many markets. Onshore wind power in the same period moved from roughly $0.09 to near &lt;img class="equation_image" title="0.03–" src="/equation_images/0.03%E2%80%93?scale=1" alt="LaTeX: 0.03–" data-equation-content="0.03–" data-ignore-a11y-check="" &gt;0.05 per kWh. Some auctions reported even lower bids, close to $0.02, though such prices may include special conditions. These changes reflect learning-by-doing and larger factories, which reduce unit costs as production expands. Moreover, standard designs and global supply chains have cut installation times. Therefore, scale and experience have been powerful drivers of affordability.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_995c987713187390cc714c063f199572a2397704955e8678c045c620e2b0030c" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_995c987713187390cc714c063f199572a2397704955e8678c045c620e2b0030c</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;D. Low generation costs do not settle every economic issue. Solar and wind are variable, so their output rises and falls with the weather. Grids must balance this variability to keep supply and demand aligned. Additional costs may include storage, flexible gas turbines, or stronger transmission lines. These items are sometimes called system or integration costs. In high-renewable regions, curtailment—where wind or solar output is reduced—can occur when the grid is congested. Nevertheless, better forecasting, smarter controls, and more interconnections can limit these costs. Over time, batteries and demand response may further reduce variability-related expenses.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_e5738fe1ff90a42111abc294000e91dbc1a23b4cbcf5ef0bc202c9990b6beed8" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_e5738fe1ff90a42111abc294000e91dbc1a23b4cbcf5ef0bc202c9990b6beed8</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;E. Policy design strongly influences renewable economics. Early support came from feed-in tariffs, which guaranteed fixed prices for green electricity. Germany’s law in 2000 is widely cited; it encouraged rooftop solar and onshore wind, creating a large domestic market. Later, many countries shifted to competitive auctions to buy electricity at the lowest possible price. Auctions can reduce costs by revealing the price that firms are willing to accept. Tax credits, low-interest loans, and clear permitting rules also lower financing costs. Stable rules reduce uncertainty and, in turn, the discount rates that investors require, making projects more affordable for consumers.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_0a583f1aaefc0884abbd6baf7834289d631d822d47e8ff9c832c86a3dae6945b" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_0a583f1aaefc0884abbd6baf7834289d631d822d47e8ff9c832c86a3dae6945b</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;F. Financing terms can make or break a project. The discount rate, a measure of the cost of capital, has an outsized effect because most expenses occur upfront. Lower rates translate into cheaper electricity over the plant’s life. Long-term power purchase agreements, known as PPAs, reduce revenue risk and help secure loans. Banks and insurers also assess construction risk and equipment reliability. Green bonds and development bank guarantees can broaden the pool of capital. Where policy is consistent, money tends to be cheaper; where rules change often, investors demand higher returns, and projects become more costly.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_d64d91ce2cdf0b6880bbad69eeddd94e175f3ea14a554cccad203e4190edcf34" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_d64d91ce2cdf0b6880bbad69eeddd94e175f3ea14a554cccad203e4190edcf34</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;G. A practical example comes from Texas, a major wind producer in the United States. In the late 2000s, the state approved Competitive Renewable Energy Zones to connect windy plains to cities. Between 2008 and 2014, about $7 billion funded new transmission lines, which moved power from remote areas to demand centers. This project reduced curtailment and unlocked cheaper electricity from wind farms. Developers could then bid lower prices, knowing that their output would reach the market. The case suggests that infrastructure and planning, not only turbines, determine final costs. Without adequate grids, low-cost generation cannot be fully used.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_d8318fa68f1f956632e97e84f025db7194c51f79b3a06e725625db29aad5ac0d" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_d8318fa68f1f956632e97e84f025db7194c51f79b3a06e725625db29aad5ac0d</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;H. The economics of renewables are not uniform; they depend on location, policy, and system design. Sunny deserts, windy coasts, and strong river valleys offer natural advantages. Even so, careful planning, affordable finance, and efficient markets are needed to realise those benefits. There are additional gains beyond the price of electricity, such as reduced exposure to fuel shocks and lower air pollution. However, trade-offs remain, including land use, recycling, and fairness in cost sharing. As technologies improve and grids become more flexible, the balance is likely to keep moving. Many regions therefore see renewables as a core part of future energy systems.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_f73af890968a1e1bb45752590a8fb9ffcadb93405f0975d0ebcbe9ea457189f1" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_f73af890968a1e1bb45752590a8fb9ffcadb93405f0975d0ebcbe9ea457189f1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Do the following statements agree with the information given in the text? Write TRUE, FALSE, or NOT GIVEN.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_88a8cb3e06abbeae708573d19953dad99c1d81658afbc5e2958a0e73f825a479" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_3786e572cca5d6cd7578fd2f72fdff0bd82e198c314602c40e4b70a9439c62d4,text2qti_choice_7c9bc7a3138d963022e9a16c8f534ab28d572665782e0d767dada79936418565,text2qti_choice_304c1562f79034575e6b98a946186c7cfc1310001e3ccb74896e2456c9dd6d80</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_88a8cb3e06abbeae708573d19953dad99c1d81658afbc5e2958a0e73f825a479</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Do the following statements agree with the information in the passage? Write True, False or Not Given: Once built, renewable plants have operating expenses that are relatively low and predictable.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_3786e572cca5d6cd7578fd2f72fdff0bd82e198c314602c40e4b70a9439c62d4">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_7c9bc7a3138d963022e9a16c8f534ab28d572665782e0d767dada79936418565">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_304c1562f79034575e6b98a946186c7cfc1310001e3ccb74896e2456c9dd6d80">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_3786e572cca5d6cd7578fd2f72fdff0bd82e198c314602c40e4b70a9439c62d4</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Paragraph A states that once built, renewables have comparatively low and predictable operating expenses.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_f84500d9c53ba4088716ef98071fba7660f886da071d890b00a6f6a260173f1f" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_d368a3fb7a5c6dc64d9f5903c5894ce0bd6fd452955866759fceedc0929dca84,text2qti_choice_75f3efe65c3c7227ff88824019489b7ba86a1a1b684d796440076bcd259422de,text2qti_choice_427f69da6aec746a88206898044aa92208dbc7189ad3f2187aa138eed7805a4b</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_f84500d9c53ba4088716ef98071fba7660f886da071d890b00a6f6a260173f1f</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Do the following statements agree with the information in the passage? Write True, False or Not Given: Renewables now provide the best value in all locations.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_d368a3fb7a5c6dc64d9f5903c5894ce0bd6fd452955866759fceedc0929dca84">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_75f3efe65c3c7227ff88824019489b7ba86a1a1b684d796440076bcd259422de">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_427f69da6aec746a88206898044aa92208dbc7189ad3f2187aa138eed7805a4b">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_75f3efe65c3c7227ff88824019489b7ba86a1a1b684d796440076bcd259422de</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Paragraph A says the question is where, when, and under which conditions renewables deliver the best value, not in all locations.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_446cb16672e4ace06eb97c4909adcd550a4533bc04db8a1ad3e06a74a7c45621" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_27f5a68fefae6e07e37ce9c3da8e058eedb2630d070d4497c1e1e38bbe62ba45,text2qti_choice_bb078b758e30f3952b5d24c0e2e357ec018e56324cd9fb3d4a49fa508e33a554,text2qti_choice_64845645cee7e9a6506724009162a10f4a4e921b8957a712f44b1b5a760411a5</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_446cb16672e4ace06eb97c4909adcd550a4533bc04db8a1ad3e06a74a7c45621</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Do the following statements agree with the information in the passage? Write True, False or Not Given: The levelised cost of energy (LCOE) spreads all costs over a plant’s lifetime output to compare different technologies on a similar basis.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_27f5a68fefae6e07e37ce9c3da8e058eedb2630d070d4497c1e1e38bbe62ba45">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_bb078b758e30f3952b5d24c0e2e357ec018e56324cd9fb3d4a49fa508e33a554">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_64845645cee7e9a6506724009162a10f4a4e921b8957a712f44b1b5a760411a5">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_27f5a68fefae6e07e37ce9c3da8e058eedb2630d070d4497c1e1e38bbe62ba45</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Paragraph B explains LCOE includes building, financing, operating and maintaining costs across lifetime electricity to enable comparisons.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_0ce132fbdebb1e2b19a9f2f67b449fa852e842c9249d13fa7f65dd46cefa5112" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_29f3ea809a103c617a6ce3e8724153d8ff196a34d3d58b2e0754f46e727474b3,text2qti_choice_dad03b68fd4fdd2edf53a8e1e7d11466cf61504c6f8c4c63cf9ae55bc45b24bd,text2qti_choice_d7c384dc4dc6cec90d62e3d805474c2f472ed9ef18ec420772b94e4b2631c01f</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_0ce132fbdebb1e2b19a9f2f67b449fa852e842c9249d13fa7f65dd46cefa5112</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Do the following statements agree with the information in the passage? Write True, False or Not Given: For gas-fired plants, financing is typically the main risk rather than fuel prices.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_29f3ea809a103c617a6ce3e8724153d8ff196a34d3d58b2e0754f46e727474b3">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_dad03b68fd4fdd2edf53a8e1e7d11466cf61504c6f8c4c63cf9ae55bc45b24bd">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_d7c384dc4dc6cec90d62e3d805474c2f472ed9ef18ec420772b94e4b2631c01f">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_dad03b68fd4fdd2edf53a8e1e7d11466cf61504c6f8c4c63cf9ae55bc45b24bd</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Paragraph B indicates gas plants depend more on future fuel prices and that their risk lies in fuel markets and volatility.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_bd7b689109dd2fbcf7c1e72a33735c1459560025b2dbd331f561ce9094973691" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_373f3fd7b229e3ec09a3211660ef3ef6e827318a0be4daaa69da3e67c2685cf9,text2qti_choice_c1968c3953f691ba8138f966ca97015fc19e7c039cac45a07e607201a44a6fc5,text2qti_choice_b58df423710bb2d36a228ff27113855cc2e372a50cb6ccdc4bdbc43dd8bba2cc</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_bd7b689109dd2fbcf7c1e72a33735c1459560025b2dbd331f561ce9094973691</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Do the following statements agree with the information in the passage? Write True, False or Not Given: Global supply chains have made wind turbines more energy efficient.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_373f3fd7b229e3ec09a3211660ef3ef6e827318a0be4daaa69da3e67c2685cf9">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_c1968c3953f691ba8138f966ca97015fc19e7c039cac45a07e607201a44a6fc5">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_b58df423710bb2d36a228ff27113855cc2e372a50cb6ccdc4bdbc43dd8bba2cc">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_b58df423710bb2d36a228ff27113855cc2e372a50cb6ccdc4bdbc43dd8bba2cc</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Paragraph C notes standard designs and global supply chains have cut installation times, but does not mention changes in turbine efficiency.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_67fc7f78e2aa14670af7d8354a4b7b702b4d84faf250aeec2fa805b3e967ef34" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_d7315c40146a6c55c2e41613b7038042632abad6dbb22ff949300582bca93f48,text2qti_choice_e9b1bdde53e99bf2cb623bc213cc4e5d647807b734d1489badc96e43336c94ec,text2qti_choice_4c4dc91bc558361256b6c33fd52fd5f830befeca920c9e5c8018fb94ddf3bf58</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_67fc7f78e2aa14670af7d8354a4b7b702b4d84faf250aeec2fa805b3e967ef34</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Do the following statements agree with the information in the passage? Write True, False or Not Given: In high-renewable regions, curtailment can occur when the grid is congested.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_d7315c40146a6c55c2e41613b7038042632abad6dbb22ff949300582bca93f48">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_e9b1bdde53e99bf2cb623bc213cc4e5d647807b734d1489badc96e43336c94ec">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_4c4dc91bc558361256b6c33fd52fd5f830befeca920c9e5c8018fb94ddf3bf58">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_d7315c40146a6c55c2e41613b7038042632abad6dbb22ff949300582bca93f48</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Paragraph D states curtailment can occur when the grid is congested in high-renewable regions.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_5d3e6398dd82e1759692ad10e83c5e78ee424bf4d0b1814ff82e4e41b2d2b70c" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_cc2062f1b53cd70766d50e21c92548c6bc819d9698e12f66f76202752990bba0,text2qti_choice_1e3cc06761cf0b160b13be6decb298ba442a89449c9110680093b56f0addd2b4,text2qti_choice_70315ca7a1531bd9b3ed2e969aaac3b6c09fd34f7b58252b6cdabc01a77b8393</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_5d3e6398dd82e1759692ad10e83c5e78ee424bf4d0b1814ff82e4e41b2d2b70c</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Do the following statements agree with the information in the passage? Write True, False or Not Given: Stable rules reduce uncertainty and the discount rates investors require, making projects more affordable.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_cc2062f1b53cd70766d50e21c92548c6bc819d9698e12f66f76202752990bba0">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_1e3cc06761cf0b160b13be6decb298ba442a89449c9110680093b56f0addd2b4">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_70315ca7a1531bd9b3ed2e969aaac3b6c09fd34f7b58252b6cdabc01a77b8393">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_cc2062f1b53cd70766d50e21c92548c6bc819d9698e12f66f76202752990bba0</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Paragraph E says stable rules reduce uncertainty and, in turn, the discount rates that investors require, making projects more affordable.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+    <ns0:item ident="Q8-13" title="Question" points_possible="6.0"><ns0:itemmetadata><ns0:qtimetadata><ns0:qtimetadatafield><fieldlabel>question_type</fieldlabel><fieldentry>fill_in_multiple_blanks_question</fieldentry></ns0:qtimetadatafield><ns0:qtimetadatafield><fieldlabel>points_possible</fieldlabel><fieldentry>6.0</fieldentry></ns0:qtimetadatafield></ns0:qtimetadata></ns0:itemmetadata><ns0:presentation><ns0:material><ns0:mattext texttype="text/html">&lt;div&gt;&lt;div&gt;Complete the summary below with words or numbers from the passage. Because most expenses for renewables occur upfront, the [blank8] has a large impact on overall costs; lower rates make electricity cheaper over a plant’s life. Long-term [blank9] reduce revenue risk and help secure loans, while instruments such as [blank10] and development bank guarantees can widen access to capital. In Texas, establishing Competitive Renewable Energy Zones and investing about [blank11] in transmission reduced [blank12] and enabled lower bids, and many regions now view renewables as a [blank13] of future energy systems.&lt;/div&gt;&lt;/div&gt;</ns0:mattext></ns0:material><ns0:response_lid ident="response_blank8"><ns0:material><ns0:mattext>blank8</ns0:mattext></ns0:material><ns0:render_choice><ns0:response_label ident="5980"><ns0:material><ns0:mattext texttype="text/plain">discount rate</ns0:mattext></ns0:material></ns0:response_label></ns0:render_choice></ns0:response_lid><ns0:response_lid ident="response_blank9"><ns0:material><ns0:mattext>blank9</ns0:mattext></ns0:material><ns0:render_choice><ns0:response_label ident="2732"><ns0:material><ns0:mattext texttype="text/plain">power purchase agreements</ns0:mattext></ns0:material></ns0:response_label></ns0:render_choice></ns0:response_lid><ns0:response_lid ident="response_blank10"><ns0:material><ns0:mattext>blank10</ns0:mattext></ns0:material><ns0:render_choice><ns0:response_label ident="5249"><ns0:material><ns0:mattext texttype="text/plain">Green bonds</ns0:mattext></ns0:material></ns0:response_label></ns0:render_choice></ns0:response_lid><ns0:response_lid ident="response_blank11"><ns0:material><ns0:mattext>blank11</ns0:mattext></ns0:material><ns0:render_choice><ns0:response_label ident="1621"><ns0:material><ns0:mattext texttype="text/plain">$7 billion</ns0:mattext></ns0:material></ns0:response_label></ns0:render_choice></ns0:response_lid><ns0:response_lid ident="response_blank12"><ns0:material><ns0:mattext>blank12</ns0:mattext></ns0:material><ns0:render_choice><ns0:response_label ident="8447"><ns0:material><ns0:mattext texttype="text/plain">curtailment</ns0:mattext></ns0:material></ns0:response_label></ns0:render_choice></ns0:response_lid><ns0:response_lid ident="response_blank13"><ns0:material><ns0:mattext>blank13</ns0:mattext></ns0:material><ns0:render_choice><ns0:response_label ident="9101"><ns0:material><ns0:mattext texttype="text/plain">core part</ns0:mattext></ns0:material></ns0:response_label></ns0:render_choice></ns0:response_lid></ns0:presentation><ns0:resprocessing><ns0:outcomes><ns0:decvar maxvalue="6.0" minvalue="0" varname="SCORE" vartype="Decimal" /></ns0:outcomes><ns0:respcondition><ns0:conditionvar><ns0:varequal respident="response_blank8">5980</ns0:varequal></ns0:conditionvar><ns0:setvar varname="SCORE" action="Add">1.00</ns0:setvar></ns0:respcondition><ns0:respcondition><ns0:conditionvar><ns0:varequal respident="response_blank9">2732</ns0:varequal></ns0:conditionvar><ns0:setvar varname="SCORE" action="Add">1.00</ns0:setvar></ns0:respcondition><ns0:respcondition><ns0:conditionvar><ns0:varequal respident="response_blank10">5249</ns0:varequal></ns0:conditionvar><ns0:setvar varname="SCORE" action="Add">1.00</ns0:setvar></ns0:respcondition><ns0:respcondition><ns0:conditionvar><ns0:varequal respident="response_blank11">1621</ns0:varequal></ns0:conditionvar><ns0:setvar varname="SCORE" action="Add">1.00</ns0:setvar></ns0:respcondition><ns0:respcondition><ns0:conditionvar><ns0:varequal respident="response_blank12">8447</ns0:varequal></ns0:conditionvar><ns0:setvar varname="SCORE" action="Add">1.00</ns0:setvar></ns0:respcondition><ns0:respcondition><ns0:conditionvar><ns0:varequal respident="response_blank13">9101</ns0:varequal></ns0:conditionvar><ns0:setvar varname="SCORE" action="Add">1.00</ns0:setvar></ns0:respcondition></ns0:resprocessing><ns0:itemfeedback ident="general_fb"><ns0:flow_mat><ns0:material><ns0:mattext texttype="text/html">&lt;div&gt;&lt;div&gt;&lt;span&gt;Paragraph F: 'The discount rate ... has an outsized effect because most expenses occur upfront.'&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;span&gt;Paragraph F: 'Long-term power purchase agreements ... reduce revenue risk and help secure loans.'&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;span&gt;Paragraph F: 'Green bonds and development bank guarantees can broaden the pool of capital.'&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;span&gt;Paragraph G: 'Between 2008 and 2014, about $7 billion funded new transmission lines.'&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;span&gt;Paragraph G: 'This project reduced curtailment.'&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;span&gt;Paragraph H: 'Many regions therefore see renewables as a core part of future energy systems.'&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;</ns0:mattext></ns0:material></ns0:flow_mat></ns0:itemfeedback></ns0:item></ns0:section>
+  </ns0:assessment>
+</ns0:questestinterop>

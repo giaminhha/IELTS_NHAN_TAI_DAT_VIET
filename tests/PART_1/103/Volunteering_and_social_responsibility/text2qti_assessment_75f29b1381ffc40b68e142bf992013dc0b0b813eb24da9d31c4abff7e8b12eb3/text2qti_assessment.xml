@@ -1,0 +1,773 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:questestinterop xmlns:ns0="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <ns0:assessment ident="text2qti_assessment_75f29b1381ffc40b68e142bf992013dc0b0b813eb24da9d31c4abff7e8b12eb3" title="Quiz">
+    <ns0:qtimetadata>
+      <ns0:qtimetadatafield>
+        <ns0:fieldlabel>cc_maxattempts</ns0:fieldlabel>
+        <ns0:fieldentry>1</ns0:fieldentry>
+      </ns0:qtimetadatafield>
+    </ns0:qtimetadata>
+    <ns0:section ident="root_section">
+      <ns0:item ident="text2qti_text_cfc1e8acb148b45503534dd8b1dd648219688862d35175b400c357ae6e558691" title="Volunteering and social responsibility">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_cfc1e8acb148b45503534dd8b1dd648219688862d35175b400c357ae6e558691</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Text title: The Quiet Power of Volunteering&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_062175abc5cb17839c7734ca88ed674a21b4ddb233307bc42a6d25e3e8f87716" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_062175abc5cb17839c7734ca88ed674a21b4ddb233307bc42a6d25e3e8f87716</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;A. Volunteering is the unpaid contribution of time and effort to activities that benefit others beyond the household. It often includes work with charities, schools, clinics, or environmental groups, but it also occurs informally, such as caring for neighbours. Social responsibility is the broader idea that individuals and organisations have duties to the wider community. The two concepts overlap, since many people express social responsibility through volunteer action. Although motives vary, the outcome is frequently similar: additional support for essential services and stronger links between residents. Consequently, volunteering is viewed as a practical tool for improving everyday life while building trust across diverse groups.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_95d53a76bd684a2e6f2de6de6596c574f6bf9245320ca442fa85cf11ba6e91cb" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_95d53a76bd684a2e6f2de6de6596c574f6bf9245320ca442fa85cf11ba6e91cb</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;B. The modern practice of organised volunteering gained visibility in the late nineteenth century, when civic associations and religious charities expanded in Europe and North America. Later, wartime mobilisations showed that large populations could coordinate unpaid labour for public goals. After 1945, international organisations and non-governmental groups professionalised many activities, from disaster relief to literacy campaigns. In recent decades, digital platforms have accelerated matching between tasks and participants, thereby reducing barriers to entry. Short, flexible roles have emerged alongside long-term commitments. Notwithstanding these changes, a common feature remains: volunteers fill gaps that markets or governments cannot easily address, particularly in areas where quick adaptation and local knowledge are required.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_e306fc1db3327bca4ff7a7ecd032c7f5e22369eeac0af1cd9aee78a3233f4155" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_e306fc1db3327bca4ff7a7ecd032c7f5e22369eeac0af1cd9aee78a3233f4155</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;C. Explanations for volunteering tend to mix values and incentives. Altruism is often cited, yet reciprocity also matters; those who help may later receive assistance from the same networks. Some people volunteer to learn skills, gain confidence, or improve employability, which can therefore create individual benefits. Others respond to social norms shaped by family, school, or faith groups. Researchers suggest that a sense of purpose increases persistence, while one-off participation often follows public appeals or crises. The language of social responsibility frames this behaviour as a shared duty. However, the balance between personal gain and public benefit differs among cultures, organisations, and age groups.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_9ea68a9857c6178cd28b62e163de21858678c0bf0b9fa06b09a4e14e90a61f1d" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_9ea68a9857c6178cd28b62e163de21858678c0bf0b9fa06b09a4e14e90a61f1d</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;D. Community effects are usually incremental but can be significant. Volunteer tutors raise literacy, especially when they support teachers rather than replace them. Health clinics extend outreach through trained helpers who guide patients, collect simple data, or run vaccination queues. Environmental crews clean rivers, plant trees, and monitor wildlife, which improves local amenities and reduces risks. Through repeated contact, participants meet neighbours they would not otherwise encounter. Sociologists call this accumulation of trust and connections social capital. It may stabilise neighbourhoods, encourage civic dialogue, and reduce isolation. In addition, volunteers often connect institutions that usually operate apart, such as libraries, housing offices, and youth clubs.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_735fe2007800f6ef75abb2829fae149d3e795199f27c4af48b9030765e49d71f" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_735fe2007800f6ef75abb2829fae149d3e795199f27c4af48b9030765e49d71f</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;E. Data on volunteering vary, but some patterns are clear. A national survey in 2019 reported that 34% of adults volunteered at least once, and 18% did so monthly. Median time given was about two hours per week. In 2020, participation fell for several months due to public restrictions, yet it rose in online mentoring and delivery of food parcels. By late 2022, rates returned close to 2019 levels, though older volunteers remained less active than before. In one city, a 2021 audit recorded 3,200 active volunteers contributing 210,000 hours, equal to roughly 110 full-time roles. These figures suggest both resilience and adaptation.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_4d69cc35374e92da15ba99332aa5fdad38466eb3c5bb0c1b0d484a5bcf622760" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_4d69cc35374e92da15ba99332aa5fdad38466eb3c5bb0c1b0d484a5bcf622760</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;F. A widely discussed example occurred after the Christchurch earthquake in 2011. The Student Volunteer Army, formed by university students, mobilised thousands of people to clear silt, deliver supplies, and support vulnerable residents. Coordination combined social media, simple training, and local leadership. City services were overwhelmed in the early weeks, so volunteer crews filled immediate needs and connected officials with street-level information. Although professional teams eventually took over specialised tasks, the volunteer effort helped stabilise daily life. Observers noted two outcomes: faster clean-up in several districts, and a durable culture of youth engagement that later supported neighbourhood projects unrelated to the disaster.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_3e258eed8b20b972d0fb2d66b105cf78a7e006b4f017ed7e6417353730d8cac4" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_3e258eed8b20b972d0fb2d66b105cf78a7e006b4f017ed7e6417353730d8cac4</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;G. Despite clear benefits, volunteering presents challenges that require careful management. Unplanned efforts can duplicate services or create dependency, particularly if short-term enthusiasm replaces consistent support. Organisations must provide training, insurance, and background checks, which take time and money. There is also concern about displacement of paid work, especially in social care, where stable employment is essential. Furthermore, burnout may occur when a few committed people carry most of the workload. These risks can be reduced through defined roles, modest but regular recognition, and partnerships with public agencies. Nevertheless, it has been argued that some tension between flexibility and structure is unavoidable.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_a37c08f8f7911a6f84bc029fe92620d09d5ce6e16331aecf1d230e2959401313" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_a37c08f8f7911a6f84bc029fe92620d09d5ce6e16331aecf1d230e2959401313</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;H. Future developments may widen access while maintaining quality. Schools increasingly integrate service learning, linking classroom content with community projects and reflection. Employers support staff volunteering days, arguing that teamwork improves and skills transfer back to the workplace. Digital tools allow micro-volunteering, such as translating short texts or analysing images for conservation studies. However, inclusive design remains important so that older adults and people with limited connectivity are not excluded. Therefore, the most effective systems combine local knowledge with simple technology and training. If these elements align, volunteering can continue to express social responsibility in practical form, while also strengthening institutions that serve the public.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_f73af890968a1e1bb45752590a8fb9ffcadb93405f0975d0ebcbe9ea457189f1" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_f73af890968a1e1bb45752590a8fb9ffcadb93405f0975d0ebcbe9ea457189f1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Do the following statements agree with the information given in the text? Write TRUE, FALSE, or NOT GIVEN.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_8ce43dd03d40f5a6fc14940f618be20c564ccef41cf60aa7b60d6282110ec044" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_32ba1ab97aed06f5df0ea896830b882dc9bb970003841338e5fbe548cc947035,text2qti_choice_2f8ae06cb8457bd28dfa1c7f0a1c1f6b4a13d834d17d8bc2c88dcfeab68d873b,text2qti_choice_f071a09342881efb45c626105da199ee16191978456a10a40e085796651b61af</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_8ce43dd03d40f5a6fc14940f618be20c564ccef41cf60aa7b60d6282110ec044</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Do the following statements agree with the information in the passage? Write True, False or Not Given: Volunteering can happen informally, for example by helping nearby residents.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_32ba1ab97aed06f5df0ea896830b882dc9bb970003841338e5fbe548cc947035">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_2f8ae06cb8457bd28dfa1c7f0a1c1f6b4a13d834d17d8bc2c88dcfeab68d873b">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_f071a09342881efb45c626105da199ee16191978456a10a40e085796651b61af">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_32ba1ab97aed06f5df0ea896830b882dc9bb970003841338e5fbe548cc947035</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Text A states that volunteering also occurs informally, such as caring for neighbours.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_d79f4f8ec33c6cf8b7a1f95ee53b088b56c0db43bf67a9553f4ef0c2a17768cb" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_fa2fd75b0cdf44a05b4b67fb64f26806a290227cb9b13257c4bb32869635bfe4,text2qti_choice_a377611fdf278d0ecc8b0bfff3552dff98b0484009cd2be4b876dc055c34b058,text2qti_choice_2643b630a2f48027319633dea07063ba8ef1457daaaf9dc4713e91e3b0b028f3</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_d79f4f8ec33c6cf8b7a1f95ee53b088b56c0db43bf67a9553f4ef0c2a17768cb</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Do the following statements agree with the information in the passage? Write True, False or Not Given: Social responsibility and volunteering are exactly the same concept.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_fa2fd75b0cdf44a05b4b67fb64f26806a290227cb9b13257c4bb32869635bfe4">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_a377611fdf278d0ecc8b0bfff3552dff98b0484009cd2be4b876dc055c34b058">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_2643b630a2f48027319633dea07063ba8ef1457daaaf9dc4713e91e3b0b028f3">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_a377611fdf278d0ecc8b0bfff3552dff98b0484009cd2be4b876dc055c34b058</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Text A explains that social responsibility is broader and overlaps with volunteering, but they are not identical.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_1a1a80e7d130470f74e506cd9768f3c9192810855b3abbe2c4c6cc1431fb3dfb" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_42d677736281a2093bbe24e23059c41a8e8892189ba11ab32a37d09abb7f6b6a,text2qti_choice_7c3f865f870237e2c20e47b212a4854d9b35027ee26dcadb5a7b1315c1d6c615,text2qti_choice_5e44b15ac42f38f8c87f3cc803bb38a136e809aeb2919527f6e8b2c9c9fb6492</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_1a1a80e7d130470f74e506cd9768f3c9192810855b3abbe2c4c6cc1431fb3dfb</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Do the following statements agree with the information in the passage? Write True, False or Not Given: Organised volunteering became more visible in the late nineteenth century as civic and religious organisations expanded.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_42d677736281a2093bbe24e23059c41a8e8892189ba11ab32a37d09abb7f6b6a">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_7c3f865f870237e2c20e47b212a4854d9b35027ee26dcadb5a7b1315c1d6c615">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_5e44b15ac42f38f8c87f3cc803bb38a136e809aeb2919527f6e8b2c9c9fb6492">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_42d677736281a2093bbe24e23059c41a8e8892189ba11ab32a37d09abb7f6b6a</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Text B notes that organised volunteering gained visibility in the late nineteenth century with the growth of civic associations and religious charities.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_16bd2d0a5074277171855f1914ef904855e6f7ac296362180599a770a056a983" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_1ae7d49248500fd42b1b032e057e8c6f592786be2337d99c5b53a8d9183f1857,text2qti_choice_63f3d3af07687e5968c94973eb34d77ef26d452585f2df72320b6ff7568da756,text2qti_choice_a3206542144021fd29f0104dd61984360f59a3c8144612dd18f64c3bfdc73faf</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_16bd2d0a5074277171855f1914ef904855e6f7ac296362180599a770a056a983</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Do the following statements agree with the information in the passage? Write True, False or Not Given: Wartime mobilisation proved that large populations could coordinate unpaid work to achieve public objectives.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_1ae7d49248500fd42b1b032e057e8c6f592786be2337d99c5b53a8d9183f1857">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_63f3d3af07687e5968c94973eb34d77ef26d452585f2df72320b6ff7568da756">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_a3206542144021fd29f0104dd61984360f59a3c8144612dd18f64c3bfdc73faf">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_1ae7d49248500fd42b1b032e057e8c6f592786be2337d99c5b53a8d9183f1857</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Text B states that wartime mobilisations showed large populations could coordinate unpaid labour for public goals.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_d04c70eabce4397e1c15e1515ff3e5595e9e5492bb151bf4de5b20e73b8fb0eb" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_b22d77f5e64862c047ff55fd9a5709828a1937ae0fc0f34c6cda6817cae007b2,text2qti_choice_29815bb6dc63aeadf05c98f4418798d9717423e5b865ce690f81510cda3b9695,text2qti_choice_8cd23201e8853ec6b1ef50a6605d98caabc91a08c3742ac303d2ca529330bb84</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_d04c70eabce4397e1c15e1515ff3e5595e9e5492bb151bf4de5b20e73b8fb0eb</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Do the following statements agree with the information in the passage? Write True, False or Not Given: Recent digital platforms have made it harder for newcomers to get involved in volunteering.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_b22d77f5e64862c047ff55fd9a5709828a1937ae0fc0f34c6cda6817cae007b2">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_29815bb6dc63aeadf05c98f4418798d9717423e5b865ce690f81510cda3b9695">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_8cd23201e8853ec6b1ef50a6605d98caabc91a08c3742ac303d2ca529330bb84">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_29815bb6dc63aeadf05c98f4418798d9717423e5b865ce690f81510cda3b9695</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Text B says digital platforms reduced barriers to entry and accelerated matching between tasks and participants.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_525019e05acd8e77ccbfd6ac862f04dafd395c4cd36fd4a0e05dd45abb91ae9d" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_b5efef93a03889ed32952878e3fa133512a018dd29eadc111d92a464ec87839e,text2qti_choice_19c78cbf89403003b82ff39579e340ec5be3165490b039fd73b516484e225605,text2qti_choice_f5bfe4cbb5a2d886e28143a2e90c33a3320ff0f8a67fa6d1720d5e24be834b01</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_525019e05acd8e77ccbfd6ac862f04dafd395c4cd36fd4a0e05dd45abb91ae9d</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Do the following statements agree with the information in the passage? Write True, False or Not Given: In every culture, the balance between personal gain and public benefit in volunteering is identical.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_b5efef93a03889ed32952878e3fa133512a018dd29eadc111d92a464ec87839e">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_19c78cbf89403003b82ff39579e340ec5be3165490b039fd73b516484e225605">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_f5bfe4cbb5a2d886e28143a2e90c33a3320ff0f8a67fa6d1720d5e24be834b01">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_19c78cbf89403003b82ff39579e340ec5be3165490b039fd73b516484e225605</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Text C states the balance differs among cultures, organisations, and age groups. This counters the absolute claim.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_838f83b924de994d5c3ad78a34c7ed5b9ac241f338e8ddc7ec97dec838567fc9" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_20c9580f0e4d8837e8656f5d92be13574faaacb44e9175acd4b8ee4e763ab878,text2qti_choice_fcffa47631a294b2d7216a1b8d75b8afbf866c583773e8aa5b08c31e3a4ff035,text2qti_choice_2bd344c68263e5ed090fa944f3b28245b401594ba44a26ecaa1b4c67af011dd6</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_838f83b924de994d5c3ad78a34c7ed5b9ac241f338e8ddc7ec97dec838567fc9</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Do the following statements agree with the information in the passage? Write True, False or Not Given: Volunteer tutoring improves literacy most when it complements teachers rather than replaces them.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_20c9580f0e4d8837e8656f5d92be13574faaacb44e9175acd4b8ee4e763ab878">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_fcffa47631a294b2d7216a1b8d75b8afbf866c583773e8aa5b08c31e3a4ff035">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_2bd344c68263e5ed090fa944f3b28245b401594ba44a26ecaa1b4c67af011dd6">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_20c9580f0e4d8837e8656f5d92be13574faaacb44e9175acd4b8ee4e763ab878</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Text D explains that volunteer tutors raise literacy especially when they support teachers, not replace them.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+    <ns0:item ident="Q8-13" title="Question" points_possible="6.0"><ns0:itemmetadata><ns0:qtimetadata><ns0:qtimetadatafield><fieldlabel>question_type</fieldlabel><fieldentry>fill_in_multiple_blanks_question</fieldentry></ns0:qtimetadatafield><ns0:qtimetadatafield><fieldlabel>points_possible</fieldlabel><fieldentry>6.0</fieldentry></ns0:qtimetadatafield></ns0:qtimetadata></ns0:itemmetadata><ns0:presentation><ns0:material><ns0:mattext texttype="text/html">&lt;div&gt;&lt;div&gt;Complete the summary below with words and/or numbers from the passage. Recent figures show both resilience and change in participation: in 2019, [blank8]__ of adults volunteered at least once, with [blank9]__ doing so monthly, and a median of about [blank10]__ per week. In 2020, participation dipped due to public restrictions, but increased in [blank11]__ and in delivering [blank12]__. By late 2022, rates were close to 2019 levels, though older volunteers were [blank13]__ than before.&lt;/div&gt;&lt;/div&gt;</ns0:mattext></ns0:material><ns0:response_lid ident="response_blank8"><ns0:material><ns0:mattext>blank8</ns0:mattext></ns0:material><ns0:render_choice><ns0:response_label ident="8914"><ns0:material><ns0:mattext texttype="text/plain">34%</ns0:mattext></ns0:material></ns0:response_label></ns0:render_choice></ns0:response_lid><ns0:response_lid ident="response_blank9"><ns0:material><ns0:mattext>blank9</ns0:mattext></ns0:material><ns0:render_choice><ns0:response_label ident="5833"><ns0:material><ns0:mattext texttype="text/plain">18%</ns0:mattext></ns0:material></ns0:response_label></ns0:render_choice></ns0:response_lid><ns0:response_lid ident="response_blank10"><ns0:material><ns0:mattext>blank10</ns0:mattext></ns0:material><ns0:render_choice><ns0:response_label ident="6558"><ns0:material><ns0:mattext texttype="text/plain">two hours</ns0:mattext></ns0:material></ns0:response_label></ns0:render_choice></ns0:response_lid><ns0:response_lid ident="response_blank11"><ns0:material><ns0:mattext>blank11</ns0:mattext></ns0:material><ns0:render_choice><ns0:response_label ident="3490"><ns0:material><ns0:mattext texttype="text/plain">online mentoring</ns0:mattext></ns0:material></ns0:response_label></ns0:render_choice></ns0:response_lid><ns0:response_lid ident="response_blank12"><ns0:material><ns0:mattext>blank12</ns0:mattext></ns0:material><ns0:render_choice><ns0:response_label ident="2716"><ns0:material><ns0:mattext texttype="text/plain">food parcels</ns0:mattext></ns0:material></ns0:response_label></ns0:render_choice></ns0:response_lid><ns0:response_lid ident="response_blank13"><ns0:material><ns0:mattext>blank13</ns0:mattext></ns0:material><ns0:render_choice><ns0:response_label ident="7684"><ns0:material><ns0:mattext texttype="text/plain">less active</ns0:mattext></ns0:material></ns0:response_label></ns0:render_choice></ns0:response_lid></ns0:presentation><ns0:resprocessing><ns0:outcomes><ns0:decvar maxvalue="6.0" minvalue="0" varname="SCORE" vartype="Decimal" /></ns0:outcomes><ns0:respcondition><ns0:conditionvar><ns0:varequal respident="response_blank8">8914</ns0:varequal></ns0:conditionvar><ns0:setvar varname="SCORE" action="Add">1.00</ns0:setvar></ns0:respcondition><ns0:respcondition><ns0:conditionvar><ns0:varequal respident="response_blank9">5833</ns0:varequal></ns0:conditionvar><ns0:setvar varname="SCORE" action="Add">1.00</ns0:setvar></ns0:respcondition><ns0:respcondition><ns0:conditionvar><ns0:varequal respident="response_blank10">6558</ns0:varequal></ns0:conditionvar><ns0:setvar varname="SCORE" action="Add">1.00</ns0:setvar></ns0:respcondition><ns0:respcondition><ns0:conditionvar><ns0:varequal respident="response_blank11">3490</ns0:varequal></ns0:conditionvar><ns0:setvar varname="SCORE" action="Add">1.00</ns0:setvar></ns0:respcondition><ns0:respcondition><ns0:conditionvar><ns0:varequal respident="response_blank12">2716</ns0:varequal></ns0:conditionvar><ns0:setvar varname="SCORE" action="Add">1.00</ns0:setvar></ns0:respcondition><ns0:respcondition><ns0:conditionvar><ns0:varequal respident="response_blank13">7684</ns0:varequal></ns0:conditionvar><ns0:setvar varname="SCORE" action="Add">1.00</ns0:setvar></ns0:respcondition></ns0:resprocessing><ns0:itemfeedback ident="general_fb"><ns0:flow_mat><ns0:material><ns0:mattext texttype="text/html">&lt;div&gt;&lt;div&gt;&lt;span&gt;Text E: A 2019 national survey reported 34% volunteered at least once.&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;span&gt;Text E: 18% did so monthly.&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;span&gt;Text E: Median time given was about two hours per week.&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;span&gt;Text E: In 2020, participation rose in online mentoring.&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;span&gt;Text E: It also rose in delivery of food parcels.&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;span&gt;Text E: By late 2022, older volunteers remained less active than before.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;</ns0:mattext></ns0:material></ns0:flow_mat></ns0:itemfeedback></ns0:item></ns0:section>
+  </ns0:assessment>
+</ns0:questestinterop>

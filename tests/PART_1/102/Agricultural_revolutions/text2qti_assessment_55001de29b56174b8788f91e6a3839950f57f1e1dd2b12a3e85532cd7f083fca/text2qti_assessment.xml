@@ -1,0 +1,870 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:questestinterop xmlns:ns0="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <ns0:assessment ident="text2qti_assessment_55001de29b56174b8788f91e6a3839950f57f1e1dd2b12a3e85532cd7f083fca" title="Quiz">
+    <ns0:qtimetadata>
+      <ns0:qtimetadatafield>
+        <ns0:fieldlabel>cc_maxattempts</ns0:fieldlabel>
+        <ns0:fieldentry>1</ns0:fieldentry>
+      </ns0:qtimetadatafield>
+    </ns0:qtimetadata>
+    <ns0:section ident="root_section">
+      <ns0:item ident="text2qti_text_9c7c79fc10db20b56e319240bf1cce3a40ee8eea913fb302610902b249aa3a62" title="Agricultural revolutions">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_9c7c79fc10db20b56e319240bf1cce3a40ee8eea913fb302610902b249aa3a62</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Text title: Turning Points in Farming: From Fields to Food Systems&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_4d31c25cf2cea74c25fc3bdba52ce5e8d2a107fc55d5ac776577745c1c11c80c" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_4d31c25cf2cea74c25fc3bdba52ce5e8d2a107fc55d5ac776577745c1c11c80c</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;A. The phrase “agricultural revolution” is used to describe periods when farming changed quickly and widely. These shifts did not happen in a single place, nor did they follow a single path. Instead, many regions adopted new crops, tools, and practices that raised output and reliability. These changes supported population growth and allowed more people to live in towns. They also encouraged trade, storage, and craft work, because food became more predictable. Although each wave had different causes, the result was similar: more food per worker and per hectare. Therefore, ideas about land, labour, and risk were gradually reorganised.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_7f5356dbe171373c0d6296346b871c0a651f89e2984d1e30d167ee74d8a1279a" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_7f5356dbe171373c0d6296346b871c0a651f89e2984d1e30d167ee74d8a1279a</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;B. The first major transition began after the last Ice Age, when groups started to grow plants and keep animals. Between about 10,000 and 8,000 BCE, farming emerged in parts of Southwest Asia, China, and the Americas. Wild grasses were turned into crops like wheat, barley, and rice, and goats and cattle were brought into herds. Small villages appeared near water, where tools for grinding grain and storing surplus were developed. Irrigation was simple at first but improved over time. The consequence was a steady food supply, which permitted larger settlements. However, dependence on a few crops also created new risks from drought, pests, and disease.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_83c4d9ab009f017513c5c3d42bd68b9c1628d48e13484e7e5cd1e950600ac0f4" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_83c4d9ab009f017513c5c3d42bd68b9c1628d48e13484e7e5cd1e950600ac0f4</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;C. A later wave in early modern Europe brought rising yields through organisation and technique. Fields were enclosed, which allowed landowners to plan rotations across larger blocks. The Norfolk system, for example, mixed grains with turnips and clover to restore soils and feed animals. More manure from animals then improved fields in return. A seed drill placed seeds evenly and at a set depth, reducing waste. Selective breeding shaped stronger animals and better varieties. These practices did not spread everywhere at once, but their combined effect was significant. Farming became more systematic, labour needs changed, and rural workers moved toward growing towns.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_1d26e960d933b60af715757e5e291e3cddd305502521c32a1aeb437917680bf7" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_1d26e960d933b60af715757e5e291e3cddd305502521c32a1aeb437917680bf7</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;D. In the twentieth century, mechanisation and chemistry altered agriculture again. Tractors began to replace animal power in the 1920s and 1930s, and combine harvesters simplified grain collection. Synthetic nitrogen, made practical after the Haber-Bosch process was commercialised around 1913, raised fertility. By mid-century, manufactured fertiliser and improved machinery were common in many countries. As a result, yields increased and the time required for key tasks fell sharply. However, these gains came with higher energy use and more dependence on manufactured inputs. Soil structure, water quality, and biodiversity were affected, so the benefits were large but not cost-free.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_5eb4558133c15d955e5450c5cf792e3f12ae68f5c2d2afe84e69e691940d93f3" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_5eb4558133c15d955e5450c5cf792e3f12ae68f5c2d2afe84e69e691940d93f3</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;E. The Green Revolution of the 1960s and 1970s is often described through case studies. In Mexico, new wheat lines bred for disease resistance and short stems produced higher yields under irrigation and fertiliser. In India’s Punjab and Haryana, wheat harvests more than doubled between about 1965 and 1975, helped by reliable water, credit, and markets. A widely known rice variety, IR8, was released in 1966 by the International Rice Research Institute. With fertiliser and controlled water, it lifted outputs markedly. These results reduced hunger and helped stabilise grain prices. Yet they required stable infrastructure, and some smallholders could not afford the full package.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_069414f0dd124b8213ea853d4805ce47ed9f55d23f524d74104bf0d77d5e8110" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_069414f0dd124b8213ea853d4805ce47ed9f55d23f524d74104bf0d77d5e8110</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;F. The same inputs that raised yields also created vulnerabilities. Heavy fertiliser use can leach into rivers and cause algal blooms. Over-irrigation brings salt to the surface, which limits plant growth and is costly to reverse. Pesticide overuse harms pollinators and speeds resistance in insects and weeds. In addition, higher yields can depend on fossil fuels for manufacturing and transport. Price swings in fuel or fertiliser therefore spread quickly through farm budgets. Social effects emerged as well. Larger farms often captured more of the gains, while smaller producers struggled to invest. Consequently, productivity rose, but equality did not always follow.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_7134a520d49ffc66abd68a6e7a3dcc42aaae992a30a9b67ce790de4d1712de7a" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_7134a520d49ffc66abd68a6e7a3dcc42aaae992a30a9b67ce790de4d1712de7a</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;G. Today, a new phase blends digital tools with ecological ideas. Precision agriculture uses GPS, sensors, and drones to apply water and fertiliser only where needed, which reduces waste. Simple soil tests and mobile phone advice can guide smallholders without expensive equipment. Gene editing aims to produce crops that tolerate heat, drought, or disease, while keeping flavour and nutrition. At the same time, agroecology and regenerative practices focus on soil life, crop diversity, and year-round cover. These methods reduce erosion and improve resilience. Controlled-environment farming, including greenhouses and vertical farms, shortens supply chains. Each approach has limits, but together they widen the menu of options.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_c7ea66532997f91976733396b6505dec0565ac6116b7aebe86d6018f71c9d0c8" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_c7ea66532997f91976733396b6505dec0565ac6116b7aebe86d6018f71c9d0c8</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;H. Future change is likely to be steady rather than sudden, as farmers adapt to weather shocks and market shifts. The world population passed 8 billion in 2022 and may reach about 9.7 billion by 2050, so demand for diverse diets will grow. Therefore, the central challenge is to lift output while protecting soils, water, and climate. Mixed strategies appear most promising: better seeds, smarter inputs, careful water use, and landscapes that support wildlife. Policies can help by rewarding soil health, research, and risk-sharing. Notwithstanding the word “revolution”, progress often builds step by step. The aim is reliable food systems that endure across generations.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_e8ea23df2f2077843e10b5e6ea7cb06cc511193706a3a9dc93885c79707f565c" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_e8ea23df2f2077843e10b5e6ea7cb06cc511193706a3a9dc93885c79707f565c</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Questions&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_ee0b23c7dc1ea447a58c5d7cb28a7a8bcec1f23b937ba44ac7c4aef3bcc9ebd6" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_ee0b23c7dc1ea447a58c5d7cb28a7a8bcec1f23b937ba44ac7c4aef3bcc9ebd6</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Do the following statements agree with the information given in the text? Write TRUE, FALSE, or NOT GIVEN.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_2547215485fe18bbe2510c99c7102abf77dfc433717b71c5b64762ade01f80a1" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_9690232a5adc44685e65aff9cbd50ae1d93aea9ea6453cf8b11a2c0dc63d31f9,text2qti_choice_563a50ab72121cb089764ed001c00ea324c9118f2f4d1ac5892ed685508b7276,text2qti_choice_2e853c8c3671bfb69274c4013a8d7925fe23b2dbbb73c64b0a16f03e800fe378</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_2547215485fe18bbe2510c99c7102abf77dfc433717b71c5b64762ade01f80a1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Agricultural revolutions followed a single route in one place.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_9690232a5adc44685e65aff9cbd50ae1d93aea9ea6453cf8b11a2c0dc63d31f9">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_563a50ab72121cb089764ed001c00ea324c9118f2f4d1ac5892ed685508b7276">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_2e853c8c3671bfb69274c4013a8d7925fe23b2dbbb73c64b0a16f03e800fe378">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_563a50ab72121cb089764ed001c00ea324c9118f2f4d1ac5892ed685508b7276</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Paragraph A states these shifts did not happen in a single place nor follow a single path.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_2136d39fe74f25d27c32992d9b241c05c9f16c4d98ea8f05dbd0314e3dedb900" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_a3ac5a0f6d8542dd2c4d397d247581d9268c35752631da3b0f5a09da58bd0bad,text2qti_choice_4468f86e44c95c25e486916285c1a73877a580c3af9ec9c1e816a9b53f1aa612,text2qti_choice_19b980bbb75242f244ad6ec1de60dfd610e568d4f5f2e4cabe9366f7dd6f7d88</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_2136d39fe74f25d27c32992d9b241c05c9f16c4d98ea8f05dbd0314e3dedb900</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Greater predictability in food supplies helped towns to expand.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_a3ac5a0f6d8542dd2c4d397d247581d9268c35752631da3b0f5a09da58bd0bad">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_4468f86e44c95c25e486916285c1a73877a580c3af9ec9c1e816a9b53f1aa612">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_19b980bbb75242f244ad6ec1de60dfd610e568d4f5f2e4cabe9366f7dd6f7d88">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_a3ac5a0f6d8542dd2c4d397d247581d9268c35752631da3b0f5a09da58bd0bad</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Paragraph A explains that more predictable food supported population growth and allowed more people to live in towns.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_e044a3e40c3e1daba81a6134f790cf98bae717fb43499ae022397a5b30a1d90b" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_a72b5bb0ef054f135c8d2a42aadcba3f41b10c2179e996941ec0d9c109089be8,text2qti_choice_cfc06aa3ebf2028ba54e7533881ebdc1274b3217f05f329b50f78ec50524bcde,text2qti_choice_67f44ec45e8fbdae8bf450241f65021a408e067a50bff43276378d1b7af7426c</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_e044a3e40c3e1daba81a6134f790cf98bae717fb43499ae022397a5b30a1d90b</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Between about 10,000 and 8,000 BCE, farming appeared in several regions rather than just one.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_a72b5bb0ef054f135c8d2a42aadcba3f41b10c2179e996941ec0d9c109089be8">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_cfc06aa3ebf2028ba54e7533881ebdc1274b3217f05f329b50f78ec50524bcde">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_67f44ec45e8fbdae8bf450241f65021a408e067a50bff43276378d1b7af7426c">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_a72b5bb0ef054f135c8d2a42aadcba3f41b10c2179e996941ec0d9c109089be8</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Paragraph B notes farming emerged in parts of Southwest Asia, China, and the Americas during that period.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_bedb1be2470ea3b96e1c2f4eeefb7bd55eb2a84cb294a876fe914fe9f672b875" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_51920c3ff81cf51d09d2bf7e95ade948edb5399caa61b4975a58cbea3c5bd561,text2qti_choice_72478728834ce5677c30e307362bb9552e3b4286a9234fde35cf902b92acebaf,text2qti_choice_6bd32ce0aa61dade795a015c8311e23a904586630ad69662b45dfcd729a21b4a</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_bedb1be2470ea3b96e1c2f4eeefb7bd55eb2a84cb294a876fe914fe9f672b875</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Depending on only a few staple crops reduced the risk from drought and pests.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_51920c3ff81cf51d09d2bf7e95ade948edb5399caa61b4975a58cbea3c5bd561">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_72478728834ce5677c30e307362bb9552e3b4286a9234fde35cf902b92acebaf">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_6bd32ce0aa61dade795a015c8311e23a904586630ad69662b45dfcd729a21b4a">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_72478728834ce5677c30e307362bb9552e3b4286a9234fde35cf902b92acebaf</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Paragraph B states that reliance on a few crops created new risks from drought, pests, and disease.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_b31c32fff347bbbe0fdd3a731e2618eca8f6b01b4d2d4fa5ab9fb0266f183c0d" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_9c65bb6bd6cd741505d7a5be0dafee8e18a2a2474bee1b1ca7910832e563dce1,text2qti_choice_a8d64f6a8170d5e0d42833a96cdb12a069f07235c2a7abf21564d72bdea6bc3b,text2qti_choice_5a340b3a9f8b1842529819caaec2c64f49cdf00d0378fb438e819838eecd14e4</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_b31c32fff347bbbe0fdd3a731e2618eca8f6b01b4d2d4fa5ab9fb0266f183c0d</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Enclosing fields enabled landowners to organise crop rotations over larger areas.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_9c65bb6bd6cd741505d7a5be0dafee8e18a2a2474bee1b1ca7910832e563dce1">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_a8d64f6a8170d5e0d42833a96cdb12a069f07235c2a7abf21564d72bdea6bc3b">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_5a340b3a9f8b1842529819caaec2c64f49cdf00d0378fb438e819838eecd14e4">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_9c65bb6bd6cd741505d7a5be0dafee8e18a2a2474bee1b1ca7910832e563dce1</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Paragraph C says enclosure allowed planning rotations across larger blocks.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_86ddc6004fca8f0f239c673d84440980e3d09f6b6fb9f604980cef1366a6cfc2" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_ee672174c14fc5201ab07fd1af6a3dd54f1b484f8fc80b20dc7e1fcdbb263778,text2qti_choice_83faaaaf2610b2b1f595c4dc5dd556c5da4e08a9ec545e6a7b603d91061330e6,text2qti_choice_f99c4906b4c79a49c9c50da4ab0264ae90773eadd9766ca22b21f42859a0bead</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_86ddc6004fca8f0f239c673d84440980e3d09f6b6fb9f604980cef1366a6cfc2</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;The seed drill increased seed waste by scattering them irregularly.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_ee672174c14fc5201ab07fd1af6a3dd54f1b484f8fc80b20dc7e1fcdbb263778">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_83faaaaf2610b2b1f595c4dc5dd556c5da4e08a9ec545e6a7b603d91061330e6">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_f99c4906b4c79a49c9c50da4ab0264ae90773eadd9766ca22b21f42859a0bead">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_83faaaaf2610b2b1f595c4dc5dd556c5da4e08a9ec545e6a7b603d91061330e6</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Paragraph C states the seed drill placed seeds evenly at a set depth, reducing waste.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_5dbfdc3a6e998e22a5d2d082851a68792c07cd105074b9f6e82cbc66f081717e" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_8bf9ffb70f0be5e3eb0cc9e7277db3d57e9d812f595155b5fe958f9897428454,text2qti_choice_5d26995be670d2c9b60fd26607a36fd3dd33c83ca015f9c65b74373e81ec169c,text2qti_choice_8b916d1ee451e9f82cbf6dc807aa05554f40f15fc0eb6987beef0b5b60e49ef2</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_5dbfdc3a6e998e22a5d2d082851a68792c07cd105074b9f6e82cbc66f081717e</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Combine harvesters were first introduced in the 1910s.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_8bf9ffb70f0be5e3eb0cc9e7277db3d57e9d812f595155b5fe958f9897428454">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_5d26995be670d2c9b60fd26607a36fd3dd33c83ca015f9c65b74373e81ec169c">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_8b916d1ee451e9f82cbf6dc807aa05554f40f15fc0eb6987beef0b5b60e49ef2">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_8b916d1ee451e9f82cbf6dc807aa05554f40f15fc0eb6987beef0b5b60e49ef2</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Paragraph D mentions combine harvesters simplified grain collection but gives no date for their first introduction.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_7a4c35ccdcc3f32c755a2805f136553ff4cd838d31b0c9d187964aa5c8a787b2" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_fcd32dc9354f626d026592e7ee834441d2ee39d130b1e780aa9fda2087245a96,text2qti_choice_7c721da87ca45d9ab19a97ef87c176e9bc053acf4c68506e20fac2967be47235,text2qti_choice_a3b87ef9081852045f9066d8d1ec23ee50fd8eaaa6130df1b91737564526cc7a</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_7a4c35ccdcc3f32c755a2805f136553ff4cd838d31b0c9d187964aa5c8a787b2</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;In India, yields more than doubled in the late 1960s and early 1970s without reliable irrigation or credit.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_fcd32dc9354f626d026592e7ee834441d2ee39d130b1e780aa9fda2087245a96">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_7c721da87ca45d9ab19a97ef87c176e9bc053acf4c68506e20fac2967be47235">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_a3b87ef9081852045f9066d8d1ec23ee50fd8eaaa6130df1b91737564526cc7a">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_7c721da87ca45d9ab19a97ef87c176e9bc053acf4c68506e20fac2967be47235</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Paragraph E states the doubling of wheat harvests was helped by reliable water, credit, and markets.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+    <ns0:item ident="Q9-13" title="Question" points_possible="5.0"><ns0:itemmetadata><ns0:qtimetadata><ns0:qtimetadatafield><fieldlabel>question_type</fieldlabel><fieldentry>fill_in_multiple_blanks_question</fieldentry></ns0:qtimetadatafield><ns0:qtimetadatafield><fieldlabel>points_possible</fieldlabel><fieldentry>5.0</fieldentry></ns0:qtimetadatafield></ns0:qtimetadata></ns0:itemmetadata><ns0:presentation><ns0:material><ns0:mattext texttype="text/html">&lt;div&gt;&lt;div&gt;Complete the summary below using NO MORE THAN TWO WORDS from the passage. The same inputs that boosted yields can also create problems. Heavy [blank9] entering rivers may trigger algal blooms, while over‑irrigation brings [blank10] to the surface. Today, precision agriculture targets inputs with [blank11] and sensors, and gene editing seeks crops that tolerate [blank12]. Looking ahead, policies that reward [blank13] are part of mixed strategies to raise output and protect the environment.&lt;/div&gt;&lt;/div&gt;</ns0:mattext></ns0:material><ns0:response_lid ident="response_blank9"><ns0:material><ns0:mattext>blank9</ns0:mattext></ns0:material><ns0:render_choice><ns0:response_label ident="6030"><ns0:material><ns0:mattext texttype="text/plain">fertiliser</ns0:mattext></ns0:material></ns0:response_label></ns0:render_choice></ns0:response_lid><ns0:response_lid ident="response_blank10"><ns0:material><ns0:mattext>blank10</ns0:mattext></ns0:material><ns0:render_choice><ns0:response_label ident="1155"><ns0:material><ns0:mattext texttype="text/plain">salt</ns0:mattext></ns0:material></ns0:response_label></ns0:render_choice></ns0:response_lid><ns0:response_lid ident="response_blank11"><ns0:material><ns0:mattext>blank11</ns0:mattext></ns0:material><ns0:render_choice><ns0:response_label ident="2244"><ns0:material><ns0:mattext texttype="text/plain">GPS</ns0:mattext></ns0:material></ns0:response_label></ns0:render_choice></ns0:response_lid><ns0:response_lid ident="response_blank12"><ns0:material><ns0:mattext>blank12</ns0:mattext></ns0:material><ns0:render_choice><ns0:response_label ident="7957"><ns0:material><ns0:mattext texttype="text/plain">drought</ns0:mattext></ns0:material></ns0:response_label></ns0:render_choice></ns0:response_lid><ns0:response_lid ident="response_blank13"><ns0:material><ns0:mattext>blank13</ns0:mattext></ns0:material><ns0:render_choice><ns0:response_label ident="6739"><ns0:material><ns0:mattext texttype="text/plain">soil health</ns0:mattext></ns0:material></ns0:response_label></ns0:render_choice></ns0:response_lid></ns0:presentation><ns0:resprocessing><ns0:outcomes><ns0:decvar maxvalue="5.0" minvalue="0" varname="SCORE" vartype="Decimal" /></ns0:outcomes><ns0:respcondition><ns0:conditionvar><ns0:varequal respident="response_blank9">6030</ns0:varequal></ns0:conditionvar><ns0:setvar varname="SCORE" action="Add">1.00</ns0:setvar></ns0:respcondition><ns0:respcondition><ns0:conditionvar><ns0:varequal respident="response_blank10">1155</ns0:varequal></ns0:conditionvar><ns0:setvar varname="SCORE" action="Add">1.00</ns0:setvar></ns0:respcondition><ns0:respcondition><ns0:conditionvar><ns0:varequal respident="response_blank11">2244</ns0:varequal></ns0:conditionvar><ns0:setvar varname="SCORE" action="Add">1.00</ns0:setvar></ns0:respcondition><ns0:respcondition><ns0:conditionvar><ns0:varequal respident="response_blank12">7957</ns0:varequal></ns0:conditionvar><ns0:setvar varname="SCORE" action="Add">1.00</ns0:setvar></ns0:respcondition><ns0:respcondition><ns0:conditionvar><ns0:varequal respident="response_blank13">6739</ns0:varequal></ns0:conditionvar><ns0:setvar varname="SCORE" action="Add">1.00</ns0:setvar></ns0:respcondition></ns0:resprocessing><ns0:itemfeedback ident="general_fb"><ns0:flow_mat><ns0:material><ns0:mattext texttype="text/html">&lt;div&gt;&lt;div&gt;&lt;span&gt;Paragraph F: Heavy fertiliser use can leach into rivers and cause algal blooms.&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;span&gt;Paragraph F: Over‑irrigation brings salt to the surface.&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;span&gt;Paragraph G: Precision agriculture uses GPS, sensors, and drones.&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;span&gt;Paragraph G: Gene editing aims to produce crops that tolerate heat, drought, or disease.&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;span&gt;Paragraph H: Policies can help by rewarding soil health, research, and risk‑sharing.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;</ns0:mattext></ns0:material></ns0:flow_mat></ns0:itemfeedback></ns0:item></ns0:section>
+  </ns0:assessment>
+</ns0:questestinterop>

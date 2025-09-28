@@ -1,0 +1,77 @@
+Text title: The Roman Empire’s engineering feats
+
+Text: Text title: The Roman Empire’s engineering feats
+
+Text: A. Roman engineering is often described as practical rather than inventive, yet its scale was exceptional. From the third century BCE to the fourth century CE, builders created roads, bridges, aqueducts, harbours, and public buildings that tied distant provinces to Rome. Their methods combined inherited techniques with careful measurement, standardized parts, and efficient labor. Consequently, the Empire’s infrastructure did more than move goods and legions; it also shaped daily life. Reliable water, predictable travel times, and durable structures encouraged trade and urban growth. Although many details were borrowed or adapted, the Romans refined them into an integrated system, which proved stable for centuries and influential long after imperial rule ended.
+
+Text: B. Roman roads formed the network that supported administration and warfare. The Via Appia, begun in 312 BCE, linked Rome to southern Italy and displayed the basic method: a firm base, a stone surface, and drainage ditches. Surveyors aligned routes to shorten distances, even if hills required cuttings or embankments. A slight camber shed rainwater, while milestones recorded distances and repairs. It is estimated that the road system reached roughly 80,000 kilometres by late antiquity, with bridges and way stations at regular intervals. Although local materials varied, the aim remained the same: a surface that resisted wear and allowed carts, messengers, and troops to move at a dependable pace.
+
+Text: C. Aqueducts revealed the Roman command of water through gravity. Channels carried spring water to cities along gentle slopes, often between one in 3,000 and one in 10,000. Where valleys interrupted a line, arcades and siphons were used to maintain flow. The Pont du Gard in southern France, built in the first century CE, illustrates this approach. Standing about 49 metres high, it forms part of a roughly 50-kilometre system that supplied the colony of Nemausus. The structure is made of finely cut stone blocks without mortar, yet the joints remain tight. Although such works seem monumental, their success depended on small details: smooth channels, sealed joints, and settling tanks to trap sand.
+
+Text: D. Concrete enabled the Romans to span wide spaces and build on an unprecedented scale. Their mix, often called opus caementicium, used lime and volcanic ash, known as pozzolana, which created a strong, water-resistant binder. With this material, arches, vaults, and domes could be cast in place. The Pantheon, rebuilt under Hadrian around 125 CE, demonstrates what was possible. Its unreinforced concrete dome measures about 43 metres across, yet it remains intact. Builders reduced weight by mixing lighter aggregate at the top and setting coffers into the ceiling. The oculus, a central opening, admits light and reduces mass. The result is a balanced structure that still fascinates engineers and visitors.
+
+Text: E. Water management extended beyond supply to sanitation and bathing. The Cloaca Maxima, a main sewer in Rome, began as a drainage channel and was later vaulted in stone to carry waste to the Tiber. Such systems worked alongside public baths, which were social as well as hygienic spaces. The Baths of Caracalla, opened in 216 CE, could host thousands of users each day. Heating relied on the hypocaust, an underfloor system in which hot air from furnaces circulated through brick piers and flues. Fuel, maintenance, and careful scheduling were required to run these complexes efficiently. Nevertheless, the combination of clean water, waste removal, and ablution facilities improved urban conditions in many provincial towns.
+
+Text: F. Military needs promoted rapid, robust construction on the frontiers. Forts, watchtowers, and roads reinforced long borders such as the Rhine and the Danube lines. Temporary bridges were assembled from timber and piles when speed mattered. Julius Caesar famously built a bridge over the Rhine in 55 BCE in a matter of days, partly as a demonstration of reach. A century and a half later, Trajan’s bridge over the Danube used stone piers and timber arches to support heavy traffic during campaigns in Dacia. Such works were often temporary or repaired repeatedly, yet they showed an ability to mobilize materials and labor quickly, under varied conditions, and with clear logistical aims.
+
+Text: G. Administration and maintenance underpinned these achievements. Surveyors, known as gromatici, used simple instruments to set lines and levels, then marked sites with reference stakes. Contracts specified standards for thickness, width, and gradients, while inscriptions recorded who paid and who built. In cities, curators and councils planned upgrades; in the countryside, the imperial post relied on mansiones, or staging posts, to support official travel. Funding came from taxes, estates, and, at times, private donors seeking prestige. Although forced labor and soldiers were employed, specialized contractors handled much work. Regular inspections, resurfacing, and cleaning kept systems functioning, which suggests that organization was as decisive as materials or individual skill.
+
+Text: H. The legacy of Roman engineering lies in both survival and example. Many routes under modern roads follow Roman alignments because they were chosen for firmness and directness. Aqueducts such as the one at Segovia in Spain continued to carry water into the nineteenth century, despite damage and repair. Lessons taken today include the value of gradual slopes, redundancy, and modular design. There are, however, limits to the model: construction depended on concentrated power and abundant labor, and environmental costs were not measured in modern terms. Even so, the combination of standardized methods, local adaptation, and long-term maintenance created infrastructure whose durability has rarely been matched, and whose influence remains visible across Europe and beyond.
+
+Text: Questions
+
+Text: Do the following statements agree with the information given in the text? Write TRUE, FALSE, or NOT GIVEN.
+
+1. Roman engineering is characterized more by practicality than by originality.
+... Paragraph A states Roman engineering is often described as practical rather than inventive.
+*a) True
+b) False
+c) Not Given
+
+2. Roman infrastructure mainly served military needs and had minimal impact on everyday life.
+... Paragraph A says the infrastructure shaped daily life by providing reliable water, predictable travel, and durable structures.
+a) True
+*b) False
+c) Not Given
+
+3. Roman builders employed standardized parts and careful measurement in their work.
+... Paragraph A mentions combining careful measurement with standardized parts.
+*a) True
+b) False
+c) Not Given
+
+4. Road planners sometimes cut through hills or raised embankments to keep routes shorter.
+... Paragraph B notes surveyors aligned routes to shorten distances, even if hills required cuttings or embankments.
+*a) True
+b) False
+c) Not Given
+
+5. The Via Appia was the longest road in the Roman Empire.
+... Paragraph B states the Via Appia linked Rome to southern Italy but does not compare its length to other roads.
+a) True
+b) False
+*c) Not Given
+
+6. By late antiquity, the Roman road network extended to about 180,000 kilometres.
+... Paragraph B gives an estimate of roughly 80,000 kilometres, not 180,000.
+a) True
+*b) False
+c) Not Given
+
+7. Aqueducts depended on a steady downward slope to deliver water by gravity.
+... Paragraph C explains channels carried water along gentle slopes, often between 1 in 3,000 and 1 in 10,000.
+*a) True
+b) False
+c) Not Given
+
+8. Roman concrete derived its strength from a blend that included volcanic ash.
+... Paragraph D states the mix used lime and volcanic ash (pozzolana), creating a strong, water-resistant binder.
+*a) True
+b) False
+c) Not Given
+
+9. Large Roman baths were heated by water flowing through channels beneath the floors.
+... Paragraph E describes the hypocaust, where hot air from furnaces circulated under floors and through flues, not water.
+a) True
+*b) False
+c) Not Given

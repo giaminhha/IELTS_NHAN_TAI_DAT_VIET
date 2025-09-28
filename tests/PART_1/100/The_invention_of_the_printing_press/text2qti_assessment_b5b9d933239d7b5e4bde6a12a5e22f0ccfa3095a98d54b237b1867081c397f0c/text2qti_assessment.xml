@@ -1,0 +1,802 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:questestinterop xmlns:ns0="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <ns0:assessment ident="text2qti_assessment_b5b9d933239d7b5e4bde6a12a5e22f0ccfa3095a98d54b237b1867081c397f0c" title="Quiz">
+    <ns0:qtimetadata>
+      <ns0:qtimetadatafield>
+        <ns0:fieldlabel>cc_maxattempts</ns0:fieldlabel>
+        <ns0:fieldentry>1</ns0:fieldentry>
+      </ns0:qtimetadatafield>
+    </ns0:qtimetadata>
+    <ns0:section ident="root_section">
+      <ns0:item ident="text2qti_text_ac87f1845d67c436736aef4f679f09baf0b6dc51ff9c8f793c824954dc10235f" title="The invention of the printing press">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_ac87f1845d67c436736aef4f679f09baf0b6dc51ff9c8f793c824954dc10235f</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Text title: The Invention of the Printing Press&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_30677497439a91962d37edb30b65d8b3b7317d0a3ce1b1f21eab3475159df910" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_30677497439a91962d37edb30b65d8b3b7317d0a3ce1b1f21eab3475159df910</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;A. Before the mid-fifteenth century, books were rare and expensive. Most were copied by hand in monasteries or city workshops. Production was slow, and mistakes were common. As a result, knowledge moved at a modest pace and remained concentrated among a small group of readers. This context helps explain why the printing press is seen as a turning point. It created a repeatable system for making many identical pages. The new method did not simply add more books. It changed how information was stored, checked, and shared. Consequently, it encouraged wider reading and a more reliable record of ideas.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_c7164ca6b6ecacdb8937fc54fd1a0bcb4cc09120f8c38d2b9e3f5bd2b9918614" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_c7164ca6b6ecacdb8937fc54fd1a0bcb4cc09120f8c38d2b9e3f5bd2b9918614</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;B. Printing did not begin in Europe. In China, woodblock printing had been used for centuries to reproduce texts and images. A woodblock is a flat piece of wood with letters carved in reverse, inked, and pressed on paper. Later, in Korea, printers developed movable metal type, where individual characters could be rearranged to form lines. The famous Jikji, dated 1377, shows this approach in use before Europe adopted it. Although writing systems in East Asia were different, the underlying aim was the same. Printers sought faster reproduction and better consistency. These earlier experiments provided important precedents and practical models, even if the European path took a distinct direction.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_97bfd760ac69c6d033a3967dc75eccdebbec606ba25e5cb56df2f1e793324972" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_97bfd760ac69c6d033a3967dc75eccdebbec606ba25e5cb56df2f1e793324972</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;C. In Europe, Johannes Gutenberg of Mainz is often credited with combining several elements into a workable system. His press used durable metal type, oil-based ink that adhered well to paper, and a screw press adapted from wine making. Movable type meant each letter could be cast, set, and reused. The ink, thicker than the kind used for manuscripts, produced sharp impressions. The press applied even pressure, which improved quality and speed. Around 1455, Gutenberg’s Bible demonstrated what the method could achieve. It resembled a fine manuscript, yet it could be reproduced many times. Although others contributed, this integration was decisive for widespread adoption.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_67208ea3385f63659bcbaf7b6f062d2f12a8a76946831e343d467df113cdfd55" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_67208ea3385f63659bcbaf7b6f062d2f12a8a76946831e343d467df113cdfd55</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;D. Growth after the first presses was rapid. By about 1500, presses were active in more than 200 European towns. Historians estimate that between 8 and 20 million books were printed in that period, often called the age of incunabula. Typical print runs ranged from 200 to 1,000 copies, depending on cost and demand. In 1450, a book might require months of labor; by 1500, a skilled shop could produce dozens of pages in a single day. Dates such as 1470 for Paris and 1476 for London mark key stages in the spread. The scale was unprecedented, and prices fell accordingly, though not uniformly.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_e8556165216e15fcfd0a6f9034a562587dd8e3ed0987a7eea5f7c0f90784e284" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_e8556165216e15fcfd0a6f9034a562587dd8e3ed0987a7eea5f7c0f90784e284</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;E. Venice offers a clear case study. The city became a major printing center in the late fifteenth century due to trade links, skilled artisans, and access to paper. The publisher Aldus Manutius introduced compact “octavo” volumes, which could be carried and used in daily life. He also promoted italic type, a style that saved space without harming legibility. Classical texts, grammar books, and dictionaries left his presses and reached students across Europe. The Venetian model shows how commercial calculation and cultural ambition could align. It also suggests that innovation was not only technical. Design, marketing, and translation were equally important for success.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_30f0e59a7dd7c626a96a70f164453819ab44b6486e182eecdd487f0c55b4932e" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_30f0e59a7dd7c626a96a70f164453819ab44b6486e182eecdd487f0c55b4932e</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;F. The new press influenced education, religion, and administration. Universities could assign the same text to many students, which supported more consistent teaching. Governments used printed ordinances to standardize rules across regions. Calendars and almanacs carried practical information to farms and towns. In the early sixteenth century, pamphlets made rapid debate possible. The Reformation is often cited as an example, because printed sermons and translations multiplied quickly. However, the effects were not limited to theological disputes. Printed maps, medical handbooks, and arithmetic manuals helped spread applied knowledge. Therefore, the press encouraged both scholarly exchange and everyday problem solving.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_4596a3f4ccf1e28669e9d7f65311cd0b82430c8171adbe023140df2dd711e4a2" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_4596a3f4ccf1e28669e9d7f65311cd0b82430c8171adbe023140df2dd711e4a2</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;G. Despite these benefits, limitations and risks persisted. Literacy remained uneven, and many people still relied on spoken explanation. Early presses produced errors when typesetters rushed or editors lacked time to check proofs. Censorship also emerged, as rulers and religious bodies attempted to control controversial texts. Notwithstanding such efforts, unauthorized editions and clandestine pamphlets continued to circulate. Moreover, the impact varied by place. Cities with trade networks and universities adapted more quickly than rural areas. Paper supply and transport costs could also restrict growth. These constraints did not halt printing, but they shaped where and how it developed.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_2effc53a22ceaefa3e05a06f1a21704bbf52eebf1fe392c9d3a86f6650b0719b" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_2effc53a22ceaefa3e05a06f1a21704bbf52eebf1fe392c9d3a86f6650b0719b</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;H. Over the following centuries, the press evolved. New techniques, such as stereotyping and later the steam press, increased speed and lowered unit costs. In the nineteenth century, rotary presses and the Linotype machine expanded production further. The principle, however, remained consistent: movable or mechanized type formed lines, ink transferred text, and sheets carried the result to readers. The invention can therefore be viewed as a platform for later change. It created habits of collecting, comparing, and revising information that persist today. While digital technologies differ in method, they continue the essential goal of making knowledge more accessible and durable.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_e8ea23df2f2077843e10b5e6ea7cb06cc511193706a3a9dc93885c79707f565c" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_e8ea23df2f2077843e10b5e6ea7cb06cc511193706a3a9dc93885c79707f565c</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Questions&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_text_ee0b23c7dc1ea447a58c5d7cb28a7a8bcec1f23b937ba44ac7c4aef3bcc9ebd6" title="">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>text_only_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry />
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_ee0b23c7dc1ea447a58c5d7cb28a7a8bcec1f23b937ba44ac7c4aef3bcc9ebd6</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Do the following statements agree with the information given in the text? Write TRUE, FALSE, or NOT GIVEN.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+        </ns0:presentation>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_28880c66c63f922b45aaf365246bed63a840841b3fbbc79673b1a68c0892ebbf" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_a84395c1a3e3c6bc0152128745429e120a903e52fae780abb276cc3f4274081e,text2qti_choice_8e861044ebd0cd2649e8296f890f3206961ce1459ec0b12909869f9a1c1fbd8b,text2qti_choice_2bb228a7d0e0172577fd74e17e783156f4b6e1ca44da1eb08fa292ba99ec4979</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_28880c66c63f922b45aaf365246bed63a840841b3fbbc79673b1a68c0892ebbf</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Before the mid-fifteenth century, books were generally inexpensive.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_a84395c1a3e3c6bc0152128745429e120a903e52fae780abb276cc3f4274081e">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_8e861044ebd0cd2649e8296f890f3206961ce1459ec0b12909869f9a1c1fbd8b">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_2bb228a7d0e0172577fd74e17e783156f4b6e1ca44da1eb08fa292ba99ec4979">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_8e861044ebd0cd2649e8296f890f3206961ce1459ec0b12909869f9a1c1fbd8b</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Paragraph A states that before the mid-fifteenth century, books were rare and expensive.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_66024d4020f9ee55a30469ed2ab81ac8e74d3b717777510222469cafdbf6a1bd" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_f97f1b8cda3c1233be2b9de12d2490a0f06da3888ec36130d2c5d7c5bcfd0c64,text2qti_choice_0c5ee102534370bb55477517e4718b851c339effde992c8178ebca4cf3f01b0e,text2qti_choice_17ad4b084dfce23ce4a8f1d59efccf2bafd93f7b6c611a53c1f30820d56ec7bb</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_66024d4020f9ee55a30469ed2ab81ac8e74d3b717777510222469cafdbf6a1bd</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;The printing press altered how information was checked and shared, not just how many books could be produced.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_f97f1b8cda3c1233be2b9de12d2490a0f06da3888ec36130d2c5d7c5bcfd0c64">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_0c5ee102534370bb55477517e4718b851c339effde992c8178ebca4cf3f01b0e">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_17ad4b084dfce23ce4a8f1d59efccf2bafd93f7b6c611a53c1f30820d56ec7bb">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_f97f1b8cda3c1233be2b9de12d2490a0f06da3888ec36130d2c5d7c5bcfd0c64</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Paragraph A explains that printing changed how information was stored, checked, and shared.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_bda16f0e4c8388fdabd611d2c5e0f7aed2538564df404b686f83b646bfa586a2" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_2330830c82f2977b7bddf69bb9371e3b8b9b7792562d0e2c942c2dbeb49c2522,text2qti_choice_853476f8d5f6559619aba38f9bbdf13939e86b8a21afbeac84db74bada5202b4,text2qti_choice_baad57860578fd7f7b1a079475b0d4a0f8983efb4080fe94e9732d3d5fcf946e</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_bda16f0e4c8388fdabd611d2c5e0f7aed2538564df404b686f83b646bfa586a2</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Movable metal type originated in Europe.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_2330830c82f2977b7bddf69bb9371e3b8b9b7792562d0e2c942c2dbeb49c2522">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_853476f8d5f6559619aba38f9bbdf13939e86b8a21afbeac84db74bada5202b4">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_baad57860578fd7f7b1a079475b0d4a0f8983efb4080fe94e9732d3d5fcf946e">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_853476f8d5f6559619aba38f9bbdf13939e86b8a21afbeac84db74bada5202b4</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Paragraph B notes that movable metal type was developed in Korea before Europe adopted it.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_5ab23e4e65c901efcf5356f6205e931cfd299f07c4d18090883ac5860deaaf05" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_59aaff891e29901517579493108f94e89ecd55480ec428213b958736959db1de,text2qti_choice_3984666dffd9d4cb5895c55aad5bd7671879f44dd25b9cdf37b4fd706704676d,text2qti_choice_5994f1d98f0faf96b12f33b1b953d571aac8029a346bf67c842f9cd10aea37a0</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_5ab23e4e65c901efcf5356f6205e931cfd299f07c4d18090883ac5860deaaf05</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Printers in East Asia and Europe shared the goal of quicker reproduction and greater consistency.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_59aaff891e29901517579493108f94e89ecd55480ec428213b958736959db1de">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_3984666dffd9d4cb5895c55aad5bd7671879f44dd25b9cdf37b4fd706704676d">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_5994f1d98f0faf96b12f33b1b953d571aac8029a346bf67c842f9cd10aea37a0">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_59aaff891e29901517579493108f94e89ecd55480ec428213b958736959db1de</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Paragraph B states the underlying aim was the same: faster reproduction and better consistency.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_b5bfd71cd0ceb610527ccb17be277a7bf274d1b99a6d9a15e4c16ec6eb0b14f7" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_a0c9a7f21c08e7cc054d63a19bd57a9d051d05222c93337c730733ad86d08a3c,text2qti_choice_374dbc2c2f0c6e5ca5e69a7dcbb40bfa2ab648dce48bb766967fda9c89481f67,text2qti_choice_e82b032819c3339a4ffb57e81a1a55d60f03c4b00d425378a942e2fce37788bc</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_b5bfd71cd0ceb610527ccb17be277a7bf274d1b99a6d9a15e4c16ec6eb0b14f7</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Gutenberg’s ink was thinner than the type used for manuscripts.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_a0c9a7f21c08e7cc054d63a19bd57a9d051d05222c93337c730733ad86d08a3c">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_374dbc2c2f0c6e5ca5e69a7dcbb40bfa2ab648dce48bb766967fda9c89481f67">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_e82b032819c3339a4ffb57e81a1a55d60f03c4b00d425378a942e2fce37788bc">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_374dbc2c2f0c6e5ca5e69a7dcbb40bfa2ab648dce48bb766967fda9c89481f67</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Paragraph C says the oil-based ink was thicker than the kind used for manuscripts.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_c89d41d5509e906d2466b32c1dd0f007dac166fb61bb34c386c1495340e6bb06" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_ccff1023c53e0cb16e2617924af8910b3156e6026060383325a45c34222daf54,text2qti_choice_d1c740d9ad4d860e301d0ffe1f47bb545eded031085b6ca598cb86f0d847bbdc,text2qti_choice_d5a7ec8a29aed68baec5f94d591baaead443765aa6343375586e407b628962b3</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_c89d41d5509e906d2466b32c1dd0f007dac166fb61bb34c386c1495340e6bb06</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;By about 1500, presses were operating in over 200 European towns.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_ccff1023c53e0cb16e2617924af8910b3156e6026060383325a45c34222daf54">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_d1c740d9ad4d860e301d0ffe1f47bb545eded031085b6ca598cb86f0d847bbdc">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_d5a7ec8a29aed68baec5f94d591baaead443765aa6343375586e407b628962b3">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_ccff1023c53e0cb16e2617924af8910b3156e6026060383325a45c34222daf54</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Paragraph D states that by about 1500, presses were active in more than 200 European towns.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+      <ns0:item ident="text2qti_question_85e31d1a78b1ba2715edba010295238ba9c7a72759ca78bbdc31d8d727214edc" title="Question">
+        <ns0:itemmetadata>
+          <ns0:qtimetadata>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>question_type</ns0:fieldlabel>
+              <ns0:fieldentry>multiple_choice_question</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>points_possible</ns0:fieldlabel>
+              <ns0:fieldentry>1</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>original_answer_ids</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_choice_7bcb23326727f6d0c51566cd5873980c579ecefc6b07452853fb565126c9dfb9,text2qti_choice_96b220cd63136f700b43de47e62bc70a19cf3bd08c1abb3db481b09817ba34fc,text2qti_choice_e07abb140e60d61d60aa982e87e6184bac3b34a5069d5069427d416d39371881</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+            <ns0:qtimetadatafield>
+              <ns0:fieldlabel>assessment_question_identifierref</ns0:fieldlabel>
+              <ns0:fieldentry>text2qti_question_ref_85e31d1a78b1ba2715edba010295238ba9c7a72759ca78bbdc31d8d727214edc</ns0:fieldentry>
+            </ns0:qtimetadatafield>
+          </ns0:qtimetadata>
+        </ns0:itemmetadata>
+        <ns0:presentation>
+          <ns0:material>
+            <ns0:mattext texttype="text/html">&lt;p&gt;Aldus Manutius designed octavo books to be portable.&lt;/p&gt;</ns0:mattext>
+          </ns0:material>
+          <ns0:response_lid ident="response1" rcardinality="Single">
+            <ns0:render_choice>
+              <ns0:response_label ident="text2qti_choice_7bcb23326727f6d0c51566cd5873980c579ecefc6b07452853fb565126c9dfb9">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_96b220cd63136f700b43de47e62bc70a19cf3bd08c1abb3db481b09817ba34fc">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+              <ns0:response_label ident="text2qti_choice_e07abb140e60d61d60aa982e87e6184bac3b34a5069d5069427d416d39371881">
+                <ns0:material>
+                  <ns0:mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</ns0:mattext>
+                </ns0:material>
+              </ns0:response_label>
+            </ns0:render_choice>
+          </ns0:response_lid>
+        </ns0:presentation>
+        <ns0:resprocessing>
+          <ns0:outcomes>
+            <ns0:decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal" />
+          </ns0:outcomes>
+          <ns0:respcondition continue="Yes">
+            <ns0:conditionvar>
+              <ns0:other />
+            </ns0:conditionvar>
+            <ns0:displayfeedback feedbacktype="Response" linkrefid="general_fb" />
+          </ns0:respcondition>
+          <ns0:respcondition continue="No">
+            <ns0:conditionvar>
+              <ns0:varequal respident="response1">text2qti_choice_7bcb23326727f6d0c51566cd5873980c579ecefc6b07452853fb565126c9dfb9</ns0:varequal>
+            </ns0:conditionvar>
+            <ns0:setvar action="Set" varname="SCORE">100</ns0:setvar>
+          </ns0:respcondition>
+        </ns0:resprocessing>
+        <ns0:itemfeedback ident="general_fb">
+          <ns0:flow_mat>
+            <ns0:material>
+              <ns0:mattext texttype="text/html">&lt;p&gt;Paragraph E explains that Aldus introduced compact octavo volumes which could be carried and used in daily life.&lt;/p&gt;</ns0:mattext>
+            </ns0:material>
+          </ns0:flow_mat>
+        </ns0:itemfeedback>
+      </ns0:item>
+    <ns0:item ident="Q8-13" title="Question" points_possible="6.0"><ns0:itemmetadata><ns0:qtimetadata><ns0:qtimetadatafield><fieldlabel>question_type</fieldlabel><fieldentry>fill_in_multiple_blanks_question</fieldentry></ns0:qtimetadatafield><ns0:qtimetadatafield><fieldlabel>points_possible</fieldlabel><fieldentry>6.0</fieldentry></ns0:qtimetadatafield></ns0:qtimetadata></ns0:itemmetadata><ns0:presentation><ns0:material><ns0:mattext texttype="text/html">&lt;div&gt;&lt;div&gt;Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.
+
+According to the passage, the new press influenced education, government and public debate. Universities could assign the same [blank8] to many students, while governments used printed [blank9] to standardize rules. In the early sixteenth century, [blank10] enabled rapid debate during movements such as the Reformation. Nonetheless, problems persisted: [blank11] remained uneven, early presses produced [blank12], and [blank13] was attempted by authorities.&lt;/div&gt;&lt;/div&gt;</ns0:mattext></ns0:material><ns0:response_lid ident="response_blank8"><ns0:material><ns0:mattext>blank8</ns0:mattext></ns0:material><ns0:render_choice><ns0:response_label ident="6850"><ns0:material><ns0:mattext texttype="text/plain">text</ns0:mattext></ns0:material></ns0:response_label></ns0:render_choice></ns0:response_lid><ns0:response_lid ident="response_blank9"><ns0:material><ns0:mattext>blank9</ns0:mattext></ns0:material><ns0:render_choice><ns0:response_label ident="4359"><ns0:material><ns0:mattext texttype="text/plain">ordinances</ns0:mattext></ns0:material></ns0:response_label></ns0:render_choice></ns0:response_lid><ns0:response_lid ident="response_blank10"><ns0:material><ns0:mattext>blank10</ns0:mattext></ns0:material><ns0:render_choice><ns0:response_label ident="9354"><ns0:material><ns0:mattext texttype="text/plain">pamphlets</ns0:mattext></ns0:material></ns0:response_label></ns0:render_choice></ns0:response_lid><ns0:response_lid ident="response_blank11"><ns0:material><ns0:mattext>blank11</ns0:mattext></ns0:material><ns0:render_choice><ns0:response_label ident="7873"><ns0:material><ns0:mattext texttype="text/plain">literacy</ns0:mattext></ns0:material></ns0:response_label></ns0:render_choice></ns0:response_lid><ns0:response_lid ident="response_blank12"><ns0:material><ns0:mattext>blank12</ns0:mattext></ns0:material><ns0:render_choice><ns0:response_label ident="6365"><ns0:material><ns0:mattext texttype="text/plain">errors</ns0:mattext></ns0:material></ns0:response_label></ns0:render_choice></ns0:response_lid><ns0:response_lid ident="response_blank13"><ns0:material><ns0:mattext>blank13</ns0:mattext></ns0:material><ns0:render_choice><ns0:response_label ident="3020"><ns0:material><ns0:mattext texttype="text/plain">censorship</ns0:mattext></ns0:material></ns0:response_label></ns0:render_choice></ns0:response_lid></ns0:presentation><ns0:resprocessing><ns0:outcomes><ns0:decvar maxvalue="6.0" minvalue="0" varname="SCORE" vartype="Decimal" /></ns0:outcomes><ns0:respcondition><ns0:conditionvar><ns0:varequal respident="response_blank8">6850</ns0:varequal></ns0:conditionvar><ns0:setvar varname="SCORE" action="Add">1.00</ns0:setvar></ns0:respcondition><ns0:respcondition><ns0:conditionvar><ns0:varequal respident="response_blank9">4359</ns0:varequal></ns0:conditionvar><ns0:setvar varname="SCORE" action="Add">1.00</ns0:setvar></ns0:respcondition><ns0:respcondition><ns0:conditionvar><ns0:varequal respident="response_blank10">9354</ns0:varequal></ns0:conditionvar><ns0:setvar varname="SCORE" action="Add">1.00</ns0:setvar></ns0:respcondition><ns0:respcondition><ns0:conditionvar><ns0:varequal respident="response_blank11">7873</ns0:varequal></ns0:conditionvar><ns0:setvar varname="SCORE" action="Add">1.00</ns0:setvar></ns0:respcondition><ns0:respcondition><ns0:conditionvar><ns0:varequal respident="response_blank12">6365</ns0:varequal></ns0:conditionvar><ns0:setvar varname="SCORE" action="Add">1.00</ns0:setvar></ns0:respcondition><ns0:respcondition><ns0:conditionvar><ns0:varequal respident="response_blank13">3020</ns0:varequal></ns0:conditionvar><ns0:setvar varname="SCORE" action="Add">1.00</ns0:setvar></ns0:respcondition></ns0:resprocessing><ns0:itemfeedback ident="general_fb"><ns0:flow_mat><ns0:material><ns0:mattext texttype="text/html">&lt;div&gt;&lt;div&gt;&lt;span&gt;Paragraph F: Universities could assign the same text to many students.&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;span&gt;Paragraph F: Governments used printed ordinances to standardize rules across regions.&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;span&gt;Paragraph F: Pamphlets made rapid debate possible.&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;span&gt;Paragraph G: Literacy remained uneven.&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;span&gt;Paragraph G: Early presses produced errors when typesetters rushed or editors lacked time to check proofs.&lt;/span&gt;&lt;/div&gt; &lt;div&gt;&lt;span&gt;Paragraph G: Censorship also emerged, as rulers and religious bodies tried to control texts.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;</ns0:mattext></ns0:material></ns0:flow_mat></ns0:itemfeedback></ns0:item></ns0:section>
+  </ns0:assessment>
+</ns0:questestinterop>

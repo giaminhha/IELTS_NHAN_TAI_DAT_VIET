@@ -1,0 +1,61 @@
+"Text title: Layers of Possibility: The Expanding Applications of 3D Printing"
+"
+Text: A. Three-dimensional printing, often called additive manufacturing, builds objects in layers from a digital file. Instead of cutting shapes from a solid block, it adds or hardens material only where it is needed. This tends to reduce waste and allows shapes that are hard to make with traditional tools. At first, many companies used the process for quick prototypes. Over time, they began to produce small batches, custom tools, and even final parts. The value is not only speed. It also comes from custom designs, fewer assembly steps, and shorter supply chains. Today, applications range from surgical models and airplane brackets to architectural features, spare parts, and classroom kits for science and design."
+"
+Text: B. The move from the lab to the factory took several decades. Early systems, such as stereolithography (a light-based method), appeared in the 1980s. Growth became visible after major patents ended around 2009, when low-cost desktop printers spread to schools and offices. Industry reports show strong expansion during the 2010s, with worldwide sales passing ten billion US dollars before 2020. During the pandemic, makers and firms printed face shields and nasal swabs when supplies ran short. Some hospitals received thousands each week. However, adoption remains uneven. Different sectors have different quality needs, safety rules, and costs. These factors decide where 3D printing fits well and where older methods still make more sense."
+"
+Text: C. Healthcare shows both promise and limits. Surgeons use patient-specific models to plan complex operations, and custom guides can help them place tools more accurately. Dental labs now make millions of clear aligners, often by printing molds first. A noted case in 2012 involved a European patient who received a titanium jaw implant shaped from medical scans. It restored basic function faster than a traditional build could. Yet approval is strict. Materials must be biocompatible, meaning safe for the body. Parts must hold their shape after sterilisation and under load. Staff also follow clean-room rules and track every batch. Bioprinting soft tissue has been shown in research labs, but full, long-lasting organs with blood vessels are not available yet."
+"
+Text: D. Aerospace and automotive companies select additive methods for high-value parts. Fuel nozzles, heat exchangers, and web-like lattice parts benefit from software-based shape optimisation, which cuts weight while keeping strength. In one well-known project, a company merged many small nozzle pieces into a single printed part. The part was about a quarter lighter and lasted longer in service. Across a fleet, small weight savings can reduce fuel use and emissions. Certification, however, is demanding. Every build keeps a full record of settings, and parts are checked for hidden pores and stress. Internal structure is inspected with scans. For very large volumes, casting or stamping is usually cheaper. As a result, 3D printing fills specific niches where complexity earns its higher cost."
+"
+Text: E. Construction teams are testing large-scale printing to manage cost, labour, and design freedom. Concrete extrusion systems can make walls straight from a digital plan. A small, single-storey shell may be printed in less than two days of machine time, though trades must still install services and finishes. The process can reduce temporary formwork and allow curves or hollow sections that are costly to cast. A recent example in Europe used robotic metal layering to create a pedestrian bridge over a canal. Engineers monitored how the printed steel behaved under real loads. Rules are catching up. Building codes and insurance policies must adapt. On site, teams train operators to handle wet concrete and moving robots safely, check anchors, and keep clear walking routes."
+"
+Text: F. A shift from physical shelves to “digital inventories” is under way. Instead of storing rare spare parts, firms can keep certified design files and print items when needed, close to the point of use. This can cut delays on ships, offshore platforms, or remote research stations, where downtime is expensive. Tooling also gains speed. Custom jigs and fixtures can be printed overnight to support assembly. Still, there are risks. Companies must protect intellectual property and control quality. Common practice now includes pre-build checklists, machine calibration logs, material batch records, and a final inspection report. Secure file handling and agreed standards help ensure that parts printed in different places match the same specification."
+"
+Text: G. Materials both enable and limit progress. Common options include thermoplastics, light-cured resins (photopolymers), and metal powders. Ceramics and fibre-reinforced composites are growing in use. Compared with machining, additive routes can reduce scrap, especially for costly metals like titanium. Energy use, however, can be high. Laser-based metal printers often run in an oxygen-free environment to prevent oxidation. Surfaces may need polishing or machining after printing. Parts can show directional differences in strength because layers bond differently. Build chambers also limit the size of one-piece items. Cost per part depends on machine use, material price, and finishing steps. For this reason, claims about sustainability are context-dependent and should be verified with full life-cycle assessments."
+"
+Text: H. Future gains may come from integration rather than a single big breakthrough. Hybrid machines now mix additive and subtractive steps in one unit, which improves accuracy and surface finish. Real-time monitoring and simple artificial intelligence can adjust a laser or nozzle during the build to avoid defects. Training matters as much as hardware. Engineers learn to “design for additive” so they place material only where it helps performance. Operators learn powder handling, ventilation rules, and fire safety, and they practice emergency shutdowns. Standards bodies are also publishing clear process and material rules for aerospace, medical, and building uses. If these pieces come together, production could become more local and responsive while still using established methods where they fit best. Summary: 3D printing now supports prototypes, tools, and selected final parts across many sectors. Its growth depends on fit-for-purpose design, strong quality control, and careful alignment with existing rules and costs."
+
+Text: Do the following statements agree with the information given in the text? Write YES, NO, or NOT GIVEN.
+
+1. At the outset, firms mainly used 3D printing to mass-produce finished goods for the market.
+... Paragraph A states early use was for quick prototypes; small batches and final parts came later.
+a) Yes
+*b) No
+c) Not Given
+
+2. Additive manufacturing is credited with enabling custom designs, fewer assembly steps, and shorter supply chains.
+... Paragraph A lists these as key sources of value.
+*a) Yes
+b) No
+c) Not Given
+
+3. Low-cost desktop printers spread into schools and offices after crucial patents expired around 2009.
+... Paragraph B notes visible growth after major patents ended around 2009, with desktop printers spreading to schools and offices.
+*a) Yes
+b) No
+c) Not Given
+
+4. During the pandemic, hospitals everywhere replaced conventional suppliers by relying exclusively on 3D-printed protective equipment.
+... Paragraph B mentions makers printing face shields and swabs and that some hospitals received thousands weekly, but not universal or exclusive reliance.
+a) Yes
+b) No
+*c) Not Given
+
+5. Dental laboratories typically print clear aligners directly as the final product, not via molds.
+... Paragraph C states clear aligners are often made by printing molds first.
+a) Yes
+*b) No
+c) Not Given
+
+6. Combining many nozzle components into a single printed part reduced its weight by about a quarter and extended its service life.
+... Paragraph D reports the merged nozzle was about a quarter lighter and lasted longer.
+*a) Yes
+b) No
+c) Not Given
+
+7. Printing the shell of a small building eliminates the later need to install services and finishes.
+... Paragraph E says trades must still install services and finishes after the shell is printed.
+a) Yes
+*b) No
+c) Not Given

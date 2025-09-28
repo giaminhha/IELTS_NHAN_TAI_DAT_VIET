@@ -1,0 +1,81 @@
+Text title: Global trade agreements
+
+Text: Text title: Global Trade Agreements: Purposes, Pathways, and Practical Effects
+Text: A. Trade agreements are formal arrangements that set rules for buying and selling across borders. They usually reduce tariffs, which are taxes on imports, and they often address quotas, which limit the quantity of goods. Such agreements also include rules for services, investment, and the protection of ideas, known as intellectual property. Clear rules give companies confidence to plan, invest, and ship goods, while consumers gain more choice and, sometimes, lower prices. Although benefits are often shared, the gains and costs vary by sector and by place. For that reason, most agreements also include procedures to settle disputes and to manage change over time.
+
+Text: B. Modern trade agreements grew from a post-war effort to rebuild economies and avoid conflict. The General Agreement on Tariffs and Trade (GATT) began in 1947, focusing on tariff cuts and predictable schedules. Over several “rounds” of talks, countries cut many import taxes and reduced the use of quotas. In 1995, the World Trade Organization (WTO) replaced the GATT system and widened its scope. Today, the WTO counts 164 members and covers roughly 98 percent of world trade. Its rules reach beyond goods to services and intellectual property, while its dispute system offers a structured way to resolve disagreements between members.
+
+Text: C. Agreements differ in scope and depth. A bilateral agreement links two nations, while a regional pact joins several neighbors. A free trade area removes tariffs among its members but keeps separate external tariffs. A customs union goes further by sharing a common external tariff. The European Union’s single market is deeper still, seeking free movement of goods, services, capital, and people. Many deals include “rules of origin” that decide whether a good qualifies for lower tariffs. These rules prevent simple re-exporting from non-members but can be complex, raising paperwork costs for smaller firms and delaying shipments.
+
+Text: D. The experience of North America shows how production can spread across borders when rules are stable. The North American Free Trade Agreement (NAFTA), launched in 1994, encouraged companies to design supply chains that crossed the United States, Mexico, and Canada. A car assembled in Mexico might contain engines from the United States and electronics from Canada. After 2020, the United States–Mexico–Canada Agreement (USMCA) updated rules of origin and added labor and environment chapters. Consumers benefited from lower prices and wider choice, yet some workers faced job displacement. Adjustment policies, including retraining, were therefore important to help those affected move into new roles.
+
+Text: E. For developing countries, market access can support growth, provided firms can meet standards and ship on time. Vietnam’s entry into the WTO in 2007 and its later participation in regional pacts expanded exports of electronics, footwear, and textiles. Producers improved quality to satisfy safety and labeling rules in destination markets. However, upgrading also required credit, better ports, and skills. When governments and partners offered training or customs reforms, smaller companies were more able to use new opportunities. Notwithstanding these gains, exposure to competition sometimes pressured local producers, which led to calls for phased opening and targeted support for fragile sectors.
+
+Text: F. As tariffs fell, attention shifted to non-tariff measures that can either smooth or restrict trade. Technical standards help ensure safety and compatibility, but differences across countries may raise costs. Food trade is shaped by sanitary and phytosanitary (SPS) rules, which protect human, animal, and plant health. While legitimate, such measures can act like hidden barriers if they are stricter than necessary. Recent agreements therefore promote regulatory cooperation and transparency. Chapters on labor and the environment also appear more often, aiming to prevent a race to the bottom. Their enforcement has grown, although results vary and depend on monitoring and political will.
+
+Text: G. A long view of data shows steady change. Average global tariffs on manufactured goods fell from above 20 percent in the mid‑20th century to around 5 percent in many markets today. The WTO has recorded more than 350 regional trade agreements in force by the early 2020s, compared with fewer than 50 in the early 1990s. Trade volumes dip during shocks, as seen in 2009 after the financial crisis and again in 2020 during the pandemic, yet they tend to recover. Services and digital trade have expanded, and cross‑border data flows now support logistics, design, and after‑sales support alongside traditional goods shipments.
+
+Text: H. Trade agreements are tools rather than ends in themselves. Their value depends on sound design, clear language, and credible dispute settlement. Implementation also matters: customs systems must function, agencies need capacity, and firms require information. Adjustment policies can spread gains more evenly and reduce resistance to change. Future talks may focus on services, data protection, and climate‑related provisions, such as rules that recognize carbon pricing. Plurilateral deals among smaller groups of countries may advance specific issues where consensus is difficult. Although perfect certainty is impossible, well-crafted agreements can provide a stable framework that supports investment, innovation, and measured, inclusive growth.
+
+Text: Do the following statements agree with the information given in the text? Write TRUE, FALSE, or NOT GIVEN.
+
+1. Trade agreements typically reduce import duties and set rules for services and investment.
+... Paragraph A states that agreements usually reduce tariffs and include rules for services and investment.
+*a) True
+b) False
+c) Not Given
+
+2. Consumers always pay less because of trade deals.
+... Paragraph A says consumers gain more choice and sometimes lower prices; it does not say always.
+a) True
+*b) False
+c) Not Given
+
+3. Trade agreements set out the specific shipping routes firms should follow.
+... The passage discusses rules and dispute settlement but does not mention prescribing shipping routes.
+a) True
+b) False
+*c) Not Given
+
+4. Launched in 1947, the GATT emphasized cutting tariffs and providing predictability.
+... Paragraph B notes the GATT began in 1947 and focused on tariff cuts and predictable schedules.
+*a) True
+b) False
+c) Not Given
+
+5. When the WTO replaced the GATT in 1995, its remit narrowed to goods only.
+... Paragraph B states the WTO widened its scope beyond goods to services and intellectual property.
+a) True
+*b) False
+c) Not Given
+
+6. The WTO provides a structured process for members to resolve disputes.
+... Paragraph B mentions its dispute system offers a structured way to resolve disagreements.
+*a) True
+b) False
+c) Not Given
+
+7. Members of a free trade area apply a common external tariff to non-members.
+... Paragraph C explains that a free trade area removes internal tariffs but keeps separate external tariffs; a common external tariff is a feature of a customs union.
+a) True
+*b) False
+c) Not Given
+
+8. Answer the question below using NO MORE THAN TWO WORDS from the passage: Which agreement updated rules of origin after 2020?
+... Paragraph D states that after 2020, the United States–Mexico–Canada Agreement (USMCA) updated rules of origin.
+* USMCA
+9. Answer the question below using NO MORE THAN TWO WORDS from the passage: What policy was important to help displaced workers move into new roles?
+... Paragraph D notes that adjustment policies, including retraining, were important to help those affected move into new roles.
+* retraining
+10. Answer the question below using NO MORE THAN TWO WORDS from the passage: From which country might the electronics in a Mexican-assembled car come?
+... Paragraph D gives an example where electronics come from Canada.
+* Canada
+11. Answer the question below using NO MORE THAN TWO WORDS from the passage: Which country joined the WTO in 2007?
+... Paragraph E states that Vietnam’s entry into the WTO occurred in 2007.
+* Vietnam
+12. Answer the question below using NO MORE THAN TWO WORDS from the passage: Which rules safeguard health in food trade?
+... Paragraph F refers to sanitary and phytosanitary (SPS) rules that protect human, animal, and plant health in food trade.
+* SPS rules
+13. Answer the question below using NO MORE THAN TWO WORDS from the passage: What type of growth can well-crafted agreements support?
+... Paragraph H concludes that well-crafted agreements can support measured, inclusive growth.
+* inclusive growth

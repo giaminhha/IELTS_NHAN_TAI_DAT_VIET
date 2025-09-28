@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <assessment ident="text2qti_assessment_76cacb3efe31238f172a22f081057543bcdc7c736950a34598be8640693be60f" title="Quiz">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>cc_maxattempts</fieldlabel>
+        <fieldentry>1</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <section ident="root_section">
+      <item ident="text2qti_text_d10390dd81b864ce8dcbfa583b95937474ca91ea4f2111e8c07ac497b015834c" title="Ancient Egyptian civilisation">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_d10390dd81b864ce8dcbfa583b95937474ca91ea4f2111e8c07ac497b015834c</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;Text title: Ancient Egyptian Civilisation: Water, Writing, and Power&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_text_a26dadf1a3e39c986303c4b82e0b62afd696917107198f869adf2046e5d450bd" title="">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_a26dadf1a3e39c986303c4b82e0b62afd696917107198f869adf2046e5d450bd</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;A. Ancient Egypt developed along the lower Nile, where a narrow green valley runs through desert. The river shaped not only fields and villages, but also beliefs, authority, and identity. Over many centuries, communities grew from small farming settlements into a unified kingdom with a durable culture. Craftspeople learned to shape stone, make fine linen, and record information with ink on plant-based sheets. Temples rose beside storehouses, while royal tombs expanded in size and ambition. The resulting civilisation was therefore a system, not just a place: a network that linked water, labour, and leadership into a recognisable pattern of life.&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_text_66002dfdfb1a1ea7888aad5f3ec96695230353a1bb6accaeb25aedc63207909c" title="">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_66002dfdfb1a1ea7888aad5f3ec96695230353a1bb6accaeb25aedc63207909c</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;B. The Nile’s annual flood, known as the inundation, came from summer rains far to the south. When waters spread over the floodplain, they left a thin layer of dark, fertile silt. Farmers used basin irrigation, a method that trapped water in enclosed fields and released it slowly. Planting followed the flood; harvesting came before the next rise. Because rainfall was rare, this cycle was reliable and measurable. Priests and officials observed levels with a nilometer, a stone staircase marked with units. If the flood was too low, yields fell; if too high, canals broke. Consequently, careful management became essential.&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_text_03c11fcf273166d30384f39efe57ba8bf28c45042a7ad93c2d390af08f71a070" title="">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_03c11fcf273166d30384f39efe57ba8bf28c45042a7ad93c2d390af08f71a070</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;C. Political unification occurred around 3100 BCE, when Upper and Lower Egypt came under one ruler. Over time, historians have grouped royal lines into “dynasties” and periods, including the Old Kingdom (c. 2686–2181 BCE), Middle Kingdom (c. 2055–1650 BCE), and New Kingdom (c. 1550–1069 BCE). Capitals shifted between Memphis, Thebes, and other centres as rulers changed. The pharaoh’s position combined leadership and ritual duties, reinforcing authority through ceremony and display. A hierarchy of administrators assessed harvests, moved supplies, and settled disputes. These structures did not eliminate local customs, but they coordinated them. The state thus acted as a framework that gathered resources and organised labour.&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_text_231d7dfd9aa332634e37074ca3363a3c94b9682c6e9e331f9e08e0f9742440b5" title="">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_231d7dfd9aa332634e37074ca3363a3c94b9682c6e9e331f9e08e0f9742440b5</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;D. Writing supported this framework. Hieroglyphs, a system of signs for sounds and ideas, appeared on stone and metal for formal purposes. A related cursive script, called hieratic, allowed faster writing on papyrus, a paper-like material made from river reeds. Scribes trained for years, learning signs, numbers, and set phrases for accounts. Records listed grain rations, lists of workers, and temple donations, while legal texts recorded sales or inheritances. A civil calendar of 365 days helped plan storage and transport. Although literacy was limited, those who read and wrote connected farmers, workshops, and officials. In doing so, they turned local activity into a manageable economy.&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_text_e93a7f055f62c6c54df526fa6439b458ff7611fb1de37ad0c867d35c445f18ed" title="">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_e93a7f055f62c6c54df526fa6439b458ff7611fb1de37ad0c867d35c445f18ed</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;E. Monumental building shows how this economy functioned. A clear example is the Great Pyramid of Khufu at Giza, built around 2570 BCE. Its original height was about 146 metres, and it contained roughly 2.3 million stone blocks. Archaeology has identified a workers’ village with bakeries, breweries, and medical care. Evidence suggests a rotating workforce of farmers laboured during the flood season, when fields lay under water. Stone arrived by river and road, then moved on ramps. The project therefore depended on planning, regular rations, and steady supervision, rather than constant coercion. The pyramid still signals the scale of coordination achieved by the state.&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_text_d1af6f40b2a2de6b2a6348bda3b01acd5e9c05739babf4853245f7f8e8ff4915" title="">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_d1af6f40b2a2de6b2a6348bda3b01acd5e9c05739babf4853245f7f8e8ff4915</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;F. Daily life extended beyond fields and monuments. Barley and emmer wheat formed the basic crops; fish, onions, and beer were common foods. Mines in Sinai supplied copper and turquoise, while quarries produced limestone and granite. Gold from Nubia enhanced royal wealth. Trade routes linked Egypt to the Levant and the Red Sea, and voyages to the land known as Punt brought incense and rare woods. Taxes were often paid in grain or cloth, then redistributed to workers and soldiers. River transport was faster and safer than desert travel, so most goods followed the current. This circulation stabilised towns and supported craft specialisation.&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_text_023cf3be29ac71032b620f2f4817bde19de7b589c3523e9206d00f4954248467" title="">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_023cf3be29ac71032b620f2f4817bde19de7b589c3523e9206d00f4954248467</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;G. Religion touched work and leisure alike. Temples housed statues of gods and served as centres for festivals and economic activity. The idea of ma’at, meaning order and balance, guided moral behaviour and political claims. Funerary practices aimed to secure life after death, from simple burials to elaborate mummification. Texts like the Book of the Dead offered spells and guidance for the soul’s journey. Small amulets promised protection; household shrines received offerings. Popular stories, such as the Tale of the Shipwrecked Sailor, mixed adventure with lessons. Although beliefs changed over time, they continually linked the rising river, a stable kingdom, and a just society.&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_text_675141bc37ed7a091fb9d46bbceec14b10d3ebddd20df7b4a9207779bab78c2c" title="">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_675141bc37ed7a091fb9d46bbceec14b10d3ebddd20df7b4a9207779bab78c2c</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;H. Rediscovery in modern times reshaped knowledge of Egypt. In 1799, soldiers found the Rosetta Stone, which carried the same text in three scripts. Using it, Jean-François Champollion announced the decipherment of hieroglyphs in 1822, opening written records to study. In 1922, the largely intact tomb of Tutankhamun revealed furniture, jewellery, and daily tools, not only royal splendour. Today, archaeologists use satellite images, 3D scanning, and careful conservation to protect sites from water damage and urban growth. Much remains debated, yet the broad picture is clear: when water, management, and belief operated together, they created a durable civilisation that still informs research and imagination.&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_text_f73af890968a1e1bb45752590a8fb9ffcadb93405f0975d0ebcbe9ea457189f1" title="">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>text_only_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry></fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_f73af890968a1e1bb45752590a8fb9ffcadb93405f0975d0ebcbe9ea457189f1</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;Do the following statements agree with the information given in the text? Write TRUE, FALSE, or NOT GIVEN.&lt;/p&gt;</mattext>
+          </material>
+        </presentation>
+      </item>
+      <item ident="text2qti_question_57a7a0c42d0086f408dc0865d004f43ed9282d49d44cd0ed66aff93a15a26d9b" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>text2qti_choice_519ad40eababbee77f9d0ea90eb18513dc7269f5f58a57bbdb86b97b1344f485,text2qti_choice_37c3d7059ec5e84a269aadb5a0f6d5589707a94b7e86d5289e1c1a323336a3ab,text2qti_choice_ad1355d9e3b429557294b1bf03781042359106e7cede678a91b2696a1e0f7cda</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_57a7a0c42d0086f408dc0865d004f43ed9282d49d44cd0ed66aff93a15a26d9b</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;Do the following statements agree with the information in the passage? Write True if the statement agrees with the information, False if it contradicts the information, or Not Given if there is no information on this. Over a long period, small farming communities along the Nile became part of a single state.&lt;/p&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="text2qti_choice_519ad40eababbee77f9d0ea90eb18513dc7269f5f58a57bbdb86b97b1344f485">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_37c3d7059ec5e84a269aadb5a0f6d5589707a94b7e86d5289e1c1a323336a3ab">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_ad1355d9e3b429557294b1bf03781042359106e7cede678a91b2696a1e0f7cda">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">text2qti_choice_519ad40eababbee77f9d0ea90eb18513dc7269f5f58a57bbdb86b97b1344f485</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="general_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;p&gt;Paragraph A states that over many centuries communities grew into a unified kingdom.&lt;/p&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+      </item>
+      <item ident="text2qti_question_d1d907e417c207675f12b8eb35385e7bf7651faa076619d1de80954b1faee321" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>text2qti_choice_d929e0fa6ebeb6ff81d9342571085d7f79355133d24906c4340d209c20129e59,text2qti_choice_cca75da8493769c22daac3ab5ef33d192d319f44547370c297d752c6343180b4,text2qti_choice_a2560458152244cad119689df3a4a9759ec260b782d4e57f6bbeecb6b93896d1</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_d1d907e417c207675f12b8eb35385e7bf7651faa076619d1de80954b1faee321</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;Because local rainfall was common, farming dates in Egypt were difficult to predict.&lt;/p&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="text2qti_choice_d929e0fa6ebeb6ff81d9342571085d7f79355133d24906c4340d209c20129e59">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_cca75da8493769c22daac3ab5ef33d192d319f44547370c297d752c6343180b4">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_a2560458152244cad119689df3a4a9759ec260b782d4e57f6bbeecb6b93896d1">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">text2qti_choice_cca75da8493769c22daac3ab5ef33d192d319f44547370c297d752c6343180b4</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="general_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;p&gt;Paragraph B notes that rainfall was rare and the agricultural cycle was reliable and measurable.&lt;/p&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+      </item>
+      <item ident="text2qti_question_de41bf8e0d7f0eec76f5ef24895427ffc941401ca78a05e6cda0e125944679be" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>text2qti_choice_0435079624b42b0cb111e5bff0c9a0fd990f3c112f020db7c1b2cc95f0923dc7,text2qti_choice_bde3e28e85f22b59c9df0cc354179f04d73c93732c0c02cbf3e9d2387b8e6d53,text2qti_choice_cb3931ce4f861338e4022e2abc018114455609676b728112c2841533cfe32547</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_de41bf8e0d7f0eec76f5ef24895427ffc941401ca78a05e6cda0e125944679be</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;Officials measured Nile flood levels with a stepped structure marked with units.&lt;/p&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="text2qti_choice_0435079624b42b0cb111e5bff0c9a0fd990f3c112f020db7c1b2cc95f0923dc7">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_bde3e28e85f22b59c9df0cc354179f04d73c93732c0c02cbf3e9d2387b8e6d53">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_cb3931ce4f861338e4022e2abc018114455609676b728112c2841533cfe32547">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">text2qti_choice_0435079624b42b0cb111e5bff0c9a0fd990f3c112f020db7c1b2cc95f0923dc7</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="general_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;p&gt;Paragraph B describes the nilometer as a stone staircase marked with units to observe levels.&lt;/p&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+      </item>
+      <item ident="text2qti_question_63b8ee66a4bca75c294b140ec52e06fefa0d31f4724089c45881dfff308b538a" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>text2qti_choice_f7479b9f063bb98fe735bd0723ad36f9634bfe19d028987f0a6b713335b3e4fb,text2qti_choice_2a62f443484c2045fa17067411b7862b6be28809b5c5b9c2ade8c6380a553487,text2qti_choice_a2b214273814649a5e576798bcf2bffd50217760478b281513b8a2c39ce7ce5d</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_63b8ee66a4bca75c294b140ec52e06fefa0d31f4724089c45881dfff308b538a</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;Political organisation in Egypt eliminated local customs completely.&lt;/p&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="text2qti_choice_f7479b9f063bb98fe735bd0723ad36f9634bfe19d028987f0a6b713335b3e4fb">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_2a62f443484c2045fa17067411b7862b6be28809b5c5b9c2ade8c6380a553487">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_a2b214273814649a5e576798bcf2bffd50217760478b281513b8a2c39ce7ce5d">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">text2qti_choice_2a62f443484c2045fa17067411b7862b6be28809b5c5b9c2ade8c6380a553487</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="general_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;p&gt;Paragraph C states that state structures did not eliminate local customs; they coordinated them.&lt;/p&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+      </item>
+      <item ident="text2qti_question_442d0562cd987e9ae25e28b4591e648bd3b7fd791d78772e9c7f717a5f592e49" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>text2qti_choice_76776e485b943a382a6263a4c1799502e1f53f8db2d84892da32ab01c3cf329b,text2qti_choice_bfc3b8334c623778a02f3f0fe5e87f31ecd0616daed8475bc0cf6b343d3beaad,text2qti_choice_84694e7a5a391d34df0e1026f8f4af9c281ff3eab19e2c7a7ae5a93e9649ece4</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_442d0562cd987e9ae25e28b4591e648bd3b7fd791d78772e9c7f717a5f592e49</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;A hierarchy of administrators handled harvest assessments, the movement of supplies, and dispute settlement.&lt;/p&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="text2qti_choice_76776e485b943a382a6263a4c1799502e1f53f8db2d84892da32ab01c3cf329b">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_bfc3b8334c623778a02f3f0fe5e87f31ecd0616daed8475bc0cf6b343d3beaad">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_84694e7a5a391d34df0e1026f8f4af9c281ff3eab19e2c7a7ae5a93e9649ece4">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">text2qti_choice_76776e485b943a382a6263a4c1799502e1f53f8db2d84892da32ab01c3cf329b</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="general_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;p&gt;Paragraph C explicitly lists these duties for administrators.&lt;/p&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+      </item>
+      <item ident="text2qti_question_a37030e58a716077bc3bb63935d389a43db559267a43638f0568ef11ec3719bb" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>text2qti_choice_b4f921047c92063b6ca378e3f1ff3b1941a45f896cc773c8d24ad5acc8e5ac87,text2qti_choice_50c370287f7d389dc66c8a9eb5b4be602be4654248dae01421f35d2e4c3a63c3,text2qti_choice_85f9bb86ab4077fe09f7a32c4308a5febb81c3569bcb2c94d0204d0d558dbb73</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_a37030e58a716077bc3bb63935d389a43db559267a43638f0568ef11ec3719bb</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;A 365-day civil calendar was used to plan storage and transport.&lt;/p&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="text2qti_choice_b4f921047c92063b6ca378e3f1ff3b1941a45f896cc773c8d24ad5acc8e5ac87">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_50c370287f7d389dc66c8a9eb5b4be602be4654248dae01421f35d2e4c3a63c3">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_85f9bb86ab4077fe09f7a32c4308a5febb81c3569bcb2c94d0204d0d558dbb73">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Not Given&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="Yes">
+            <conditionvar>
+              <other/>
+            </conditionvar>
+            <displayfeedback feedbacktype="Response" linkrefid="general_fb"/>
+          </respcondition>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">text2qti_choice_b4f921047c92063b6ca378e3f1ff3b1941a45f896cc773c8d24ad5acc8e5ac87</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="general_fb">
+          <flow_mat>
+            <material>
+              <mattext texttype="text/html">&lt;p&gt;Paragraph D mentions a civil calendar of 365 days that helped plan storage and transport.&lt;/p&gt;</mattext>
+            </material>
+          </flow_mat>
+        </itemfeedback>
+      </item>
+    </section>
+  </assessment>
+</questestinterop>

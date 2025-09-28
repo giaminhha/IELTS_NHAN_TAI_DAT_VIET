@@ -1,0 +1,68 @@
+Text title: The history of written scripts
+
+Text: Text title: Lines of Memory: A Brief History of Written Scripts
+Text: A. Writing is often described as a tool for storing speech outside the human mind. It allows information to travel across distance and, crucially, across time. The term “script” refers to a set of signs used to record a language, whether by sounds, syllables, or meanings. Early systems emerged in several places, apparently without direct contact, suggesting parallel solutions to similar needs. Traders, rulers, and priests all required reliable records, so signs for goods and numbers were adapted for broader tasks. Consequently, simple pictures became more abstract, and reading required training. Notwithstanding the change in form, the goal remained the same: to make speech visible.
+
+Text: B. Many historians point to Mesopotamia as the home of the earliest known script. Clay tokens used for counting grain and sheep were pressed into tablets, which later developed into wedges cut with a stylus: cuneiform. Over centuries, signs that began as images took on sound values, so a single mark could represent a word or a syllable. Egyptian hieroglyphs show a related mixture. Highly decorative signs stood on temple walls, while faster “hieratic” and “demotic” hands served daily administration. In both regions, scribes trained for years, since record keeping demanded accuracy, and symbols accumulated specialised meanings for law, trade, and ritual.
+
+Text: C. A different approach appeared along the eastern Mediterranean coast. The Phoenician script, used by merchants, recorded mainly consonants and left most vowels to context. This lean design was efficient for writing on papyrus and ceramic jars, and it travelled widely with ships and goods. Greek speakers later added letters for vowels, producing an alphabet that could represent sound sequences more directly. The Roman alphabet, adapted from Greek via Etruscan, spread with Latin and became common in Europe. In parallel, Arabic developed as a flowing cursive, suited to pen and parchment. Therefore, fewer signs, written quickly, could support expanding literacy.
+
+Text: D. In East Asia, a separate tradition grew from Chinese characters, which often represent meanings as well as sounds. Early inscriptions on oracle bones show both pictures and phonetic loans, and later standards under the Qin dynasty regularised forms and stroke order. Because thousands of characters exist, readers learn common components, known as radicals, to recognise families of signs. Japan adapted Chinese in two ways: it borrowed characters for meaning and created syllabaries, kana, for native grammar. Korea offers a notable case study. In 1443, King Sejong sponsored Hangul, a designed alphabet whose letter shapes reflect mouth positions, making reading more accessible.
+
+Text: E. South Asia developed yet another pattern. The Brahmi script, visible in the rock edicts of Emperor Ashoka in the third century BCE, became a parent for many later systems. These are often called abugidas: each basic sign stands for a consonant with a default vowel, and marks change or remove that vowel. Devanagari, used for Hindi and Sanskrit, shows the style clearly with its horizontal headline and systematic vowel signs. Related scripts serve Bengali, Tamil, and many other languages. As religions and texts moved across the subcontinent, the script family diversified, yet the organising principle remained stable and therefore durable.
+
+Text: F. Knowledge of ancient scripts has often been lost and later recovered. The Rosetta Stone, found in 1799, carried one decree in three scripts: hieroglyphic, demotic, and Greek. In 1822, Jean-François Champollion showed that hieroglyphs encoded sounds as well as ideas, allowing names like “Ptolemy” to be read securely. Cuneiform yielded in stages during the 1840s and 1850s, as Henry Rawlinson and others compared inscriptions from Persia and Mesopotamia. The Maya script, long misunderstood as purely symbolic, was gradually deciphered from the 1950s to the 1990s through phonetic analysis. These dates mark not sudden breakthroughs but cumulative, collaborative interpretation.
+
+Text: G. Technologies for reproducing writing have shaped scripts in practice. Movable type appeared in China in the 11th century, although large character sets limited its spread. In Europe, Gutenberg’s press in the 1450s enabled faster printing and encouraged standard spelling and punctuation. The telegraph and typewriter later favoured simple letterforms and reduced diacritics, since wires and mechanical keys had limits. As a result, some languages adopted alternate spellings for practicality, while others created special machines. Newspapers, schoolbooks, and official forms then fixed conventions, so readers came to expect uniform shapes. The appearance of a script, therefore, reflects tools as much as tradition.
+
+Text: H. The digital age extends this long history into code. Computers once handled only a narrow set of letters, but the Unicode Standard now assigns numbers to characters from hundreds of scripts. This common map allows Arabic, Devanagari, and Chinese to appear side by side on screens. Keyboards, however, still guide habits, so input methods vary by language and device. At the same time, communities revive or design scripts to express identity, while governments balance readability with heritage. Emoji add pictorial signs to everyday writing, blurring the line between image and text. Despite constant change, the purpose endures: to record speech and share meaning.
+
+Text: Do the following statements agree with the information given in the text? Write TRUE, FALSE, or NOT GIVEN.
+
+1. Writing enables information to be transmitted beyond both distance and time.
+... Paragraph A states that writing allows information to travel across distance and across time.
+*a) True
+b) False
+c) Not Given
+
+2. Most early scripts arose through direct borrowing between cultures.
+... Paragraph A notes that early systems emerged in several places apparently without direct contact.
+a) True
+*b) False
+c) Not Given
+
+3. Cuneiform developed from impressions of clay counting tokens pressed into tablets.
+... Paragraph B explains that clay tokens were pressed into tablets and later developed into wedge-shaped cuneiform.
+*a) True
+b) False
+c) Not Given
+
+4. Because the symbols were simple, scribes in Mesopotamia and Egypt trained only briefly.
+... Paragraph B states that scribes trained for years and symbols had specialised meanings.
+a) True
+*b) False
+c) Not Given
+
+5. The Phoenician script primarily recorded consonants, leaving most vowels to context.
+... Paragraph C says the Phoenician script recorded mainly consonants and left most vowels to context.
+*a) True
+b) False
+c) Not Given
+
+6. Arabic script was designed chiefly for carving into stone rather than for pen and parchment.
+... Paragraph C describes Arabic as a flowing cursive suited to pen and parchment.
+a) True
+*b) False
+c) Not Given
+
+7. Hangul’s letter shapes reflect the positions of the mouth, aiding accessibility.
+... Paragraph D states that Hangul’s letter shapes reflect mouth positions, making reading more accessible.
+*a) True
+b) False
+c) Not Given
+
+8. The Rosetta Stone was discovered by French soldiers.
+... Paragraph F gives the discovery date (1799) but does not specify who discovered it.
+a) True
+b) False
+*c) Not Given

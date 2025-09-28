@@ -1,0 +1,61 @@
+Text title: Staff Guide to Money, Payments, and Bank Controls
+
+Text: A. This guide explains how money and banking work in practice, and how staff should apply core procedures. It links the basic functions of money—store of value, medium of exchange, and unit of account—to daily tasks at the branch and online. While money has changed shape over time, the aim for staff is constant: keep customer funds safe and move payments reliably. The guide outlines payment channels, account access, risk controls, and incident reporting. It also introduces key terms in plain language. You will find short examples and clear steps, because consistent actions support trust. When in doubt, follow policy and escalate issues early to protect customers and the institution.
+
+Text: B. Customers today use several forms of money and payment channels. Cash and coins suit small, immediate purchases but require secure handling. Bank deposits move through cards, transfers, and digital wallets, which provide speed and records. Cards are convenient for shops and online, while bank transfers suit bills and salaries. Digital wallets and mobile money help where branch access is limited. Cross‑border transfers can be slower and more costly, so staff should give clear expectations about timing and fees. Cryptocurrencies exist but are volatile and not widely accepted as day‑to‑day money. Central bank money still anchors the system, while private tools ride on top of it. Staff should match the channel to the customer’s need and risk profile.
+
+Text: C. Opening an account starts with identity checks known as KYC—Know Your Customer. Staff must confirm legal name, date of birth, address, and a valid ID. For businesses, identify the beneficial owner, the real person who controls the company. Keep copies as the policy requires, and update records when details change. Strong access controls follow after opening. Encourage customers to use long passwords and two‑factor authentication, which means a second check, such as a code or fingerprint. Do not share login details or reset credentials without proper verification. Report unusual attempts to access accounts. Clear records and firm access rules reduce fraud and support fair service to all customers.
+
+Text: D. Card and ATM operations are common, so procedures must be precise. Card payments rely on authorization from the issuer, usually checked by a chip and a PIN or contactless limits. If a payment is declined, explain the reason shown by the system and suggest safe next steps. In ATMs, inspect for signs of tampering before loading or service. Skimming devices and fake keypads are risks; follow inspection checklists and report anything unusual at once. When a customer reports a lost or stolen card, block it immediately and log the event. Daily reconciliations should match transactions to cash and system totals. These steps maintain customer confidence and reduce losses.
+
+Text: E. Behind every payment, funds must clear and settle. Some systems run in batches at set times, while others are real‑time. RTGS (real‑time gross settlement) moves large payments one by one, giving finality within minutes. Retail transfers may use batch rails, which post later in the day. Explain cut‑off times so customers plan correctly. A chargeback is a card reversal when a transaction is disputed; follow evidence rules and time limits carefully. Settlement risk occurs if one side pays but the other fails. To manage this, confirm balances, use approved systems, and escalate delays. Keep accurate logs, because strong records resolve most exceptions faster and more fairly.
+
+Text: F. Digital and mobile banking extend access but require disciplined controls. Use secure connections, and remind customers to avoid public Wi‑Fi for sensitive actions. Two‑factor authentication and real‑time alerts reduce account takeover risk. A short case shows the potential and the limits. Kenya’s M‑Pesa, launched in 2007, allowed people to send money by basic phone. Within a decade, mobile money supported many everyday payments and helped small businesses. It also concentrated system risk in a few platforms. When one service went down, many users could not pay. Staff should prepare for similar patterns: promote backups, give clear outage messages, and record complaints for follow‑up and trend analysis.
+
+Text: G. Compliance tasks protect the bank and the public. AML/KYC means anti‑money laundering and know your customer. Staff must screen customers and transactions against sanctions lists and risk indicators. Watch for red flags, such as many cash deposits just below a report threshold, unusual transfers with vague reasons, or use of accounts by unknown third parties. A PEP, or politically exposed person, needs extra checks due to higher corruption risk. If activity looks suspicious, file a SAR, a suspicious activity report, as policy requires. Do not tell the customer about a SAR. Keep training up to date and maintain logs, because regulators review evidence, not intentions.
+
+Text: H. Incident reporting and data protection complete the control framework. If you see fraud, data loss, or a system fault, report it through the official channel within the required time. Early notice allows the bank to contain harm, fix causes, and inform affected customers. Protect data by limiting access to those who need it, encrypting devices, and securing paper files. Treat third‑party vendors with the same care, using contracts and tests. Looking ahead, crypto assets will likely remain niche, while CBDCs—central bank digital currencies, a form of state‑issued digital cash—may appear in some markets. Local habits will still shape payment choices, so offer options and clear guidance. Summary: Money moves through several tools, but safe access, careful checks, and timely reporting support all of them. Apply procedures consistently, and escalate issues early to protect customers and the bank.
+
+Text: Do the following statements agree with the information given in the text? Write YES, NO, or NOT GIVEN.
+
+1. The guide links money’s roles to day-to-day branch and online work, and includes brief examples to promote consistent actions.
+... Paragraph A states it connects the basic functions of money to daily tasks and provides short examples because consistent actions support trust.
+*a) Yes
+b) No
+c) Not Given
+
+2. It claims that the physical form of money has not changed over time.
+... Paragraph A says money has changed shape over time, though the aim for staff is constant.
+a) Yes
+*b) No
+c) Not Given
+
+3. When uncertain, staff are told to delay escalation until problems are confirmed.
+... Paragraph A instructs: when in doubt, follow policy and escalate issues early.
+a) Yes
+*b) No
+c) Not Given
+
+4. Staff should align the payment channel with customer risk and needs, so cards are always preferred for paying salaries.
+... Paragraph B says to match the channel to the customer’s need and risk profile, and specifically notes bank transfers suit bills and salaries.
+a) Yes
+*b) No
+c) Not Given
+
+5. The guide lists the specific brands of digital wallets that customers should use.
+... Paragraph B discusses digital wallets in general but does not name brands or list specific ones to use.
+a) Yes
+b) No
+*c) Not Given
+
+6. For company accounts, staff must identify the beneficial owner and retain copies in line with policy.
+... Paragraph C says to identify the beneficial owner and to keep copies as policy requires.
+*a) Yes
+b) No
+c) Not Given
+
+7. Login details may be shared with third parties if two‑factor authentication is enabled.
+... Paragraph C instructs: do not share login details; 2FA is encouraged but does not permit sharing.
+a) Yes
+*b) No
+c) Not Given

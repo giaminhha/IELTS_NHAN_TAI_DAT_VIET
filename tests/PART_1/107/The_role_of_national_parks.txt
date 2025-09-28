@@ -1,0 +1,63 @@
+Text title: The role of national parks
+
+Text: Text title: The role of national parks
+
+Text: A. National parks are large areas set aside to protect landscapes, wildlife, and cultural features for the public good. They were first promoted as places where natural beauty could be preserved while remaining open to visitors. Over time, their purpose has widened. Scientists now see them as living laboratories, while communities view them as anchors for local economies. Governments use them to safeguard water sources and reduce environmental risk. Consequently, the modern park must balance many goals at once. It must conserve rare species, enable recreation, support education, and, where appropriate, honor historic ties to land. This complex task requires careful planning and regular review.
+
+Text: B. The most visible role of national parks is biodiversity protection. By restricting development, parks maintain large, connected habitats where animals and plants can survive. In many regions, parks host apex predators and wide‑ranging mammals that need space, such as bears or antelope. Protected zones also shelter fragile plants that would be displaced by farming or roads. In addition, parks can function as corridors, linking separate patches of habitat so that species can move between them. Movement allows genetic exchange and helps populations recover after drought or fire. Despite these advantages, safeguarding nature inside strict borders remains challenging when pressures outside the park continue to intensify.
+
+Text: C. Parks also supply ecosystem services, meaning the benefits people obtain from nature. Forested parks store carbon in trees and soils, which can help limit climate change. Wetlands inside parks slow flood waters and filter pollutants, thus improving water quality downstream. Mountain parks protect headwaters, so towns and farms receive steady flows even in dry months. These services are often unnoticed because they occur in the background of daily life. Nevertheless, when forests are cleared or rivers are diverted, the lost benefits become visible and costly. Therefore, maintaining protected areas can be viewed not only as conservation, but also as preventive investment in public infrastructure.
+
+Text: D. A frequently cited example is Yellowstone National Park in the United States, established in 1872. The park covers about 8,900 square kilometers and receives roughly 4 million visits each year. In 1995, wolves were reintroduced after decades of absence. Their return altered elk behavior and numbers, which has been associated with the recovery of willow and aspen stands along streams. While scientists debate the scale of this “trophic cascade”—a chain of effects across a food web—there is agreement that long‑term monitoring in a large protected area made such observations possible. Yellowstone therefore illustrates how a park can support research, education, and visitor experience at the same time.
+
+Text: E. Tourism is another important dimension. Parks attract visitors who spend money on guides, lodging, transport, and food. Local businesses grow, and seasonal jobs are created. In some countries, fees collected at gateways are reinvested in trails, rangers, and waste management. However, high visitor numbers can damage the very qualities that draw people. Trampling harms vegetation, and vehicles disturb wildlife. Overcrowding can also reduce the sense of quiet that many seek. Managers therefore apply measures such as permits, shuttle systems, and designated paths. When tourism is planned and capped, economic benefits can be maintained while environmental pressures are kept within acceptable limits.
+
+Text: F. The relationship between national parks and nearby communities is crucial. In several regions, Indigenous peoples have deep cultural connections to lands that later became parks. Co‑management arrangements, in which communities share decisions with government agencies, aim to respect those ties while improving stewardship. Such models may include traditional fire practices, controlled harvesting, or cultural tourism led by local guides. Where benefits are fairly distributed, compliance with rules tends to rise. Conversely, if people are excluded from resources without alternatives, illegal use may continue. Notwithstanding different legal systems, many programs now stress participation, livelihoods, and cultural heritage alongside environmental objectives.
+
+Text: G. Scientific work inside parks supports policy beyond their borders. Fixed plots, wildlife surveys, and automated sensors provide long time series of data. These records can reveal shifting seasons, advancing tree lines, or earlier flowering, all of which reflect climate change. They also help managers test strategies, such as controlled burns to reduce severe fires, or the removal of invasive species that threaten native plants. When findings are published, other regions can adapt the lessons to their own conditions. The approach is often called adaptive management: actions are taken, outcomes are measured, and plans are revised accordingly. In this way, parks contribute evidence for broader decision‑making.
+
+Text: H. Future challenges are significant. Climate change may push species above their current ranges, so park boundaries might no longer contain suitable habitat. Wider landscape planning will therefore be needed to create buffers and link protected areas. Funding is another concern, as maintenance backlogs and staff shortages can erode standards. New tools, including satellite images and visitor apps, can improve monitoring and reduce impacts, but technology cannot replace on‑the‑ground presence. The most promising path combines clear zoning, strong community partnerships, and regional connectivity. If these elements are aligned, national parks can continue to conserve nature while providing public benefits for generations.
+
+Text: Do the following statements agree with the information given in the text? Write TRUE, FALSE, or NOT GIVEN.
+
+1. Early advocates of national parks aimed to preserve landscapes while still allowing public access.
+... Paragraph A states parks were first promoted as places where natural beauty could be preserved while remaining open to visitors.
+*a) True
+b) False
+c) Not Given
+
+2. Today, a national park’s sole objective is to protect rare species.
+... Paragraph A says modern parks must balance many goals, including conservation, recreation, education, and cultural ties.
+a) True
+*b) False
+c) Not Given
+
+3. Some parks function as corridors that connect separated habitats.
+... Paragraph B notes that parks can link separate patches of habitat to allow species movement.
+*a) True
+b) False
+c) Not Given
+
+4. Pressures outside a park always stop at its boundaries, so biodiversity inside is unaffected.
+... Paragraph B explains that safeguarding nature within borders is challenging when pressures outside the park intensify.
+a) True
+*b) False
+c) Not Given
+
+5. Wetlands located within parks can improve downstream water quality.
+... Paragraph C states that wetlands slow flood waters and filter pollutants, improving water quality downstream.
+*a) True
+b) False
+c) Not Given
+
+6. Wolves were reintroduced to Yellowstone in 1995 after being absent for decades.
+... Paragraph D explicitly says wolves were reintroduced in 1995 after decades of absence.
+*a) True
+b) False
+c) Not Given
+
+7. Sharing park decisions with local communities can increase compliance with regulations.
+... Paragraph F indicates that where benefits are fairly distributed, compliance with rules tends to rise, and discusses co‑management.
+*a) True
+b) False
+c) Not Given

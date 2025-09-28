@@ -1,0 +1,39 @@
+Text title: Sustainable development goals (SDGs)
+
+Text: A. In 2015, almost every country agreed on a shared roadmap known as the Sustainable Development Goals. These goals set out a vision for both people and the planet. They bring together three major areas: social well-being, economic opportunity, and environmental protection. The goals describe what should be improved, but they do not prescribe a single path. This approach allows countries to choose solutions that fit local conditions, while still moving in the same direction. The agenda is practical and wide in scope. It covers issues as varied as clean water, decent jobs, and climate action. Consequently, it offers a broad framework for action rather than a narrow set of rules.
+
+Text: B. The SDGs grew out of the earlier Millennium Development Goals, which guided global efforts from 2000 to 2015. While the MDGs focused mainly on poverty and health in low-income countries, the SDGs were designed to be universal. They apply to all nations, irrespective of income level. They were adopted by the United Nations General Assembly in September 2015 as part of the 2030 Agenda for Sustainable Development. The negotiation process included governments, civil society, and business groups. This inclusive design helped build support and ownership. The goals were set for a fifteen-year period, giving time for planning, investment, and steady progress, while still creating a sense of urgency.
+
+Text: C. There are 17 goals, and their scope is deliberately broad. They cover hunger, health, education, gender equality, energy, cities, oceans, and more. The goals are linked, so improvement in one area may strengthen another. For example, providing clean energy can reduce indoor air pollution and improve health. It may also create jobs and reduce household costs. However, some actions involve trade-offs. Expanding agriculture can raise food supply, yet lead to habitat loss and higher emissions. Therefore, policymakers are encouraged to look at the whole system. Attention to these links may prevent unintended effects and may help direct resources to where they have the greatest combined impact.
+
+Text: D. The SDGs include 169 targets and a set of official indicators used to track change over time. An indicator is a simple measure, such as the share of households with electricity or the rate of child stunting. Most indicators use 2015 as a baseline and aim to show results by 2030. In total, the global list includes more than 200 indicators. Data collection has expanded, using household surveys, administrative records, and, in some cases, satellite images. Even so, data gaps remain, especially for small or remote populations. The COVID-19 pandemic in 2020 disrupted both services and measurement systems, which, in many places, delayed reporting and complicated comparisons.
+
+Text: E. Progress has been mixed and uneven, as shown by country examples. Bangladesh expanded solar home systems in rural areas, installing more than four million units by 2018. This helped raise electrification rates and reduced the use of kerosene, which is costly and polluting. In Costa Rica, electricity generation has been largely renewable for years; in several recent years, more than 98 percent of power came from clean sources like hydro, wind, and geothermal. These cases demonstrate that steady improvement is possible with consistent policy and investment. Nevertheless, challenges remain, including reliable maintenance, grid upgrades, and access for low-income households in remote regions.
+
+Text: F. Financing is a central issue. Meeting the goals requires public budgets, private investment, and international support. Official development assistance from high-income countries was over $200 billion in 2022, yet estimates of total annual needs reach into the trillions. Therefore, many actors consider blended finance, which combines public or philanthropic funds with private capital to reduce risk. Green and social bonds have also grown as tools to channel money to climate and social projects. However, transparency and measurable results are essential. Without clear reporting, investors may not trust the benefits claimed. Domestic resource mobilization, including fair taxation and effective spending, remains equally important.
+
+Text: G. Local implementation is where many goals become concrete. Cities manage transport, waste, housing, and public spaces, so urban policy affects several targets at once. Some municipalities map their plans to the SDGs and publish a “Voluntary Local Review.” New York City issued one in 2018, and other cities have followed. These reports help align local decisions with global aims and allow comparisons across regions. Community participation is also valuable. Residents can identify barriers, such as unsafe walking routes or unreliable water points. In turn, local data can inform national plans. This two-way link helps create coherence and avoids duplication of effort.
+
+Text: H. With the 2030 deadline approaching, many indicators show slower progress than originally hoped. The pandemic, climate shocks, and rising prices have increased pressure on health systems, food security, and household budgets. Yet there are opportunities to accelerate action. Investments in clean energy, climate adaptation, and basic services can create jobs and reduce risk at the same time. Better data systems, including digital tools, can speed up feedback and allow faster adjustments. Notwithstanding uncertainties, a consistent approach—clear priorities, adequate finance, and attention to local needs—can help. The SDGs are not a rigid plan, but a shared language for practical, measurable change.
+
+Text: Questions
+
+Text: Do the following statements agree with the information given in the text? Write TRUE, FALSE, or NOT GIVEN.
+
+1. Write True, False or Not Given: Most SDG indicators use 2015 as a baseline for tracking progress.
+... Paragraph D states that most indicators use 2015 as a baseline and aim to show results by 2030.
+*a) True
+b) False
+c) Not Given
+
+2. Write True, False or Not Given: Costa Rica has generated 100 percent of its electricity from renewable sources in every recent year.
+... Paragraph E says that in several recent years more than 98 percent of power came from clean sources, not 100 percent every year.
+a) True
+*b) False
+c) Not Given
+
+3. Write True, False or Not Given: Green and social bonds are used to channel funds to climate and social projects.
+... Paragraph F states that green and social bonds have grown as tools to channel money to climate and social projects.
+*a) True
+b) False
+c) Not Given
