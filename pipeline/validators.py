@@ -12,7 +12,7 @@ import time
 import re
 import json
 from typing import Tuple, Dict, Any, List
-from config import LLM_API_KEY, OPENAI_BASE_URL
+from config import LLM_API_KEY, OPENAI_BASE_URL, PART_USED
 from data_utils.json_strict import safe_json_loads
 # ---------- Utilities ----------
 def clean_passage_body(passage_text: str) -> str:
@@ -48,30 +48,32 @@ def validate_passage_text(passage_text: str) -> Tuple[float, List[str], List[str
     wc = word_count(passage_text)
     pc = paragraph_count(passage_text)
 
+    ideal_level = 900 if PART_USED < 4 else 300
     # --- Word count scoring ---
-    ideal = 900
-    width = 900  # wider tolerance
-    wc_score = max(0.0, 1 - abs(wc - ideal) / width)
+    ideal = ideal_level
+    width = ideal_level  # wider tolerance
+    wc_score = max(0.0, 1 - abs(wc - ideal) / (width * 2.5))
     raw_traces.append(f"word_count={wc}")
 
-    if wc < 600:
-        fb_traces.append(f"Passage too short ({wc} words). Aim for ~900 words.")
-    elif wc > 1200:
-        fb_traces.append(f"Passage too long ({wc} words). Aim for ~900 words.")
+    if wc < ideal_level * 2 / 3:
+        fb_traces.append(f"Passage too short ({wc} words). Aim for ~{ideal_level} words.")
+    elif wc > ideal_level * 4 / 3:
+        fb_traces.append(f"Passage too long ({wc} words). Aim for ~{ideal_level} words.")
     else:
         fb_traces.append(f"Passage length acceptable ({wc} words).")
 
     # --- Paragraph count ---
-    if 5 <= pc <= 9:
+    ideal_paragraphs = 7 if PART_USED < 4 else 5
+    if ideal_paragraphs - ideal_paragraphs // 3 <= pc <= ideal_paragraphs + ideal_paragraphs // 3:
         pc_score = 1.0
     else:
-        pc_score = max(0.0, 1 - abs(pc - 7) / 7)
+        pc_score = max(0.0, 1 - abs(pc - ideal_paragraphs) / ideal_paragraphs)
     raw_traces.append(f"paragraph_count={pc}")
 
-    if pc < 5:
-        fb_traces.append(f"Too few paragraphs ({pc}). Target 5–9.")
-    elif pc > 9:
-        fb_traces.append(f"Too many paragraphs ({pc}). Target 5–9.")
+    if pc < ideal_paragraphs - ideal_paragraphs // 3:
+        fb_traces.append(f"Too few paragraphs ({pc}). Target {ideal_paragraphs - ideal_paragraphs // 3} to {ideal_paragraphs + ideal_paragraphs // 3}.")
+    elif pc > ideal_paragraphs + ideal_paragraphs // 3:
+        fb_traces.append(f"Too many paragraphs ({pc}). Target {ideal_paragraphs - ideal_paragraphs // 3} to {ideal_paragraphs + ideal_paragraphs // 3}.")
     else:
         fb_traces.append(f"Paragraph count within range ({pc}).")
 
@@ -134,61 +136,6 @@ def extractive_answer_check(passage_text: str, question) -> Tuple[float, str]:
     return 0.0, "answer_missing_or_paraphrased"
 
 
-# ---------- Penmanship validator ----------
-def validate_penmanship(text: str, rules: List[Dict] | None = None) -> Tuple[float, List[str], List[str]]:
-    raw_traces = []
-    fb_traces = []
-
-    if not rules:
-        return 1.0, ["penmanship=skipped(no_rules)"], ["No penmanship rules provided."]
-
-    violations = []
-    for rule in rules:
-        desc = rule.get("description", "")
-        patterns = rule.get("banned_patterns", [])
-        for pat in patterns:
-            if re.search(pat, text):
-                violations.append(desc)
-                raw_traces.append(f"penmanship_violation:{desc}")
-                fb_traces.append(f"Penmanship violation: {desc}")
-
-    score = 1.0 if not violations else max(0.0, 1 - len(violations) / len(rules))
-    if not violations:
-        fb_traces.append("No penmanship violations detected.")
-    return score, raw_traces, fb_traces
-
-
-# ---------- Distractor quality validator ----------
-def validate_distractors(questions: list) -> Tuple[float, List[str], List[str]]:
-    raw_traces = []
-    fb_traces = []
-
-    if not questions:
-        return 0.0, ["distractors=missing"], ["No distractors found. Require at least 2–3 per question."]
-
-    valid = 0
-    total = 0
-    for q in questions:
-        opts = q.get("options", [])
-        ans = q.get("answer", "")
-        for opt in opts:
-            if opt == ans:
-                continue
-            total += 1
-            if abs(len(opt) - len(ans)) < 10:  # rough similarity
-                valid += 1
-            else:
-                raw_traces.append(f"distractor_bad_length:{opt}")
-                fb_traces.append(f"One distractor too different in length: '{opt}'")
-
-    score = valid / total if total else 0.0
-    if score >= 0.7:
-        fb_traces.append(f"Distractor quality good ({valid}/{total} acceptable).")
-    else:
-        fb_traces.append(f"Distractor quality weak ({valid}/{total} acceptable). Balance lengths with correct answer.")
-
-    return score, raw_traces, fb_traces
-
 
 
 # ---------- Band mapping ----------
@@ -196,81 +143,52 @@ def to_band(score_01: float) -> float:
     band = score_01 * 9.0
     return round(band * 2) / 2
 
-def validate_by_llm(passage: str) -> Dict[str, Any]:
-    """
-    Call LLM to evaluate passage similarity with IELTS style.
-    Returns dict with category scores + overall + feedback.
-    """
-    from openai import OpenAI
-    import json
 
-    client = OpenAI(api_key=LLM_API_KEY, base_url=OPENAI_BASE_URL)
+IELTS_EVAL_PROMPTS = {
+    1: """IELTS Reading Passage Evaluation Prompt (Single Passage — Part 1)
 
-    IELTS_EVAL_PROMPT = """IELTS Reading Passage Evaluation Prompt (Single Passage)
+System Role:
+You are an IELTS Reading Passage Validator. Your task is to evaluate how closely a passage resembles an authentic IELTS Reading Part 1 passage, based on the categories below.
 
-    System Role:
-    You are an IELTS Reading Passage Validator. Your task is to evaluate how closely a Part 2 passage resembles an authentic IELTS Reading Part 2 passage, based on the categories below.
+🔎 Categories to Evaluate
 
-    🔎 Categories to Evaluate
+1. Vocabulary Level (0–100)
+- ~85–90% GSL (basic words): clear, everyday vocabulary.
+- ~8–10% AWL (academic or semi-formal words): mild sophistication.
+- ≤2% technical or field-specific terms, only if clearly explained in context.
+- Avoids idioms, figurative language, or uncommon expressions.
+- Target level: CEFR B1 (borderline B2) — simple but precise.
 
-    1. Vocabulary Level (0–100)
+2. Sentence Length & Grammar Complexity (0–100)
+- Average sentence length: 10–18 words.
+- Maximum sentence length: ≤28 words.
+- Predominantly simple and compound sentences.
+- Complex sentences ≤35–40% of text.
+- Minimal use of subordination and nominalisation.
+- Grammar and punctuation are clear and functional — not dense or abstract.
 
-    ~70–75% GSL (basic words): ensures accessibility.
+3. Readability (0–100)
+- FRE: 55–70 (fairly easy to read).
+- FKGL: 7–8.
+- Direct, instructional, or descriptive tone — no academic abstraction.
+- Uses active voice and clear connectors (“first,” “next,” “for example”).
+- Paragraphs flow logically and are easy to follow without rereading.
 
-    ~20–25% AWL (academic vocabulary): adds professional/academic tone.
+4. Content Balance (0–100)
+- Everyday, workplace, or public information context (e.g., notices, instructions, guides, brochures).
+- Focus on facts, procedures, or practical advice.
+- Limited inference required — answers often found directly in text.
+- Neutral, helpful, and informative, not argumentative or opinion-based.
+- Includes enough detail for comprehension but avoids data-heavy analysis.
 
-    ~5% technical/workplace terms: linked to training, management, or procedures.
+5. Authenticity of Style (0–100)
+- Style resembles Cambridge IELTS Part 1 passages: clear, factual, and purpose-driven.
+- Tone is neutral, informative, and slightly formal, but not academic.
+- Avoids storytelling, persuasion, or expressive style.
+- Feels like a real-world information text (e.g., workplace memo, museum leaflet, company policy excerpt).
 
-    Avoids rare/literary terms.
+FOLLOW THIS Output Format (JSON):
 
-    Target level: CEFR upper B1–B2 (borderline C1 in places).
-
-    2. Sentence Length & Grammar Complexity (0–100)
-
-    Average sentence length: 14–22 words.
-
-    Maximum sentence length: ≤ 32 words.
-
-    Mix of simple, compound, and complex sentences.
-
-    Complex sentences ~50–55% of text.
-
-    Subordinate clauses: mostly ≤2 per sentence.
-
-    Style slightly denser than Part 1, but less abstract than Part 3.
-
-    3. Readability (0–100)
-
-    FRE: 45–60 (harder than Part 1, but not as dense as Part 3).
-
-    FKGL: 9–10.
-
-    Some nominalisation and passive voice allowed if natural in workplace/academic context.
-
-    Flow is structured, concise, but not conversational.
-
-    4. Content Balance (0–100)
-
-    Workplace or training context with semi-academic style.
-
-    Mix of policy/rules, explanations, and implications.
-
-    May cite organisations, processes, or short case examples.
-
-    Informative, neutral, factual — avoids persuasion or narrative.
-
-    Enough detail to require close reading (not skim-level like Part 1).
-
-    5. Authenticity of Style (0–100)
-
-    Clear, professional, and semi-academic.
-
-    Resembles Cambridge IELTS Part 2 passages (e.g., workplace manuals, HR policies, training documents, short reports).
-
-    Avoids journalistic flair, metaphors, or casual tone.
-
-    Concise, objective, slightly formal.
-    FOLLOW THIS Output Format: (JSON)
 {{
   "Vocabulary_Level": <score>,
   "Sentence_Length_&_Grammar_Complexity": <score>,
@@ -285,14 +203,209 @@ def validate_by_llm(passage: str) -> Dict[str, Any]:
     "Authenticity_of_Style": "..."
   }}
 }}
-    Passage:
-    \"\"\"{passage}\"\"\"
-    """.format(passage=passage)
+
+Passage:
+\"\"\"{passage}\"\"\"""",
+
+    2: """IELTS Reading Passage Evaluation Prompt (Single Passage — Part 2)
+
+System Role:
+You are an IELTS Reading Passage Validator. Your task is to evaluate how closely a Part 2 passage resembles an authentic IELTS Reading Part 2 passage, based on the categories below.
+
+🔎 Categories to Evaluate
+
+1. Vocabulary Level (0–100)
+~70–75% GSL (basic words): ensures accessibility.
+~20–25% AWL (academic vocabulary): adds professional/academic tone.
+~5% technical/workplace terms: linked to training, management, or procedures.
+Avoids rare/literary terms.
+Target level: CEFR upper B1–B2 (borderline C1 in places).
+
+2. Sentence Length & Grammar Complexity (0–100)
+Average sentence length: 14–22 words.
+Maximum sentence length: ≤32 words.
+Mix of simple, compound, and complex sentences.
+Complex sentences ~50–55% of text.
+Subordinate clauses: mostly ≤2 per sentence.
+Style slightly denser than Part 1, but less abstract than Part 3.
+
+3. Readability (0–100)
+FRE: 45–60 (harder than Part 1, but not as dense as Part 3).
+FKGL: 9–10.
+Some nominalisation and passive voice allowed if natural in workplace/academic context.
+Flow is structured, concise, but not conversational.
+
+4. Content Balance (0–100)
+Workplace or training context with semi-academic style.
+Mix of policy/rules, explanations, and implications.
+May cite organisations, processes, or short case examples.
+Informative, neutral, factual — avoids persuasion or narrative.
+Enough detail to require close reading (not skim-level like Part 1).
+
+5. Authenticity of Style (0–100)
+Clear, professional, and semi-academic.
+Resembles Cambridge IELTS Part 2 passages (e.g., workplace manuals, HR policies, training documents, short reports).
+Avoids journalistic flair, metaphors, or casual tone.
+Concise, objective, slightly formal.
+
+FOLLOW THIS Output Format: (JSON)
+{{
+  "Vocabulary_Level": <score>,
+  "Sentence_Length_&_Grammar_Complexity": <score>,
+  "Readability": <score>,
+  "Content_Balance": <score>,
+  "Authenticity_of_Style": <score>,
+  "Feedbacks": {{
+    "Vocabulary_Level": "...",
+    "Sentence_Length_&_Grammar_Complexity": "...",
+    "Readability": "...",
+    "Content_Balance": "...",
+    "Authenticity_of_Style": "..."
+  }}
+}}
+Passage:
+\"\"\"{passage}\"\"\"""",
+
+    3: """IELTS Reading Passage Evaluation Prompt (Single Passage — Part 3)
+
+System Role:
+You are an IELTS Reading Passage Validator. Your task is to evaluate how closely a passage resembles an authentic IELTS Reading Part 3 passage, based on the categories below.
+
+🔎 Categories to Evaluate
+
+1. Vocabulary Level (0–100)
+- ~60–65% GSL (general words).
+- ~25–30% AWL (academic vocabulary).
+- ~5–10% technical or field-specific terms (in context of psychology, sociology, science, or education).
+- Avoids obscure or literary words.
+- Target level: CEFR B2–C1.
+
+2. Sentence Length & Grammar Complexity (0–100)
+- Average sentence length: 18–26 words.
+- Maximum sentence length: ≤35 words.
+- High ratio of complex sentences (~60–65%).
+- More frequent subordination and nominalisation, but remains clear.
+- Logical connectors (“however”, “in contrast”, “therefore”) used precisely.
+- Style dense, academic, and argumentative.
+
+3. Readability (0–100)
+- FRE: 35–50.
+- FKGL: 11–12.
+- Frequent use of abstract nouns, passives, and cohesive devices.
+- Demands inference and analysis.
+- Flow is academic, precise, and structured.
+
+4. Content Balance (0–100)
+- Academic or semi-academic text (psychology, history, science, or social studies).
+- Focus on explanation, comparison, or argumentation.
+- Includes evidence, studies, or researcher names.
+- Requires interpretation or critical understanding.
+
+5. Authenticity of Style (0–100)
+- Closely resembles Cambridge IELTS Part 3 style: formal, academic, and analytic.
+- No narrative, advertising, or instructional tone.
+- Balanced and impersonal, presenting multiple viewpoints.
+
+FOLLOW THIS Output Format (JSON):
+
+{{
+  "Vocabulary_Level": <score>,
+  "Sentence_Length_&_Grammar_Complexity": <score>,
+  "Readability": <score>,
+  "Content_Balance": <score>,
+  "Authenticity_of_Style": <score>,
+  "Feedbacks": {{
+    "Vocabulary_Level": "...",
+    "Sentence_Length_&_Grammar_Complexity": "...",
+    "Readability": "...",
+    "Content_Balance": "...",
+    "Authenticity_of_Style": "..."
+  }}
+}}
+
+Passage:
+\"\"\"{passage}\"\"\"""",
+
+    4: """Secondary Reading Passage Evaluation Prompt (Single Passage)
+
+System Role:
+You are a Secondary Reading Passage Validator. Your task is to evaluate how closely a passage resembles an appropriate academic-style reading text for secondary students (easier than IELTS Part 1), based on the categories below.
+
+🔎 Categories to Evaluate
+
+1. Vocabulary Level (0–100)
+- 80–85% GSL (basic, high-frequency words).
+- 10–15% AWL (academic vocabulary for enrichment).
+- ≤5% technical terms, and these must be explained in the text.
+- Rare / low-frequency words (<5000 frequency rank) must be <3% of total text.
+- Avoids literary, idiomatic, or overly abstract words.
+- Target level: CEFR mid B1.
+
+2. Sentence Length & Grammar Complexity (0–100)
+- Average sentence length: 12–18 words.
+- Maximum sentence length: ≤26 words.
+- Mostly simple and compound sentences; some complex (~30–35%).
+- Subordinate clauses: rarely more than 1–2 per sentence.
+- Style accessible, but slightly denser than everyday reading.
+
+3. Readability (0–100)
+- FRE: 55–70 (clearer than IELTS Part 1).
+- FKGL: 7–8.
+- Mix of straightforward narration + semi-academic phrasing.
+- Limited nominalisation and passive voice, used only where natural.
+
+4. Content Balance (0–100)
+- Topics: cultural, historical, educational, or social (e.g., traditions, food, inventions, discoveries).
+- Explanatory and informative, with examples or case studies.
+- Avoids abstract theory, heavy statistics, or workplace reports.
+- Neutral, factual, and balanced.
+
+5. Authenticity of Style (0–100)
+- Resembles simplified academic articles or school-level non-fiction.
+- Objective, neutral, formal but readable.
+- No journalistic flair, no storytelling fiction, no persuasive tone.
+- Suitable for training secondary students in academic reading.
+
+FOLLOW THIS Output Format: (JSON)
+{{
+  "Vocabulary_Level": <score>,
+  "Sentence_Length_&_Grammar_Complexity": <score>,
+  "Readability": <score>,
+  "Content_Balance": <score>,
+  "Authenticity_of_Style": <score>,
+  "Feedbacks": {{
+    "Vocabulary_Level": "...",
+    "Sentence_Length_&_Grammar_Complexity": "...",
+    "Readability": "...",
+    "Content_Balance": "...",
+    "Authenticity_of_Style": "..."
+  }}
+}}
+
+Passage:
+\"\"\"{passage}\"\"\""""
+}
+
+def validate_by_llm(passage: str) -> Dict[str, Any]:
+    """
+    Call LLM to evaluate passage similarity with IELTS style.
+    Returns dict with category scores + overall + feedback.
+    """
+    from openai import OpenAI
+    import json
+
+    client = OpenAI(api_key=LLM_API_KEY, base_url=OPENAI_BASE_URL)
+    IELTS_EVAL_PROMPT  = IELTS_EVAL_PROMPTS[PART_USED].format(passage=passage)
+
 
     response = client.chat.completions.create(
         model="gpt-5",
         messages=[{"role": "developer", "content": "You are an IELTS Reading examiner assistant."},
-                  {"role": "user", "content": IELTS_EVAL_PROMPT}],
+                  {"role": "user", "content": IELTS_EVAL_PROMPT}] if PART_USED < 4 
+                  else[{"role": "developer", "content": "You are a Simplified IELTS Reading Passage examiner assistant (Secoondary Student level Passage)."},
+                       {"role": "user", "content": IELTS_EVAL_PROMPT}]
+                  ,
+
         temperature=0.0
     )
 

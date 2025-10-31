@@ -24,8 +24,8 @@ TASK (strict) REQUIREMENTS:
 7) Use a **neutral, explanatory tone**, balancing description with analysis.  
 8) Do NOT include answers or questions in this output.  
 9) Output ONLY the passage text — no JSON wrapper, no extra commentary.
-
-The passage should be structured as follows (the double quotation mark musn't be added):
+10) Every text lines has to start with "Text:", example "Text:- Set a clear target, budget, and timeline." 
+The passage should be structured as follows (the double quotation mark musn't be added) (Every new line has to start with "Text: "):
 
 "Text title: ...\n"
 "Text: A. <90–120 words>\n"

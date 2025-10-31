@@ -6,3 +6,12 @@ __pycache__/
 
 python-sdk/
 main_test.py
+
+test.html
+tests/
+
+extracted_Water_scarcity_and_management/
+logs/
+
+bin/
+

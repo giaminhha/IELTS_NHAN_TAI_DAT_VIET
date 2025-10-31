@@ -15,7 +15,8 @@ from typing import Any, Dict, List, Optional
 from data_utils.json_strict import safe_json_loads
 from mcp_integration.mcp_client import MCPClient
 from pipeline.llm import _extract_json_from_text
-from config import PART_USED
+from config import PART_USED, LLM_API_KEY, OPENAI_BASE_URL
+from openai import OpenAI
 # Try to import your llm helper (project-specific). If not present, we'll raise helpful errors.
 try:
     from pipeline.llm import call_llm, DEBUG_STUB  # call_llm(prompt, expect_json=False, max_tokens=...)
@@ -167,10 +168,10 @@ def _short(x: str, n: int = 400) -> str:
 # Prompt templates (strict)
 # -----------------------
 part_generated = PART_USED
-with open(f"C:/Users/Dell/Downloads/IELTS_NHAN_TAI_DAT_VIET/template/PASSAGE_TEMPLATE_PART_{part_generated}.txt", "r", encoding="utf-8") as f:
+with open(f"template/PASSAGE_TEMPLATE_PART_{part_generated}.txt", "r", encoding="utf-8") as f:
     _PASSAGE_TEMPLATE = f.read()
 
-with open(f"C:/Users/Dell/Downloads/IELTS_NHAN_TAI_DAT_VIET/template/QUESTIONS_TEMPLATE_PART_{part_generated}.txt", "r", encoding="utf-8") as f:
+with open(f"template/QUESTIONS_TEMPLATE_PART_{part_generated}.txt", "r", encoding="utf-8") as f:
     _QUESTION_TEMPLATE = f.read()
 
 
@@ -235,7 +236,10 @@ def passage_executor(prompt_template: str, topic: str, outputs_so_far: Dict[str,
 
     for attempt in range(1, max_attempts + 1):
         logger.info(f"PASSAGE_GENERATE attempt {attempt}/{max_attempts} for topic: {topic}")
-        prompt = _PASSAGE_TEMPLATE.format(topic=topic, sources=sources_txt, kg_rules=kg_rules_txt)
+        prompt = ""
+        if PART_USED < 4: prompt = _PASSAGE_TEMPLATE.format(topic=topic, sources=sources_txt, kg_rules=kg_rules_txt) 
+        else: 
+            prompt = _PASSAGE_TEMPLATE.format(topic=topic)
         logger.debug("Prompt sent to LLM (truncated to 500 chars):\n%s", prompt[:500])
 
         if DEBUG_STUB:
@@ -283,8 +287,11 @@ def questions_executor(prompt_template: str, topic: str, outputs_so_far: Dict[st
 
     for attempt in range(1, max_attempts + 1):
         logger.info("QUESTIONS_GENERATE attempt %d/%d qtype=%s", attempt, max_attempts, qtype_id)
-        prompt = _QUESTION_TEMPLATE.format(passage=passage, qtype_rules=qtype_rules_txt, qtype_id=qtype_id, count=count)
-
+        prompt = ""
+        if PART_USED < 4:
+            prompt = _QUESTION_TEMPLATE.format(passage=passage, qtype_rules=qtype_rules_txt, qtype_id=qtype_id, count=count)
+        else:
+            prompt = _QUESTION_TEMPLATE.format(passage=passage)
         if DEBUG_STUB:
             model_out = json.dumps([
                 {"id":"Q1","question_text":"DEBUG Q?","options":["A","B","C","D"],"answer":"A","rationale":"stub","linked_skills":["Skimming"]}

@@ -39,7 +39,6 @@ EVAL_TEMPLATE_PART = {
     - Content:
       - Mix of factual explanation, examples, statistics, and one case study
       - Neutral, informative tone (not persuasive or emotional)
-      - Finish with a **1–2 sentence summary line** starting with "Summary: ..."
 
     ### Input:
     Original Passage:
@@ -87,7 +86,6 @@ EVAL_TEMPLATE_PART = {
       - Mix factual explanation with descriptions, comparisons, and everyday examples
       - Include one short real-world case study or example
       - Maintain a **neutral, informative tone** (not persuasive or opinionated)
-      - Conclude with a **1–2 sentence summary** beginning with "Summary: ..."
 
     ### Input:
     Original Passage:
@@ -98,16 +96,102 @@ EVAL_TEMPLATE_PART = {
 
     ### Output:
     The passage should be in the following format(the double quotes musn't be added):
-
-"Text title: ...\n"
-"Text: A. <text with advanced vocabulary and complex structures (>=90 words)>\n"
-"Text: B. <text with advanced vocabulary and complex structures (>=90 words)>\n"
-"Text: C. <text with advanced vocabulary and complex structures (>=90 words)>\n"
-"Text: D. <text with advanced vocabulary and complex structures (>=90 words)>\n"
-"Text: E. <text with advanced vocabulary and complex structures (>=90 words)>\n"
-"Text: F. <text with advanced vocabulary and complex structures (>=90 words)>\n"
+    
+Text title: ...
+Text: A. <text with advanced vocabulary and complex structures (>=90 words)>
+Text: B. <text with advanced vocabulary and complex structures (>=90 words)>
+Text: C. <text with advanced vocabulary and complex structures (>=90 words)>
+Text: D. <text with advanced vocabulary and complex structures (>=90 words)>
+Text: E. <text with advanced vocabulary and complex structures (>=90 words)>
+Text: F. <text with advanced vocabulary and complex structures (>=90 words)>
 ...
+
     ***Follow strictly the output format***
+"""
+,
+    4: """
+    Your task is to take an existing passage and rewrite it so it better resembles simplified IELTS-style reading passage for secondary students.
+    📘 Passage Details (for simplified IELTS-style, secondary level)
+🔹 Length & Structure
+
+Word count: 350–400 words.
+
+Paragraphs: 4 - 5 paragraphs.
+
+Paragraph length: 3–5 sentences each.
+
+Sentence length: Mostly 15–20 words, occasional shorter ones for clarity.
+
+🔹 Paragraph Functions
+
+1. Introduction:
+- Present the global/cultural phenomenon.
+- Explain why it is interesting or increasingly important worldwide.
+- Use simple background (not heavy statistics).
+
+2. Development / Institutions
+- Show how governments, companies, or communities support it.
+- Example of planning, training, or organisation.
+
+3. Impact / Benefits
+- Economic, social, or cultural benefits.
+- Give clear examples (e.g., tourism growth, new jobs, popularity with young people).
+4. Challenges / Criticisms
+- At least two problems or criticisms.
+- Use balanced phrasing: “Some people worry… Others argue…”.
+
+5. Conclusion
+- Restate influence in a balanced way.
+- Suggest it will continue to grow or stay important in the future.
+
+🔹 Vocabulary & Readability
+
+Level: CEFR B1–B2 (secondary students).
+
+Academic but simple:
+
+Use words like global, cultural, economic, support, influence, challenge, benefit, critics, supporters.
+
+Avoid rare or technical words (hegemony, commodification, paradigm).
+
+Connectors: use common ones like however, therefore, in addition, for example, on the other hand.
+
+Tone: Neutral, informative, slightly formal.
+
+🔹 Language & Readability Rules
+
+Use familiar academic connectors: “however”, “on the other hand”, “for example”, “therefore”.
+
+Avoid idioms, proverbs, or overly metaphorical language.
+
+Keep ideas concrete (examples from daily life, school, travel, youth culture).
+
+Use hedging language but simple: “may”, “might”, “could”, “some people believe”.
+
+🔹 Example Passage Opening (model sentence style)
+
+"In recent years, street food has become a global trend. Once linked only with local markets, it is now celebrated in international festivals and travel shows. Many people see it not just as a meal, but as a way to experience culture directly."
+
+Notice: short sentences, simple but not childish, clear subject-verb, easy vocabulary.
+
+
+    ### Input:
+    Original Passage:
+    {passage}
+
+    Feedbacks:
+    {feedbacks}
+
+    ### Output:
+    The passage should be in the following format(the double quotes musn't be added):
+    
+Text title: ...
+Text: A. <text>
+Text: B. <text>
+...
+
+    ***Follow strictly the output format***
+Follow all passage, vocabulary rules above.
 """
 }
 def rewrite_based_on(passage:str, feedbacks : str):
@@ -128,9 +212,10 @@ def rewrite_based_on(passage:str, feedbacks : str):
     feedbacks=feedbacks
 )
         response = client.chat.completions.create(
-            model="gpt-5",
-            messages=[{"role": "developer", "content": "You are an IELTS Reading examiner assistant."},
-                    {"role": "user", "content": prompt}],
+            model="gpt-5",  
+            messages=[{"role": "developer", "content": "You are an IELTS Reading examiner assistant."}, {"role": "user", "content": prompt}] if PART_USED < 4 
+                else [{"role": "developer", "content": "You are a Simplified IELTS Reading Passage examiner assistant (Secondary Student level Passage)."},
+                        {"role": "user", "content": prompt}],
             temperature=0.7
         )
         # Extract the generated passage text
@@ -153,7 +238,7 @@ def generate_passage_with_rescoring(
     base_prompts: Dict[str, str],
     topic: str,
     threshold: float = 0.8,
-    max_attempts: int = 8):
+    max_attempts: int = 5):
     """
     Generate a passage using executors.passage_executor, then rescore using score_passages_only.
     If any score < threshold, use fb_traces as feedback to regenerate until all scores >= threshold.
@@ -186,7 +271,16 @@ def generate_passage_with_rescoring(
         print(f"[RESCORE] Attempt {attempt} scores={displayed_scores}")
         print(f"{passage}")
         # Check if all scores >= threshold
-        if all(v >= threshold for v in scores.values()):
+        thresholds = {
+            "passage": 0.8,
+            "Vocabulary_Level": 0.85,
+            "Sentence_Length_&_Grammar_Complexity": 0.85,
+            "Authenticity_of_Style": 0.85,
+            "Content_Balance": 0.85,
+            "Readability": 0.85
+        }
+
+        if all(scores[k] >= thresholds[k] for k in thresholds):
             gen_questions(topic, outputs)
             return
 
@@ -231,16 +325,21 @@ def save_generation_passages(topic: str, outputs: dict):
     last_type = ""
     # --- Questions ---
     if questions:
+        if PART_USED in [1,2,3]:
+            lines.append("Text: ANSWER THE FOLLOWING QUESTIONS\n")
         for i, q in enumerate(questions, 1):
             qtype = q.get("question_type", "").strip()
-            if qtype == "True/False/Not Given" or qtype == "Yes/No/Not Given" or qtype == "Multiple Choice":
+            if qtype == "True/False/Not Given" or qtype == "Yes/No/Not Given" or qtype == "MCQ":
                 if last_type != qtype:
                     if qtype == "True/False/Not Given":
                         lines.append("Text: Do the following statements agree with the information given in the text? Write TRUE, FALSE, or NOT GIVEN.")
                     elif qtype == "Yes/No/Not Given":
                         lines.append("Text: Do the following statements agree with the information given in the text? Write YES, NO, or NOT GIVEN.")
-                    elif qtype == "Multiple Choice":
-                        lines.append("Text: Choose the correct letter, A, B, C or D.")
+                    elif qtype == "MCQ":
+                        if PART_USED in [1,2,3]:
+                            lines.append("Text: Choose the correct letter, A, B, C or D.")
+                        else:
+                            lines.append("Text: ANSWER THE FOLLOWING QUESTIONS. Choose the correct letter, A, B, C or D for each question.")
                     lines.append("")  # blank line
                 qtext = q.get("question_text", "").strip()
                 rationale = q.get("rationale", "").strip()

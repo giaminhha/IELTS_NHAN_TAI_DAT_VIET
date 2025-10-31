@@ -14,10 +14,10 @@ TASK (strict) REQUIREMENTS:
 1) Produce ONE IELTS Academic Reading passage about the topic.  
 2) Length: 900–1100 words, divided into 8–10 paragraphs.  
 3) Style: academic, abstract, and conceptually challenging, typical of Part 3.  
-   - Vocabulary: within CEFR C1–C2 range.  
+   - Vocabulary: within CEFR C1–C2 range. Include less common lexical items (e.g., paradigm, cognition, hierarchy, empirical, paradigm shift, synthesis).
    - Frequent use of complex noun phrases and abstract terms.  
    - Sentences: mostly complex structures with embedded clauses.  
-   - Sentence length: average 20–28 words; several sentences exceeding 35 words.  
+   - Sentence length: average 20–28 words. Include multiple complex and compound-complex sentences. Occasional long, formal sentences (30–35 words) are encouraged.
 4) At least one paragraph must contain **theoretical concepts, contrasting viewpoints, or expert debate**.  
 5) Include at least one **scholarly case study or critical discussion of competing perspectives**.  
 6) Label the paragraphs from A onward (Paragraph A, Paragraph B, etc.).  

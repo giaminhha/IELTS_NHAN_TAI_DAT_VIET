@@ -5,7 +5,7 @@ from neo4j import GraphDatabase
 # ---- 1. Connect to Neo4j ----
 URI = "bolt://localhost:7687"   # or your Aura URI if cloud
 USER = "neo4j"                  # default user in Neo4j Desktop
-PASSWORD = "NHAN_TAI_DAT_VIET_098" # the password you set
+PASSWORD = "IELTS_NHAN_TAI_DAT_VIET_098" # the password you set
 
 driver = GraphDatabase.driver(URI, auth=(USER, PASSWORD))
 

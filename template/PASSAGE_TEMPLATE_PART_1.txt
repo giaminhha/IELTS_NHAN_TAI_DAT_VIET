@@ -7,7 +7,7 @@ CONTEXT / SOURCES:
 - Draw inspiration from at least 15 authentic IELTS Academic Reading Part 1 practice tests. 
 - Synthesize an original passage that reflects IELTS style: formal, factual, informative, and accessible to non-specialist readers. 
 KG CONSTRAINTS:
-{kg_rules}
+{kg_rules}  
 
 TASK (strict) FOLLOW THESE REQUIREMENTS:
 

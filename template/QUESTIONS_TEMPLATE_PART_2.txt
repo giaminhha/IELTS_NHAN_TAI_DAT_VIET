@@ -197,4 +197,5 @@ CHOOSE ONLY ONE TYPE OF QUESTION HERE. IT'S EITHER ANSWER USING ONE WORD OR TWO 
 - Still avoid deep inference or world knowledge (that belongs to Part 3).
 - Choose 3 types of questions.
 6. YOU MUST NOT PUT BOTH Matching Information, Matching Headings IN A TEST.
-6. Output must be **valid JSON only**. No trailing text, no explanations outside the JSON.  
+7. For every question type that appears in the test, you must include at least 3 questions(or subquestions) of that type. Example: If the test uses Yes/No/Not Given, Matching Headings, and Summary Completion, then the test must contain at least 3 Yes/No/Not Given questions, 3 Matching Headings questions, and 3 Summary Completion questions(Like Q11-13 are 3 questions). You may include more, but never fewer than 3 of any type used.
+8. Output must be **valid JSON only**. No trailing text, no explanations outside the JSON, No Summary.  

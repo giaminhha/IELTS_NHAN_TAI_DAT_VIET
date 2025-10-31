@@ -9,7 +9,7 @@ def run_text2qti_and_extract(txt_file: str):
 
     # 1) Run text2qti
     subprocess.run([
-        r"C:\Users\Dell\AppData\Local\Programs\Python\Python310\Scripts\text2qti.exe",
+        r"C:\Users\7430\AppData\Local\Programs\Python\Python310\Scripts\text2qti.exe",
         txt_file
     ], check=True)
 

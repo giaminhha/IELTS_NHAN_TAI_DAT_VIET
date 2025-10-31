@@ -4,7 +4,9 @@ import pprint
 from pipeline.executors import passage_executor, questions_executor
 from pipeline.new_scoring_method import generate_passage_with_rescoring
 import random
-
+import time
+from config import PART_USED, LLM_API_KEY, OPENAI_BASE_URL
+from openai import OpenAI
 executors = {
     "passage": passage_executor,
     "questions": questions_executor
@@ -172,9 +174,35 @@ def run_with_gepa():
 ]
 
     random_topic = random.choice(topics)
+    client = OpenAI(api_key=LLM_API_KEY, base_url=OPENAI_BASE_URL)
+    llm_prompt = """
+    You are a Simplified IELTS Reading Passage Topic Generator.
+    Your task: create ONE appropriate topic for a simplified IELTS-style passage 
+    (for secondary students, CEFR B1–B1+). 
+    The topic must be clear, neutral, factual, and suitable for a short 180–220 word passage.
+    Output ONLY the topic as a short phrase (no explanations).
+    """ if PART_USED == 4 else """
+    You are an IELTS Reading Topic Generator. 
+    Your task: suggest ONE appropriate topic for an IELTS Reading passage. 
+    The topic must be factual, neutral, and suitable for an academic-style text. 
+    It should fall into one of the typical IELTS Reading themes (science, history, culture, environment, education, workplace, or technology). 
+    Output ONLY the topic as a short phrase (no explanations).
+    """
 
-    print("Starting generating")
-    generate_passage_with_rescoring(executors, base_prompts, random_topic)
+    for tme in range(5):
+        client = OpenAI(api_key=LLM_API_KEY, base_url=OPENAI_BASE_URL)
+        response = client.chat.completions.create(
+            model="gpt-5",  # or "gpt-4o-mini" if you want something faster/cheaper
+            messages=[{"role": "system", "content": llm_prompt}]
+        )
+
+        nw_topic = response.choices[0].message.content.strip()
+        print("Starting generating")
+        if nw_topic:
+            generate_passage_with_rescoring(executors, base_prompts, nw_topic)
+        else:
+            generate_passage_with_rescoring(executors, base_prompts, random_topic)
+        time.sleep(2)
 
 
 

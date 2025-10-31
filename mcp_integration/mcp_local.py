@@ -8,7 +8,7 @@ app = Flask(__name__)
 # --- Neo4j connection ---
 URI = "bolt://localhost:7687"
 USER = "neo4j"
-PASSWORD = "NHAN_TAI_DAT_VIET_098"
+PASSWORD = "IELTS_NHAN_TAI_DAT_VIET_098"
 driver = GraphDatabase.driver(URI, auth=(USER, PASSWORD))
 
 # --- Cache dictionary ---

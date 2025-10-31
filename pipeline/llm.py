@@ -12,6 +12,7 @@ Features:
 import os
 import json
 import re
+import time
 import hashlib
 from typing import Optional, Any, List
 from data_utils.json_strict import safe_json_loads
@@ -124,20 +125,17 @@ def _extract_text_from_completion(completion):
     except Exception:
         return str(completion)
 
+
 def call_llm(prompt: str, system: Optional[str] = None,
              expect_json: bool = False, use_cache: bool = True,
              tools: Optional[List[dict]] = None, max_tokens: int = 10000) -> Any:
-    """
-    Provider-aware LLM call interface.
-    Supports both OpenAI-style and Bedrock-style models.
-    """
     model = MODEL
     key = _cache_key(prompt, system)
     if use_cache and key in _llm_cache:
         return _llm_cache[key]
 
-    # DEBUG STUB (skip API call)
     if DEBUG_STUB:
+        # same stub logic you already have
         low = prompt.lower()
         if "ielts" in low and ("passage" in low or "academic reading" in low):
             out = _stub_passage(prompt[:80])
@@ -148,17 +146,14 @@ def call_llm(prompt: str, system: Optional[str] = None,
             ])
         else:
             out = "FAKE OUTPUT: " + (prompt[:200] if len(prompt) > 200 else prompt)
-
         if use_cache:
             _llm_cache[key] = out
         if expect_json:
             parsed = safe_json_loads(out)
-            # if parse failed, return raw (previous behavior) but preserve parse info
             if isinstance(parsed, dict) and parsed.get("__parse_error"):
                 return {"raw": out, "parse_error": parsed["__parse_error"]}
             return parsed
-        return out   # ✅ MUST return here
-
+        return out
 
     client = _init_client()
 
@@ -167,44 +162,48 @@ def call_llm(prompt: str, system: Optional[str] = None,
         messages.append({"role": "system", "content": system})
     messages.append({"role": "user", "content": prompt})
 
-    try:
-        kwargs = {
-            "model": model,
-            "messages": messages,
-        }
-        model_lower = model.lower().strip()
+    # -------- NEW RETRY WRAPPER ----------
+    for attempt in range(3):
+        try:
+            kwargs = {"model": model, "messages": messages}
+            model_lower = model.lower().strip()
+            if model_lower.startswith(("anthropic/", "anthropic.", "amazon.")) or "claude" in model_lower:
+                if max_tokens: kwargs["max_tokens"] = max_tokens
+                if tools: kwargs["tools"] = tools
+            else:
+                if max_tokens: kwargs["max_tokens"] = max_tokens
+                if tools:
+                    kwargs["tools"] = tools
+                    kwargs["tool_choice"] = "auto"
 
-        # Bedrock Anthropic models
-        if model_lower.startswith("anthropic/") or model_lower.startswith("anthropic.") or "claude" in model_lower or model_lower.startswith("amazon."):
-            # === Bedrock-style ===
-            if max_tokens:
-                kwargs["max_tokens"] = max_tokens
-            if tools:
-                kwargs["tools"] = tools
-        else:
-            # === OpenAI-style ===
-            if max_tokens:
-                kwargs["max_tokens"] = max_tokens
-            if tools:
-                kwargs["tools"] = tools
-                kwargs["tool_choice"] = "auto"
+            completion = client.chat.completions.create(**kwargs)
+            text = _extract_text_from_completion(completion)
 
-        completion = client.chat.completions.create(**kwargs)
-        text = _extract_text_from_completion(completion)
+            if use_cache:
+                _llm_cache[key] = text
 
-        if use_cache:
-            _llm_cache[key] = text
+            if expect_json:
+                parsed = safe_json_loads(text)
+                if isinstance(parsed, dict) and parsed.get("__parse_error"):
+                    try:
+                        return _extract_json_from_text(text)
+                    except Exception as e:
+                        return {"raw": text, "parse_error": parsed["__parse_error"] + " | " + str(e)}
+                return parsed
+            return text
 
-        if expect_json:
-            parsed = safe_json_loads(text)
-            if isinstance(parsed, dict) and parsed.get("__parse_error"):
-                # fallback to explicit extractor (keeps previous behavior)
-                try:
-                    return _extract_json_from_text(text)
-                except Exception as e:
-                    return {"raw": text, "parse_error": parsed["__parse_error"] + " | " + str(e)}
-            return parsed
-        return text
+        except json.JSONDecodeError as e:
+            print(f"⚠️ JSONDecodeError on attempt {attempt+1}: {e}")
+            time.sleep(2 ** attempt)
+            continue
+        except Exception as e:
+            # inspect possible response info
+            if hasattr(e, "response"):
+                print("⚠️ LLM HTTP error:", getattr(e.response, "status_code", "?"))
+                print("⚠️ Partial response (truncated):", getattr(e.response, "text", "")[:300])
+            print(f"⚠️ LLM call failed on attempt {attempt+1}: {e}")
+            time.sleep(2 ** attempt)
+            continue
 
-    except Exception as e:
-        raise RuntimeError(f"LLM call failed (model={model}): {e}")
+    # After retries exhausted
+    raise RuntimeError(f"LLM call failed after retries (model={model})")

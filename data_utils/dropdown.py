@@ -156,23 +156,22 @@ def build_textentry_item(question: Dict, ns_uri: Optional[str]) -> ET.Element:
     presentation = ET.SubElement(item, tag("presentation"))
     material = ET.SubElement(presentation, tag("material"))
     q_text = question.get("question_text", "")
-    # replace occurrences like "9____" with "[blank9]" (keeps inline placeholder)
+    # replace "9____", "12____", etc. with "[blank9]", "[blank12]"
+    for blank_id in answers.keys():
+        q_text = q_text.replace(f"{blank_id}____", f"[blank{blank_id}]")
 
     # --- split into first sentence vs remaining ---
-    # Regex: split once at the first period followed by space
     parts = re.split(r'(?<=\.)\s+', q_text, maxsplit=1)
 
     if len(parts) == 2:
         first_sentence, rest = parts
         formatted_text = f"<div><p>{first_sentence}</p><p>{rest}</p></div>"
     else:
-        # if only one sentence, just wrap once
         formatted_text = f"<div><p>{q_text}</p></div>"
 
-    for blank_id in answers.keys():
-        q_text = q_text.replace(f"{blank_id}____", f"[blank{blank_id}]")
     mattext = ET.SubElement(material, tag("mattext"), {"texttype": "text/html"})
     mattext.text = f"<div><div>{formatted_text}</div></div>"
+
 
     # create response choices (one correct label per blank)
     correct_idents = {}
@@ -226,45 +225,155 @@ def build_textentry_item(question: Dict, ns_uri: Optional[str]) -> ET.Element:
 
     return item
 
+# def build_matching_item(question: Dict, ns_uri: Optional[str] = None) -> ET.Element:
+#     """
+#     Build a QTI 'matching' item XML from a question dict, including rationale.
+#     (DEBUG version with logs)
+#     """
+#     def tag(t):
+#         return f"{{{ns_uri}}}{t}" if ns_uri else t
+
+#     sub_questions = question["questions"]
+#     options = question["options"]
+#     answers = question["answer"]
+#     # normalize answer keys and values
+#     answers = {str(k).strip(): str(v).strip().upper() for k, v in answers.items()}
+
+#     print("\n=== DEBUG: BUILDING MATCHING ITEM ===")
+#     print("Subquestion keys:", list(sub_questions.keys()))
+#     print("Answer keys:", list(answers.keys()))
+#     print("Options:", options)
+
+#     total_points = len(sub_questions)
+#     item_attrs = {"ident": question["id"], "title": "Question", "points_possible": f"{total_points}.0"}
+#     item = ET.Element(tag("item"), item_attrs)
+
+#     # --- Metadata ---
+#     itemmetadata = ET.SubElement(item, tag("itemmetadata"))
+#     qtimetadata = ET.SubElement(itemmetadata, tag("qtimetadata"))
+#     def add_meta(label, entry):
+#         field = ET.SubElement(qtimetadata, tag("qtimetadatafield"))
+#         ET.SubElement(field, tag("fieldlabel")).text = label
+#         ET.SubElement(field, tag("fieldentry")).text = entry
+
+#     add_meta("question_type", "matching_question")
+#     add_meta("points_possible", f"{total_points}.0")
+#     add_meta("original_answer_ids", ",".join([str(random.randint(1000, 9999)) for _ in sub_questions]))
+
+#     # --- Presentation ---
+#     presentation = ET.SubElement(item, tag("presentation"))
+#     material = ET.SubElement(presentation, tag("material"))
+#     ET.SubElement(material, tag("mattext"), {"texttype": "text/html"}).text = question["question_text"]
+
+#     # Track the mapping from subquestion -> correct response label ID
+#     ident_map = {}
+
+#     for qid, qtext in sub_questions.items():
+#         qid_str = str(qid).strip()
+#         print(f"\n--- Subquestion {qid_str}: {qtext} ---")
+
+#         resp_lid = ET.SubElement(presentation, tag("response_lid"), {"ident": f"response_{qid_str}"})
+#         mat = ET.SubElement(resp_lid, tag("material"))
+#         ET.SubElement(mat, tag("mattext"), {"texttype": "text/plain"}).text = qtext
+
+#         render_choice = ET.SubElement(resp_lid, tag("render_choice"))
+#         for opt in options:
+#             resp_label_ident = str(random.randint(1000, 9999))
+#             resp_label = ET.SubElement(render_choice, tag("response_label"), {"ident": resp_label_ident})
+#             mat_opt = ET.SubElement(resp_label, tag("material"))
+#             ET.SubElement(mat_opt, tag("mattext"), {"texttype": "text/plain"}).text = opt
+
+#             match = opt.strip().upper() == answers.get(qid_str, "").upper()
+#             print(f"   Trying opt={opt} vs ans={answers.get(qid_str)} → {match}")
+
+#             if match:
+#                 ident_map[qid_str] = resp_label_ident
+#                 print(f"   ✅ Matched answer for {qid_str}: {opt} → label ID {resp_label_ident}")
+
+#     print("\nIDENT_MAP:", ident_map)
+
+#     # Debug each subquestion to ensure we have a mapped correct ID
+#     for qid in sub_questions.keys():
+#         ans = answers.get(str(qid))
+#         mapped = ident_map.get(str(qid))
+#         print(f"🧩 Check mapping qid={qid} → ans={ans}, mapped_ident={mapped}")
+#         if not mapped:
+#             print(f"⚠️ Missing mapping for qid={qid} (answer={ans})")
+
+
+#     # --- Resprocessing ---
+#     resprocessing = ET.SubElement(item, tag("resprocessing"))
+#     outcomes = ET.SubElement(resprocessing, tag("outcomes"))
+#     ET.SubElement(outcomes, tag("decvar"), {
+#         "maxvalue": f"{total_points}",
+#         "minvalue": "0",
+#         "varname": "SCORE",
+#         "vartype": "Decimal"
+#     })
+
+#     for qid, correct_ident in ident_map.items():
+#         respid = f"response_{qid}"
+#         print(f"→ Generating respcondition for qid={qid}, respident={respid}, correct_ident={correct_ident}")
+#         respcond = ET.SubElement(resprocessing, tag("respcondition"))
+#         condvar = ET.SubElement(respcond, tag("conditionvar"))
+#         varequal = ET.SubElement(condvar, tag("varequal"), {"respident": respid})
+#         varequal.text = correct_ident
+#         setvar = ET.SubElement(respcond, tag("setvar"), {"varname": "SCORE", "action": "Add"})
+#         setvar.text = "1.00"
+
+
+#     # --- Feedback / Rationale ---
+#     rationales = question.get("rationale") or {}
+#     if rationales:
+#         feedback = ET.SubElement(item, tag("itemfeedback"), {"ident": "general_fb"})
+#         flow_mat = ET.SubElement(feedback, tag("flow_mat"))
+#         material = ET.SubElement(flow_mat, tag("material"))
+#         fb_text = "<div>" + " ".join(f"<div><span>{txt}</span></div>" for txt in rationales.values()) + "</div>"
+#         ET.SubElement(material, tag("mattext"), {"texttype": "text/html"}).text = fb_text
+
+#     print("=== END DEBUG ===\n")
+
+#         # --- Final structure debug ---
+#     respconds = item.findall(f".//{tag('respcondition')}")
+#     print("=== DEBUG: FINAL QUESTION STRUCTURE ===")
+#     print(f"  → Total respconditions found: {len(respconds)}")
+#     for i, rc in enumerate(respconds, 1):
+#         varequal = rc.find(f".//{tag('varequal')}")
+#         setvar = rc.find(f".//{tag('setvar')}")
+#         if varequal is not None:
+#             print(f"    RC {i}: respident={varequal.get('respident')} → answer_id={varequal.text}")
+#         if setvar is not None:
+#             print(f"       Adds {setvar.text} points")
+#     print("========================================\n")
+
+#     return item
+
 import xml.etree.ElementTree as ET
 import random
 from typing import Dict, Optional
 
 def build_matching_item(question: Dict, ns_uri: Optional[str] = None) -> ET.Element:
     """
-    Build a QTI 'matching' item XML from a question dict, including rationale.
-    question = {
-        "id": "Q1",
-        "question_text": "Which paragraph contains the following information? Write the correct letter.",
-        "questions": {
-            "1": "An example of a British park that influenced others.",
-            "2": "A concern that green spaces might lead to unrest.",
-            "3": "The idea that exposure to plants and animals could teach moral lessons."
-        },
-        "options": ["A", "B", "C", "D", "E", "F", "G"],
-        "answers": { "1": "B", "2": "F", "3": "D" },
-        "rationale": {     # optional
-            "1": "Paragraph B mentions the park example.",
-            "2": "Paragraph F discusses unrest.",
-            "3": "Paragraph D talks about moral lessons."
-        }
-    }
+    Build a Canvas-compatible QTI 'matching' item XML from a question dict.
+    Fixes: no ns0 prefix, deterministic A–H labels, correct respconditions.
     """
     def tag(t):
+        # Do NOT prefix with ns0; Canvas ignores namespaces
         return f"{{{ns_uri}}}{t}" if ns_uri else t
 
     sub_questions = question["questions"]
     options = question["options"]
-    answers = question["answers"]
-    total_points = len(sub_questions)
+    answers = question["answer"]
+    answers = {str(k).strip(): str(v).strip().upper() for k, v in answers.items()}
 
-    # --- Item root ---
-    item_attrs = {"ident": question["id"], "title": "Question", "points_possible": f"{total_points}.0"}
+    total_points = len(sub_questions)
+    item_attrs = {"ident": question["id"], "title": "Question"}
     item = ET.Element(tag("item"), item_attrs)
 
-    # --- Metadata ---
+    # === Metadata ===
     itemmetadata = ET.SubElement(item, tag("itemmetadata"))
     qtimetadata = ET.SubElement(itemmetadata, tag("qtimetadata"))
+
     def add_meta(label, entry):
         field = ET.SubElement(qtimetadata, tag("qtimetadatafield"))
         ET.SubElement(field, tag("fieldlabel")).text = label
@@ -273,28 +382,35 @@ def build_matching_item(question: Dict, ns_uri: Optional[str] = None) -> ET.Elem
     add_meta("question_type", "matching_question")
     add_meta("points_possible", f"{total_points}.0")
     add_meta("original_answer_ids", ",".join([str(random.randint(1000, 9999)) for _ in sub_questions]))
+    add_meta("assessment_question_identifierref", f"{question['id']}-assessment-ref")
 
-    # --- Presentation ---
+    # === Presentation ===
     presentation = ET.SubElement(item, tag("presentation"))
     material = ET.SubElement(presentation, tag("material"))
     ET.SubElement(material, tag("mattext"), {"texttype": "text/html"}).text = question["question_text"]
 
+    # use letters A–H for options
+    option_letters = [chr(65 + i) for i in range(len(options))]
+
+    # Map subquestion -> correct letter
     ident_map = {}
-    for qid, qtext in sub_questions.items():
-        resp_lid = ET.SubElement(presentation, tag("response_lid"), {"ident": f"response_{qid}"})
+
+    for idx, (qid, qtext) in enumerate(sub_questions.items(), start=1):
+        qid_str = str(qid).strip()
+        resp_lid = ET.SubElement(presentation, tag("response_lid"), {"ident": f"response_{qid_str}"})
         mat = ET.SubElement(resp_lid, tag("material"))
         ET.SubElement(mat, tag("mattext"), {"texttype": "text/plain"}).text = qtext
 
         render_choice = ET.SubElement(resp_lid, tag("render_choice"))
-        for opt in options:
-            resp_label_ident = str(random.randint(1000, 9999))
-            resp_label = ET.SubElement(render_choice, tag("response_label"), {"ident": resp_label_ident})
+        for letter, opt in zip(option_letters, options):
+            resp_label = ET.SubElement(render_choice, tag("response_label"), {"ident": letter})
             mat_opt = ET.SubElement(resp_label, tag("material"))
             ET.SubElement(mat_opt, tag("mattext"), {"texttype": "text/plain"}).text = opt
-            if opt == answers[qid]:
-                ident_map[qid] = resp_label_ident
 
-    # --- Resprocessing ---
+            if opt.strip().upper() == answers.get(qid_str, "").upper():
+                ident_map[qid_str] = letter
+
+    # === Resprocessing ===
     resprocessing = ET.SubElement(item, tag("resprocessing"))
     outcomes = ET.SubElement(resprocessing, tag("outcomes"))
     ET.SubElement(outcomes, tag("decvar"), {
@@ -304,21 +420,26 @@ def build_matching_item(question: Dict, ns_uri: Optional[str] = None) -> ET.Elem
         "vartype": "Decimal"
     })
 
-    for qid, correct_ident in ident_map.items():
+    for qid, correct_letter in ident_map.items():
+        respid = f"response_{qid}"
         respcond = ET.SubElement(resprocessing, tag("respcondition"))
         condvar = ET.SubElement(respcond, tag("conditionvar"))
-        varequal = ET.SubElement(condvar, tag("varequal"), {"respident": f"response_{qid}"})
-        varequal.text = correct_ident
+        varequal = ET.SubElement(condvar, tag("varequal"), {"respident": respid})
+        varequal.text = correct_letter
         setvar = ET.SubElement(respcond, tag("setvar"), {"varname": "SCORE", "action": "Add"})
         setvar.text = "1.00"
 
-    # --- Feedback / Rationale ---
+    # === Feedback / Rationale ===
     rationales = question.get("rationale") or {}
     if rationales:
         feedback = ET.SubElement(item, tag("itemfeedback"), {"ident": "general_fb"})
         flow_mat = ET.SubElement(feedback, tag("flow_mat"))
         material = ET.SubElement(flow_mat, tag("material"))
-        fb_text = "<div>" + " ".join(f"<div><span>{txt}</span></div>" for txt in rationales.values()) + "</div>"
+        fb_text = (
+            "<div>"
+            + "".join(f"<div><span>{txt}</span></div>" for txt in rationales.values())
+            + "</div>"
+        )
         ET.SubElement(material, tag("mattext"), {"texttype": "text/html"}).text = fb_text
 
     return item
@@ -336,13 +457,40 @@ def insert_items_into_assessment(xml_path: Path, items: list[str], mode="textent
     for item_str in items:
         item_elem = ET.fromstring(item_str)
         section.append(item_elem)
-
     # Ensure directory exists before writing
     xml_path.parent.mkdir(parents=True, exist_ok=True)
     # Inside insert_items_into_assessment
     section_dir = xml_path.parent
     section_dir.mkdir(parents=True, exist_ok=True)  # <-- this ensures folder exists
     tree.write(xml_path, encoding="utf-8", xml_declaration=True)
+
+def insert_items_into_assessment(section_or_path, items, ns_uri=None):
+    """
+    Modified wrapper for testing:
+    - If section_or_path is a file path, it loads it normally.
+    - If it's already an XML element (<section>), it just inserts the items directly.
+    """
+    import xml.etree.ElementTree as ET
+    import os
+
+    # Case 1: section_or_path is a file path
+    if isinstance(section_or_path, (str, os.PathLike)):
+        tree = ET.parse(section_or_path)
+        root = tree.getroot()
+        section = root.find(".//section")
+        if section is None:
+            raise ValueError("No <section> element found in assessment XML")
+    else:
+        # Case 2: already an XML element (used in your current test)
+        section = section_or_path
+
+    # --- Insert all items ---
+    for i, item in enumerate(items, start=1):
+        print(f"→ Inserting item {i} ({item.get('ident')}) into section")
+        section.append(item)
+
+    print(f"✅ Inserted {len(items)} item(s) into section.")
+    return section
 
 def upload_qti_to_canvas(file_path: str, reading_task_num: int):
     payload = {
@@ -393,7 +541,7 @@ def upload_qti_to_canvas(file_path: str, reading_task_num: int):
     quizzes = course.get_quizzes()
 
     # Base name (without number)
-    base_name = f"[Reading] IELTS Reading Part {reading_task_num} Quiz"
+    base_name = f"[Reading] IELTS Reading Part {reading_task_num} Quiz" if PART_USED in [1,2,3] else "[Reading] PRE-IELTS Reading Quiz"
     matching_quizzes = [q for q in quizzes if q.title.startswith(base_name)]
 
     if matching_quizzes:
@@ -463,6 +611,38 @@ def build_text_only_item(question: Dict, ns_uri: Optional[str] = None) -> ET.Ele
 
     return item
 
+def find_insert_index(section, ns_uri):
+    """
+    Find the insert index:
+    - After last intro text_only_question
+    - But stop before the one containing "ANSWER THE FOLLOWING QUESTIONS"
+    """
+    insert_index = None
+
+    trigger = False
+    for idx, child in enumerate(section):
+        # get all <fieldentry> texts
+        field_entries = child.findall(f".//{{{ns_uri}}}fieldentry")
+        types = [fe.text for fe in field_entries if fe.text]
+
+        # get mattext (for stop phrase check)
+        mattext_el = child.find(f".//{{{ns_uri}}}mattext")
+        mattext_txt = (mattext_el.text or "").upper() if mattext_el is not None else ""
+
+        if trigger == True:
+            break
+        if "ANSWER THE FOLLOWING QUESTIONS" in mattext_txt:
+            trigger = True
+
+        if "text_only_question" in types:
+            insert_index = idx
+            continue
+
+        # stop at first real question
+        if any(t != "text_only_question" for t in types):
+            break
+
+    return insert_index + 1 if insert_index is not None else 0
 
 # -----------------------
 # top-level pipeline (Unchanged)
@@ -513,9 +693,14 @@ def build_qti_with_questions(txt_path: str,
             matching_elem = build_matching_item(hq, ns_uri)
             items_xml.append(matching_elem)
 
-        # insert all at the start in reverse order
-        for item_elem in reversed(items_xml):
-            section.insert(0, item_elem)
+        if items_xml:
+            # --- find the QUESTIONS intro (first text_only_question) ---
+            insert_index = find_insert_index(section, ns_uri)
+
+            # insert
+            for i, item_elem in enumerate(items_xml):
+                section.insert(insert_index + i, item_elem)
+
 
 
     # --- Build normal matching question items (insert at the start) ---
@@ -526,9 +711,9 @@ def build_qti_with_questions(txt_path: str,
             items_xml.append(item_elem)
 
         if items_xml:
-            for item_elem in reversed(items_xml):
-                section.insert(0, item_elem)
-
+            insert_index = find_insert_index(section, ns_uri)
+            for i, item_elem in enumerate(items_xml):
+                section.insert(insert_index + i, item_elem)
     # --- Build textentry question items (append at the end) ---
     if textentry_questions:
         for q in textentry_questions:
@@ -550,3 +735,35 @@ def build_qti_with_questions(txt_path: str,
     print("4) Uploading to Canvas...")
     upload_qti_to_canvas(final, reading_task_num=PART_USED)
     return final
+
+if __name__ == "__main__":
+    import xml.etree.ElementTree as ET
+    import copy
+
+    # Reuse the question data
+    question = {
+        "id": "Q1-4",
+        "question_type": "Matching Information",
+        "question_text": "The passage has eight paragraphs, A–H. Which paragraph contains the following information? Write the correct letter, A–H.",
+        "questions": {
+            "1": "Use of a specific glove material and masks to keep moisture away from samples.",
+            "2": "Explicit wind and visibility thresholds that trigger a pause in surface work.",
+            "3": "Chemical traces from eruptions employed as firm reference points for dating.",
+            "4": "A season when reduced cargo capacity forced the team to revise drilling priorities."
+        },
+        "answer": {"1": "D", "2": "C", "3": "E", "4": "H"},
+        "rationale": {
+            "1": "Paragraph D states staff use nitrile gloves and filtered masks to avoid contamination.",
+            "2": "Paragraph C sets stop-work rules: wind >20 m/s or visibility <50 m.",
+            "3": "Paragraph E notes sulfate from eruptions as tie points for dating.",
+            "4": "Paragraph H describes a flight delay reducing cold cargo space and a reprioritised plan."
+        },
+        "options": ["A", "B", "C", "D", "E", "F", "G", "H"]
+    }
+
+    item = build_matching_item(question)
+
+    # Pretty-print the XML string
+    ET.indent(item, space="  ")  # Requires Python 3.9+
+    xml_str = ET.tostring(item, encoding="unicode")
+    print(xml_str)
